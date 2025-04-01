@@ -1,6 +1,12 @@
 # dua-for-salah-and-supplications
 This repository holds code to convert a book from adoc to pdf
 
+THIS IS A WORK IN PROGRESS.
+
+DISCLAIMER: I AM NOT A ISLAMIC SCHOLAR.
+
+IF YOU FIND ANY MISTAKES IN THE BOOK, OR WANT TO INCLUDE A DUA THAT IS NOT MENTIONED HERE, PLEASE OPEN AN ISSUE.
+
 # The script to compile this book is
 
 ```
