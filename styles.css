@@ -1,0 +1,605 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap');
+@import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css"; */
+
+@import url('asciidoctor.css');
+
+/* Custom Color and Style Declarations */
+
+/* Base colors */
+:root {
+    --base-border-color: #BBBBBB;
+    --base-font-color: #000000;
+    --role-subtitle-font-color: #666666;
+    --mark-background-color: #CCCCCC;
+    --abstract-font-color: #2C2C2C;
+    --footer-border-color: #CCCCCC;
+    --line-height: 3;
+}
+
+/* Heading and title colors */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--base-font-color);
+}
+
+.title {
+    color: var(--role-subtitle-font-color);
+}
+
+/* Abstract styles */
+.abstract {
+    color: var(--abstract-font-color);
+}
+
+.abstract-title {
+    color: var(--base-font-color);
+    /* Heading font color */
+}
+
+/* Admonition column rule color */
+.admonitionblock>.content {
+    border-left: 3px solid var(--base-border-color);
+}
+
+/* Blockquote styling */
+blockquote {
+    border-left: 3px solid var(--base-border-color);
+    color: var(--role-subtitle-font-color);
+}
+
+/* Verse block styling */
+.verse {
+    border-left: 3px solid var(--base-border-color);
+    color: var(--role-subtitle-font-color);
+}
+
+/* Code block styling */
+code {
+    color: var(--base-font-color);
+}
+
+.literalblock {
+    border-left: 3px solid var(--base-border-color);
+    color: var(--base-font-color);
+}
+
+/* Sidebar block styling */
+.sidebarblock>.content>.title {
+    color: var(--base-font-color);
+    /* Heading font color */
+}
+
+.sidebarblock {
+    border-left: 3px solid var(--base-border-color);
+}
+
+/* Example block styling */
+.exampleblock {
+    border-left: 3px solid var(--base-border-color);
+}
+
+/* Thematic break styling */
+hr {
+    border-color: var(--base-border-color);
+}
+
+/* Footer border styling */
+.footer {
+    border-top: 1px solid var(--footer-border-color);
+}
+
+/* Mark background color */
+mark {
+    background-color: var(--mark-background-color);
+}
+
+/* TOC dot leader color (optional; setting it to inherit) */
+.toc2>.toc-item {
+    border-bottom-color: inherit;
+}
+
+/* Menu caret */
+.menu-caret::before {
+    content: " <font size=\"1.15em\">\u203a</font> ";
+}
+
+/*
+
+The Only Two Fonts That I want to USE but can not due to rendering issue are:
+
+/home/ismail/.local/share/fonts/MarkaziText-Regular.ttf
+/usr/share/fonts/truetype/kacst/KacstBook.ttf
+/home/ismail/.local/share/fonts/Katibeh-Regular.ttf
+*/
+
+/* Arabic/Quranic Fonts KFGQPC
+Hafs Uthmanic Script: King Fahd Quran Complex
+KFGQPC Uthman Taha Naskh: King Fahd Quran Complex
+Scheherazade: SIL International
+me_quran: Meor Ridzuan
+PDMS Saleem Quran Font: Pakistan Data Management Services */
+
+@font-face {
+    font-family: '_PDMS_Saleem_QuranFont';
+    src: local('_PDMS_Saleem_QuranFont');
+    size-adjust: 220%;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'AlQuran IndoPak by QuranWBW';
+    src: local('AlQuran IndoPak by QuranWBW');
+    size-adjust: 220%;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'KFGQPC Uthmanic Script HAFS';
+    src: local('KFGQPC Uthmanic Script HAFS');
+    size-adjust: 220%;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'KFGQPC Uthman Taha Naskh';
+    src: local('KFGQPC Uthman Taha Naskh');
+    size-adjust: 220%;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'Amiri Quran';
+    src: local('Amiri Quran');
+    /* src: url('fonts/Amiri_Quran/AmiriQuran-Regular.ttf') format('truetype'); */
+    /* src: url('/usr/share/fonts/opentype/fonts-hosny-amiri/AmiriQuran.ttf'); */
+    /* src: url('/usr/share/fonts/opentype/fonts-hosny-amiri/AmiriQuran.ttf') format('truetype'); */
+    /* src: url('fonts/Amiri-Regular.woff') format('woff'),
+    */
+    size-adjust: 300%;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'KacstBook';
+    src: local('KacstBook');
+    size-adjust: 180%;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'Katibeh';
+    src: local('Katibeh');
+    size-adjust: 250%;
+    font-weight: normal;
+    font-style: normal;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'Scheherazade';
+    src: local('Scheherazade');
+    size-adjust: 250%;
+    font-weight: normal;
+    font-style: normal;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'Muhammadi Quranic Font';
+    src: local('Muhammadi Quranic Font');
+    size-adjust: 250%;
+    font-weight: normal;
+    font-style: normal;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'Al Qalam Quran Majeed Web';
+    src: local('Al Qalam Quran Majeed Web');
+    size-adjust: 250%;
+    font-weight: normal;
+    font-style: normal;
+    unicode-range:
+    U+0600-06FF, /* Arabic Basic */
+    U+0750-077F, /* Arabic Supplement */
+    U+08A0-08FF, /* Arabic Extended-A (superset, includes annotations and Quranic marks) */
+    U+200C-200E, /* Zero Width Joiner/Non-Joiner + Directionality marks */
+    U+2010-2011, /* Hyphen and Non-Breaking Hyphen */
+    U+204F, /* Reversed Semicolon */
+    U+2E41, /* Reversed Comma */
+    U+FB50-FDFF, /* Arabic Presentation Forms-A */
+    U+FE70-FEFF, /* Arabic Presentation Forms-B (ligatures and contextual forms) */
+    U+0660-0669, /* Arabic Indic Digits */
+    U+06F0-06F9, /* Extended Arabic-Indic Digits */
+    U+1AB0-1AFF, /* Combining Diacritical Marks Extended */
+    U+1EE00-1EEFF; /* Arabic Mathematical Alphabetic Symbols */
+}
+
+@font-face {
+    font-family: 'Noto Serif Bengali';
+    src: local('Noto Serif Bengali Regular');
+    /* src: url("/usr/share/fonts/truetype/noto/NotoSerifBengali-Regular.ttf") format('truetype'); */
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1;
+}
+
+body {
+    /* font-family: , "Noto Serif Bengali", "Noto Naskh Arabic", "Noto Serif", serif !important; */
+    /* font-family: "Scheherazade", "Noto Serif Bengali", "Noto Naskh Arabic", "Noto Serif", serif !important; */
+    font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1;
+    font-family: "Scheherazade", "KacstBook", "KFGQPC Uthman Taha Naskh", "KFGQPC Uthmanic Script HAFS", "AlQuran IndoPak by QuranWBW", "Amiri Quran", "Katibeh",  "_PDMS_Saleem_QuranFont", "Muhammadi Quranic Font", "Al Qalam Quran Majeed Web", "Noto Serif Bengali", "Noto Naskh Arabic", "Noto Serif", serif !important;
+}
+
+div.openblock.arabic-text, div.paragraph.arabic-text {
+    direction: rtl;
+    text-align: right;
+    line-height: var(--line-height);
+}
+
+div.openblock.arabic-text div.admonitionblock.note {
+    direction: ltr;
+    /* Set left-to-right text direction */
+    text-align: left;
+    /* Align text to the left */
+    line-height: normal;
+    /* Reset line height to default */
+}
+
+
+div.openblock.arabic-text p, div.paragraph.arabic-text p {
+    white-space: pre-line;
+    line-height: var(--line-height);
+}
+
+/* div.openblock.arabic-text {
+border: 1px solid red;
+}
+
+div.openblock.arabic-text > div.content {
+border: 1px solid black;
+}
+
+div.openblock.arabic-text>div.content>div.paragraph {
+border: 1px solid orangered;
+}
+
+div.openblock.arabic-text>div.content>div.paragraph>p {
+border: 1px solid yellow;
+}
+
+div.openblock.word-by-word, div.paragraph.word-by-word {
+}
+*/
+
+div.paragraph.word-by-word>p {
+    white-space: pre-line;
+    line-height: var(--line-height);
+    padding-top: 10px;
+
+}
+
+div.openblock.word-by-word>div.content>div.paragraph>p {
+    /* border: 1px solid green; */
+    white-space: pre-line;
+    line-height: var(--line-height);
+}
+
+div.openblock.word-by-word:before, div.paragraph.word-by-word:before {
+    content: "Word-By-Word Translation";
+    text-decoration: underline;
+}
+
+div.openblock.translation-computer-generated-english::before, div.paragraph.translation-computer-generated-english::before {
+    content: "Translation Computer Generated (English):";
+    text-decoration: underline;
+}
+
+div.openblock.translation-computer-generated-bangla::before, div.paragraph.translation-computer-generated-bangla::before {
+    content: "Translation Computer Generated (Bangla):";
+    text-decoration: underline;
+}
+
+div.openblock.translation-bangla::before, div.paragraph.translation-bangla::before {
+    content: "Bangla Translation:";
+    text-decoration: underline;
+}
+
+div.openblock.translation-english::before,
+div.paragraph.translation-english::before {
+    content: "English Translation:";
+    text-decoration: underline;
+}
+
+div.openblock.transliteration::before, div.paragraph.transliteration::before {
+    content: "Transliteration:";
+    text-decoration: underline;
+}
+
+div.paragraph.reference {
+    text-align: right;
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+div.paragraph.reference:before {
+    content: "Reference";
+    text-decoration: underline;
+    order: 1;
+}
+
+div.paragraph.reference .title {
+    text-align: right;
+    order: 2;
+}
+
+/* @media print {
+div.paragraph.translation-computer-generated-english,
+div.openblock.translation-computer-generated-english,
+div.openblock.translation-english,
+div.paragraph.translation-english,
+div.openblock.transliteration,
+div.paragraph.transliteration {
+display: none;
+}
+} */
+
+.sect1 {
+    page-break-after: always;
+}
+
+/* Use it using [.pagebreak] */
+
+/* .pagebreak {
+    page-break-before: always;
+} */
+
+/* Use it using pass:[<div class="blank-page"></div>] */
+/* .blank-page {
+    page-break-before: always;
+    page: clean;
+    display: none;
+} */
+
+/* Add this to your counter-reset class */
+.counter-reset {
+    counter-reset: page 1;
+    /* counter-increment: page 1; */
+}
+
+/* Page Margins */
+@page {
+    size: A4;
+    font-size: 18px;
+}
+
+/* Verso (left) page-specific */
+@page :left {
+    margin-left: 0.79in;
+    margin-right: 0.59in;
+
+    @bottom-left {
+        /* content: "Page " counter(page) " of " counter(pages); */
+        content: counter(page);
+        text-align: left;
+        margin-left: .1in; /* abs(margin-left - margin-right) / 2 */
+    }
+}
+
+/* Recto (right) page-specific */
+@page :right {
+    margin-left: 0.59in;
+    margin-right: 0.79in;
+
+    @bottom-right {
+        /* content: "Page " counter(page) " of " counter(pages); */
+        content: counter(page);
+        text-align: right;
+        margin-right: .1in; /* abs(margin-left - margin-right) / 2 */
+    }
+}
+
+@page clean {
+    @bottom-right {
+        content: none;
+    }
+
+    @bottom-left {
+        content: none;
+    }
+}
+
+@page :nth(1) {
+    @bottom-right {
+        content: none;
+    }
+
+    @bottom-left {
+        content: none;
+    }
+}
+
+@page :nth(2) {
+    @bottom-right {
+        content: none;
+    }
+
+    @bottom-left {
+        content: none;
+    }
+}
+
+@page toc {
+    page: clean;
+}
+
+/* Table of Contents styling */
+.toc {
+    page: toc;
+}
+
+.toc h1 {
+    text-align: center;
+}
+
+.toc a::after {
+    content: target-counter(attr(href), page);
+    float: right;
+}
+
+.toc p {
+    justify-content: space-between;
+    border-bottom: 1px dotted black; /* Creates a leader effect */
+    padding-bottom: 2px;
+}
+
+/* Indent h3 in the ToC */
+.toc .sub {
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+h2,
+h3 {
+    string-set: section-title content();
+}

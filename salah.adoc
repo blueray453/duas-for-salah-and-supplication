@@ -1,0 +1,2295 @@
+= Salah
+:doctype: book
+:stylesheet: styles.css
+:media: print
+:optimize: printer
+:!show-link-uri:
+:nofooter:
+
+++++
+<div class="toc">
+    <h1>Table of Contents</h1>
+</div>
+<div class="counter-reset"></div>
+++++
+
+== What to say after the Takbir
+
+NOTE: When someone asked the Prophet (blessings and peace of Allah be upon him) what he should say [in the opening supplication], he only told him of one supplication. This indicates that it is not prescribed to combine different types thereof."(Fatawa Ibn ‘Uthaymin  13/122). The Sunnah is to vary the opening supplication. The Prophet (blessings and peace of Allah be upon him) did not combine them. https://islamqa.info/en/answers/225452/did-any-of-the-scholars-say-that-it-is-permissible-to-recite-two-of-the-opening-supplications-in-prayer
+
+[.reference]
+SAB 744
+SAB 598a-b
+SIM 805
+SD 781
+SAN 60
+SAN 895
+
+[.arabic-text]
+اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَاىَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنَ الْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْ خَطَايَاىَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ
+
+[.word-by-word]
+--
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+بَاعِدْ – দূরত্ব সৃষ্টি করুন – Create distance
+بَيْنِي – আমার – Between me
+وَبَيْنَ – এবং – And
+خَطَايَاىَ – আমার ভুলগুলো(র) – My sins
+بَيْنِي وَبَيْنَ خَطَايَاىَ – আমার এবং আমার ভুলগুলোর মধ্যে – Between me and my sins
+كَمَا – যেমন – As
+بَاعَدْتَ – আপনি দূরত্ব করেছেন – You have distanced
+بَيْنَ – মধ্যে – Between
+الْمَشْرِقِ – পূর্ব – The East
+وَالْمَغْرِبِ – এবং পশ্চিমের – And the West
+
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+نَقِّنِي – আমাকে পবিত্র / পরিষ্কার করুন – Purify me
+مِنَ – থেকে – From
+الْخَطَايَا – গুনাহগুলো – The sins
+مِنَ الْخَطَايَا – গুনাহগুলো থেকে – From the sins
+كَمَا – যেমন – Just like
+يُنَقَّى – পবিত্র (পরিষ্কার করা) হয় – Is purified
+الثَّوْبُ – কাপড় – The garment
+الأَبْيَضُ – সাদা – The white
+الثَّوْبُ الأَبْيَضُ – সাদা কাপড় – The white garment
+مِنَ – থেকে – From
+الدَّنَسِ – ময়লা – The dirt
+مِنَ الدَّنَسِ – ময়লা থেকে – From the dirt
+
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+اغْسِلْ – ধুয়ে দিন – Wash away
+خَطَايَاىَ – আমার গুনাহগুলো – My sins
+بِالْمَاءِ – পানির দ্বারা – With water
+وَالثَّلْجِ – এবং বরফের দ্বারা – And snow
+وَالْبَرَدِ – এবং হিমশিলা দ্বারা / এবং তুষার দ্বারা – And hail
+--
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমার এবং আমার গুনাহগুলোর মধ্যে এমন দূরত্ব সৃষ্টি করে দিন যেমন পূর্ব এবং পশ্চিমের মধ্যে দূরত্ব সৃষ্টি করেছেন। হে আল্লাহ! আমাকে আমার গুনাহ থেকে এমনভাবে পবিত্র করুন যেমন সাদা কাপড় ময়লা থেকে পবিত্র করা হয়। হে আল্লাহ! আমার গুনাহগুলোকে পানি, বরফ এবং শিলা দ্বারা ধুয়ে পরিষ্কার করে দিন।
+
+[.translation-english]
+O Allah! Set me apart from my sins (faults) as the East and West are set apart from each other and clean me from sins as a white garment is cleaned of dirt (after thorough washing). O Allah! Wash off my sins with water, snow and hail.
+
+[.translation-computer-generated-english]
+O Allah! Distance me from my sins as You have distanced the East from the West. O Allah! Purify me from my sins just as a white garment is purified from dirt. O Allah! Wash away my sins with water, snow, and hail.
+
+[.reference]
+SAN 897
+MAM 813
+JT 3421
+JT 3422
+JT 3423
+SD 760
+SM 771a (T)
+
+[.arabic-text]
+وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَوَاتِ وَالأَرْضَ حَنِيفًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ إِنَّ صَلاَتِي وَنُسُكِي وَمَحْيَاىَ وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ لاَ شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ اللَّهُمَّ أَنْتَ الْمَلِكُ لاَ إِلَهَ إِلاَّ أَنْتَ أَنَا عَبْدُكَ ظَلَمْتُ نَفْسِي وَاعْتَرَفْتُ بِذَنْبِي فَاغْفِرْ لِي ذُنُوبِي جَمِيعًا لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ وَاهْدِنِي لأَحْسَنِ الأَخْلاَقِ لاَ يَهْدِي لأَحْسَنِهَا إِلاَّ أَنْتَ وَاصْرِفْ عَنِّي سَيِّئَهَا لاَ يَصْرِفُ عَنِّي سَيِّئَهَا إِلاَّ أَنْتَ لَبَّيْكَ وَسَعْدَيْكَ وَالْخَيْرُ كُلُّهُ فِي يَدَيْكَ وَالشَّرُّ لَيْسَ إِلَيْكَ أَنَا بِكَ وَإِلَيْكَ تَبَارَكْتَ وَتَعَالَيْتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ
+
+[.word-by-word]
+وَجَّهْتُ – আমি ফিরিয়েছি – I have turned
+وَجْهِيَ – আমার মুখ – My face
+لِلَّذِي – তাঁর দিকে – Toward Him
+فَطَرَ – (যিনি) সৃষ্টি করেছেন – Who Created
+السَّمَوَاتِ – আসমানসমূহ – The heavens
+وَالأَرْضَ – এবং পৃথিবী – And the earth
+حَنِيفًا – একনিষ্ঠভাবে – Uprightly, sincerely
+وَ – এবং – And
+مَا – না – Not
+أَنَا – আমি – I
+مِنَ – থেকে / অন্তর্ভুক্ত – Among
+الْمُشْرِكِينَ – মুশরিকদের – The polytheists
+مَا أَنَا مِنَ الْمُشْرِكِينَ – এবং আমি মুশরিকদের থেকে / অন্তর্ভুক্ত না – And I am not among the polytheists
+إِنَّ – নিশ্চয়ই – Indeed
+صَلاَتِي – আমার সালাত – My prayer
+وَنُسُكِي – এবং আমার কুরবানী – And my sacrifice (acts of worship)
+وَمَحْيَاىَ – এবং আমার জীবন – And my life
+وَمَمَاتِي – এবং আমার মরণ – And my death
+لِلَّهِ – আল্লাহর জন্য – Are for Allah
+رَبِّ الْعَالَمِينَ – যিনি উভয় জগত এর প্রতিপালক – The Lord of all the worlds
+لاَ – নেই – No
+شَرِيكَ – অংশীদার – Partner
+لَهُ – তাঁর – For Him
+لاَ شَرِيكَ لَهُ – তাঁর কোন অংশীদার নেই – He has no partner
+وَبِذَلِكَ – এবং এই বিষয়ে – And for this reason
+أُمِرْتُ – আমাকে আদেশ করা হয়েছে – I have been commanded
+وَأَنَا – এবং আমি – And I
+مِنَ – থেকে / অন্তর্ভুক্ত – Among
+الْمُسْلِمِينَ – মুসলিমদের – The Muslims
+مِنَ الْمُسْلِمِينَ – মুসলিমদের অন্তর্ভুক্ত – Am among the Muslims
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+أَنْتَ – আপনি – You are
+الْمَلِكُ – বাদশাহ – The King
+لاَ – নেই – No
+إِلَهَ – উপাস্য – Deity
+إِلاَّ – ছাড়া – Except
+أَنْتَ – আপনি – You
+لاَ إِلَهَ إِلَّا أَنْتَ – আপনি ছাড়া কোন ইলাহ নেই – There is no god but You
+أَنَا – আমি – I
+عَبْدُكَ – আপনার বান্দা – Am Your servant
+ظَلَمْتُ – আমি অত্যাচার করেছি – I have wronged
+نَفْسِي – আমার নিজের উপর – Myself
+وَاعْتَرَفْتُ – এবং আমি স্বীকার করেছি – And I acknowledge
+بِذَنْبِي – আমার পাপ – My sins
+فَاغْفِرْ – অতএব ক্ষমা করুন – So forgive
+لِي – আমাকে – Me
+ذُنُوبِي – আমার গুনাহসমূহ – My sins
+جَمِيعًا – সমস্ত – All
+ذُنُوبِي جَمِيعًا – আমার সমস্ত গুনাহ – All my sins
+لاَ – না – No
+يَغْفِرُ – ক্ষমা করতে পারে – Can forgive
+لاَ يَغْفِرُ – কেউ ক্ষমা করতে পারে না – No one can forgive
+الذُّنُوبَ – গুনাহসমূহ – The sins
+إِلاَّ – ছাড়া – Except
+أَنْتَ – আপনি – You
+إِلاَّ أَنْتَ – আপনি ছাড়া – Except You
+وَاهْدِنِي – এবং আমাকে পথ দেখান – Guide me
+لأَحْسَنِ – উত্তম – To the best
+الأَخْلاَقِ – চরিত্রের – Of character
+لأَحْسَنِ الأَخْلاَقِ – উত্তম চরিত্রের (পথে) – To the best of character
+لاَ – নেই – No
+يَهْدِي – পথ দেখায় – Guides
+لاَ يَهْدِي – কেউ পরিচালিত করতে পারে না – No one can guide
+لأَحْسَنِهَا – তাঁর উত্তমের জন্য – To the best of it
+إِلاَّ – ছাড়া – Except
+أَنْتَ – আপনি – You
+إِلاَّ أَنْتَ – আপনি ছাড়া – Except You
+وَاصْرِفْ – দূরে রাখুন – Turn away
+عَنِّي – আমার থেকে – From me
+سَيِّئَهَا – তার (চরিত্রের) মন্দ – The evil of it (bad character)
+لاَ – নেই – No
+يَصْرِفُ – সরাতে পারে – Can turn away
+لاَ يَصْرِفُ – কেউ দূরে রাখতে পারে না – No one can turn away
+عَنِّي – আমার থেকে – From me
+سَيِّئَهَا – তার মন্দ – Its evil
+إِلاَّ – ছাড়া – Except
+أَنْتَ – আপনি – You
+إِلاَّ أَنْتَ – আপনি ছাড়া – Except You
+لَبَّيْكَ – আমি হাজির – Here I am at Your service
+وَسَعْدَيْكَ – এবং আপনারই সন্তুষ্টিকল্পে – And happy to serve You
+وَالْخَيْرُ – ভালো – Good
+كُلُّهُ – তার সমস্ত – All of it
+وَالْخَيْرُ كُلُّهُ – এবং তার সমস্ত কল্যাণ – And all good
+فِي – মধ্যে – In
+يَدَيْكَ – আপনার হাতে – Your hands
+فِي يَدَيْكَ – আপনার হাতে – Is in Your hands
+وَالشَّرُّ – এবং মন্দ – And evil
+لَيْسَ – নেই – Is not
+إِلَيْكَ – আপনার দিকে – Toward You
+وَالشَّرُّ لَيْسَ إِلَيْكَ – এবং অকল্যাণ আপনার প্রতি বর্তায় না – And evil is not attributed to You
+أَنَا – আমি – I am
+بِكَ – আপনার দ্বারা (সাহায্যে) – By Your help
+وَإِلَيْكَ – এবং আপনার দিকে – And to You
+تَبَارَكْتَ – আপনি বরকতময় – You are blessed
+وَتَعَالَيْتَ – এবং আপনি মহান – And You are exalted
+أَسْتَغْفِرُكَ – আমি আপনার কাছে ক্ষমা চাই – I seek Your forgiveness
+وَأَتُوبُ – এবং আমি তওবা করি – And I repent
+إِلَيْكَ – আপনার দিকে – To You
+وَأَتُوبُ إِلَيْكَ – এবং আপনার দিকে ফিরে আসছি – And I repent to You
+
+[.translation-computer-generated-bangla]
+আমি আন্তরিকভাবে তাঁর দিকে মুখ ফিরিয়েছি, যিনি আসমানসমূহ ও পৃথিবী সৃষ্টি করেছেন, এবং আমি মুশরিকদের অন্তর্ভুক্ত নই। নিশ্চয়ই আমার সালাত, আমার ইবাদত (কুরবানী), আমার জীবন ও আমার মরণ সারা দুনিয়ার প্রতিপালক আল্লাহরই উদ্দেশ্যে। তাঁর কোনো অংশীদার নেই, এবং এরই জন্য আমি আদিষ্ট হয়েছি, এবং আমি মুসলিমদের অন্তর্গত। হে আল্লাহ! আপনি বাদশাহ, আপনার ছাড়া কোনো ইলাহ নেই। আমি আপনার বান্দা। আমি নিজের ওপর অত্যাচার করেছি এবং আমার পাপ স্বীকার করছি। সুতরাং, আপনি আমার সমস্ত পাপ ক্ষমা করে দিন, কারণ আপনার ছাড়া আর কেউ পাপ ক্ষমা করতে পারে না। আমাকে উত্তম চরিত্রের পথে পরিচালিত করুন, কারণ আপনার ছাড়া আর কেউ উত্তম চরিত্রের পথে পরিচালিত করতে পারে না। এবং আমাকে মন্দ চরিত্র থেকে দূরে রাখুন, কারণ আপনার ছাড়া আর কেউ তা দূরে রাখতে পারে না। হে আল্লাহ! আমি হাজির। সমস্ত কল্যাণ আপনারই হাতে, আর অকল্যাণ আপনার প্রতি বর্তায় না। আমি আপনার সাহায্যে প্রতিষ্ঠিত আছি এবং আপনার দিকেই ফিরে আসছি। আপনি বরকতময়, আপনি মহান। আমি আপনার কাছে ক্ষমা চাচ্ছি এবং আপনার দিকেই ফিরে আসছি।
+
+[.translation-english]
+Verily, I have turned my face toward Him who created the Heavens and the Earth hanifa (worhsipping none but Allah Alone), and I am not of the idolaters. Verily, my salah, my sacrifice, my living, and my dying are for Allah, the Lord of the all that exists. He has no partner. And of this I have been commanded, and I am one of the Muslims. O Allah, You are the Sovereign and there is none worthy of worship but You. I am Your slave, I have wronged myself and I acknowledge my sin. Forgive me all my sins for no one forgives sins but You. Guide me to the best of manners for none can guide to the best of them but You. Protect me from bad manners for none can protect against them but You. I am at Your service, all goodness is in Your hands, and evil is not attributed to You. I rely on You and turn to You, blessed and exalted are You, I seek Your forgiveness and repent to You.
+
+[.translation-computer-generated-english]
+I have turned my face sincerely towards Him who created the heavens and the earth, and I am not among those who associate partners with Allah. Indeed, my prayer, my sacrifice, my life, and my death are all for Allah, the Lord of the worlds. He has no partner, and for this I have been commanded, and I am among the Muslims. O Allah, You are the King. There is no god but You. I am Your servant. I have wronged myself, and I admit my sins, so forgive all my sins, for no one can forgive sins except You. Guide me to the best of character, for no one can guide to the best of it except You, and turn away from me the evil of it, for no one can turn away the evil except You. Here I am at Your service, and happy to serve You. All good is in Your hands, and evil is not attributed to You. I am dependent on You and I return to You. You are blessed, You are exalted. I seek Your forgiveness and I repent to You.
+
+[.reference]
+SIM 1355 (T)
+SAB 7499 (T)
+JT 3418 (T)
+SM 769a (T)
+SD 771 (T)
+
+[.arabic-text]
+اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ نُورُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ وَلَكَ الْحَمْدُ أَنْتَ قَيَّامُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ وَلَكَ الْحَمْدُ أَنْتَ مَالِكُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ وَلَكَ الْحَمْدُ أَنْتَ الْحَقُّ وَوَعْدُكَ حَقٌّ وَلِقَاؤُكَ حَقٌّ وَقَوْلُكَ حَقٌّ وَالْجَنَّةُ حَقٌّ وَالنَّارُ حَقٌّ وَالسَّاعَةُ حَقٌّ وَالنَّبِيُّونَ حَقٌّ وَمُحَمَّدٌ حَقٌّ اللَّهُمَّ لَكَ أَسْلَمْتُ وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَإِلَيْكَ أَنَبْتُ وَبِكَ خَاصَمْتُ وَإِلَيْكَ حَاكَمْتُ فَاغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ أَنْتَ الْمُقَدِّمُ وَأَنْتَ الْمُؤَخِّرُ لاَ إِلَهَ إِلاَّ أَنْتَ وَلاَ إِلَهَ غَيْرُكَ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِكَ
+
+[.word-by-word]
+--
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+لَكَ – আপনার জন্য – To You belongs
+الْحَمْدُ – সমস্ত প্রশংসা – All praise
+أَنْتَ – আপনি – You are
+نُورُ – জ্যোতি – The light
+السَّمَوَاتِ – আসমানসমূহের – Of the heavens
+وَ – এবং – And
+الأَرْضِ – যমীন (এর) – The earth
+وَ – এবং – And
+مَنْ – যাঁরা – Whoever
+فِيهِنَّ – এর মধ্যে (আছে) – Is in them
+
+وَلَكَ الْحَمْدُ – এবং আপনার জন্য সমস্ত প্রশংসা – And for You is all praise
+أَنْتَ – আপনি – You are
+قَيَّامُ – রক্ষক / কায়েম রাখনেওয়ালা – The sustainer
+السَّمَوَاتِ – আসমানগুলোর – Of the heavens
+وَ – এবং – And
+الأَرْضِ – জমিন (এর) – The earth
+وَمَنْ – এবং যা – And whatever
+فِيهِنَّ – এর মধ্যে (আছে) – Is in them
+
+وَلَكَ الْحَمْدُ – এবং আপনার জন্য সমস্ত প্রশংসা – And for You is all praise
+أَنْتَ – আপনি – You are
+مَالِكُ – মালিক – The owner
+السَّمَوَاتِ – আসমানগুলোর – Of the heavens
+وَ – এবং – And
+الأَرْضِ – জমিন (এর) – The earth
+وَمَنْ – এবং যা – And whatever
+فِيهِنَّ – এর মধ্যে (আছে) – Is in them
+
+وَلَكَ الْحَمْدُ – এবং আপনার জন্য সমস্ত প্রশংসা – And for You is all praise
+أَنْتَ – আপনি – You are
+الْحَقُّ – সত্য – The Truth
+وَ – এবং – And
+وَعْدُكَ – আপনার প্রতিশ্রুতি – Your promise
+حَقٌّ – সত্য – Is true
+وَ – এবং – And
+لِقَاؤُكَ – আপনার (সাথে) সাক্ষাত – Your meeting
+حَقٌّ – সত্য – Is true
+وَ – এবং – And
+قَوْلُكَ – আপনার বাণী – Your words
+حَقٌّ – সত্য – Is true
+وَ – এবং – And
+الْجَنَّةُ – জান্নাত – Paradise
+حَقٌّ – সত্য – Is true
+وَ – এবং – And
+النَّارُ – জাহান্নাম – Hell
+حَقٌّ – সত্য – Is true
+وَ – এবং – And
+السَّاعَةُ – কিয়ামত – The Hour
+حَقٌّ – সত্য – Is true
+وَ – এবং – And
+النَّبِيُّونَ – নবীগণ – The Prophets
+حَقٌّ – সত্য – Is true
+وَ – এবং – And
+مُحَمَّدٌ – মুহাম্মদ – Muhammad
+حَقٌّ – সত্য – Is true
+
+اللَّهُمَّ – হে আল্লাহ – O Allah
+لَكَ – আপনার জন্য (নিকট) – To You
+أَسْلَمْتُ – আমি আত্মসমর্পণ করেছি – I have submitted
+وَ – এবং – And
+بِكَ – আপনার প্রতি – In You
+آمَنْتُ – আমি ঈমান এনেছি – I have believed
+وَ – এবং – And
+عَلَيْكَ – আপনার উপরে – Upon You
+تَوَكَّلْتُ – আমি ভরসা করেছি – I have relied
+وَ – এবং – And
+إِلَيْكَ – আপনার দিকে – Towards You
+أَنَبْتُ – আমি ফিরে এসেছি – I have turned back
+وَ – এবং – And
+بِكَ – আপনার জন্য – For Your sake
+خَاصَمْتُ – আমি মুকাবিলা করেছি – I have disputed
+وَ – এবং – And
+إِلَيْكَ – আপনার কাছে – To You
+حَاكَمْتُ – আমি বিচারপ্রার্থী – I seek judgment
+
+فَاغْفِرْ – অতএব ক্ষমা করুন – So forgive
+لِي – আমাকে – Me
+مَا – যা – What
+قَدَّمْتُ – আমি আগে করেছি – I have done before
+وَ – এবং – And
+مَا – যা – What
+أَخَّرْتُ – আমি পরে করেছি – I have done later
+وَ – এবং – And
+مَا – যা – What
+أَسْرَرْتُ – আমি গোপনে করেছি – I have done secretly
+وَ – এবং – And
+مَا – যা – What
+أَعْلَنْتُ – আমি প্রকাশ্যে করেছি – I have done openly
+
+أَنْتَ – আপনি – You are
+الْمُقَدِّمُ – প্রথম – The First
+وَ – এবং – And
+أَنْتَ – আপনি – You are
+الْمُؤَخِّرُ – শেষ – The Last
+لاَ – নেই – There is no
+إِلَهَ – উপাস্য – Deity
+إِلاَّ – ছাড়া – Except
+أَنْتَ – আপনি – You
+لاَ إِلَهَ إِلاَّ أَنْتَ – আপনি ছাড়া কোনো উপাস্য নেই – There is no deity but You
+
+وَلاَ – এবং নেই – And there is no
+إِلَهَ – উপাস্য – Deity
+غَيْرُكَ – আপনার ছাড়া – Besides You
+وَلاَ إِلَهَ غَيْرُكَ – এবং আপনার ছাড়া কোনো উপাস্য নেই – And there is no deity besides You
+
+وَلاَ – এবং নেই – And there is no
+حَوْلَ – ক্ষমতা – Power
+وَلاَ حَوْلَ – এবং কোনো ক্ষমতা নেই – And there is no power
+وَلاَ – এবং নেই – And there is no
+قُوَّةَ – শক্তি – Might
+وَلاَ قُوَّةَ – এবং কোনো শক্তি নেই – And no might
+إِلاَّ – ছাড়া – Except
+بِكَ – আপনার – Through You
+إِلاَّ بِكَ – আপনার (সাহায্য) ছাড়া – Except through You
+--
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! সমস্ত প্রশংসা আপনার, আপনি আসমানসমূহ ও যমীন এবং এর মধ্যে যা কিছু আছে তার জ্যোতি। সমস্ত প্রশংসা আপনার, আপনি আসমানসমূহ ও যমীন এবং এর মধ্যে যা কিছু আছে তার ধারক। সমস্ত প্রশংসা আপনার, আপনি আসমানসমূহ ও যমীন এবং এর মধ্যে যা কিছু আছে তার অধিপতি। সমস্ত প্রশংসা আপনার, আপনি সত্য, আপনার অঙ্গীকার সত্য, আপনার সাক্ষাত সত্য, আপনার বাণী সত্য, জান্নাত সত্য, জাহান্নাম সত্য, কিয়ামত সত্য, নবীগণ সত্য এবং মুহাম্মাদ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) সত্য। হে আল্লাহ! আমি আপনার নিকট আত্মসমর্পণ করেছি, আপনার উপর ঈমান এনেছি, আপনার উপর ভরসা করেছি, আপনার দিকে ফিরে এসেছি, আপনার জন্য বিতর্ক করেছি এবং আপনার কাছেই বিচারপ্রার্থী। অতএব আপনি আমার পূর্বের, পরের, গোপন এবং প্রকাশ্য সকল পাপ ক্ষমা করে দিন। আপনিই প্রথম এবং আপনিই শেষ। আপনি ছাড়া আর কোনো উপাস্য নেই এবং আপনার ছাড়া আর কোনো উপাস্য নেই। আপনার সাহায্য ব্যতীত কোনো শক্তি বা ক্ষমতা নেই।
+
+[.translation-english]
+O Allah, to you is praise, You are the Light of the heavens and the earth, and everyone therein. To You is praise, You are the Sustainer of the heavens and the earth, and everyone therein. To You is praise, You are the Sovereign of the heavens and the earth, and everyone therein. To You is praise, You are the Truth; Your promise is true, the meeting with You is true, Your saying is true, Paradise is true, the Fire is true, the Hour is true, the Prophets are true, and Muhammad (ﷺ) is true. O Allah, to You have I submitted, in You I believe, in You have I put my trust, to You I turn in repentance, by Your help I argue, to You I refer my case, so forgive me for my past and future sins, what I have done in secret and what I have done openly. You are the One Who brings forward and puts back. None has the right to be worshipped but You, and there is none who has the right to be worshipped other than You. And there is no power and no strength except with You.
+
+[.translation-computer-generated-english]
+O Allah, all praise is due to You, You are the light of the heavens and the earth and whoever is in them. All praise is due to You, You are the sustainer of the heavens and the earth and whoever is in them. All praise is due to You, You are the owner of the heavens and the earth and whoever is in them. All praise is due to You, You are the truth, Your promise is true, meeting You is true, Your word is true, Paradise is true, Hellfire is true, the Hour (Day of Judgment) is true, the Prophets are true, and Muhammad (peace be upon him) is true. O Allah! I have submitted to You, I have believed in You, I have relied upon You, I have turned to You, I have disputed for Your sake, and I seek judgment from You. So forgive me for what I have done before and what I have done later, what I have done secretly and what I have done openly. You are the One who brings forward, and You are the One who puts back. There is no deity but You, and there is no deity besides You. There is no power and no strength except through You.
+
+[.reference]
+SIM 807
+SAN 885
+SAN 886
+
+[.arabic-text]
+اللَّهُ أَكْبَرُ كَبِيرًا (3 Times)
+الْحَمْدُ لِلَّهِ كَثِيرًا (3 Times)
+سُبْحَانَ اللَّهِ بُكْرَةً وَأَصِيلاً (3 Times)
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الشَّيْطَانِ الرَّجِيمِ مِنْ هَمْزِهِ وَنَفْخِهِ وَنَفْثِهِ
+
+[.word-by-word]
+اللَّهُ – আল্লাহ – Allah
+أَكْبَرُ – মহান – Is the greatest
+كَبِيرًا – নিশ্চয়ই – Indeed
+الْحَمْدُ – সমস্ত প্রশংসা – Praise
+لِلَّهِ – আল্লাহর জন্য – Is due to Allah
+كَثِيرًا – অসংখ্য – Much
+سُبْحَانَ – মহিমা – Glory
+اللَّهِ – আল্লাহর – To Allah
+بُكْرَةً – সকালে – In the morning
+وَأَصِيلاً – এবং সন্ধ্যায় – And in the evening
+اللَّهُمَّ – হে আল্লাহ – O Allah
+إِنِّي – নিশ্চয়ই আমি – Indeed, I
+أَعُوذُ – আশ্রয় প্রার্থনা করছি – Seek refuge
+بِكَ – আপনার কাছে – In You
+مِنَ – থেকে – From
+الشَّيْطَانِ – শয়তান – Satan
+الرَّجِيمِ – অভিশপ্ত – The cursed
+الشَّيْطَانِ الرَّجِيمِ – অভিশপ্ত শয়তান – Satan, the cursed
+مِنْ – থেকে – From
+هَمْزِهِ – তার পাগলামি – His madness
+وَنَفْخِهِ – এবং তার অহংকার – And his pride
+وَنَفْثِهِ – এবং তার কবিতা (কুমন্ত্রণা) – And his poetry (evil suggestions)
+
+[.translation-computer-generated-bangla]
+আল্লাহ নিশ্চয়ই মহান।
+আল্লাহর জন্যই অসংখ্য প্রশংসা।
+সকালে এবং সন্ধ্যায় আল্লাহর মহিমা।
+হে আল্লাহ! আমি আপনার কাছে আশ্রয় চাই অভিশপ্ত শয়তান থেকে, তার পাগলামি, তার কবিতা (কুমন্ত্রণা), এবং তার অহংকার থেকে।
+
+[.translation-english]
+Allah is the Most Great indeed
+Much praise is to Allah
+Glory is to Allah morning and evening
+O Allah, I seek refuge in You from the accursed Satan, from his madness, his poetry, and his pride
+
+[.translation-computer-generated-english]
+Allah is the Greatest, indeed.
+Much praise is due to Allah.
+Glory is to Allah morning and evening.
+O Allah, I seek refuge in You from the accursed Satan, from his madness, his poetry (evil suggestions), and his pride.
+
+[.reference]
+SIM 1357 (N)
+JT 3420 (N)
+SAN 1625 (T)
+
+[.arabic-text]
+اللَّهُمَّ رَبَّ جِبْرَئِيلَ وَمِيكَائِيلَ وَإِسْرَافِيلَ فَاطِرَ السَّمَوَاتِ وَالأَرْضِ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ أَنْتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ اهْدِنِي لِمَا اخْتُلِفَ فِيهِ مِنَ الْحَقِّ بِإِذْنِكَ إِنَّكَ لَتَهْدِي إِلَى صِرَاطٍ مُسْتَقِيمٍ
+
+[.word-by-word]
+اللَّهُمَّ – হে আল্লাহ – O Allah
+رَبَّ – প্রভু – Lord of
+جِبْرَئِيلَ – জিবরাঈল (আঃ) – Jibreel
+وَمِيكَائِيلَ – এবং মীকাঈল (আঃ) – And Mika'eel
+وَإِسْرَافِيلَ – এবং ইসরাফীল (আঃ) – And Israfeel
+فَاطِرَ – সৃষ্টিকর্তা – Creator of
+السَّمَوَاتِ – আসমানের – The heavens
+وَالأَرْضِ – এবং যমীনের – And the earth
+عَالِمَ – জ্ঞানী – Knower of
+الْغَيْبِ – অদৃশ্য – The unseen
+وَالشَّهَادَةِ – এবং দৃশ্যমান – And the seen
+عَالِمَ الْغَيْبِ وَالشَّهَادَةِ – অদৃশ্য এবং দৃশ্যমানের জ্ঞানী – Knower of the unseen and the seen
+أَنْتَ – আপনি – You are
+تَحْكُمُ – মীমাংসা করেন – Judge
+بَيْنَ – মধ্যে – Between
+عِبَادِكَ – আপনার বান্দাদের – Your servants
+فِيمَا – সে বিষয়ে – In that which
+كَانُوا – তারা ছিল – They were
+فِيهِ – এতে – In it
+يَخْتَلِفُونَ – মতভেদ করে – Differ
+فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ – তারা এতে যে বিষয়ে মতভেদ করে – In that which they used to differ
+اهْدِنِي – আমাকে পথ প্রদর্শন করুন – Guide me
+لِمَا – সে বিষয়ে – To that in which
+اخْتُلِفَ – মতভেদ করা হয়েছে – They differed
+فِيهِ – এতে – In it
+مِنَ الْحَقِّ – সত্যের বিষয়ে – Of the truth
+بِإِذْنِكَ – আপনার অনুমতি দ্বারা – By Your permission
+إِنَّكَ – নিশ্চয়ই আপনি – Indeed You
+لَتَهْدِي – হিদায়াত দান করেন – Guide
+إِلَى – এর দিকে – To
+صِرَاطٍ – পথ – The path
+مُسْتَقِيمٍ – সরল সঠিক – Straight
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! জিবরাঈল, মীকাঈল, এবং ইসরাফীল (আলাইহিমুস সালাম)-এর প্রভু, আসমান ও যমীনের সৃষ্টিকর্তা, অদৃশ্য এবং দৃশ্যমান সবকিছুর জ্ঞানী! আপনার বান্দারা যে বিষয়ে মতভেদ করে, আপনি তার মীমাংসাকারী। আপনি মেহেরবাণী করে আমাকে সে বিষয়ে সঠিক পথে হিদায়াত দিন, যাতে তারা মতভেদ করেছে। নিশ্চয়ই, আপনি সরল সঠিক পথে হিদায়াত দান করেন।
+
+[.translation-english]
+O Allah, Lord of Jibra’il, Mika’il and Israfil, Creator of the heavens and the earth, Knower of the unseen and the seen, You judge between Your slaves concerning that wherein they differ. Guide me to the disputed matters of truth by Your Leave, for You are the One Who guides to the straight Path).
+
+[.translation-computer-generated-english]
+O Allah, Lord of Jibreel, Mika'eel, and Israfeel, Creator of the heavens and the earth, Knower of the unseen and the seen, You judge between Your servants in that which they differ. Guide me, by Your permission, to the truth regarding that in which they differed. Indeed, You guide whom You will to the straight path.
+
+[.reference]
+JT 243
+JT 242 (T)
+SAN 899
+
+[.arabic-text]
+سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلاَ إِلَهَ غَيْرُكَ
+
+[.word-by-word]
+سُبْحَانَكَ – আপনি মহিমাময় – Glorious You are
+اللَّهُمَّ – হে আল্লাহ – O Allah
+وَبِحَمْدِكَ – এবং আপনার প্রশংসার সাথে – And with Your praise
+سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ – আপনি মহিমাময় হে আল্লাহ এবং আপনার প্রশংসার সাথে – Glorious You are, O Allah, and with Your praise
+وَتَبَارَكَ – এবং বরকতময় – And blessed is
+اسْمُكَ – আপনার নাম – Your name
+وَتَبَارَكَ اسْمُكَ – এবং বরকতময় আপনার নাম – And blessed is Your name
+وَتَعَالَى – এবং মহান – And exalted is
+جَدُّكَ – আপনার মহিমা – Your majesty
+وَتَعَالَى جَدُّكَ – এবং মহান আপনার মহিমা – And exalted is Your majesty
+وَلاَ – এবং না – And none
+إِلَهَ – কোনো উপাস্য – Has the right to be worshipped
+غَيْرُكَ – আপনার ছাড়া – But You
+وَلاَ إِلَهَ غَيْرُكَ – এবং আপনার ছাড়া কোনো উপাস্য নেই – And there is no deity but You
+
+[.translation-computer-generated-bangla]
+আপনি মহিমাময়, হে আল্লাহ, এবং আপনার প্রশংসার সঙ্গে। বরকতময় আপনার নাম, মহান আপনার মহিমা, এবং আপনি ছাড়া আর কোনো উপাস্য নেই।
+
+[.translation-english]
+Glorious You are O Allah, and with Your praise, and blessed is Your Name, and exalted is Your majesty, and none has the right to be worshipped but You.
+
+[.translation-computer-generated-english]
+Glorious You are, O Allah, and with Your praise. Blessed is Your Name, exalted is Your majesty, and none has the right to be worshipped but You.
+
+[.reference]
+SAN 1617 (T)
+SAN 5535 (T)
+SAN 898 (N)
+SD 766 (T)
+SIM 1356 (N)
+SM 770 (T)
+
+== Invocation in Bowing and Prostrations
+
+[.reference]
+SAB 794
+SAB 817
+SAB 4293
+SAB 4967
+SAB 4968
+SAN 1122
+SAN 1123
+SAN 1047
+SM 484a
+SIM 1356
+
+[.arabic-text]
+سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللَّهُمَّ اغْفِرْ لِي
+
+[.word-by-word]
+سُبْحَانَكَ – আপনি পবিত্র – Glory be to You
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+رَبَّنَا – আমাদের প্রতিপালক – Our Lord
+وَبِحَمْدِكَ – এবং আপনার প্রশংসা (বর্ণনা করছি) – And I praise You
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+اغْفِرْ (ighfir) – ক্ষমা করুন
+لِي (li) – আমাকে
+اغْفِرْ لِي – আপনি আমাকে ক্ষমা করুন – Forgive me
+
+[.translation-computer-generated-bangla]
+হে আমাদের প্রতিপালক আল্লাহ! আমি আপনার পবিত্রতা ঘোষণা করছি এবং আপনার প্রশংসা করছি। হে আল্লাহ! আপনি আমাকে ক্ষমা করুন।
+
+[.translation-english]
+Exalted [from unbecoming attributes] Are you O Allah our Lord, and by Your praise [do I exalt you]. O Allah! Forgive me
+
+[.translation-computer-generated-english]
+O our Lord, I declare Your purity and praise You. O Allah, forgive me.
+
+[.reference]
+SD 872
+SM 487a
+MAM 872
+SAN 1048
+SAN 1134
+
+[.arabic-text]
+سُبُّوحٌ قُدُّوسٌ رَبُّ الْمَلاَئِكَةِ وَالرُّوحِ
+
+[.word-by-word]
+سُبُّوحٌ (Subbooh) – সর্বোচ্চ পবিত্র – Supremely Pure
+قُدُّوسٌ (Quddoos) – পরম পবিত্র – The Holy
+رَبُّ – প্রতিপালক – Lord
+الْمَلاَئِكَةِ – ফেরেশতাদের – Of the angels
+وَالرُّوحِ – এবং জিবরীল (আঃ)-এর – And of the Spirit (Angel Jibreel)
+
+[.translation-computer-generated-bangla]
+ফেরেশতাদের এবং জিবরীল (আঃ)-এর প্রতিপালক অত্যন্ত পবিত্র।
+
+[.translation-english]
+All-Glorious, All-Holy, Lord of the angels and spirit
+
+[.translation-computer-generated-english]
+Supremely Pure, Most Holy, Lord of the angels and Jibreel (Gabriel).
+
+[.reference]
+SAN 1131 (T)
+
+[.arabic-text]
+سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ لاَ إِلَهَ إِلاَّ أَنْتَ
+
+[.word-by-word]
+سُبْحَانَكَ – আপনি পবিত্র – Glory be to You
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+وَبِحَمْدِكَ – এবং আপনার প্রশংসা (বর্ণনা করছি) – And with Your praise
+لاَ (la) – নেই
+إِلَهَ (ilah) – উপাস্য
+لاَ إِلَهَ – কোনো উপাস্য নেই – There is no deity
+إِلاَّ (illa) – ছাড়া
+أَنْتَ (anta) – আপনি
+إِلاَّ أَنْتَ – আপনি ছাড়া – Except You
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আপনি পবিত্র, এবং আপনার প্রশংসা করছি। আপনি ছাড়া আর কোন ইলাহ নেই।
+
+[.translation-english]
+Glory and praise be to You, O Allah, there is none worthy of worship but You.
+
+[.translation-computer-generated-english]
+Glory and praise be to You, O Allah. There is none worthy of worship but You.
+
+[.reference]
+SAN 1049
+MAM 882
+SD 873
+SAN 1132 (T)
+
+[.arabic-text]
+سُبْحَانَ ذِي الْجَبَرُوتِ وَالْمَلَكُوتِ وَالْكِبْرِيَاءِ وَالْعَظَمَةِ
+
+[.word-by-word]
+سُبْحَانَ – আপনি পবিত্র – Glory be to
+ذِي – অধিকারী – The Owner of
+الْجَبَرُوتِ – শক্তি – Power
+وَالْمَلَكُوتِ – রাজত্ব – Dominion
+وَالْكِبْرِيَاءِ – মহত্ত্ব – Majesty
+وَالْعَظَمَةِ – মহিমা – Greatness
+
+[.translation-computer-generated-bangla]
+যিনি শক্তি, রাজত্ব, মহত্ত্ব ও মহিমার অধিকারী, তিনি পবিত্র।
+
+[.translation-english]
+--
+Glory is to the master of power, sovereignty, of majesty and greatness.
+
+Glory is to You, Master of power, of dominion, of majesty and greatness.
+
+Glory be to the Possessor of greatness, the Kingdom, grandeur and majesty.
+--
+
+[.translation-computer-generated-english]
+Glory be to the One who owns power, dominion, majesty, and greatness.
+
+[.reference]
+SD 871
+MAM 872
+MAM 1200
+SAN 1046
+SM 485 (T)
+
+== Invocation in Bowing
+
+NOTE: The Muslim should preserve these Sunnahs that have been narrated from the Messenger (peace and blessings of Allaah be upon him), so he should say one of them sometimes and another of them sometimes. And he may combine all these adhkaar in one bowing. https://islamqa.info/en/answers/39172/varying-and-combining-the-adhkaar-to-be-recited-when-bowing
+
+[.reference]
+JT 3421
+SAN 1050
+SD 760
+SM 771a (T)
+SAN 1051
+SAN 1052 (N)
+
+[.arabic-text]
+اللَّهُمَّ لَكَ رَكَعْتُ وَبِكَ آمَنْتُ وَلَكَ أَسْلَمْتُ خَشَعَ لَكَ سَمْعِي وَبَصَرِي وَمُخِّي وَعِظَامِي وَعَصَبِي
+
+[.word-by-word]
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+لَكَ – আপনার জন্য – For You
+رَكَعْتُ – আমি রুকু করেছি – I bow
+وَبِكَ – এবং আপনার প্রতি – And in You
+آمَنْتُ – আমি ঈমান এনেছি – I have believed
+وَلَكَ – এবং আপনার জন্য – And for You
+أَسْلَمْتُ – আমি আত্মসমর্পণ করেছি – I have submitted
+خَشَعَ – বিনয়াবনত (বিনম্র) হয়েছে – Humbled
+لَكَ – আপনার জন্য – For You
+سَمْعِي – আমার শ্রবণ (শক্তি) – My hearing
+وَبَصَرِي – এবং আমার দৃষ্টি (শক্তি) – And my sight
+وَمُخِّي – এবং আমার মস্তিষ্ক – And my brain
+وَعِظَامِي – এবং আমার হাড়গুলো – And my bones
+وَعَصَبِي – এবং আমার স্নায়ু (আমার সকল অনুভূতি শক্তি)
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আপনার জন্যই আমি রুকু করছি। আমি আপনার উপর ঈমান এনেছি, আপনারই জন্য আমি আত্মসমর্পণ করেছি। আপনার সামনে বিনয়ানবত হয়েছে আমার কান, চোখ, মগজ, হাড়, এবং স্নায়ু।
+
+[.translation-english]
+O Allah, to You I have bowed, and in You I believe, and to You have I submitted. My hearing, my sight, my brain, my bones and my sinew are humbled to you
+
+[.translation-computer-generated-english]
+O Allah! For You, I bow. I believe in You, and I submit to You. Humbled before You are my ears, my eyes, my brain, my bones, and my nerves.
+
+== Raise Head from Bowing
+
+[.reference]
+SAB 799
+
+[.arabic-text]
+سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ
+رَبَّنَا وَلَكَ الْحَمْدُ، حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ
+
+[.word-by-word]
+سَمِعَ – শুনেছেন – Hears
+اللَّهُ – আল্লাহ – Allah
+لِمَنْ – যে – Whomever
+حَمِدَهُ – (তাঁর) প্রশংসা করে – Praises Him
+سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ – আল্লাহ শুনেছেন যিনি তাঁর প্রশংসা করেন – Allah hears whomever praises Him
+رَبَّنَا – আমাদের প্রতিপালক – O our Lord
+وَلَكَ – এবং আপনার জন্যই – And to You belongs
+الْحَمْدُ – সমস্ত প্রশংসা – All the praise
+رَبَّنَا وَلَكَ الْحَمْدُ – আমাদের প্রতিপালক এবং আপনার জন্যই সমস্ত প্রশংসা – O our Lord, and to You belongs all praise
+حَمْدًا – প্রশংসা – Praise
+كَثِيرًا – অনেক – Many
+طَيِّبًا – পবিত্র/ভালো – Good/pure
+مُبَارَكًا – বরকতময় – Blessed
+فِيهِ – তার মধ্যে – In it
+حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ – অনেক প্রশংসা, যা পবিত্র এবং বরকতময় – Many praises, good and blessed in it
+
+[.translation-computer-generated-bangla]
+আল্লাহ তাঁর প্রশংসাকারীকে শোনেন। হে আমাদের প্রতিপালক! সমস্ত প্রশংসা আপনার জন্য, অনেক ভালো এবং বরকতময় প্রশংসা।
+
+[.translation-english]
+--
+NOTE: Original Translation Without Edit (SIM 878, SD 760, JT 266, JT 3421)
+
+Allah hears those who praise Him. O our Lord! All the praises are for You, many good and blessed praises
+--
+
+[.translation-computer-generated-english]
+Allah hears the one who praises Him. O our Lord! All praise is for You, many good and blessed praises.
+
+[.reference]
+SM 478a
+SM 477
+MAM 876
+SM 771a (T)
+SAN 1068
+
+[.arabic-text]
+اللَّهُمَّ رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَوَاتِ وَمِلْءَ الأَرْضِ وَمَا بَيْنَهُمَا وَمِلْءَ مَا شِئْتَ مِنْ شَىْءٍ بَعْدُ أَهْلَ الثَّنَاءِ وَالْمَجْدِ لاَ مَانِعَ لِمَا أَعْطَيْتَ وَلاَ مُعْطِيَ لِمَا مَنَعْتَ وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ
+
+[.word-by-word]
+اللَّهُمَّ – হে আল্লাহ! – O Allah!
+رَبَّنَا – আমাদের প্রতিপালক – Our Lord
+لَكَ – আপনার জন্যই – To You belongs
+الْحَمْدُ – সমস্ত প্রশংসা – All praise
+مِلْءَ – পরিপূর্ণ হওয়া – As much as fills
+السَّمَوَاتِ – আসমানসমূহ – The heavens
+وَمِلْءَ (wamila’) – এবং যে পরিমাণে পরিপূর্ণ হয় – and as much as fills
+الأَرْضِ – যমীন – The earth
+وَمَا (wama) – এবং যা
+وَمَا بَيْنَهُمَا – এবং যা এদের মধ্যে রয়েছে – And what is between them
+وَمِلْءَ (wamila’) – এবং যে পরিমাণে পরিপূর্ণ হয় – and as much as fills
+مَا (ma) – যা
+شِئْتَ (shi'ta) – আপনি চান
+مَا شِئْتَ – আপনি যা ইচ্ছা করেন – Whatever You will
+مِنْ (min) – থেকে
+شَىْءٍ (shay’in) – কোনো জিনিস
+مِنْ شَىْءٍ – কোনো কিছুর – Of anything
+بَعْدُ – এর পর – Beyond that
+أَهْلَ (ahla) – অধিকারী
+الثَّنَاءِ (ath-thana’i) – প্রশংসা
+وَالْمَجْدِ (wal-majdi) – এবং মহিমা
+أَهْلَ الثَّنَاءِ وَالْمَجْدِ – (আপনি) সমস্ত প্রশংসা ও মহিমার যোগ্য – You are worthy of all praise and glory
+لاَ (la) – নেই
+مَانِعَ (mani’a) – প্রতিরোধকারী
+لِمَا (lima) – যার জন্য (যাকে)
+أَعْطَيْتَ (ataita) – আপনি দিয়েছেন
+لاَ مَانِعَ لِمَا أَعْطَيْتَ – আপনি যাকে দেন তা কেউ আটকাতে পারে না – No one can withhold what You give
+وَلاَ (wala) – এবং নেই
+مُعْطِيَ (mu’tiya) – দানকারী
+لِمَا (lima) – যার জন্য (যাকে)
+مَنَعْتَ (mana'ta) – আপনি বাধা দেন
+وَلاَ مُعْطِيَ لِمَا مَنَعْتَ – আপনি যাকে বাধা দেন তাকে কেউ দিতে পারে না – And no one can give what You withhold
+وَلاَ (wala) – এবং না
+يَنْفَعُ (yanfa'u) – উপকারে আসা
+ذَا (dha) – ওয়ালা
+الْجَدِّ (al-jaddi) – সম্পদ
+مِنْكَ (minka) – আপনার থেকে (সামনে)
+الْجَدُّ (al-jaddu) – সম্পদ
+وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ – ধনবানের ধন আপনার সামনে কাজে আসে না – The wealth of the wealthy does not benefit them before You
+
+[.translation-bangla]
+আমাদের প্রতিপালক তুমি আসমান-জমিন সম পরিপূর্ণ প্রশংসার অধিকারী, অতপর তুমি যা চাও তাও পূর্ণ করে প্রশংসার অধিকার। তুমি প্রশংসা ও সম্মানের অধিকারী। (হে আল্লাহ!) তুমি যাকে দান করো তা প্রতিরোধ করার ক্ষমতা কারো নেই এবং তুমি যাকে দেয়া বন্ধ করো, তাকে দান করার শক্তি কারো নেই। চেষ্টা সাধনাকারীর প্রচেষ্টা তোমার সামনে কোন কাজে আসে না
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! হে আমাদের প্রতিপালক! আপনার জন্য সমস্ত প্রশংসা, যা আসমানসমূহ, যমীন এবং তাদের মধ্যে যা কিছু রয়েছে তা পূর্ণ করে এবং এর পর যা আপনি ইচ্ছা করেন। আপনি সমস্ত প্রশংসা ও মহিমার যোগ্য। আপনি যা দেন তা কেউ আটকাতে পারে না, এবং আপনি যা বন্ধ করেন তা কেউ দিতে পারে না। ধনবানের ধন-সম্পদ আপনার সামনে কোনো কাজে আসে না।
+
+[.translation-english]
+Allah! our Lord, to Thee be the praise that would fill the heavens and the earth and that which is between them, and that which will please Thee besides (them). Worthy art Thou of all praise and glory. No one can withhold what Thou givest, or give what Thou withholdest. And the greatness O! the great availeth not against Thee.
+
+[.translation-computer-generated-english]
+O Allah, our Lord! To You belongs all praise, as much as would fill the heavens, the earth, and what is between them, and as much as You will beyond that. You are worthy of all praise and glory. No one can withhold what You give, and no one can give what You withhold. The wealth of the wealthy does not benefit them before You.
+
+[.reference]
+SAN 1060
+SAN 1069
+
+== Invocation in Prostrations
+
+NOTE: Making the last prostration of the prayer lengthy for the purpose of offering supplication is not Sunnah; rather it is contrary to the Sunnah. https://islamqa.info/en/answers/111889/making-the-last-prostration-of-the-prayer-lengthy-for-the-purpose-of-offering-supplication
+
+[.reference]
+JT 3421
+SD 760
+SIM 1054
+SAN 1126
+SAN 1127
+SAN 1128 (T)
+SM 771a (T)
+
+[.arabic-text]
+اللَّهُمَّ لَكَ سَجَدْتُ وَبِكَ آمَنْتُ وَلَكَ أَسْلَمْتُ سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ فَصَوَّرَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ فَتَبَارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ
+
+[.word-by-word]
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+لَكَ – আপনার জন্যই – For You
+سَجَدْتُ – আমি সিজদা করেছি – I have prostrated
+وَبِكَ (wabika) – এবং আপনার প্রতি – And in You
+آمَنْتُ (amantu) – আমি ঈমান এনেছি – I have believed
+وَلَكَ (walaka) – এবং আপনার জন্য – And for You
+أَسْلَمْتُ (aslamtu) – আমি আত্মসমর্পণ করেছি – I have submitted
+سَجَدَ (sajada) – সিজদা করল – Prostrated
+وَجْهِيَ (wajhiya) – আমার মুখ – My face
+لِلَّذِي (lilladhi) – তাঁর জন্য (যিনি) – To the One who
+خَلَقَهُ (khalaqahu) – তা সৃষ্টি করেছেন – Created it
+فَصَوَّرَهُ (fasawwarahu) – তারপর এর আকৃতি দিয়েছেন – Then shaped it
+وَشَقَّ (washaqa) – এবং ছেদ করেছেন – And pierced
+سَمْعَهُ (sam'ahu) – এর শ্রবণশক্তি – Its hearing
+وَبَصَرَهُ (basarahu) – এবং এর দৃষ্টিশক্তি – And its sight
+فَتَبَارَكَ (fatabaraka) – অতএব বরকতময় – So blessed is
+اللَّهُ (Allahu) – আল্লাহ
+أَحْسَنُ (ahsan) – সর্বোত্তম – The best
+الْخَالِقِينَ (alkhaliqeen) – স্রষ্টাদের মধ্যে – Of creators
+
+[.translation-bangla]
+হে আল্লাহ! আমি তোমার জন্যই সাজদা করলাম, তোমার উপর ঈমান আম্লাম, তোমার জন্যই ইসলাম কবুল করলাম। আমার মুখমণ্ডল তার জন্য সিজদা করল। যিনি আমার চেহারা সৃষ্টি করেছেন, তারপর তাকে সুন্দর মুখমণ্ডল দান করেছেন এবং তা ভেদ করে কান ও চোখ ফুটিয়েছেন। সর্বোত্তম স্রষ্টা আল্লাহ তা’আলা কত মহান
+
+[.translation-english]
+O Allah, to You have I prostrated, and in You have I believed, and to You have I submitted, my face has prostrated to the One Who created it and fashioned it, and gave it its hearing and its sight. So Blessed is Allah, the Best of creators
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমি আপনারই জন্য সিজদা করেছি, আপনারই উপর ঈমান এনেছি, এবং আপনারই উদ্দেশ্যে আত্মসমর্পণ করেছি। আমার মুখমণ্ডল তাঁর উদ্দেশ্যে সিজদা করেছে, যিনি এটিকে সৃষ্টি করেছেন, তারপর এর আকৃতি দিয়েছেন এবং এর শ্রবণশক্তি ও দৃষ্টিশক্তি খুলে দিয়েছেন। মহান ও বরকতময় আল্লাহ, যিনি সর্বোত্তম স্রষ্টা!
+
+[.translation-computer-generated-english]
+O Allah! I have prostrated to You, I have believed in You, and I have submitted to You. My face has prostrated to the One who created it, shaped it, and opened its hearing and sight. So blessed is Allah, the best of creators.
+
+[.reference]
+SM 483
+SD 878
+
+[.arabic-text]
+اللَّهُمَّ اغْفِرْ لِي ذَنْبِي كُلَّهُ دِقَّهُ وَجِلَّهُ وَأَوَّلَهُ وَآخِرَهُ وَعَلاَنِيَتَهُ وَسِرَّهُ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+اغْفِرْ (ighfir) – ক্ষমা করুন
+لِي (li) – আমাকে
+ذَنْبِي (dhanbi) – আমার পাপ
+كُلَّهُ (kullahu) – তার সমস্ত
+دِقَّهُ (diqqahu) – তার ছোট
+وَ (wa) – এবং
+جِلَّهُ (jillahu) – তার বড়
+وَ (wa) – এবং
+أَوَّلَهُ (awwalahu) – তার শুরু
+وَ (wa) – এবং
+آخِرَهُ (akhirahu) – তার শেষ
+وَ (wa) – এবং
+عَلاَنِيَتَهُ (alaniyatahu) – তার প্রকাশ্যে
+وَ (wa) – এবং
+سِرَّهُ (sirrahu) – তার গোপনে
+
+[.translation-bangla]
+হে আল্লাহ! আমার সকল গুনাহ মাফ করে দিন। সল্প এবং অধিক, প্রথম এবং শেষ, প্রকাশ্য এবং অপ্রকাশ্য।
+
+[.translation-english]
+O Lord, forgive me all my sins, small and great, first and last, open and secret.
+
+[.reference]
+SM 486 (T)
+SAN 1130 (T)
+SAN 169 (T)
+SIM 3841 (T)
+SD 879 (T)
+JT 3493 (T)
+
+[.arabic-text]
+اللَّهُمَّ أَعُوذُ بِرِضَاكَ مِنْ سَخَطِكَ وَبِمُعَافَاتِكَ مِنْ عُقُوبَتِكَ وَأَعُوذُ بِكَ مِنْكَ لاَ أُحْصِي ثَنَاءً عَلَيْكَ أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ
+
+[.word-by-word]
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+أَعُوذُ – আমি আশ্রয় প্রার্থনা করছি – I seek refuge
+بِرِضَاكَ – আপনার সন্তুষ্টির মাধ্যমে – In Your pleasure
+مِنْ (min) – থেকে
+سَخَطِكَ (sakhatika) – আপনার অসন্তোষ
+مِنْ سَخَطِكَ – আপনার অসন্তোষ থেকে – From Your anger
+وَبِمُعَافَاتِكَ – এবং আপনার ক্ষমার / নিরাপত্তার মাধ্যমে – And in Your forgiveness
+مِنْ (min) – থেকে
+عُقُوبَتِكَ (uqubatika) – আপনার শাস্তি
+مِنْ عُقُوبَتِكَ – আপনার শাস্তি থেকে – From Your punishment
+وَأَعُوذُ (wa-a'udhu) – এবং আমি আশ্রয় চাই
+بِكَ (bika) – আপনার কাছে
+وَأَعُوذُ بِكَ – এবং আমি আপনার কাছে আশ্রয় প্রার্থনা করছি – And I seek refuge in You
+مِنْكَ – আপনার (শাস্তি/রোষ) থেকে – From You (i.e., Your anger)
+لاَ (la) – নেই
+أُحْصِي (uhsi) – আমি গুনতে পারি
+لاَ أُحْصِي – আমি গণনা করতে সক্ষম নই – I cannot enumerate
+ثَنَاءً (thana'an) – প্রশংসা
+عَلَيْكَ (alayka) – আপনার জন্য
+ثَنَاءً عَلَيْكَ – আপনার প্রশংসা – Your praise
+أَنْتَ (anta) – আপনি – You
+كَمَا (kama) – যেমন – As
+أَثْنَيْتَ (athnaita) – আপনি প্রশংসা করেছেন – You have praised
+عَلَى (ala) – উপর
+نَفْسِكَ (nafsika) – নিজের
+عَلَى نَفْسِكَ – নিজেকে – Yourself
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমি আপনার অসন্তোষ থেকে আপনার সন্তুষ্টির মাধ্যমে এবং আপনার শাস্তি থেকে আপনার ক্ষমার মাধ্যমে আশ্রয় প্রার্থনা করছি। এবং আমি আপনার (রোষ) থেকে আপনার আশ্রয় প্রার্থনা করছি। আমি আপনার প্রশংসা করে শেষ করতে সক্ষম নই। আপনি তেমনই, যেমন আপনি নিজেই আপনার প্রশংসা করেছেন।
+
+[.translation-english]
+O Allah, I seek refuge in Thy pleasure from Thy anger, and in Thy forgiveness from Thy punishment, and I seek refuge in Thee from Thee (Thy anger). I cannot reckon Thy praise. Thou art as Thou hast lauded Thyself.
+
+[.translation-computer-generated-english]
+O Allah, I seek refuge in Your pleasure from Your anger, and in Your forgiveness from Your punishment, and I seek refuge in You from You (i.e., Your anger). I cannot enumerate Your praise. You are as You have praised Yourself.
+
+[.reference]
+SAN 1124 (T)
+SAN 1125 (T)
+
+[.arabic-text]
+اللَّهُمَّ اغْفِرْ لِي مَا أَسْرَرْتُ وَمَا أَعْلَنْتُ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+اغْفِرْ (ighfir) – ক্ষমা করুন
+لِي (li) – আমাকে
+مَا (ma) – যা
+أَسْرَرْتُ (asrartu) – আমি গোপনে করেছি
+وَمَا (wama) – এবং যা
+أَعْلَنْتُ (a'alantu) – আমি প্রকাশ্যে করেছি
+
+[.translation-bangla]
+হে আল্লাহ! তুমি আমার গোপনে ও প্রকাশ্যে কৃত অপরাধ ক্ষমা কর
+
+[.translation-english]
+O Allah, forgive me for what (sin) I have concealed and what I have done openly
+
+[.reference]
+SAN 1121 (T)
+
+[.arabic-text]
+اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا وَاجْعَلْ فِي سَمْعِي نُورًا وَاجْعَلْ فِي بَصَرِي نُورًا وَاجْعَلْ مِنْ تَحْتِي نُورًا وَاجْعَلْ مِنْ فَوْقِي نُورًا وَعَنْ يَمِينِي نُورًا وَعَنْ يَسَارِي نُورًا وَاجْعَلْ أَمَامِي نُورًا وَاجْعَلْ خَلْفِي نُورًا وَأَعْظِمْ لِي نُورًا
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+اجْعَلْ (ij'al) – আপনি দান করুন / তৈরি করুন – Place
+فِي (fi) – মধ্যে
+قَلْبِي (qalbi) – আমার হৃদয়
+فِي قَلْبِي – আমার হৃদয়ে – In my heart
+نُورًا (nooran) – নূর/জ্যোতি – Light
+وَاجْعَلْ (waj'al) – এবং দান করুন
+فِي (fi) – মধ্যে
+سَمْعِي (sam'i) – আমার শ্রবণ
+نُورًا (nooran) – আলো
+وَاجْعَلْ فِي سَمْعِي – এবং আমার শ্রবণশক্তিতে দান করুন – And place in my hearing
+وَاجْعَلْ (waj'al) – এবং দান করুন
+فِي (fi) – মধ্যে
+بَصَرِي (basari) – আমার দৃষ্টি
+نُورًا (nooran) – আলো
+وَاجْعَلْ فِي بَصَرِي – এবং আমার চক্ষুতে দান করুন – And place in my sight
+وَاجْعَلْ (waj'al) – এবং দান করুন
+مِنْ (min) – থেকে
+تَحْتِي (tahti) – আমার নিচে
+نُورًا (nooran) – আলো
+وَاجْعَلْ مِنْ تَحْتِي – এবং আমার নিচে দান করুন – And place beneath me
+وَاجْعَلْ (waj'al) – এবং দান করুন
+مِنْ (min) – থেকে
+فَوْقِي (fawqi) – আমার উপরে
+نُورًا (nooran) – আলো
+وَاجْعَلْ مِنْ فَوْقِي – এবং আমার উপর দান করুন – And place above me
+وَعَنْ (wa'an) – এবং থেকে
+يَمِينِي (yamini) – আমার ডান দিক
+وَعَنْ يَمِينِي – এবং আমার ডানপাশে দান করুন – And on my right
+نُورًا (nooran) – আলো
+وَعَنْ (wa'an) – এবং থেকে
+يَسَارِي (yasari) – আমার বাম দিক
+وَعَنْ يَسَارِي – এবং আমার বামপাশে দান করুন – And on my left
+نُورًا (nooran) – আলো
+وَاجْعَلْ (waj'al) – এবং দান করুন
+أَمَامِي (amami) – আমার সামনে
+وَاجْعَلْ أَمَامِي – এবং আমার সামনে দান করুন – And in front of me
+نُورًا (nooran) – আলো
+وَاجْعَلْ (waj'al) – এবং দান করুন
+خَلْفِي (khalf) – আমার পেছনে
+وَاجْعَلْ خَلْفِي – এবং আমার পিছনে দান করুন – And behind me
+نُورًا (nooran) – আলো
+وَأَعْظِمْ (wa a'zim) – এবং মহান করুন
+لِي (li) – আমার জন্য
+نُورًا (nooran) – আলো
+وَأَعْظِمْ لِي نُورًا – এবং আমার জন্য নূর (জ্যোতি) বাড়িয়ে দিন – And make the light greater for me
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমার হৃদয়ে, আমার শ্রবণশক্তিতে, আমার দৃষ্টিতে, আমার নিচে, আমার উপর, আমার ডানপাশে, আমার বামপাশে, আমার সামনে ও পিছনে নূর (জ্যোতি) দান করুন, আর আমার জন্য নূর (জ্যোতি) আরও বৃদ্ধি করুন।
+
+[.translation-english]
+O Allah, place light in my heart, and place light in my hearing, and place light in my seeing, and place light beneath me, and place light above me, and light on my right, and light on my left, and place light behind me, and make the light greater for me.
+
+[.translation-computer-generated-english]
+O Allah, place light in my heart, and place light in my hearing, and place light in my sight, and place light beneath me, and place light above me, and place light on my right, and place light on my left, and place light in front of me, and place light behind me, and make the light greater for me.
+
+=== Sujud al-Tilawah
+
+[.reference]
+SD 1414
+
+[.arabic-text]
+سَجَدَ وَجْهِي لِلَّذِي خَلَقَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ بِحَوْلِهِ وَقُوَّتِهِ
+
+[.word-by-word]
+سَجَدَ – সিজদা করেছে – Prostrated
+وَجْهِي – আমার মুখমণ্ডল – My face
+لِلَّذِي – তার উদ্দেশ্যে যিনি – To the One who
+خَلَقَهُ – এটিকে সৃষ্টি করেছেন – Created it
+وَشَقَّ – ছেদ করেছেন – And pierced
+سَمْعَهُ – এর শ্রবণশক্তি – Its hearing
+وَبَصَرَهُ – এবং এর দৃষ্টিশক্তি – And its sight
+بِحَوْلِهِ – তাঁর শক্তিতে – By His might
+وَقُوَّتِهِ – এবং ক্ষমতায় – And His power
+
+[.translation-computer-generated-bangla]
+আমার মুখমণ্ডল তার উদ্দেশ্যে সিজদা করেছে, যিনি এটিকে সৃষ্টি করেছেন এবং এর শ্রবণ ও দৃষ্টিশক্তি ফুটিয়ে দিয়েছেন তাঁর শক্তি ও ক্ষমতার মাধ্যমে।
+
+[.translation-english]
+My face prostrates itself to Him Who created it and brought forth its hearing and seeing by His might and power.
+
+[.translation-computer-generated-english]
+My face prostrates itself to Him Who created it and brought forth its hearing and sight by His might and power.
+
+== Duas When sitting between two Sujood
+
+[.reference]
+SIM 897
+
+[.arabic-text]
+رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي
+
+[.word-by-word]
+رَبِّ (Rabbi) – হে আমার প্রভু
+اغْفِرْ (ighfir) – ক্ষমা করুন
+لِي (li) – আমাকে
+رَبِّ (Rabbi) – হে আমার প্রভু
+اغْفِرْ (ighfir) – ক্ষমা করুন
+لِي (li) – আমাকে
+
+[.reference]
+SD 850
+
+[.arabic-text]
+اللَّهُمَّ اغْفِرْ لِي وَارْحَمْنِي وَعَافِنِي وَاهْدِنِي وَارْزُقْنِي
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+اغْفِرْ (ighfir) – ক্ষমা করুন
+لِي (li) – আমাকে
+وَارْحَمْنِي (warhamni) – এবং আমার প্রতি দয়া করুন
+وَعَافِنِي (wa'afini) – এবং আমাকে সুস্থ রাখুন
+وَاهْدِنِي (wahdini) – এবং আমাকে হেদায়েত দিন
+وَارْزُقْنِي (warzuqni) – এবং আমাকে রিজিক দিন
+
+== Last Sitting
+
+[.reference]
+SAB 3370
+SAN 1287
+SD 978
+SD 979
+SD 976
+SAB 6357
+SAB 4797
+SM 406a
+SIM 904
+
+[.arabic-text]
+اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ، وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ
+
+[.word-by-word]
+اللَّهُمَّ - হে আল্লাহ - O Allah
+صَلِّ - রহমত বর্ষণ করুন - send mercy
+عَلَى - উপর - upon
+مُحَمَّدٍ - মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) - Muhammad (peace be upon him)
+وَعَلَى - এবং উপর - and upon
+آلِ - পরিবার - the family of
+مُحَمَّدٍ - মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) - Muhammad (peace be upon him)
+كَمَا - যেভাবে - as
+صَلَّيْتَ - আপনি রহমত বর্ষণ করেছেন - You sent mercy
+عَلَى - উপর - upon
+إِبْرَاهِيمَ - ইব্রাহিম (আলাইহিস সালাম) - Abraham (peace be upon him)
+وَعَلَى - এবং উপর - and upon
+آلِ - পরিবার - the family of
+إِبْرَاهِيمَ - ইব্রাহিম (আলাইহিস সালাম) - Abraham (peace be upon him)
+إِنَّكَ - নিশ্চয়ই আপনি - indeed You
+حَمِيدٌ - প্রশংসিত - Most Praise-worthy
+مَجِيدٌ - মহিমান্বিত - Most Glorious
+اللَّهُمَّ - হে আল্লাহ - O Allah
+بَارِكْ - বরকত দিন - send blessings
+عَلَى - উপর - upon
+مُحَمَّدٍ - মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) - Muhammad (peace be upon him)
+وَعَلَى - এবং উপর - and upon
+آلِ - পরিবার - the family of
+مُحَمَّدٍ - মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) - Muhammad (peace be upon him)
+كَمَا - যেভাবে - as
+بَارَكْتَ - আপনি বরকত দিয়েছেন - You sent blessings
+عَلَى - উপর - upon
+إِبْرَاهِيمَ - ইব্রাহিম (আলাইহিস সালাম) - Abraham (peace be upon him)
+وَعَلَى - এবং উপর - and upon
+آلِ - পরিবার - the family of
+إِبْرَاهِيمَ - ইব্রাহিম (আলাইহিস সালাম) - Abraham (peace be upon him)
+إِنَّكَ - নিশ্চয়ই আপনি - indeed You
+حَمِيدٌ - প্রশংসিত - Most Praise-worthy
+مَجِيدٌ - মহিমান্বিত - Most Glorious
+
+[.translation-bangla]
+হে আল্লাহ! আপনি মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম-এর উপর এবং মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম-এর বংশধরদের উপর রহমত বর্ষণ করুন, যেরূপ আপনি ইবরাহীম (আঃ) এবং তাঁর বংশধরদের উপর রহমত বর্ষণ করেছেন। নিশ্চয়ই আপনি অতি প্রশংসিত, অত্যন্ত মর্যাদার অধিকারী। হে আল্লাহ! মুহাম্মাদ এবং মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম-এর বংশধরদের উপর তেমনি বরকত দান করুন যেমনি আপনি বরকত দান করেছেন ইবরাহীম (আঃ) এবং ইবরাহীম (আঃ)-এর বংশধরদের উপর। নিশ্চয়ই আপনি অতি প্রশংসিত, অতি মর্যাদার অধিকারী।
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) এবং মুহাম্মদের পরিবার-এর উপর রহমত বর্ষণ করুন, যেভাবে আপনি ইব্রাহিম (আলাইহিস সালাম) এবং ইব্রাহিমের পরিবার-এর উপর রহমত বর্ষণ করেছেন। নিশ্চয়ই আপনি প্রশংসিত ও মহিমান্বিত। হে আল্লাহ! মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) এবং মুহাম্মদের পরিবার-এর উপর বরকত দিন, যেভাবে আপনি ইব্রাহিম (আলাইহিস সালাম) এবং ইব্রাহিমের পরিবার-এর উপর বরকত দিয়েছেন। নিশ্চয়ই আপনি প্রশংসিত ও মহিমান্বিত।
+
+[.translation-english]
+O Allah! Send Your Mercy on Muhammad and on the family of Muhammad, as You sent Your Mercy on Abraham and on the family of Abraham, for You are the Most Praise-worthy, the Most Glorious. O Allah! Send Your Blessings on Muhammad and the family of Muhammad, as You sent your Blessings on Abraham and on the family of Abraham, for You are the Most Praise-worthy, the Most Glorious.
+
+[.translation-computer-generated-english]
+O Allah! Send Your Mercy on Muhammad and on the family of Muhammad, as You sent Your Mercy on Abraham and on the family of Abraham, for You are the Most Praise-worthy, the Most Glorious. O Allah! Send Your Blessings on Muhammad and the family of Muhammad, as You sent Your Blessings on Abraham and on the family of Abraham, for You are the Most Praise-worthy, the Most Glorious.
+
+[.reference]
+SM 588a
+SAB 832, 833
+JT 3494
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ جَهَنَّمَ وَمِنْ عَذَابِ الْقَبْرِ وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+إِنِّي (inni) – আমি
+أَعُوذُ (a'udhu) – আশ্রয় চাই
+بِكَ (bika) – আপনার কাছে
+مِنْ (min) – থেকে
+عَذَابِ (adhabi) – শাস্তি
+جَهَنَّمَ (jahannam) – জাহান্নামের
+وَمِنْ (wamin) – এবং থেকে
+عَذَابِ (adhabi) – শাস্তি
+الْقَبْرِ (alqabr) – কবরের
+وَمِنْ (wamin) – এবং থেকে
+فِتْنَةِ (fitnati) – পরীক্ষা
+الْمَحْيَا (almahya) – জীবনের
+وَالْمَمَاتِ (walmamat) – এবং মৃত্যুর
+وَمِنْ (wamin) – এবং থেকে
+شَرِّ (sharri) – অমঙ্গল
+فِتْنَةِ (fitnati) – পরীক্ষার
+الْمَسِيحِ (almaseeh) – মসীহ
+الدَّجَّالِ (ad-dajjal) – দাজ্জালের
+
+[.translation-bangla]
+হে আল্লাহ! আমি আপনার কাছে জাহান্নাম ও কবরের আযাব থেকে, জীবন ও মৃত্যুর ফিতনাহ থেকে এবং মাসীহ দাজ্জালের ফিতনার ক্ষতি থেকে আশ্রয় প্রার্থনা করছি
+
+[.translation-english]
+O Allah! I seek refuge with Thee from the torment of the Hell, from the torment of the grave, from the trial of life and death and from the evil of the trial of Masih al-Dajjal
+
+[.reference]
+SAN 1305
+
+[.arabic-text]
+اللَّهُمَّ بِعِلْمِكَ الْغَيْبَ وَقُدْرَتِكَ عَلَى الْخَلْقِ أَحْيِنِي مَا عَلِمْتَ الْحَيَاةَ خَيْرًا لِي وَتَوَفَّنِي إِذَا عَلِمْتَ الْوَفَاةَ خَيْرًا لِي اللَّهُمَّ وَأَسْأَلُكَ خَشْيَتَكَ فِي الْغَيْبِ وَالشَّهَادَةِ وَأَسْأَلُكَ كَلِمَةَ الْحَقِّ فِي الرِّضَا وَالْغَضَبِ وَأَسْأَلُكَ الْقَصْدَ فِي الْفَقْرِ وَالْغِنَى وَأَسْأَلُكَ نَعِيمًا لاَ يَنْفَدُ وَأَسْأَلُكَ قُرَّةَ عَيْنٍ لاَ تَنْقَطِعُ وَأَسْأَلُكَ الرِّضَاءَ بَعْدَ الْقَضَاءِ وَأَسْأَلُكَ بَرْدَ الْعَيْشِ بَعْدَ الْمَوْتِ وَأَسْأَلُكَ لَذَّةَ النَّظَرِ إِلَى وَجْهِكَ وَالشَّوْقَ إِلَى لِقَائِكَ فِي غَيْرِ ضَرَّاءَ مُضِرَّةٍ وَلاَ فِتْنَةٍ مُضِلَّةٍ اللَّهُمَّ زَيِّنَّا بِزِينَةِ الإِيمَانِ وَاجْعَلْنَا هُدَاةً مُهْتَدِينَ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+بِعِلْمِكَ (bi-'ilmika) – আপনার জ্ঞান দ্বারা
+الْغَيْبَ (al-ghayb) – অদৃশ্যের (গোপন বিষয়)
+بِعِلْمِكَ الْغَيْبَ – আপনার অদৃশ্য জ্ঞানের দ্বারা – By Your knowledge of the unseen
+وَقُدْرَتِكَ (wa qudratika) – এবং আপনার ক্ষমতা দ্বারা
+عَلَى (ala) – উপর
+الْخَلْقِ (al-khalqi) – সৃষ্টির
+وَقُدْرَتِكَ عَلَى الْخَلْقِ – এবং সৃষ্টির উপর আপনার ক্ষমতার দ্বারা – And Your power over creation
+أَحْيِنِي (ahiyini) – আমাকে জীবিত রাখুন
+مَا (ma) – যতক্ষণ
+عَلِمْتَ (alimta) – আপনি জানেন
+مَا عَلِمْتَ – যতক্ষণ আপনি জানেন – As long as You know
+الْحَيَاةَ (al-hayat) – জীবন
+خَيْرًا (khayran) – ভালো
+لِي (li) – আমার জন্য
+الْحَيَاةَ خَيْرًا لِي – জীবন আমার জন্য ভালো – That life is good for me
+وَتَوَفَّنِي (wa tawaffani) – এবং আমাকে মৃত্যু দিন
+إِذَا (idha) – যখন
+عَلِمْتَ (alimta) – আপনি জানেন
+إِذَا عَلِمْتَ – যখন আপনি জানেন – When You know
+الْوَفَاةَ (al-wafaat) – মৃত্যু
+خَيْرًا (khayran) – ভালো
+لِي (li) – আমার জন্য
+الْوَفَاةَ خَيْرًا لِي – মৃত্যু আমার জন্য ভালো – That death is better for me
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+وَأَسْأَلُكَ (wa as'aluka) – এবং আমি আপনার কাছে প্রার্থনা করি
+خَشْيَتَكَ (khashyatika) – আপনার ভয়
+وَأَسْأَلُكَ خَشْيَتَكَ – আমি আপনার ভয় চাই – I ask You for Your fear
+فِي (fi) – মধ্যে
+الْغَيْبِ (al-ghaybi) – গোপনে
+وَالشَّهَادَةِ (wash-shahadah) – এবং প্রকাশ্যে
+فِي الْغَيْبِ وَالشَّهَادَةِ – গোপনে ও প্রকাশ্যে – In secret and in public
+وَأَسْأَلُكَ (wa as'aluka) – এবং আমি আপনার কাছে প্রার্থনা করি
+كَلِمَةَ (kalimata) – বাক্য
+الْحَقِّ (al-haqq) – সত্যের
+كَلِمَةَ الْحَقِّ – সত্যের কথা – For truthful speech
+فِي (fi) – মধ্যে
+الرِّضَا (ar-rida) – সন্তুষ্টিতে
+وَالْغَضَبِ (wal-ghadabi) – এবং ক্রোধে
+فِي الرِّضَا وَالْغَضَبِ – সন্তুষ্টি ও রাগের সময় – In times of pleasure and anger
+وَأَسْأَلُكَ (wa as'aluka) – এবং আমি আপনার কাছে প্রার্থনা করি
+الْقَصْدَ – সংযম/মধ্যপন্থা – For moderation
+فِي (fi) – মধ্যে
+الْفَقْرِ (al-faqri) – দারিদ্র্য
+وَالْغِنَى (wal-ghina) – এবং ধন
+فِي الْفَقْرِ وَالْغِنَى – দারিদ্র্য ও সমৃদ্ধির সময় – In times of poverty and wealth
+وَأَسْأَلُكَ (wa as'aluka) – এবং আমি আপনার কাছে প্রার্থনা করি – And I ask You
+نَعِيمًا (na'eeman) – এমন নেয়ামত
+لاَ يَنْفَدُ (la yanfadu) – যা কখনো ফুরাবে না
+نَعِيمًا لاَ يَنْفَدُ – এমন নেয়ামত যা শেষ হয় না – For everlasting delight
+وَأَسْأَلُكَ (wa as'aluka) – এবং আমি আপনার কাছে প্রার্থনা করি
+قُرَّةَ (qurrata) – শীতলতা
+عَيْنٍ (aynin) – চোখের
+لاَ تَنْقَطِعُ (la tanqati'u) – যা কখনো শেষ হবে না
+قُرَّةَ عَيْنٍ لاَ تَنْقَطِعُ – এমন আনন্দ যা থামে না – For joy that never ceases
+وَأَسْأَلُكَ (wa as'aluka) – এবং আমি আপনার কাছে প্রার্থনা করি
+الرِّضَاءَ (ar-ridaa) – সন্তুষ্টি
+بَعْدَ (ba'da) – পরে
+الْقَضَاءِ (al-qadaa) – ফায়সালা
+الرِّضَاءَ بَعْدَ الْقَضَاءِ – আপনার সিদ্ধান্তের পরে সন্তুষ্টি – For contentment after Your decree
+وَأَسْأَلُكَ (wa as'aluka) – এবং আমি আপনার কাছে প্রার্থনা করি
+بَرْدَ (barda) – শীতলতা
+الْعَيْشِ (al-ayish) – জীবনের
+بَعْدَ (ba'da) – পরে
+الْمَوْتِ (al-mawt) – মৃত্যুর
+بَرْدَ الْعَيْشِ بَعْدَ الْمَوْتِ – মৃত্যুর পর সহজ জীবন – For an easy life after death
+وَأَسْأَلُكَ (wa as'aluka) – এবং আমি আপনার কাছে প্রার্থনা করি
+لَذَّةَ (ladhdhata) – আনন্দ
+النَّظَرِ (an-nathari) – দেখার
+إِلَى (ila) – দিকে
+وَجْهِكَ (wajhika) – আপনার মুখমণ্ডল
+لَذَّةَ النَّظَرِ إِلَى وَجْهِكَ – আপনার মুখমণ্ডল দেখার আনন্দ – For the sweetness of looking upon Your face
+وَالشَّوْقَ (wash-shawqa) – এবং আকাঙ্ক্ষা
+إِلَى (ila) – দিকে
+لِقَائِكَ (liqaa'ika) – আপনার সাক্ষাতের
+وَالشَّوْقَ إِلَى لِقَائِكَ – এবং আপনার সাক্ষাতের প্রতি আকাঙ্ক্ষা – And the longing to meet You
+فِي (fi) – এমন অবস্থায়
+غَيْرِ (ghayri) – ছাড়া
+ضَرَّاءَ (darraa) – ক্ষতি
+مُضِرَّةٍ (mudhirra) – যা ক্ষতিকর
+فِي غَيْرِ ضَرَّاءَ مُضِرَّةٍ – এমন পরিস্থিতি ছাড়া যা ক্ষতিকর – Without a calamity that harms
+وَلاَ (wala) – এবং না (বিনষ্ট করতে না পারে)
+فِتْنَةٍ (fitnah) – ফিতনা
+مُضِلَّةٍ (mudhilla) – ভ্রান্তিকর (যা পথভ্রষ্ট করে)
+وَلاَ فِتْنَةٍ مُضِلَّةٍ – এবং না  পথভ্রষ্টকর ফিতনা  – Or a trial that leads astray
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+زَيِّنَّا (zayyinna) – আমাদের সাজান
+بِزِينَةِ (bi zeenati) – সৌন্দর্য দ্বারা
+الإِيمَانِ (al-imaan) – ঈমানের
+زَيِّنَّا بِزِينَةِ الإِيمَانِ – আমাদের ইমানের সৌন্দর্য দিয়ে সাজিয়ে দিন – Adorn us with the beauty of faith
+وَاجْعَلْنَا (wa-j'alna) – এবং আমাদের করুন
+هُدَاةً (hudaatan) – পথপ্রদর্শক
+مُهْتَدِينَ (muhtadeen) – সঠিক পথে পরিচালিত
+
+[.transliteration]
+Allāhumma bi `ilmikal-ghaiba wa qudratika 'alal-khalqi aḥyinī mā `alimtal-ḥayāta khairan lī, wa tawaffanī idhā `alimtal-wafāta khairan lī. Allāhumma wa 'as'aluka khashyataka fil-ghaibi wash-shahādati wa 'as'aluka kalimatal-ḥaqqi fir-riḍā'i wal ghaḍab, wa as'alukal-qaṣda fil faqri wal-ghina, wa 'as'aluka na`īman lā yanfadu wa 'as'aluka qurrata `ainin lā tanqaṭi`u wa as'alukar-riḍā'i ba`dal-qaḍā'i wa 'as'aluka bardal `aishi ba`dal-mawti, wa 'as'aluka ladhdhatan-naẓari ilā wajhika wash-shawqa ilā liqā'ika fī ghairi ḍarrā'a muḍirratin wa lā fitnatin muḍillatin, Allāhumma zayyinnā bizīnatil-īmāni waj`alna hudātan muhtadīn
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আপনার অদৃশ্য বিষয়ের জ্ঞান এবং সৃষ্টির উপর আপনার ক্ষমতার দ্বারা আমাকে ততক্ষণ পর্যন্ত জীবিত রাখুন যতক্ষণ আপনি জানেন যে আমার জন্য জীবন ভালো। এবং যখন আপনি জানেন যে মৃত্যু আমার জন্য ভালো, তখন আমাকে মৃত্যু দিন। হে আল্লাহ! আমি আপনার কাছে গোপনে ও প্রকাশ্যে আপনার ভয় চাচ্ছি। আমি আপনার কাছে সন্তুষ্টি ও রাগের সময় সত্য কথা বলার জন্য প্রার্থনা করছি। আমি আপনার কাছে দারিদ্র্য ও সমৃদ্ধির সময় সংযম চাচ্ছি। আমি আপনার কাছে এমন নি’আমাত (অনুগ্রহ) চাই যা শেষ হবে না এবং এমন আনন্দ (চক্ষু শীতলকারী বস্তু) যা কখনো থামবে না। আমি আপনার সিদ্ধান্তের পরে সন্তুষ্টি চাচ্ছি এবং মৃত্যুর পর সহজ জীবন চাচ্ছি। আমি আপনার মুখমণ্ডল দেখার আনন্দ এবং আপনার সাক্ষাতের আকাঙ্ক্ষা চাচ্ছি, এমন পরিস্থিতি ছাড়া যা ক্ষতিকর বা বিভ্রান্তিকর। হে আল্লাহ! আমাদেরকে ঈমানের সৌন্দর্য দিয়ে সাজিয়ে দিন এবং আমাদেরকে সঠিক পথে পরিচালিত এবং পথপ্রদর্শক বানিয়ে দিন।
+
+[.translation-english]
+O Allah, by Your knowledge of the unseen and Your power over creation, keep me alive so long as You know that living is good for me and cause me to die when You know that death is better for me. O Allah, cause me to fear You in secret and in public. I ask You to make me true in speech in times of pleasure and of anger. I ask You to make me moderate in times of wealth and poverty. And I ask You for everlasting delight and joy that will never cease. I ask You to make me pleased with that which You have decreed and for an easy life after death. I askYou for the sweetness of looking upon Your face and a longing to meet You in a manner that does not entail a calamity that will bring about harm or a trial that will cause deviation. O Allah, beautify us with the adornment of faith and make us among those who guide and are rightly guided.
+
+[.translation-computer-generated-english]
+O Allah, by Your knowledge of the unseen and Your power over creation, keep me alive as long as You know that life is good for me and cause me to die when You know that death is better for me. O Allah, I ask You for fear of You in secret and in public. I ask You to make me true in speech in times of pleasure and anger. I ask You for moderation in times of wealth and poverty. I ask You for everlasting delight and joy that never ceases. I ask You for contentment after Your decree and for an easy life after death. I ask You for the sweetness of looking upon Your face and a longing to meet You, without calamity that brings harm or a trial that leads astray. O Allah, adorn us with the beauty of faith and make us among those who guide and are rightly guided.
+
+[.reference]
+.You can say it in the parts where dua is prescribed https://islam.stackexchange.com/a/85121/14527
+SAN 1304
+JT 3407
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَسْأَلُكَ الثَّبَاتَ فِي الأَمْرِ وَالْعَزِيمَةِ عَلَى الرُّشْدِ وَأَسْأَلُكَ شُكْرَ نِعْمَتِكَ وَحُسْنَ عِبَادَتِكَ وَأَسْأَلُكَ قَلْبًا سَلِيمًا وَلِسَانًا صَادِقًا وَأَسْأَلُكَ مِنْ خَيْرِ مَا تَعْلَمُ وَأَعُوذُ بِكَ مِنْ شَرِّ مَا تَعْلَمُ وَأَسْتَغْفِرُكَ لِمَا تَعْلَمُ
+
+[.word-by-word]
+اللَّهُمَّ – হে আল্লাহ – O Allah
+إِنِّي – নিশ্চয়ই আমি – Indeed, I
+أَسْأَلُكَ – আপনার কাছে প্রার্থনা করছি – I ask You
+الثَّبَاتَ – দৃঢ়তা / অটলতা – Steadfastness
+فِي – মধ্যে – In
+الأَمْرِ – কাজের – The affairs
+وَالْعَزِيمَةَ – এবং দৃঢ় সংকল্প – And determination (is decided)
+عَلَى – উপর – Upon
+الرُّشْدِ – সঠিক পথে – The right path
+وَأَسْأَلُكَ – এবং আমি আপনার কাছে প্রার্থনা করছি – And I ask You
+شُكْرَ – কৃতজ্ঞতা – Gratitude
+نِعْمَتِكَ – আপনার নেয়ামতের – For Your blessings
+وَحُسْنَ – এবং সুন্দর – And the excellence
+عِبَادَتِكَ – আপনার ইবাদতের – Of worshiping You
+وَأَسْأَلُكَ – এবং আমি আপনার কাছে প্রার্থনা করছি – And I ask You
+قَلْبًا – একটি হৃদয় – A heart
+سَلِيمًا – সুস্থ – Sound (pure)
+وَلِسَانًا – এবং একটি জিহ্বা – And a tongue
+صَادِقًا – সত্যবাদী – Truthful
+وَأَسْأَلُكَ – এবং আমি আপনার কাছে প্রার্থনা করছি – And I ask You
+مِنْ – থেকে – From
+خَيْرِ – সর্বোত্তম – The best
+مَا – যা – Of what
+تَعْلَمُ – আপনি জানেন – You know
+وَأَعُوذُ بِكَ – এবং আমি আপনার কাছে আশ্রয় প্রার্থনা করছি – And I seek refuge in You
+مِنْ – থেকে – From
+شَرِّ – সবচেয়ে খারাপ – The worst
+مَا – যা – Of what
+تَعْلَمُ – আপনি জানেন – You know
+وَأَسْتَغْفِرُكَ – এবং আমি আপনার কাছে ক্ষমা প্রার্থনা করছি – And I seek Your forgiveness
+لِمَا – তার জন্য যা – For what
+تَعْلَمُ – আপনি জানেন – You know
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমি আপনার কাছে প্রার্থনা করছি যেন আপনি আমার সকল কাজে দৃঢ়তা এবং সঠিক পথে অটল থাকার শক্তি দেন। আমি আপনার নেয়ামতের জন্য কৃতজ্ঞতা এবং আপনাকে সঠিকভাবে ইবাদত করার তৌফিক চাইছি। আমি আপনার কাছে একটি সুস্থ হৃদয় এবং একটি সত্যবাদী জিহ্বা প্রার্থনা করছি। আমি আপনার কাছে প্রার্থনা করছি যা আপনার জানা সর্বোত্তম এবং আমি আপনার কাছে আশ্রয় চাইছি যা আপনার জানা সবচেয়ে খারাপ। এবং আমি আপনার কাছে ক্ষমা প্রার্থনা করছি যা আপনি জানেন।
+
+[.translation-english]
+O Allah, I ask You for steadfastness in all my affairs and determination in following the right path, I ask You to make me thankful for Your blessings and to make me worship You properly. I ask You for a sound heart and a truthful tongue. I ask You for the best of what You know and I seek refuge in You from the worst of what You know and I seek Your forgiveness for what You know.
+
+[.translation-computer-generated-english]
+O Allah, I ask You for steadfastness in all my affairs and determination in following the right path. I ask You to make me thankful for Your blessings and to enable me to worship You in the best manner. I ask You for a sound heart and a truthful tongue. I ask You for the best of what You know, and I seek refuge in You from the worst of what You know, and I seek Your forgiveness for what You know.
+
+[.reference]
+JT 3233
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَسْأَلُكَ فِعْلَ الْخَيْرَاتِ وَتَرْكَ الْمُنْكَرَاتِ وَحُبَّ الْمَسَاكِينِ وَإِذَا أَرَدْتَ بِعِبَادِكَ فِتْنَةً فَاقْبِضْنِي إِلَيْكَ غَيْرَ مَفْتُونٍ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+إِنِّي (inni) – আমি
+أَسْأَلُكَ (as'aluka) – আমি আপনার কাছে প্রার্থনা করি
+إِنِّي أَسْأَلُكَ – আমি আপনার কাছে প্রার্থনা করছি – I ask You
+فِعْلَ (fi'la) – কাজ
+الْخَيْرَاتِ (al-khayrat) – ভালো
+فِعْلَ الْخَيْرَاتِ – ভালো কাজের – To do good deeds
+وَتَرْكَ (wataraka) – বর্জন করা
+الْمُنْكَرَاتِ (al-munkarat) – মন্দ (কাজের)
+وَتَرْكَ الْمُنْكَرَاتِ – এবং মন্দ কাজ পরিহার করার জন্য – And to avoid evil deeds
+وَحُبَّ (wa hubba) – এবং ভালোবাসা
+الْمَسَاكِينِ (al-masakeen) – মিসকিনদের (গরিবদের)
+وَحُبَّ الْمَسَاكِينِ – এবং দরিদ্রদের ভালোবাসার জন্য – And to love the poor
+وَإِذَا (wa idha) – এবং যখন
+أَرَدْتَ (aradta) – আপনি চান
+وَإِذَا أَرَدْتَ – এবং যখন আপনি ইচ্ছা করেন – And if You will
+بِعِبَادِكَ (bi'ibadika) – আপনার বান্দাদের – For Your servants
+فِتْنَةً (fitnah) – পরীক্ষা – A trial
+فَاقْبِضْنِي (faqbidni) – তাহলে আমাকে নিয়ে নিন
+إِلَيْكَ (ilayka) – আপনার কাছে
+فَاقْبِضْنِي إِلَيْكَ – তাহলে আমাকে আপনার কাছে ফিরিয়ে নিন – Then take me to You
+غَيْرَ (ghayra) – ছাড়া
+مَفْتُونٍ (maftoonin) – ফিতনাগ্রস্ত হওয়ার
+غَيْرَ مَفْتُونٍ – কোনো ফিতনা ছাড়া – Without being tested
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমি আপনার কাছে প্রার্থনা করছি ভালো কাজ করার জন্য, মন্দ কাজ পরিহার করার জন্য, এবং দরিদ্রদের প্রতি ভালোবাসা প্রদর্শনের জন্য। এবং যদি আপনি আপনার বান্দাদের জন্য কোনো ফিতনা নির্ধারণ করেন, তাহলে আমাকে আপনার কাছে ফিরিয়ে নিন, এমনভাবে যেন আমি ফিতনায় পতিত না হই।
+
+[.translation-english]
+O Allah! Indeed I ask of You, the doing of good deeds, avoiding the evil deeds, and loving the poor. And when you have willed Fitnah for your slave, then take me to You, without making me suffer from Fitnah.
+
+[.translation-computer-generated-english]
+O Allah! Indeed, I ask You for the ability to do good deeds, to avoid evil deeds, and to love the poor. And if You will a trial (fitnah) for Your servants, then take me to You without making me fall into that trial.
+
+[.reference]
+SD 985
+
+[.arabic-text]
+أَسْأَلُكَ يَا اللَّهُ الأَحَدُ الصَّمَدُ الَّذِي لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ أَنْ تَغْفِرَ لِي ذُنُوبِي إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ
+
+[.word-by-word]
+أَسْأَلُكَ (as'aluka) – আমি আপনার কাছে প্রার্থনা করছি – I ask You
+يَا اللَّهُ (ya Allah) – হে আল্লাহ
+الأَحَدُ (al-ahad) – একমাত্র
+الصَّمَدُ (as-samad) – অমুখাপেক্ষী
+الَّذِي (alladhi) – যিনি
+لَمْ (lam) – না
+يَلِدْ (yalid) – জন্ম দিয়েছেন
+الَّذِي لَمْ يَلِدْ – যিনি জন্ম দেননি – Who begets not
+وَلَمْ (walam) – এবং না
+يُولَدْ (yulad) – জন্মগ্রহণ করেছেন
+وَلَمْ يُولَدْ – এবং যিনি জন্মগ্রহণ করেননি – Nor was He begotten
+وَلَمْ (walam) – এবং না
+يَكُنْ (yakun) – ছিল / হওয়া
+لَهُ (lahu) – তার জন্য
+كُفُوًا (kufuwan) – সমতুল্য
+أَحَدٌ (ahadun) – কেউ
+وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ – এবং তাঁর সমকক্ষ কেউ নেই – And there is none comparable to Him
+أَنْ (an) – যে
+تَغْفِرَ (taghfira) – আপনি ক্ষমা করুন
+لِي (li) – আমাকে
+ذُنُوبِي (dhunoobi) – আমার পাপসমূহ – My sins
+أَنْ تَغْفِرَ لِي ذُنُوبِي– আপনি আমার পাপসমূহ ক্ষমা করুন
+إِنَّكَ (innaka) – নিশ্চয়ই আপনি
+أَنْتَ (anta) – আপনি
+الْغَفُورُ – ক্ষমাশীল – The Most Forgiving
+الرَّحِيمُ – অতি দয়ালু – The Merciful
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমি আপনার কাছে প্রার্থনা করছি, হে আল্লাহ, আপনি একক, যিনি অমুখাপেক্ষী, যিনি জন্ম দেননি এবং জন্মগ্রহণ করেননি, এবং যার সমকক্ষ কেউ নেই, আপনি আমার পাপসমূহ ক্ষমা করুন। নিশ্চয়ই, আপনি অতিমাত্রায় ক্ষমাশীল ও দয়ালু।
+
+[.translation-english]
+O Allah, I ask you, O Allah, the One, the eternally besought of all, He begetteth not, nor was He begotten, and there is none comparable unto Him, that you may forgive me my sins, you are Most Forgiving, Merciful.
+
+[.translation-computer-generated-english]
+O Allah, I ask You, O Allah, the One, the Eternally Besought of all, He who neither begets nor was begotten, and there is none comparable to Him, that You forgive me my sins. Indeed, You are the Most Forgiving, Most Merciful.
+
+[.reference]
+SIM 3835
+SAN 1302
+SAB 6326
+JT 3531
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي، إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+إِنِّي (inni) – আমি
+ظَلَمْتُ (zalamtu) – অত্যাচার করেছি
+نَفْسِي (nafsi) – আমার নিজের ওপর
+ظُلْمًا (zulman) – অন্যায়
+كَثِيرًا (kathiran) – প্রচুর
+وَلاَ (wala) – এবং নেই
+يَغْفِرُ (yaghfiru) – ক্ষমা করে
+الذُّنُوبَ (adh-dhunuba) – পাপগুলো
+إِلاَّ (illa) – ছাড়া
+أَنْتَ (anta) – আপনি
+فَاغْفِرْ (faghfir) – অতএব ক্ষমা করুন
+لِي (li) – আমাকে
+مَغْفِرَةً (maghfiratan) – ক্ষমা
+مِنْ (min) – থেকে
+عِنْدِكَ (indika) – আপনার তরফ
+مَغْفِرَةً مِنْ عِنْدِكَ – আপনার কাছ থেকে ক্ষমা – A forgiveness from You
+وَارْحَمْنِي (warhamni) – এবং আমার উপর দয়া করুন
+إِنَّكَ (innaka) – নিশ্চয় আপনি
+أَنْتَ (anta) – আপনি
+الْغَفُورُ (al-ghafur) – সর্বাধিক ক্ষমাকারী
+الرَّحِيمُ (ar-raheem) – পরম দয়ালু
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমি নিজের ওপর অনেক বেশি অত্যাচার করেছি, এবং আপনি ছাড়া আর কেউ গুনাহ ক্ষমা করতে পারে না। সুতরাং আপনি আমার জন্য আপনার কাছ থেকে ক্ষমা করুন এবং আমাকে দয়া করুন, নিশ্চয়ই আপনি ক্ষমাশীল ও অতি দয়ালু।
+
+[.translation-english]
+O Allah, I have wronged myself greatly and no one forgives sins but You, so grant me forgiveness from You and have mercy on me, for You are the Oft-Forgiving, Most Merciful
+
+[.translation-computer-generated-english]
+O Allah, I have greatly wronged myself, and no one forgives sins but You. So grant me forgiveness from You, and have mercy on me, for You are the Oft-Forgiving, Most Merciful.
+
+[.reference]
+SD 760
+JT 3421
+SM 771a (T)
+
+[.arabic-text]
+اللَّهُمَّ اغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ وَمَا أَسْرَفْتُ وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي أَنْتَ الْمُقَدِّمُ وَالْمُؤَخِّرُ لاَ إِلَهَ إِلاَّ أَنْتَ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+اغْفِرْ (ighfir) – ক্ষমা করুন
+لِي (li) – আমাকে
+اغْفِرْ لِي – আমাকে ক্ষমা করুন – Forgive me
+مَا (ma) – যা
+قَدَّمْتُ (qaddamtu) – আমি আগে করেছি
+مَا قَدَّمْتُ – যা আমি পূর্বে করেছি – For what I have done before
+وَمَا (wama) – এবং যা
+أَخَّرْتُ (akhartu) – আমি পরে করেছি
+وَمَا أَخَّرْتُ – এবং যা আমি পরে করেছি – And what I have done later
+وَمَا (wama) – এবং যা
+أَسْرَرْتُ (asrartu) – আমি গোপনে করেছি
+وَمَا أَسْرَرْتُ – এবং যা আমি গোপনে করেছি – And what I have done secretly
+وَمَا (wama) – এবং যা
+أَعْلَنْتُ (a'alantu) – আমি প্রকাশ্যে করেছি
+وَمَا أَعْلَنْتُ – এবং যা আমি প্রকাশ্যে করেছি – And what I have done openly
+وَمَا (wama) – এবং যা
+أَسْرَفْتُ (asraftu) – আমি বাড়াবাড়ি করেছি
+وَمَا أَسْرَفْتُ – এবং যা আমি সীমা লঙ্ঘন করেছি – And my excesses
+وَمَا (wama) – এবং যা
+أَنْتَ (anta) – আপনি
+أَعْلَمُ (a'lamu) – ভালো জানেন
+بِهِ (bihi) – তা
+مِنِّي (minni) – আমার থেকে
+وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي – এবং যা আপনি আমার থেকে ভালো জানেন – And what You know better than I
+أَنْتَ (anta) – আপনি
+الْمُقَدِّمُ (almuqaddimu) – প্রথম - First
+وَالْمُؤَخِّرُ (walmuakhiru) – এবং শেষ - and Last
+لاَ (la) – নেই
+إِلَهَ (ilah) – উপাস্য
+إِلاَّ (illa) – ছাড়া
+أَنْتَ (anta) – আপনি
+لاَ إِلَهَ إِلاَّ أَنْتَ – আপনি ছাড়া কোনো উপাস্য নেই – There is no deity but You
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমার পূর্ববর্তী ও পরবর্তী পাপ, গোপন ও প্রকাশ্য পাপ, সীমা লঙ্ঘনের পাপ, এবং যা আপনি আমার থেকে ভালো জানেন, সবই ক্ষমা করে দিন। আপনি প্রথম এবং শেষ। আপনি ছাড়া আর কোনো ইলাহ নেই।
+
+[.translation-english]
+O Allah, forgive me my former and my latter sins, my open and secret sins, my sins in exceeding the limits, and what Thou knowest better than I. Thou art He Who puts forward and puts back. There is deity but Thee.
+
+[.translation-computer-generated-english]
+O Allah, forgive me for my former and latter sins, for my secret and open sins, for my excesses, and for what You know better than I. You are the first and You are the last. There is no deity but You.
+
+[.reference]
+.তখন তিনি নামায আদায় করছিলেন। তিনি তার বাম হাত বাম ঊরুর উপর এবং ডান হাত ডান ঊরুর উপর রাখেন এবং তর্জনী উঠিয়ে অবশিষ্ট আঙ্গুলগুলো মুষ্টিবদ্ধ করে রেখে বলেনঃ
+JT 3587
+JT 3522
+
+[.arabic-text]
+يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ
+
+[.word-by-word]
+يَا – হে – O
+مُقَلِّبَ – পরিবর্তনকারী – Changer
+الْقُلُوبِ – হৃদয়গুলোর – Of the hearts
+ثَبِّتْ – দৃঢ় করুন – Make firm
+قَلْبِي – আমার হৃদয়কে – My heart
+عَلَى – উপর – Upon
+دِينِكَ – আপনার দ্বীন – Your religion
+
+[.translation-bangla]
+হে মনের পরিবর্তনকারী! আমার অন্তরকে তোমার দ্বীনের উপর স্থির রাখ
+
+[.translation-computer-generated-bangla]
+হে হৃদয় পরিবর্তনকারী, আমার হৃদয়কে আপনার দ্বীনের উপর দৃঢ় করুন।
+
+[.translation-english]
+O Changer of the hearts, make my heart firm upon Your religion
+
+[.translation-computer-generated-english]
+O Changer of hearts, make my heart firm upon Your religion.
+
+== After Taslim
+
+[.reference]
+JT 3567
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْجُبْنِ وَأَعُوذُ بِكَ مِنَ الْبُخْلِ وَأَعُوذُ بِكَ مِنْ أَرْذَلِ الْعُمُرِ وَأَعُوذُ بِكَ مِنْ فِتْنَةِ الدُّنْيَا وَعَذَابِ الْقَبْرِ
+
+[.word-by-word]
+
+[.translation-bangla]
+হে আল্লাহ! তোমার কাছে আমি ভীরুতা হতে আশ্রয় চাই, তোমার কাছে কৃপণতা হতে আশ্রয় চাই, তোমার কাছে অতি বার্ধক্যে পৌঁছার বয়স হতে আশ্রয় চাই এবং তোমার কাছে দুনিয়ার ঝগড়া-বিবাদ ও ক্ববরের শাস্তি হতে আশ্রয় চাই
+
+[.translation-computer-generated-bangla]
+
+[.translation-english]
+O Allah I seek refuge in You from cowardliness, I seek refuge in You from miserliness, I seek refuge in You from feeble old age, and I seek refuge in You from the trial of the world, and the punishment of the grave
+
+[.translation-computer-generated-english]
+
+[.reference]
+.নবী (সাল্লাল্লাহু ‘আলাইহি ওয়া সাল্লাম) বিত্‌রের সলাতের শেষে বলতেন
+SIM 1179
+JT 3566
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَعُوذُ بِرِضَاكَ مِنْ سُخْطِكَ وَأَعُوذُ بِمُعَافَاتِكَ مِنْ عُقُوبَتِكَ وَأَعُوذُ بِكَ مِنْكَ لاَ أُحْصِي ثَنَاءً عَلَيْكَ أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ
+
+[.word-by-word]
+
+[.translation-bangla]
+হে আল্লাহ! আমি আপনার সন্তুষ্টির উসীলায় আপনার অসন্তুষ্টি থেকে আশ্রয় চাই, আপনার ক্ষমার উসীলায় আপনার শাস্তি থেকে আশ্রয় চাই, আপনার সৌন্দর্যময় গুনাবলীর উসীলায় আপনার মহিমময় গুণাবলী থেকে আশ্রয় পাই, আমি আপনার প্রশংসা গণনা করে শেষ করতে পারি না, আপনি আপনার প্রশংসারই অনুরূপ
+
+[.translation-computer-generated-bangla]
+
+[.translation-english]
+O Allah, I seek refuge in Your pleasure from Your wrath, and I seek refuge in Your forgiveness from your punishment, and I seek refuge in You from You. I cannot enumerate Your praise, You are as You have praised Yourself
+
+[.translation-computer-generated-english]
+
+[.reference]
+JT 298
+SD 1512
+SAN 1338
+SAN 1337
+SIM 924
+SIM 928
+SM 592a
+SM 591
+
+Rasulullah (sm) begged forgiveness three times Then Said:
+
+[.arabic-text]
+اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ تَبَارَكْتَ يَا ذَا الْجَلاَلِ وَالإِكْرَامِ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+أَنْتَ (anta) – আপনি
+السَّلاَمُ (as-salam) – শান্তির উৎস
+وَمِنْكَ (wa-minka) – এবং আপনার থেকে
+السَّلاَمُ (as-salam) – শান্তি
+تَبَارَكْتَ (tabarakta) – আপনি বরকতময়
+يَا (ya) – হে
+ذَا (dha) – যার
+الْجَلاَلِ (al-jalal) – মহিমা
+وَالإِكْرَامِ (wal-ikram) – এবং সম্মান
+
+[.reference]
+AAM 690
+
+[.arabic-text]
+اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ، وَشُكْرِكَ، وَحُسْنِ عِبَادَتِكَ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+أَعِنِّي (a'inni) – আমাকে সাহায্য করুন
+عَلَى (ala) – উপর
+ذِكْرِكَ (dhikrika) – আপনার স্মরণে
+وَشُكْرِكَ (wa shukrika) – এবং আপনার কৃতজ্ঞতায়
+وَحُسْنِ (wa husni) – এবং উত্তম
+عِبَادَتِكَ (ibadatika) – আপনার ইবাদতে
+
+[.reference]
+SD 1505
+
+[.arabic-text]
+لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ وَلاَ مُعْطِيَ لِمَا مَنَعْتَ وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ
+
+[.word-by-word]
+لاَ - নেই - no
+إِلَهَ - উপাস্য - god
+إِلاَّ - ছাড়া - except
+اللَّهُ - আল্লাহ - Allah
+وَحْدَهُ - একা - alone
+لاَ - নেই - no
+شَرِيكَ - অংশীদার - partner
+لَهُ - তাঁর জন্য - for Him
+لَهُ - তাঁর জন্য - for Him
+الْمُلْكُ - রাজত্ব - the dominion
+وَلَهُ - এবং তাঁর জন্য - and for Him
+الْحَمْدُ - সমস্ত প্রশংসা - all praise
+وَهُوَ - এবং তিনি - and He
+عَلَى - উপর - over
+كُلِّ - সবকিছুর - all
+شَىْءٍ - জিনিস - things
+قَدِيرٌ - সর্বশক্তিমান - is Omnipotent
+اللَّهُمَّ - হে আল্লাহ - O Allah
+لاَ - নেই - no
+مَانِعَ - বাধাদানকারী - withholder
+لِمَا - যা - of what
+أَعْطَيْتَ - আপনি প্রদান করেছেন - You give
+وَلاَ - এবং না - and not
+مُعْطِيَ - প্রদানকারী - giver
+لِمَا - যা - of what
+مَنَعْتَ - আপনি নিষেধ করেছেন - You withhold
+وَلاَ - এবং না - and no
+يَنْفَعُ - উপকার করবে - benefits
+ذَا - ওই - the
+الْجَدِّ - সৌভাগ্যের অধিকারী - fortunate person
+مِنْكَ - আপনার থেকে - from You
+الْجَدُّ - সৌভাগ্য - fortune
+
+[.translation-computer-generated-bangla]
+আল্লাহ ছাড়া আর কোনো উপাস্য নেই, তিনি একক, তাঁর কোনো অংশীদার নেই, রাজত্ব তাঁর, সমস্ত প্রশংসা তাঁর, এবং তিনি সবকিছুর উপর সর্বশক্তিমান। হে আল্লাহ, আপনি যা প্রদান করেন তা কেউ বাধা দিতে পারে না এবং আপনি যা আটকান তা কেউ প্রদান করতে পারে না, এবং আপনি ছাড়া সৌভাগ্যের অধিকারীকে (সম্পদ এবং ক্ষমতা) তার সৌভাগ্য কিছু উপকার করতে পারে না।
+
+[.translation-english]
+There is no God but Allah, Alone, Who has no partner, to Him belongs the dominion, to Him praise is due, and He is Omnipotent. O Allah no one cane withhold what You give and give what You withhold, and none benefits the fortunate person, for from You is the fortune.
+
+[.translation-computer-generated-english]
+There is no god but Allah, Alone, without any partner. To Him belongs the dominion, all praise is due to Him, and He is Omnipotent. O Allah, no one can withhold what You give, and no one can give what You withhold, and no fortune can benefit a fortunate person except from You.
+
+[.reference]
+SD 1506
+
+[.arabic-text]
+لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ لاَ إِلَهَ إِلاَّ اللَّهُ مُخْلِصِينَ لَهُ الدِّينَ وَلَوْ كَرِهَ الْكَافِرُونَ أَهْلُ النِّعْمَةِ وَالْفَضْلِ وَالثَّنَاءِ الْحَسَنِ لاَ إِلَهَ إِلاَّ اللَّهُ مُخْلِصِينَ لَهُ الدِّينَ وَلَوْ كَرِهَ الْكَافِرُونَ
+
+[.word-by-word]
+لاَ - নেই - no
+إِلَهَ - উপাস্য - god
+إِلاَّ - ছাড়া - except
+اللَّهُ - আল্লাহ - Allah
+وَحْدَهُ - একাই - alone
+لاَ - নেই - no
+شَرِيكَ - অংশীদার - partner
+لَهُ - তাঁর জন্য - for Him
+لَهُ - তাঁর জন্য - for Him
+الْمُلْكُ - রাজত্ব - the kingdom
+وَلَهُ - এবং তাঁর জন্য - and for Him
+الْحَمْدُ - সমস্ত প্রশংসা - all praise
+وَهُوَ - এবং তিনি - and He
+عَلَى - উপর - over
+كُلِّ - সবকিছুর - all
+شَىْءٍ - জিনিসের - things
+قَدِيرٌ - সর্বশক্তিমান - is Omnipotent
+لاَ - নেই - no
+إِلَهَ - উপাস্য - god
+إِلاَّ - ছাড়া - but
+اللَّهُ - আল্লাহ - Allah
+مُخْلِصِينَ - আন্তরিকভাবে - sincerely
+لَهُ - তাঁর প্রতি - to Him
+الدِّينَ - আনুগত্য - devotion/religion
+وَلَوْ - যদিও - even if
+كَرِهَ - অপছন্দ করে - they disapprove
+الْكَافِرُونَ - অবিশ্বাসীরা - the disbelievers
+أَهْلُ - অধিকারী - possessor (people of)
+النِّعْمَةِ - অনুগ্রহ - blessing
+وَالْفَضْلِ - এবং অনুগ্রহ - and grace
+وَالثَّنَاءِ - এবং প্রশংসা - and praise
+الْحَسَنِ - উত্তম - the best
+لاَ - নেই - no
+إِلَهَ - উপাস্য - god
+إِلاَّ - ছাড়া - but
+اللَّهُ - আল্লাহ - Allah
+مُخْلِصِينَ - আন্তরিকভাবে - sincerely
+لَهُ - তাঁর প্রতি - to Him
+الدِّينَ - আনুগত্য - devotion
+وَلَوْ - যদিও - even if
+كَرِهَ - অপছন্দ করে - they disapprove
+الْكَافِرُونَ - অবিশ্বাসীরা - the disbelievers
+
+[.translation-computer-generated-bangla]
+আল্লাহ ছাড়া আর কোনো উপাস্য নেই, তিনি একক, তাঁর কোনো অংশীদার নেই, রাজত্ব তাঁর, সমস্ত প্রশংসা তাঁর, তিনি সর্বশক্তিমান। আল্লাহ ছাড়া আর কোনো উপাস্য নেই; আমরা তাঁর প্রতি আন্তরিকভাবে আনুগত্যশীল, যদিও অবিশ্বাসীরা তা অপছন্দ করে। তিনিই অনুগ্রহ, দয়া, এবং উত্তম প্রশংসার অধিকারী। আল্লাহ ছাড়া আর কোনো উপাস্য নেই; আমরা আন্তরিকভাবে তাঁর প্রতি আনুগত্যশীল, যদিও অবিশ্বাসীরা তা অপছন্দ করে।
+
+[.translation-english]
+There is no God but Allah, Alone, Who has no partner, to Him belongs the Kingdom, to Him praise is due, and He is Omnipotent. There is no God but Allah to Whom we are sincere in devotion, even though the infidels should disapprove. To Him belongs wealth, to Him belongs grace and to Him is worthy accorded. There is no got but Allah to Whom we are sincere in devotion, even though infidels should disapprove.
+
+[.translation-computer-generated-english]
+There is no god but Allah, Alone, without any partner. To Him belongs the Kingdom, all praise is due to Him, and He is Omnipotent. There is no god but Allah; we are sincere in our devotion to Him, even if the disbelievers disapprove. He is the Possessor of grace, blessing, and the most worthy praise. There is no god but Allah; we are sincere in our devotion to Him, even if the disbelievers disapprove.
+
+[.reference]
+SD 1509
+
+[.arabic-text]
+اللَّهُمَّ اغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ وَمَا أَسْرَفْتُ وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي أَنْتَ الْمُقَدِّمُ وَأَنْتَ الْمُؤَخِّرُ لاَ إِلَهَ إِلاَّ أَنْتَ
+
+[.word-by-word]
+اللَّهُمَّ - আল্লাহুম্মা - O Allah
+اغْفِرْ - ক্ষমা করুন - forgive
+لِي - আমাকে - me
+مَا - যা - what
+قَدَّمْتُ - আমি পূর্বে করেছি - I have done before (former)
+وَمَا - এবং যা - and what
+أَخَّرْتُ - আমি পরে করেছি - I have done later (latter)
+وَمَا - এবং যা - and what
+أَسْرَرْتُ - আমি গোপনে করেছি - I have kept secret
+وَمَا - এবং যা - and what
+أَعْلَنْتُ - আমি প্রকাশ্যে করেছি - I have done openly
+وَمَا - এবং যা - and what
+أَسْرَفْتُ - আমি বাড়াবাড়ি করেছি - I have done extravagantly
+وَمَا - এবং যা - and what
+أَنْتَ - আপনি - You
+أَعْلَمُ - অধিক জানেন - know better
+بِهِ - এটি সম্পর্কে - about it
+مِنِّي - আমার চেয়ে - than I do
+أَنْتَ - আপনি - You
+الْمُقَدِّمُ - অগ্রণী - the Advancer
+وَأَنْتَ - এবং আপনি - and You
+الْمُؤَخِّرُ - বিলম্বকারী - the Delayer
+لاَ - নেই - no
+إِلَهَ - উপাস্য - god
+إِلاَّ - ছাড়া - but
+أَنْتَ - আপনি - You
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ, আমার পূর্ববর্তী ও পরবর্তী গুনাহ ক্ষমা করুন, যা আমি গোপনে করেছি এবং যা প্রকাশ্যে করেছি, এবং যা আমি বাড়াবাড়ি করেছি; এবং যা আপনি আমার চেয়ে ভালো জানেন। আপনিই আদি ও অন্ত। আপনি ছাড়া কোন উপাস্য নেই।
+
+[.translation-english]
+O Allah, forgive me my former and latter sins, what I have kept secret and what I have done openly, and what I have done extravagance; and what You know better than I do. You are the Advancer, the Delayer, there is no god but You.
+
+[.translation-computer-generated-english]
+O Allah, forgive me for my past and future sins, what I have kept secret and what I have done openly, and what I have done extravagantly; and what You know better than I do. You are the Advancer, the Delayer; there is no god but You.
+
+[.reference]
+.After Subh (morning prayer)
+SIM 925
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً
+[.word-by-word]
+[.translation-bangla]
+হে আল্লাহ্! আমি আপনার কাছে উপকারী জ্ঞান, পবিত্র রিযিক ও এবং কবূল হওয়ার যোগ্য কর্মতৎপরতা প্রার্থনা করি
+[.translation-computer-generated-bangla]
+[.translation-english]
+O Allah, I ask You for beneficial knowledge, goodly provision and acceptable deeds
+[.translation-computer-generated-english]
+
+== Dua e Qunoot
+
+NOTE: The worshipper should raise his hands to chest height and no more , because this du'a is not a du'a of supplication in which a person needs to raise his hands high. Rather it is a du'a of hope in which a person holds out his palms towards heaven… The apparent meaning of the scholar’s words is that the worshipper should hold his hands close together like a beggar who asks someone else to give him something.  https://islamqa.info/en/answers/14093/dua-al-qunut-in-witr-prayer
+
+[.reference]
+SD 1425
+SAN 1745
+JT 1178
+JT 464
+
+[.arabic-text]
+اللَّهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ وَعَافِنِي فِيمَنْ عَافَيْتَ وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ وَبَارِكْ لِي فِيمَا أَعْطَيْتَ وَقِنِي شَرَّ مَا قَضَيْتَ إِنَّكَ تَقْضِي وَلاَ يُقْضَى عَلَيْكَ وَإِنَّهُ لاَ يَذِلُّ مَنْ وَالَيْتَ وَلاَ يَعِزُّ مَنْ عَادَيْتَ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+اهْدِنِي (ihdini) – আমাকে হেদায়েত দিন – Guide me
+فِيمَنْ (fiman) – তাদের মধ্যে
+هَدَيْتَ (hadaita) – আপনি হেদায়েত দিয়েছেন
+فِيمَنْ هَدَيْتَ – যাদেরকে আপনি হেদায়েত দিয়েছেন তাদের মধ্যে – Among those whom You have guided
+وَعَافِنِي (wa'afini) – এবং আমাকে  মাফ করুন / সুস্থ রাখুন – Pardon me/protect me
+فِيمَنْ (fiman) – তাদের মধ্যে
+عَافَيْتَ (afaita) – আপনি মাফ করেছেন / সুস্থ রেখেছেন
+فِيمَنْ عَافَيْتَ – যাদেরকে আপনি মাফ করেছেন / সুস্থ রেখেছেন তাদের মধ্যে – Among those whom You have pardoned
+وَتَوَلَّنِي (watawallani) – আমাকে আপনার বন্ধু বানিয়ে নিন – Turn to me in friendship
+فِيمَنْ (fiman) – তাদের মধ্যে
+تَوَلَّيْتَ (tawallayta) – আপনি বন্ধু বানিয়েছেন
+فِيمَنْ تَوَلَّيْتَ – যাদেরকে আপনি বন্ধু বানিয়েছেন তাদের মধ্যে – Among those You have turned in friendship
+وَبَارِكْ (wabarik) – এবং বরকত দিন
+لِي (li) – আমাকে
+وَبَارِكْ لِي – এবং আমাকে বরকত দান করুন – Bless me
+فِيمَا (fima) – সেই জিনিসে
+أَعْطَيْتَ (ataita) – আপনি দিয়েছেন
+فِيمَا أَعْطَيْتَ – যা কিছু আপনি দিয়েছেন তার মধ্যে – In what You have bestowed
+وَقِنِي (waqini) – এবং আমাকে রক্ষা করুন – And protect me
+شَرَّ (sharra) – অমঙ্গল থেকে
+مَا (ma) – যা
+قَضَيْتَ (qadaita) – আপনি নির্ধারণ করেছেন
+شَرَّ مَا قَضَيْتَ – আপনি যা নির্ধারণ করেছেন তার খারাপ থেকে – From the evil of what You have decreed
+إِنَّكَ (innaka) – নিশ্চয় আপনি
+تَقْضِي (taqdi) – ভাগ্য নির্ধারণ করেন
+وَلاَ (wala) – এবং না
+يُقْضَى (yuqda) – ভাগ্য নির্ধারণ করে
+عَلَيْكَ (alayka) – আপনার উপর
+وَلاَ يُقْضَى عَلَيْكَ – কেউ (ভাগ্য) নির্ধারণ করেনা আপনার উপর
+وَإِنَّهُ (wa-innahu) – এবং নিশ্চয়
+لاَ (la) – না
+يَذِلُّ (yadhillu) – অপমানিত হওয়া
+مَنْ (man) – যার
+وَالَيْتَ (walayta) – আপনি অবিভাবক হয়েছেন
+لاَ يَذِلُّ مَنْ وَالَيْتَ – যাকে আপনি বন্ধু বানিয়েছেন সে অপমানিত হয় না – He is not humiliated whom You have befriended
+وَلاَ (wala) – এবং না
+يَعِزُّ (ya'izzu) – সম্মানিত হয়
+مَنْ (man) – যার
+عَادَيْتَ (adayta) – আপনি অসন্তুষ্ট হয়েছেন
+وَلاَ يَعِزُّ مَنْ عَادَيْتَ – এবং সে সম্মানিত হবে না যার প্রতি আপনি অসন্তুষ্ট হয়েছেন
+تَبَارَكْتَ (tabarakta) – আপনি বরকতময় – Blessed are You
+رَبَّنَا (rabbana) – আমাদের প্রতিপালক
+وَتَعَالَيْتَ (wa ta'alayta) – এবং আপনি মহিমাময় – And Exalted are You
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আপনি যাদের হেদায়েত দিয়েছেন তাদের মধ্যে আমাকে হেদায়েত দিন, যাদেরকে আপনি মাফ করেছেন তাদের মধ্যে আমাকে মাফ করুন, যাদেরকে আপনি বন্ধু বানিয়েছেন তাদের মধ্যে আমাকে বন্ধু বানিয়ে নিন, এবং যা কিছু আপনি আমাকে দিয়েছেন তার মধ্যে বরকত দান করুন। আপনি যা নির্ধারণ করেছেন তার খারাপ দিক থেকে আমাকে রক্ষা করুন। নিশ্চয়ই আপনি সিদ্ধান্ত দেন, এবং আপনার উপর কিছু নির্ধারিত হয় না। যাকে আপনি বন্ধু বানিয়েছেন, সে অপমানিত হয় না, এবং যাকে আপনি শত্রু বানিয়েছেন, সে সম্মানিত হয় না। আপনি মহান ও বরকতময়, হে আমাদের প্রতিপালক, এবং আপনি মহিমাময়।
+
+[.translation-english]
+O Allah, guide me among those Thou hast guided, grant me security among those Thou hast granted security, take me into Thy charge among those Thou hast taken into Thy charge, bless me in what Thou hast given, guard me from the evil of what Thou hast decreed, for Thou dost decree, and nothing is decreed for Thee. He whom Thou befriendest is not humbled. Blessed and Exalted art Thou, our Lord.
+
+[.translation-computer-generated-english]
+O Allah, guide me among those whom You have guided, pardon me among those You have pardoned, turn to me in friendship among those whom You have befriended, and bless me in what You have bestowed. Save me from the evil of what You have decreed. Verily, You decree, and none can influence You. He is not humiliated whom You have befriended, and he is not honored whom You have opposed. Blessed are You, O Lord, and Exalted.
+
+[.reference]
+SIM 3830
+
+[.arabic-text]
+رَبِّ أَعِنِّي وَلاَ تُعِنْ عَلَىَّ وَانْصُرْنِي وَلاَ تَنْصُرْ عَلَىَّ وَامْكُرْ لِي وَلاَ تَمْكُرْ عَلَىَّ وَاهْدِنِي وَيَسِّرِ الْهُدَى لِي وَانْصُرْنِي عَلَى مَنْ بَغَى عَلَىَّ رَبِّ اجْعَلْنِي لَكَ شَكَّارًا لَكَ ذَكَّارًا لَكَ رَهَّابًا لَكَ مُطِيعًا إِلَيْكَ مُخْبِتًا إِلَيْكَ أَوَّاهًا مُنِيبًا رَبِّ تَقَبَّلْ تَوْبَتِي وَاغْسِلْ حَوْبَتِي وَأَجِبْ دَعْوَتِي وَاهْدِ قَلْبِي وَسَدِّدْ لِسَانِي وَثَبِّتْ حُجَّتِي وَاسْلُلْ سَخِيمَةَ قَلْبِي
+
+[.word-by-word]
+رَبِّ - হে প্রভু - O Lord
+أَعِنِّي - আমাকে সাহায্য করুন - help me
+وَلاَ - এবং না - and do not
+تُعِنْ - সাহায্য করুন - help
+عَلَىَّ - আমার বিরুদ্ধে - against me
+وَانْصُرْنِي - আমাকে সমর্থন করুন - support me
+وَلاَ - এবং না - and do not
+تَنْصُرْ - সমর্থন করুন - support
+عَلَىَّ - আমার বিরুদ্ধে - against me
+وَامْكُرْ - কৌশল করুন - plan
+لِي - আমার জন্য - for me
+وَلاَ - এবং না - and do not
+تَمْكُرْ - কৌশল করুন - plan
+عَلَىَّ - আমার বিরুদ্ধে - against me
+وَاهْدِنِي - আমাকে পথ দেখান - guide me
+وَيَسِّرِ - সহজ করুন - make easy
+الْهُدَى - হেদায়েত - the guidance
+لِي - আমার জন্য - for me
+وَانْصُرْنِي - আমাকে সাহায্য করুন - help me
+عَلَى - এর বিরুদ্ধে - against
+مَنْ - যে - the one who
+بَغَى - জুলুম করেছে - has wronged
+عَلَىَّ - আমার বিরুদ্ধে - against me
+رَبِّ - হে প্রভু - O Lord
+اجْعَلْنِي - আমাকে বানান - make me
+لَكَ - আপনার জন্য - for You
+شَكَّارًا - কৃতজ্ঞ - grateful
+لَكَ - আপনার জন্য - for You
+ذَكَّارًا - স্মরণকারী - remembering
+لَكَ - আপনার জন্য - for You
+رَهَّابًا - ভীত - fearful
+لَكَ - আপনার জন্য - for You
+مُطِيعًا - বাধ্য - obedient
+إِلَيْكَ - আপনার দিকে - to You
+مُخْبِتًا - বিনম্র - humble
+إِلَيْكَ - আপনার দিকে - to You
+أَوَّاهًا - অনুতপ্ত - remorseful
+مُنِيبًا - ফিরে আসা - returning
+رَبِّ - হে প্রভু - O Lord
+تَقَبَّلْ - গ্রহণ করুন - accept
+تَوْبَتِي - আমার তওবা - my repentance
+وَاغْسِلْ - ধুয়ে ফেলুন - wash away
+حَوْبَتِي - আমার পাপসমূহ - my sins
+وَأَجِبْ - উত্তর দিন - answer
+دَعْوَتِي - আমার প্রার্থনা - my supplication
+وَاهْدِ - পথ দেখান - guide
+قَلْبِي - আমার হৃদয় - my heart
+وَسَدِّدْ - মজবুত করুন - strengthen
+لِسَانِي - আমার জিহ্বা - my tongue
+وَثَبِّتْ - দৃঢ় করুন - make firm
+حُجَّتِي - আমার প্রমাণ - my proof
+وَاسْلُلْ - সরিয়ে ফেলুন - remove
+سَخِيمَةَ - বিদ্বেষ - resentment
+قَلْبِي - আমার হৃদয় থেকে - from my heart
+
+[.transliteration]
+Rabbi! A'inni wa la tu'in 'alayya, wansurni wa la tansur 'alayya, wamkurli wa la tamkur 'alayya, wahdini wa yassiril-huda li, wansurni 'ala man bagha 'alayya. Rabbij'alni laka shakkaran laka dhakkaran, laka rahhaban, laka muti'an, 'ilayka mukhbitan, 'ilayka awwahan muniba. Rabbi! Taqabbal tawbati, waghsil hawbati wa ajib da'wati, wahdi qalbi, wa saddid lisani, wa thabbit hujjati, waslul sakhimata qalbi
+
+[.translation-bangla]
+হে প্রভু! আমাকে সাহায্য করো এবং আমার বিরুদ্ধে কাউকে সাহায্য করো না, আমাকে সহযোগিতা করো এবং আমার বিরুদ্ধে কাউকে সহযোগিতা করো না, আমার জন্য কৌশল এঁটো, আমার বিরুদ্ধে কৌশল এঁটো না,আমাকে হেদায়াত দান করো, আমার জন্য হেদায়াতের পথ সহজতর করো এবং যে ব্যক্তি আমার উপর অত্যাচার ও সীমা লংঘন করে তার বিরুদ্ধে আমাকে সাহায্য করো। হে প্রভু! আমাকে তোমার জন্য কৃতজ্ঞ বান্দা বানাও, তোমার জন্য অনেক যিকিরকারী, তোমাকে অধিক ভয়কারী, তোমার অধিক আনুগত্যকারী, তোমার নিকট অনুনয়-বিনয়কারী ও তোমার দিকে প্রত্যাবর্তনকারী বানাও। হে আমার রব! আমার তওবা কবুল করো, আমার সমস্ত গুনাহ ধুয়ে-মুছে ফেলো, আমার দোয়া কবুল করো, আমার অন্তরকে হেদায়াত দান করো, আমার যবানকে সোজা রাখো, আমার যুক্তি-প্রমাণ বহাল করো এবং আমার মনের সমস্ত হিংসা-বিদ্বেষ দূরীভূত করো।
+
+[.translation-computer-generated-bangla]
+হে প্রভু! আমাকে সাহায্য করুন এবং অন্যদের আমার বিরুদ্ধে সাহায্য করবেন না। আমাকে সমর্থন দিন এবং অন্যদের আমার বিরুদ্ধে সমর্থন করবেন না। আমার জন্য পরিকল্পনা করুন এবং আমার বিরুদ্ধে পরিকল্পনা করবেন না। আমাকে পথ দেখান এবং আমার জন্য পথ সহজ করে দিন, এবং যারা আমার উপর জুলুম করেছে তাদের বিরুদ্ধে আমাকে সাহায্য করুন। হে প্রভু! আমাকে আপনার প্রতি কৃতজ্ঞ বানান, অধিক স্মরণকারী বানান, আপনাকে ভয়কারী বানান, আপনার প্রতি বাধ্য বানান, আপনার সামনে বিনম্র এবং আপনার দিকে ফিরে আসা বানান। হে প্রভু! আমার তওবা গ্রহণ করুন, আমার পাপসমূহ ধুয়ে দিন, আমার প্রার্থনার উত্তর দিন, আমার হৃদয়কে সঠিক পথে পরিচালিত করুন, আমার জিহ্বাকে সত্য বলায় মজবুত করুন, আমার প্রমাণকে দৃঢ় করুন, এবং আমার হৃদয় থেকে বিদ্বেষ দূর করে দিন।
+
+[.translation-english]
+O Lord! Help me and do not help others against me, support me and do not support others against me, plan for me and do not plan against me, guide me and make guidance easy for me, and help me against those who wrong me. O Lord! Make me grateful to You, make me remember You much, make me fearful of You, obedient to You, humble before You and turning to You. O Lord! Accept my repentance and wash away my sins, answer my supplication, guide my heart, make my tongue speak the truth, make my proof firm and remove resentment from my heard
+
+[.translation-computer-generated-english]
+O Lord! Help me and do not help others against me. Support me and do not support others against me. Plan for me and do not plan against me. Guide me and make guidance easy for me, and help me against those who wrong me. O Lord! Make me grateful to You, make me remember You much, make me fearful of You, obedient to You, humble before You, and turning to You. O Lord! Accept my repentance, wash away my sins, answer my supplication, guide my heart, make my tongue speak the truth, make my proof firm, and remove resentment from my heart.
+
+== Qunoot - e - Naazilah
+
+[.reference]
+Musannaf Abdur Razzaq Hadees No: 4978
+AL Sunanul Kubra: Hadees No: 3144
+Musannaf Ibn Abi Shaybah, Hadith: 6965
+This du`a comes to us principally through an athar (narration) of `Abdullah ibn Mas`ud and collected in the Musannaf of Ibn Abi Shaybah, in Kitab as-Salah https://islam.stackexchange.com/questions/5585/what-is-the-source-of-this-dua-read-in-witr-prayer https://www.askimam.org/public/question_detail/22316
+
+[.arabic-text]
+اَللَّهُمَّ إنا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِئْ عَلَيْكَ الخَيْرَ وَنَشْكُرُكَ وَلَا نَكْفُرُكَ وَنَخْلَعُ وَنَتْرُكُ مَنْ ئَّفْجُرُكَ اَللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّئ وَنَسْجُدُ وَإِلَيْكَ نَسْعأئ وَنَحْفِدُ وَنَرْجُو رَحْمَتَكَ وَنَخْشآئ عَذَابَكَ إِنَّ عَذَابَكَ بِالكُفَّارِ مُلْحَقٌ
+
+[.word-by-word]
+اَللَّهُمَّ – হে আল্লাহ – O Allah
+إِنَّا – নিশ্চয়ই আমরা – Indeed, we
+نَسْتَعِينُكَ – আপনার কাছে সাহায্য চাই – Seek Your help
+وَنَسْتَغْفِرُكَ – এবং আপনার কাছে ক্ষমা চাই – And ask Your forgiveness
+وَنُؤْمِنُ – এবং আমরা ঈমান আনি – And we believe
+بِكَ – আপনার প্রতি – In You
+وَنَتَوَكَّلُ – এবং আমরা নির্ভর করি – And we rely
+عَلَيْكَ – আপনার ওপর – On You
+وَنُثْنِئْ – এবং আমরা প্রশংসা করি – And we praise
+عَلَيْكَ – আপনার (উপর) – You
+الْخَيْرَ – সমস্ত কল্যাণের সাথে – With all goodness
+وَنَشْكُرُكَ – এবং আমরা আপনার প্রতি কৃতজ্ঞতা প্রকাশ করছি – And we are thankful to You
+وَلَا نَكْفُرُكَ – এবং আমরা আপনার প্রতি অকৃতজ্ঞ হই না – And we are not ungrateful to You
+وَنَخْلَعُ – এবং আমরা দূরে সরে যাই – And we reject
+وَنَتْرُكُ – এবং ত্যাগ করি – And abandon
+مَنْ – যিনি – Those who
+يَفْجُرُكَ – আপনার অবাধ্য – Disobey You
+اَللَّهُمَّ – হে আল্লাহ – O Allah
+إِيَّاكَ نَعْبُدُ – আমরা কেবল আপনারই ইবাদত করি – You alone we worship
+وَلَكَ نُصَلِّئ – এবং আপনার জন্য নামাজ পড়ি – And for You we pray
+وَنَسْجُدُ – এবং সেজদা করি – And prostrate
+وَإِلَيْكَ نَسْعأئ – এবং আপনার দিকে আমরা দৌড়াই – And we strive towards You
+وَنَحْفِدُ – এবং দ্রুত উপস্থিত হই – And we hasten to serve You
+وَنَرْجُو – এবং আমরা আশা করি – And we hope for
+رَحْمَتَكَ – আপনার রহমত – Your mercy
+وَنَخْشئ – এবং আমরা ভয় করি – And we fear
+عَذَابَكَ – আপনার শাস্তি – Your punishment
+إِنَّ عَذَابَكَ – নিশ্চয়ই আপনার শাস্তি – Indeed, Your punishment
+بِالكُفَّارِ – কুফরকারীদের জন্য – Is for the disbelievers
+مُلْحَقٌ – তাদের আঘাত করবে – Will overtake them
+
+[.transliteration]
+Allahumma inna nasta'inuka wa nastaghfiruka, wa nu'minu bika wa natawakkalu 'alaika wa nuthni 'alaikal khair, wa nashkuruka wa la nakfuruka wa nakhla'u wa natruka manyyafjuruka, allahumma iyyaka na'budu , wa laka nusalli wa nasjudu wa ilaika nas'a wa nahfidu wa narju rahmataka wa nakhsha 'adhabaka inna 'adhabaka bil kaffari mulhiq.
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমরা আপনার সাহায্য চাই এবং আপনার কাছে ক্ষমা প্রার্থনা করি। আমরা আপনার প্রতি ঈমান আনছি এবং আমরা আপনার ওপর নির্ভর করি। আমরা আপনার প্রশংসা করছি এবং আপনার প্রতি কৃতজ্ঞতা প্রকাশ করছি, এবং আপনার প্রতি অকৃতজ্ঞ হই না। যারা আপনার অবাধ্য তাদের থেকে আমরা দূরে সরে যাই এবং তাদের ত্যাগ করি। হে আল্লাহ! আমরা কেবল আপনাকেই ইবাদত করি, এবং আপনার জন্যই নামাজ পড়ি এবং সেজদা করি। আমরা আপনার সন্তুষ্টির জন্য চেষ্টা করি এবং আপনার পথে নিজেদের নিবেদিত করি। আমরা আপনার রহমতের আশা করি এবং আপনার শাস্তি থেকে ভয় পাই। নিশ্চয়ই আপনার শাস্তি কুফরকারীদের আঘাত করবে।
+
+[.translation-english]
+O, Allah! We implore You for help and beg forgiveness of You and believe in You and rely on You and extol You and we are thankful to You and are not ungrateful to You, and we alienate and forsake those who disobey You. O, Allah! You alone do we worship and for You do we pray and prostrate and we betake to please You and present ourselves for the service in Your cause, and we hope for Your mercy and fear Your chastisement. Undoubtedly, your torment is going to overtake infidels O Allah!
+
+[.translation-computer-generated-english]
+O Allah! We seek Your help, and we ask for Your forgiveness. We believe in You, and we rely on You. We praise You with all goodness, and we are thankful to You and not ungrateful to You. We reject and abandon those who disobey You. O Allah! You alone we worship, and for You do we pray and prostrate. We strive towards You, and we hasten to serve You. We hope for Your mercy and fear Your punishment. Indeed, Your punishment will overtake the disbelievers.
+
+[.reference]
+as-Sunan al-Kubra lil-Bayhaqī 3143; Grade: Sahih (authentic) according to Ibn Hajar. https://quranohadith.com/bayhaqi/3143
+https://www.abuaminaelias.com/dailyhadithonline/2014/07/15/umar-dua-qunut/ https://islamqa.info/en/answers/271214/the-duaa-supplication-that-the-sahaabah-used-to-recite-in-qunut-al-witr-in-the-second-half-of-ramadan-during-the-caliphate-of-umar-ibn-al-khattaab
+
+[.arabic-text]
+--
+اللَّهُمَّ اغْفِرْ لَنَا ، وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ ، وَأَلِّفْ بَيْنَ قُلُوبِهِمْ ، وَأَصْلِحْ ذَاتَ بَيْنِهِمْ ، وَانْصُرْهُمْ عَلَى عَدُوِّكَ وَعَدُوِّهِمْ ، اللَّهُمَّ الْعَنْ كَفَرَةَ أَهْلِ الْكِتَابِ الَّذِينَ يَصُدُّونَ عَنْ سَبِيلِكَ ، وَيُكُذِّبُونَ رُسُلَكَ ، وَيُقَاتِلُونَ أَوْلِيَاءَكَ اللَّهُمَّ خَالِفْ بَيْنَ كَلِمَتِهِمَ ، وَزَلْزِلْ أَقْدَامَهُمْ ، وَأَنْزِلْ بِهِمْ بَأْسَكَ الَّذِى لاَ تَرُدُّهُ عَنِ الْقَوْمِ الْمُجْرِمِينَ .
+
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ؛ اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُثْنِى عَلَيْكَ وَلاَ نَكْفُرُكَ ، وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ .
+
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ إِيَّاكَ نَعْبُدُ ، وَلَكَ نُصَلِّى وَنَسْجُدُ ، وَلَكَ نَسْعَى وَنَحْفِدُ ، نَخْشَى عَذَابَكَ الْجَدَّ ، وَنَرْجُو رَحْمَتَكَ ، إِنَّ عَذَابَكَ بِالْكَافِرِينَ مُلْحَقٌ
+--
+
+[.word-by-word]
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+اغْفِرْ – Forgive – ক্ষমা করুন
+لَنَا – Us – আমাদের
+وَلِلْمُؤْمِنِينَ – And the believing men – এবং ঈমানদার পুরুষদের
+وَالْمُؤْمِنَاتِ – And the believing women – এবং ঈমানদার নারীদের
+وَالْمُسْلِمِينَ – And the Muslim men – এবং মুসলিম পুরুষদের
+وَالْمُسْلِمَاتِ – And the Muslim women – এবং মুসলিম নারীদের
+وَأَلِّفْ – And unite – এবং একত্রিত করুন
+بَيْنَ – Between – মধ্যে
+قُلُوبِهِمْ – Their hearts – তাদের হৃদয়গুলোকে
+وَأَصْلِحْ – And reconcile – এবং সংশোধন করুন
+ذَاتَ (dhat) – অবস্থা / সম্পর্ক
+بَیْنِہِمْ (baynihim) – তাদের মাঝে
+ذَاتَ بَيْنِهِمْ – Their relationships – তাদের মাঝে সম্পর্কগুলো
+وَانْصُرْهُمْ – And support them – এবং তাদের সাহায্য করুন
+عَلَى – Against – উপর / বিরুদ্ধে
+عَدُوِّكَ – Your enemy – আপনার শত্রু
+وَعَدُوِّهِمْ – And their enemies – এবং তাদের শত্রুদের
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+الْعَنْ – Curse – অভিশাপ দিন
+كَفَرَةَ – Those who disbelieve – যারা কুফরি করে
+أَهْلِ الْكِتَابِ – Among the People of the Scripture – কিতাবের অধিকারীদের মধ্যে
+الَّذِينَ – Those who – যারা
+يَصُدُّونَ – Obstruct – বাধা দেয়
+عَنْ (an) – থেকে
+سَبِیلِکَ (sabeelik) – আপনার পথ
+عَنْ سَبِيلِكَ – From Your path – আপনার পথে
+وَيُكَذِّبُونَ – And deny – এবং মিথ্যা বলে / তারা অস্বীকার করে
+رُسُلَكَ – Your Messengers – আপনার রসূলদের
+وَيُقَاتِلُونَ – And fight – এবং তারা হত্যা করে
+أَوْلِيَاءَكَ – Your allies – আপনার মিত্রদের
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+خَالِفْ – Oppose – বিরোধ তৈরি করুন
+بَیْنَ (bayna) – মধ্যে
+کَلِمَتِہِمَ (kalimatihim) – তাদের কথা
+بَيْنَ كَلِمَتِهِمْ – Their words – তাদের কথাগুলির মধ্যে
+وَزَلْزِلْ – And shake – এবং কাঁপিয়ে দিন
+أَقْدَامَهُمْ – Their footing – তাদের পা
+وَأَنْزِلْ – And send down – এবং নাজিল করুন
+بِهِمْ – Upon them – তাদের উপর
+بَأْسَكَ – Your strength – আপনার কঠোরতা
+الَّذِي – Which – যা
+لاَ (la) – না
+تَرُدُّہُ (tarudduhu) – ফিরিয়ে দেবেন
+لا تَرُدُّهُ – You do not repel – আপনি প্রতিহত করেন না
+عَنِ (ani) – থেকে
+الْقَوْمِ (al-qawm) – সম্প্রদায়
+الْمُجْرِمِینَ (al-mujrimeen) – অপরাধীদের
+عَنِ الْقَوْمِ الْمُجْرِمِينَ – From the criminal people – অপরাধী জাতির উপর থেকে
+بِسْمِ اللَّهِ (Bismillah) – আল্লাহর নামে
+الرَّحْمَنِ (ar-Rahman) – পরম করুণাময়
+الرَّحِيمِ (ar-Rahim) – অতিশয় দয়ালু
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ – In the name of Allah, the Gracious, the Merciful – পরম করুণাময়, দয়ালু আল্লাহর নামে
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+إِنَّا – Indeed we – নিশ্চয়ই আমরা
+نَسْتَعِينُكَ – Seek Your help – আপনার সাহায্য প্রার্থনা করছি
+وَنَسْتَغْفِرُكَ – And seek Your forgiveness – এবং আপনার কাছে ক্ষমা চাইছি
+وَنُثْنِي عَلَيْكَ – And we praise You – এবং আমরা আপনার প্রশংসা করি
+وَلا نَكْفُرُكَ – And we do not deny You – এবং আমরা আপনাকে অস্বীকার করি না
+وَنَخْلَعُ – And we disavow – এবং আমরা সম্পর্ক ছিন্ন করি
+وَنَتْرُكُ – And abandon – এবং ছেড়ে দিই
+مَنْ يَفْجُرُكَ – Whoever disobeys You – যারা আপনার অবাধ্যতা করে
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ – In the name of Allah, the Gracious, the Merciful – পরম করুণাময়, দয়ালু আল্লাহর নামে
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+إِيَّاكَ نَعْبُدُ – You alone we worship – আমরা কেবল আপনারই ইবাদত করি
+وَلَكَ نُصَلِّي – And to You we pray – এবং আমরা আপনার জন্যই নামাজ পড়ি
+وَنَسْجُدُ – And we prostrate – এবং আমরা সিজদা করি
+وَلَكَ نَسْعَى – And we strive – এবং আমরা আপনার জন্যই চেষ্টা করি
+وَنَحْفِدُ – And we are eager – এবং আমরা তৎপর হই
+وَنَخْشَى – We fear – আমরা ভয় করি
+عَذَابَكَ – Your punishment – আপনার শাস্তি
+الْجِدَّ – Severe – কঠিন
+وَنَرْجُو – And we hope – এবং আমরা আশা করি
+رَحْمَتَكَ – Your mercy – আপনার দয়া
+إِنَّ – Indeed – নিশ্চয়ই
+عَذَابَكَ – Your punishment – আপনার শাস্তি
+بِالْكَافِرِينَ – Upon the disbelievers – কাফেরদের উপর
+مُلْحِقٌ – Will befall – নেমে আসে
+
+[.transliteration]
+--
+Allahumm aghfir lana wa li’l-mu’mineena wa’l-mu’minaati wa’l-muslimeena wa’l-muslimaat, wa allif bayna quloobihim wa aslih dhaata baynihim, wa’nsurhum ‘ala ‘aduwwika wa ‘aduwwihim. Allahumm al‘an kafarata ahl il-kitaab illadheena yasuddoona ‘an sabeelika wa yukadhdhiboona rusulaka wa yuqaatiloona awliya’aka. Allahumma khaalif bayna kalimatihim wa zalzil aqdaamahum wa anzil bihim ba’sak alladhi laa tarudduhu ‘an il-qawm il-mujrimeen.
+
+Bismillah ir-rahmaan ir-raheem, Allahumma inna nasta‘eenuka wa nastaghfiruka wa nuthni ‘alayka wa la nakfuruka wa nakhla‘u wa natruku man yafjuruka.
+
+Bismillah ir-rahmaan ir-raheem, Allahumma iyyaaka na‘budu wa laka nusalli wa nasjud, wa laka nas‘a wa nahfid, nakhsha ‘adhaabak al-jadda wa narju rahmataka, inna ‘adhaabaka bi’l-kaafireena mulhaq
+--
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! মুমিন পুরুষ ও মুমিন নারীদের, এবং মুসলিম পুরুষ ও মুসলিম নারীদের ক্ষমা করুন। তাদের হৃদয়কে একত্রিত করুন এবং তাদের মধ্যে মীমাংসা করুন। তাদেরকে আপনার শত্রু এবং তাদের শত্রুদের বিরুদ্ধে সাহায্য করুন। হে আল্লাহ! কিতাবের অধিকারীদের মধ্যে যারা কুফরি করে তাদের উপর অভিশাপ দিন, যারা আপনার পথে বাধা দেয়, আপনার রসূলদের মিথ্যা বলে, এবং আপনার মিত্রদের বিরুদ্ধে যুদ্ধ করে। হে আল্লাহ! তাদের কথার মধ্যে মতানৈক্য তৈরি করুন, তাদের পা কাঁপিয়ে দিন, এবং তাদের উপর আপনার সেই শক্তি নাজিল করুন যা অপরাধীরা প্রতিহত করতে পারে না। পরম করুণাময়, দয়ালু আল্লাহর নামে, আমরা আপনার সাহায্য প্রার্থনা করছি এবং আপনার কাছে ক্ষমা চাইছি। আমরা আপনার প্রশংসা করি এবং আপনাকে অস্বীকার করি না। আমরা তাদের থেকে সম্পর্ক ছিন্ন করি এবং দূরে থাকি যারা আপনার অবাধ্যতা করে। পরম করুণাময়, দয়ালু আল্লাহর নামে, আমরা কেবল আপনারই ইবাদত করি, আমরা আপনার জন্যই নামাজ পড়ি, আমরা আপনার জন্যই সিজদা করি, আমরা আপনার জন্যই চেষ্টা করি এবং তৎপর হই। আমরা আপনার কঠিন শাস্তিকে ভয় করি এবং আমরা আপনার দয়া কামনা করি। নিশ্চয়ই আপনার শাস্তি কাফেরদের উপর নেমে আসবে।
+
+[.translation-english]
+--
+O Allah, forgive us, and the believing men and women, and the Muslim men and women.  Create harmony between them and reconcile between them, and support them against Your enemies and their enemies. O Allah, *curse the disbelievers* among the People of the Book who bar people from Your path and disbelieve in Your Messengers, and who fight Your close friends. O Allah, *create division among them, shake the earth beneath their foot*, and send down upon them Your punishment from which You do not spare the people who are evildoers.
+
+In the name of Allah, the Most Gracious, the Most Merciful: O Allah, we seek Your help and Your forgiveness; we praise You and are not ungrateful to You, and we shun and reject those who rebel against You.
+
+In the name of Allah, the Most Gracious, the Most Merciful: O Allah, You alone we worship, and to You alone we pray and prostrate, and for Your sake we strive. We fear Your stern punishment and we hope for Your mercy, our Lord, for Your punishment is inevitable for the disbelievers.
+--
+
+[.translation-computer-generated-english]
+O Allah, forgive the believing men and believing women, and the Muslim men and Muslim women. Bring their hearts together and reconcile their differences. Support them against Your enemies and their enemies. O Allah, curse those who disbelieve among the People of the Scripture, who obstruct Your path, deny Your Messengers, and fight Your allies. O Allah, oppose their words, shake their footing, and send upon them Your strength, which the criminals cannot repel. In the name of Allah, the Gracious, the Merciful, we seek Your help and Your forgiveness. We praise You, and we do not deny You. We disavow and abandon whoever disobeys You. In the name of Allah, the Gracious, the Merciful, You alone we worship, to You we pray, to You we prostrate, for You we strive and are eager. We fear Your severe punishment and we hope for Your mercy. Indeed, Your punishment will befall the disbelievers.
+
+[.reference]
+narrated by Ibn Khuzaymah in his Saheeh (1100) via ‘Urwah ibn az-Zubayr. Its isnad is saheeh. It was classed as saheeh by Shaykh al-Albaani (may Allah have mercy on him) in Qiyaam Ramadaan (p. 31). https://islamqa.info/en/answers/271214/the-duaa-supplication-that-the-sahaabah-used-to-recite-in-qunoot-al-witr-in-the-second-half-of-ramadan-during-the-caliphate-of-umar-ibn-al-khattaab
+
+[.arabic-text]
+--
+اللَّهُمَّ قَاتِلِ الْكَفَرَةَ الَّذِينَ يَصُدُّونَ عَنْ سَبِيلِكَ وَيُكَذِّبُونَ رُسُلَكَ ، وَلَا يُؤْمِنُونَ بِوَعْدِكَ ، وَخَالِفْ بَيْنَ كَلِمَتِهِمْ ، وَأَلْقِ فِي قُلُوبِهِمُ الرُّعْبَ ، وَأَلْقِ عَلَيْهِمْ رِجْزَكَ وَعَذَابَكَ ، إِلَهَ الْحَقِّ
+
+NOTE: Then he would send blessings upon the Prophet (blessings and peace of Allah be upon him), and offer supplication for the Muslims, asking for whatever he could of good, then he would pray for forgiveness for the believers. And when he had finished cursing the disbelievers, sending blessings upon the Prophet, praying for forgiveness for the believing men and women, and asking for their needs, he would say:
+
+اللَّهُمَّ إِيَّاكَ نَعْبُد ُ، وَلَكَ نُصَلِّي وَنَسْجُدُ ، وَإِلَيْكَ نَسْعَى وَنَحْفِدُ ، وَنَرْجُو رَحْمَتَكَ رَبَّنَا ، وَنَخَافُ عَذَابَكَ الْجِدَّ ، إِنَّ عَذَابَكَ لِمَنْ عَادَيْتَ مُلْحِقٌ
+--
+
+[.word-by-word]
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+قَاتِلِ – Destroy – ধ্বংস করুন
+الْكَفَرَةَ – The disbelievers – অবিশ্বাসীদের
+الَّذِينَ – Those who – যারা
+يَصُدُّونَ – Bar (people) – বাধা দেয়
+عَنْ سَبِيلِكَ – From Your path – আপনার পথ থেকে
+وَيُكَذِّبُونَ – And disbelieve – এবং মিথ্যা বলে
+رُسُلَكَ – Your messengers – আপনার রসূলদের
+وَلَا يُؤْمِنُونَ – And do not believe – এবং বিশ্বাস করে না
+بِوَعْدِكَ – In Your promise – আপনার প্রতিশ্রুতিতে
+وَخَالِفْ – And create disunity – এবং মতানৈক্য তৈরি করুন
+بَيْنَ كَلِمَتِهِمْ – Among their words – তাদের কথার মধ্যে
+وَأَلْقِ – And cast – এবং নিক্ষেপ করুন
+فِي قُلُوبِهِمُ – Into their hearts – তাদের হৃদয়ে
+الرُّعْبَ – Fear – ভয়
+وَأَلْقِ عَلَيْهِمْ – And send upon them – এবং তাদের উপর পাঠান
+رِجْزَكَ – Your punishment – আপনার শাস্তি
+وَعَذَابَكَ – And Your torment – এবং আপনার আযাব
+إِلَهَ الْحَقِّ – O God of truth – হে সত্যের প্রভু
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+إِيَّاكَ (iyyaka) – শুধুমাত্র আপনারই
+نَعْبُدُ (na'budu) – আমরা ইবাদত করি
+إِيَّاكَ نَعْبُد – You alone we worship – আমরা কেবল আপনারই ইবাদত করি
+وَلَكَ (wa laka) – এবং আপনার জন্য
+نُصَلِّي (nusalli) – আমরা সালাত আদায় করি
+وَنَسْجُدُ (wa nasjudu) – এবং সিজদা করি
+وَلَكَ نُصَلِّي وَنَسْجُدُ – And to You alone we pray and prostrate – এবং আপনার জন্যই আমরা নামাজ পড়ি ও সিজদা করি
+وَإِلَيْكَ (wa ilayka) – এবং আপনার দিকে
+نَسْعَى (nas'a) – আমরা চেষ্টা করি
+وَنَحْفِدُ (wa nahfid) – এবং দ্রুত এগিয়ে যাই
+وَإِلَيْكَ نَسْعَى وَنَحْفِدُ – And for Your sake we strive – এবং আপনার জন্যই আমরা চেষ্টা করি ও তৎপর হই
+وَنَرْجُو (wa narju) – এবং আমরা আশা করি
+رَحْمَتَكَ (rahmataka) – আপনার রহমত
+رَبَّنَا (rabbana) – আমাদের প্রভু
+وَنَرْجُو رَحْمَتَكَ رَبَّنَا – We hope for Your mercy, our Lord – হে আমাদের প্রভু, আমরা আপনার দয়া কামনা করি
+وَنَخَافُ (wa nakhafu) – এবং আমরা ভয় করি
+عَذَابَكَ (adhabaka) – আপনার শাস্তি
+الْجِدَّ (al-jidd) – গুরুতর
+وَنَخَافُ عَذَابَكَ الْجِدَّ – And we fear Your stern punishment – এবং আমরা আপনার কঠিন শাস্তিকে ভয় করি
+إِنَّ (inna) – নিশ্চয়ই
+عَذَابَكَ (adhabaka) – আপনার শাস্তি
+إِنَّ عَذَابَكَ – For Your punishment – নিশ্চয়ই আপনার শাস্তি
+لِمَنْ (liman) – যার জন্য
+عَادَيْتَ (aadayta) – আপনি ক্ষুব্ধ হন
+لِمَنْ عَادَيْتَ – For those whom You take as enemies – যাদেরকে উপর আপনি ক্ষুব্ধ হন তাদের জন্য
+مُلْحِقٌ – Is inevitable – অবশ্যই পতিত হবে
+
+[.transliteration]
+--
+Allahumma qaatil al-kafarata alladheena yasuddoona ‘an sabeelika wa yukadhdhiboona rusulaka wa laa yu’minoona bi wa‘dika wa khaalif bayna kalimatihim wa alqi fi quloobihim ar-ru‘ba wa alqi ‘alayhim rijzaka wa ‘adhaabaka, ilaah al-haqq
+
+Allahumma iyyaaka na‘budu wa laka nusalli wa nasjud, wa ilayka nas‘a wa nahfid wa narju rahmataka rabbana, wa nakhaafu ‘adhaabak al-jadd, inna ‘adhaabaka liman ‘aadayta mulhaq
+--
+
+[.translation-computer-generated-bangla]
+--
+হে আল্লাহ! অবিশ্বাসীদের ধ্বংস করুন, যারা মানুষকে আপনার পথ থেকে বাধা দেয়, আপনার রসূলদের মিথ্যা বলে এবং আপনার প্রতিশ্রুতি বিশ্বাস করে না। তাদের মধ্যে মতানৈক্য সৃষ্টি করুন, তাদের হৃদয়ে ভয় নিক্ষেপ করুন, এবং তাদের উপর আপনার শাস্তি ও আযাব পাঠান, হে সত্যের প্রভু।
+
+হে আল্লাহ! আমরা কেবল আপনারই ইবাদত করি, এবং কেবল আপনার জন্যই নামাজ পড়ি ও সিজদা করি, এবং আপনার সন্তুষ্টির জন্যই আমরা চেষ্টা করি। হে আমাদের প্রভু, আমরা আপনার দয়া কামনা করি এবং আমরা আপনার কঠিন শাস্তিকে ভয় করি, কারণ যাদেরকে আপনি শত্রু মনে করেন তাদের উপর আপনার শাস্তি অবশ্যই পতিত হবে।
+--
+
+[.translation-english]
+--
+O Allah, destroy the disbelievers who bar people from Your path, disbelieve Your messengers and do not believe in Your promise; *create disunity among them, cast fear into their hearts and send Your punishment upon them*, O God of truth
+
+O Allah, You alone we worship, and to You alone we pray and prostrate, and for Your sake we strive. We hope for Your mercy, our Lord, and we fear Your stern punishment, for Your punishment is inevitable for those whom You take as enemies
+--
+
+[.translation-computer-generated-english]
+--
+O Allah, destroy the disbelievers who bar people from Your path, disbelieve Your messengers, and do not believe in Your promise. Create disunity among them, cast fear into their hearts, and send Your punishment and torment upon them, O God of truth.
+
+O Allah, You alone we worship, and to You alone we pray and prostrate, and for Your sake we strive. We hope for Your mercy, our Lord, and we fear Your stern punishment, for Your punishment is inevitable for those whom You take as enemies.
+--
+
+== Going to Masjid
+
+[.reference]
+SM 763l
+
+[.arabic-text]
+اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا وَفِي لِسَانِي نُورًا وَاجْعَلْ فِي سَمْعِي نُورًا وَاجْعَلْ فِي بَصَرِي نُورًا وَاجْعَلْ مِنْ خَلْفِي نُورًا وَمِنْ أَمَامِي نُورًا وَاجْعَلْ مِنْ فَوْقِي نُورًا وَمِنْ تَحْتِي نُورًا . اللَّهُمَّ أَعْطِنِي نُورًا
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+اجْعَلْ (ij'al) – করুন
+فِي (fi) – মধ্যে
+قَلْبِي (qalbi) – আমার হৃদয়
+نُورًا (nooran) – আলো
+وَفِي (wa fi) – এবং মধ্যে
+لِسَانِي (lisani) – আমার জিহ্বা
+نُورًا (nooran) – আলো
+وَاجْعَلْ (wa ij'al) – এবং করুন
+فِي (fi) – মধ্যে
+سَمْعِي (sam'i) – আমার শ্রবণ
+نُورًا (nooran) – আলো
+وَاجْعَلْ (wa ij'al) – এবং করুন
+فِي (fi) – মধ্যে
+بَصَرِي (basari) – আমার দৃষ্টি
+نُورًا (nooran) – আলো
+وَاجْعَلْ (wa ij'al) – এবং করুন
+مِنْ (min) – থেকে
+خَلْفِي (khalfī) – আমার পেছনে
+نُورًا (nooran) – আলো
+وَمِنْ (wa min) – এবং থেকে
+أَمَامِي (amami) – আমার সামনে
+نُورًا (nooran) – আলো
+وَاجْعَلْ (wa ij'al) – এবং করুন
+مِنْ (min) – থেকে
+فَوْقِي (fawqi) – আমার উপর
+نُورًا (nooran) – আলো
+وَمِنْ (wa min) – এবং থেকে
+تَحْتِي (tahti) – আমার নিচে
+نُورًا (nooran) – আলো
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+أَعْطِنِي (a'tini) – আমাকে দিন
+نُورًا (nooran) – আলো
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ, আমার হৃদয়ে আলোক দিন, আমার জিভে আলোক দিন, আমার শ্রবণে আলোক দিন, আমার দৃষ্টিতে আলোক দিন, আমার পেছনে আলোক দিন, আমার সামনে আলোক দিন, আমার উপর আলোক দিন, এবং আমার নিচে আলোক দিন। হে আল্লাহ, আমাকে আলোক দিন।
+
+[.translation-computer-generated-english]
+O Allah, make light in my heart, and light in my tongue, and make light in my hearing, and light in my sight, and make light behind me, and light in front of me, and make light above me, and light beneath me. O Allah, grant me light.
+
+== Entering Masjid
+
+[.reference]
+SIM 772
+[.arabic-text]
+اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ
+[.word-by-word]
+[.translation-bangla]
+হে আল্লাহ! আমার জন্য আপনার রহমতের দরজাসমূহ উন্মুক্ত করে দিন
+[.translation-computer-generated-bangla]
+[.translation-english]
+O Allah, open to me the gates of Your mercy
+[.translation-computer-generated-english]
+
+== Exiting Masjid
+
+[.reference]
+SIM 772
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ
+[.word-by-word]
+[.translation-bangla]
+হে আল্লাহ ! আমি আপনার নিকট আপনার অনুগ্রহ প্রার্থনা করি
+[.translation-computer-generated-bangla]
+[.translation-english]
+O Allah, I ask of you from Your bounty
+[.translation-computer-generated-english]
+
+[.reference]
+SIM 773
+[.arabic-text]
+اللَّهُمَّ اعْصِمْنِي مِنَ الشَّيْطَانِ الرَّجِيمِ
+[.word-by-word]
+[.translation-bangla]
+হে আল্লাহ! আপনি আমাকে বিতাড়িত শয়তান থেকে রক্ষা করুন।
+[.translation-computer-generated-bangla]
+[.translation-english]
+O Allah, protect me from the accursed Shaitan
+[.translation-computer-generated-english]
+
+== Azan
+
+[.reference]
+SAB 614
+SIM 722
+
+[.arabic-text]
+اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلاَةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ
+
+[.word-by-word]
+اللَّهُمَّ (Allahumma) – হে আল্লাহ
+رَبَّ (rabb) – প্রভু
+هَذِهِ (hadhihi) – এই
+الدَّعْوَةِ (ad-da'wati) – আহ্বানের
+التَّامَّةِ (at-taammah) – পূর্ণাঙ্গ
+هَذِهِ الدَّعْوَةِ التَّامَّةِ – এই পূর্ণাঙ্গ দাওয়াতের – Of this perfect call
+وَالصَّلاَةِ (wa as-salah) – এবং সালাতের
+الْقَائِمَةِ (al-qa'imah) – স্থায়ী
+وَالصَّلاَةِ الْقَائِمَةِ – এবং এই প্রতিষ্ঠিত নামাজের – And of the regular prayer which is established
+آتِ – প্রদান করুন – Grant
+مُحَمَّدًا – মুহাম্মাদকে – To Muhammad
+الْوَسِيلَةَ – ওসিলা – The means of intercession
+وَالْفَضِيلَةَ – এবং মর্যাদা – And the virtue (illustriousness)
+وَابْعَثْهُ (wa b'athhu) – এবং তাকে তুলে দিন
+مَقَامًا (maqaman) – এক স্থানে
+مَحْمُودًا (mahmudan) – প্রশংসিত
+مَقَامًا مَحْمُودًا – প্রশংসিত স্থান – To a praised station
+الَّذِي (alladhi) – যা
+وَعَدْتَهُ – আপনি তাকে প্রতিশ্রুতি দিয়েছেন – You have promised him
+
+[.translation-bangla]
+হে আল্লাহ্-এ পরিপূর্ণ আহবান ও প্রতিষ্ঠিত সালাতের মালিক, মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম -কে ওয়াসীলা ও সর্বোচ্চ মর্যাদার অধিকারী করুন এবং তাঁকে সে মাকামে মাহমুদে পৌঁছে দিন যার অঙ্গীকার আপনি করেছেন
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! এই পূর্ণাঙ্গ দাওয়াতের এবং প্রতিষ্ঠিত নামাজের প্রভু, মুহাম্মাদকে (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) ওসিলা ও মর্যাদা প্রদান করুন, এবং তাঁকে সেই প্রশংসিত স্থানে দান করুন যা আপনি তাঁর জন্য প্রতিশ্রুতি দিয়েছেন।
+
+[.translation-english]
+O Allah! Lord of this perfect call (perfect by not ascribing partners to You) and of the regular prayer which is going to be established, give Muhammad the right of intercession and illustriousness, and resurrect him to the best and the highest place in Paradise that You promised him (of)], then my intercession for him will be allowed on the Day of Resurrection
+
+[.translation-computer-generated-english]
+O Allah! Lord of this perfect call and of the established prayer, grant Muhammad the right of intercession and illustriousness, and raise him to the praised station that You have promised him.
+
+[.reference]
+.মুয়ায্‌যিনের আযান শোনার পর নিম্নোক্ত দুআ’ পড়লে তার গুনাহ ক্ষমা করা হবেঃ
+SIM 721
+[.arabic-text]
+وَأَنَا أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ رَضِيتُ بِاللَّهِ رَبًّا وَبِالإِسْلاَمِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا
+[.word-by-word]
+[.translation-bangla]
+আমি সাক্ষ্য দেই যে, আল্লাহ ছাড়া কোন ইলাহ নেই, তিনি এক, তাঁর কোন শারীক নেই। আমি আরো সাক্ষ্য দেই যে, মুহাম্মাদ তাঁর বান্দা ও রসূল। আমি আল্লাহ্‌কে রব, ইসলামকে দ্বীন এবং মুহাম্মাদ (সাল্লাল্লাহু ‘আলাইহি ওয়া সাল্লাম) কে নবী হিসাবে পেয়ে সন্তুষ্ট
+[.translation-computer-generated-bangla]
+[.translation-english]
+And I bear witness that none has the right to be worshipped but Allah alone, with no partner, and I bear witness that Muhammad is His slave and Messenger, and I am content with Allah as my Lord, Islam as my religion and Muhammad as my Prophet
+[.translation-computer-generated-english]
+
+++++
+<script src="abbreviation-replacer.js"></script>
+<script src="tocScript.js"></script>
+++++
