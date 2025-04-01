@@ -1,4 +1,4 @@
-= Salah
+= Duas for Salah and Supplication
 :doctype: book
 :stylesheet: styles.css
 :media: print
