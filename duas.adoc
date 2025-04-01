@@ -1,12 +1,15 @@
 = Duas for Salah and Supplication
 :doctype: book
 :stylesheet: styles.css
+:notitle:
 :media: print
 :optimize: printer
 :!show-link-uri:
 :nofooter:
 
 ++++
+<section id="cover">
+</section>
 <div class="toc">
     <h1>Table of Contents</h1>
 </div>

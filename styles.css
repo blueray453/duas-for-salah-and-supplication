@@ -485,7 +485,7 @@ display: none;
 } */
 
 .sect1 {
-    page-break-after: always;
+    page-break-before: always;
 }
 
 /* Use it using [.pagebreak] */
@@ -500,6 +500,26 @@ display: none;
     page: clean;
     display: none;
 } */
+
+#cover {
+    page: cover;
+
+}
+@page cover {
+    margin: 0;
+    background: url("cover.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    @top-left{ content: none; }
+    @top-center{ content: none; }
+    @top-right{ content: none; }
+    @bottom-left{ content: none; }
+
+}
+
+
 
 /* Add this to your counter-reset class */
 .counter-reset {
@@ -589,9 +609,21 @@ display: none;
     }
 }
 
+@page :nth(5) {
+    @bottom-right {
+        content: none;
+    }
+
+    @bottom-left {
+        content: none;
+    }
+}
+
 /* Table of Contents styling */
 .toc {
-    page: toc;
+    page-break-before: always;
+    /* page: toc; */
+    /* The main effect of page: toc; will be that the TOC starts on a new page. */
 }
 
 .toc h1 {
