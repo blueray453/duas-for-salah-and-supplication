@@ -503,8 +503,8 @@ display: none;
 
 #cover {
     page: cover;
-
 }
+
 @page cover {
     margin: 0;
     background: url("cover.jpg");

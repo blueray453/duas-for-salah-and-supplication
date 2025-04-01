@@ -2,6 +2,7 @@
 :doctype: book
 :stylesheet: styles.css
 :notitle:
+:title-page: false
 :media: print
 :optimize: printer
 :!show-link-uri:
@@ -10,10 +11,10 @@
 ++++
 <section id="cover">
 </section>
-<div class="toc">
+<section class="toc">
     <h1>Table of Contents</h1>
-</div>
-<div class="counter-reset"></div>
+</section>
+<span class="counter-reset"></span>
 ++++
 
 == What to say after the Takbir
