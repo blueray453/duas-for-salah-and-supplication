@@ -569,8 +569,24 @@ display: none;
     }
 }
 
-@page toc {
-    page: clean;
+@page :nth(3) {
+    @bottom-right {
+        content: none;
+    }
+
+    @bottom-left {
+        content: none;
+    }
+}
+
+@page :nth(4) {
+    @bottom-right {
+        content: none;
+    }
+
+    @bottom-left {
+        content: none;
+    }
 }
 
 /* Table of Contents styling */
