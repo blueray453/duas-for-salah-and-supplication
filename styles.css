@@ -485,7 +485,7 @@ display: none;
 } */
 
 .sect1 {
-    page-break-after: always;
+    break-before: page;
 }
 
 /* Use it using [.pagebreak] */
@@ -591,7 +591,7 @@ display: none;
 
 /* Table of Contents styling */
 .toc {
-    page: toc;
+    break-before: avoid;
 }
 
 .toc h1 {
@@ -618,4 +618,21 @@ display: none;
 h2,
 h3 {
     string-set: section-title content();
+}
+
+#cover {
+    page: cover;
+}
+
+@page cover {
+  margin: 0;
+  background: url("cover.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  @top-left{ content: none; }
+  @top-center{ content: none; }
+  @top-right{ content: none; }
+  @bottom-left{ content: none; }
 }

@@ -7,13 +7,18 @@
 :nofooter:
 
 ++++
+<section id="cover">
+</section>
 <div class="toc">
     <h1>Table of Contents</h1>
 </div>
-<div class="counter-reset"></div>
 ++++
 
 == What to say after the Takbir
+
+++++
+<div class="counter-reset"></div>
+++++
 
 NOTE: When someone asked the Prophet (blessings and peace of Allah be upon him) what he should say [in the opening supplication], he only told him of one supplication. This indicates that it is not prescribed to combine different types thereof."(Fatawa Ibn ‘Uthaymin  13/122). The Sunnah is to vary the opening supplication. The Prophet (blessings and peace of Allah be upon him) did not combine them. https://islamqa.info/en/answers/225452/did-any-of-the-scholars-say-that-it-is-permissible-to-recite-two-of-the-opening-supplications-in-prayer
 
