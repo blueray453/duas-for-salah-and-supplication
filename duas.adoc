@@ -7,12 +7,6 @@
 :!show-link-uri:
 :nofooter:
 
-++++
-<div class="toc">
-    <h1>Table of Contents</h1>
-</div>
-++++
-
 == What to say after the Takbir
 
 pass:[<div class="counter-reset"></div>]

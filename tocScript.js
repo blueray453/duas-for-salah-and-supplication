@@ -1,9 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Select the TOC container
     let coverDiv = document.querySelector("#header");
-    coverDiv.style.breakBefore = 'page';
+    // coverDiv.style.breakBefore = 'page';
+
+    // Create the new div element
+    const toc = document.createElement("div");
+    toc.classList.add("toc");
+    toc.innerHTML = "<h1>Table of Contents</h1>";
+
+    // Insert the new div after the header
+    coverDiv.insertAdjacentElement("afterend", toc);
+
     let tocDiv = document.querySelector(".toc");
-    tocDiv.style.breakBefore = 'page';
+    // tocDiv.style.breakBefore = 'page';
     // Select all h2 and h3 elements for ToC generation
     let headings = document.querySelectorAll("h2, h3");
 
