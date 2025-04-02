@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Insert the new div after the header
     coverDiv.insertAdjacentElement("afterend", toc);
 
-    let tocDiv = document.querySelector(".toc");
     // tocDiv.style.breakBefore = 'page';
     // Select all h2 and h3 elements for ToC generation
     let headings = document.querySelectorAll("h2, h3");
@@ -33,6 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
             tocEntry.classList.add("sub");
         }
 
-        tocDiv.appendChild(tocEntry);
+        toc.appendChild(tocEntry);
     });
 });
