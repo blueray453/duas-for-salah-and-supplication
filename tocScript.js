@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Select the TOC container
-    let coverDiv = document.querySelector("#cover");
+    let coverDiv = document.querySelector("#header");
     coverDiv.style.breakBefore = 'page';
     let tocDiv = document.querySelector(".toc");
     tocDiv.style.breakBefore = 'page';

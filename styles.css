@@ -625,7 +625,7 @@ h3 {
     string-set: section-title content();
 }
 
-#cover {
+#header {
     page: cover;
 }
 

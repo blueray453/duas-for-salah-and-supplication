@@ -8,8 +8,6 @@
 :nofooter:
 
 ++++
-<section id="cover">
-</section>
 <div class="toc">
     <h1>Table of Contents</h1>
 </div>
