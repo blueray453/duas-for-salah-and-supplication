@@ -1806,6 +1806,8 @@ O Allah, guide me among those whom You have guided, pardon me among those You ha
 
 [.reference]
 SIM 3830
+SD 1510
+JT 3551
 
 [.arabic-text]
 رَبِّ أَعِنِّي وَلاَ تُعِنْ عَلَىَّ وَانْصُرْنِي وَلاَ تَنْصُرْ عَلَىَّ وَامْكُرْ لِي وَلاَ تَمْكُرْ عَلَىَّ وَاهْدِنِي وَيَسِّرِ الْهُدَى لِي وَانْصُرْنِي عَلَى مَنْ بَغَى عَلَىَّ رَبِّ اجْعَلْنِي لَكَ شَكَّارًا لَكَ ذَكَّارًا لَكَ رَهَّابًا لَكَ مُطِيعًا إِلَيْكَ مُخْبِتًا إِلَيْكَ أَوَّاهًا مُنِيبًا رَبِّ تَقَبَّلْ تَوْبَتِي وَاغْسِلْ حَوْبَتِي وَأَجِبْ دَعْوَتِي وَاهْدِ قَلْبِي وَسَدِّدْ لِسَانِي وَثَبِّتْ حُجَّتِي وَاسْلُلْ سَخِيمَةَ قَلْبِي
@@ -4470,86 +4472,69 @@ O Allah, we place You before them, and we seek refuge in You from their evil.
 
 == Distress
 
-[.reference]
-SM 2730a
-SAB 6345
-[.arabic-text]
-لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَرَبُّ الأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ
-
-[.word-by-word]
-[.translation-bangla]
-মহান, ধৈর্যশীল আল্লাহ ছাড়া কোন মা’বুদ নেই। মহান আরশের পালনকর্তা আল্লাহ ছাড়া কোন মা’বূদ নেই। আকাশমণ্ডলী ও পৃথিবীর রব এবং সম্মানিত আরশের রব আল্লাহ ছাড়া কোন মা’বূদ নেই।
-
-[.translation-computer-generated-bangla]
-[.translation-english]
-There is no god but Allah, the Great, the Tolerant, there is no god but Allah, the Lord of the Magnificent Throne There is no god but Allah, the Lord of the Heaven and the earth, the Lord of the Edifying Throne.
-[.translation-computer-generated-english]
+NOTE: We feel distress when we *perceive a situation as a threat and feel we cannot cope with the pressure*, which can stem from events like job loss, financial difficulties, relationship problems, trauma, or a physical or mental health condition. Distress can also be a prolonged, overwhelming version of stress that disrupts our daily life, leading to feelings of being overwhelmed, anxious, sad, or hopeless.
 
 [.reference]
-.The Messenger of Allah (ﷺ) taught me some words to say at times of distress
-SIM 3882
+.যখন কোন বিষয় চিন্তিত করে তুলত
+JT 3524
+JT 3525
+
 [.arabic-text]
-اللَّهُ اللَّهُ رَبِّي لاَ أُشْرِكُ بِهِ شَيْئًا
+يَا حَىُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ
+يَا ذَا الْجَلاَلِ وَالإِكْرَامِ
+
 [.word-by-word]
-[.translation-bangla]
-আল্লাহ্‌, আল্লাহ্‌, আমার প্রতিপালক, আমি তাঁর সাথে কোন কিছুই শরীক করি না
+يَا – হে – O
+حَىُّ – চিরঞ্জীব – The Ever-Living
+يَا – হে – O
+قَيُّومُ – রক্ষাকারী – The Sustainer
+بِرَحْمَتِكَ – আপনার রহমতের মাধ্যমে – Through Your mercy
+أَسْتَغِيثُ – আমি সাহায্য প্রার্থনা করছি – I seek relief
+يَا – হে – O
+ذَا – অধিকারী – Possessor of
+الْجَلاَلِ – মহিমা – Glory
+وَالإِكْرَامِ – এবং সম্মান – And honor
+
 [.translation-computer-generated-bangla]
+হে চিরঞ্জীব, হে রক্ষাকারী! আপনার রহমতের মাধ্যমে আমি সাহায্য প্রার্থনা করছি। হে মহিমা ও সম্মানের অধিকারী!
+
 [.translation-english]
-Allah, Allah is my Lord, I do not associate anything with Him
+O Living and Eternal Sustainer! By Your mercy I seek relief.
+
 [.translation-computer-generated-english]
+O Ever-Living, O Sustainer! I seek relief through Your mercy. O Lord of Glory and Honor!
 
 [.reference]
-.the Prophet (ﷺ) used to say at times of distress
-SIM 3883
-[.arabic-text]
-لاَ إِلَهَ إِلاَّ اللَّهُ الْحَلِيمُ الْكَرِيمُ سُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ الْعَظِيمِ سُبْحَانَ اللَّهِ رَبِّ السَّمَوَاتِ السَّبْعِ وَرَبِّ الْعَرْشِ الْكَرِيمِ
-[.word-by-word]
-[.translation-bangla]
-আল্লাহ্‌ ব্যতীত কোন ইলাহ নাই, তিনি পরম সহিষ্ণু, মহা সন্মানিত, পরম দয়ালু, মহান আরশের প্রভু আল্লাহ্‌ মহাপবিত্র, সাত আসমানের প্রভু ও মহান আরশের প্রভু আল্লাহ্‌ মহাপবিত্র
-[.translation-computer-generated-bangla]
-[.translation-english]
-None has the right to be worshipped but Allah, the Forbearing, the Most Generous; glory is to Allah the Lord of the Mighty Throne; glory is to Allah, the Lord of the seven heavens and the Lord of the Magnificent Throne
-[.translation-computer-generated-english]
-
-[.reference]
-.Allah will give him reward for affliction, and would give him something better than it in exchange
-SM 918b
-JT 3511
+.Nun (Prophet Yunus) when he supplicated, while in the belly of the whale
+JT 3505
 
 [.arabic-text]
-إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي وَأَخْلِفْ لِي خَيْرًا مِنْهَا
+لاَ إِلَهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ
 
 [.word-by-word]
-إِنَّا - আমরা - indeed we
-لِلَّهِ - আল্লাহর জন্য - belong to Allah
-وَإِنَّا - এবং নিশ্চয়ই আমরা - and indeed we
-إِلَيْهِ - তাঁর দিকে - to Him
-رَاجِعُونَ - ফিরে যাব - will return
-اللَّهُمَّ - হে আল্লাহ - O Allah
-أْجُرْنِي - আমাকে প্রতিদান দিন - reward me
-فِي - মধ্যে - in
-مُصِيبَتِي - আমার বিপদে - my affliction
-وَأَخْلِفْ - এবং বিনিময় দিন - and give in exchange
-لِي - আমাকে - to me
-خَيْرًا - উত্তম - something better
-مِنْهَا - এর চেয়ে - than it
-
-[.translation-bangla]
-আমরা আল্লাহরই জন্যে এবং তারই কাছে ফিরে যাব। হে আল্লাহ! আমাকে আমার মুসীবাতে সাওয়াব দান কর এবং এর বিনিময়ে এর চেয়ে উত্তম বস্তু দান কর
+لاَ إِلَهَ – কোনো উপাস্য নেই – There is no god
+إِلاَّ أَنْتَ – আপনার ছাড়া – Except You
+سُبْحَانَكَ – মহিমা আপনারই – Glory be to You
+إِنِّي – নিশ্চয়ই আমি – Indeed, I
+كُنْتُ – ছিলাম – Have been
+مِنَ الظَّالِمِينَ – অত্যাচারীদের মধ্যে – Of the wrongdoers
 
 [.translation-computer-generated-bangla]
-নিশ্চয়ই আমরা আল্লাহর জন্য এবং নিশ্চয়ই আমরা তাঁর কাছে ফিরে যাব। হে আল্লাহ! আমার এই বিপদের জন্য আমাকে প্রতিদান দিন এবং এর পরিবর্তে আমার জন্য এর চেয়ে উত্তম কিছু দিন।
+আপনার ছাড়া আর কোনো উপাস্য নেই। মহিমা আপনারই, নিশ্চয়ই আমি ছিলাম অত্যাচারীদের মধ্যে।
 
 [.translation-english]
-O Allah, reward me for my affliction and give me something better than it in exchange for it
+There is none worthy of worship except You, Glory to You, Indeed, I have been of the transgressors.
 
 [.translation-computer-generated-english]
-Indeed, we belong to Allah, and indeed, to Him we will return. O Allah, reward me for my affliction and give me something better than it in exchange.
+There is none worthy of worship except You, Glory be to You, Indeed, I have been of the wrongdoers.
 
 [.reference]
 .আল্লাহর নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বিপদকালে এই দুআ পাঠ করতেন (say at a time of distress)
 JT 3435
+SIM 3883
+SM 2730a
 SAB 6346
+SAB 6345
 SAB 7431
 
 [.arabic-text]
@@ -4587,34 +4572,17 @@ There is none worthy of worship except Allah, the Forbearing, the Wise, there is
 There is no god but Allah, the Most High, the Most Forbearing. There is no god but Allah, the Lord of the Magnificent Throne. There is no god but Allah, the Lord of the heavens and the earth, and the Lord of the Noble Throne.
 
 [.reference]
-.যখন কোন বিষয় চিন্তিত করে তুলত
-JT 3524
-JT 3525
-
+.The Messenger of Allah (ﷺ) taught me some words to say at times of distress
+SIM 3882
 [.arabic-text]
-يَا حَىُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ
-يَا ذَا الْجَلاَلِ وَالإِكْرَامِ
-
+اللَّهُ اللَّهُ رَبِّي لاَ أُشْرِكُ بِهِ شَيْئًا
 [.word-by-word]
-يَا – হে – O
-حَىُّ – চিরঞ্জীব – The Ever-Living
-يَا – হে – O
-قَيُّومُ – রক্ষাকারী – The Sustainer
-بِرَحْمَتِكَ – আপনার রহমতের মাধ্যমে – Through Your mercy
-أَسْتَغِيثُ – আমি সাহায্য প্রার্থনা করছি – I seek relief
-يَا – হে – O
-ذَا – অধিকারী – Possessor of
-الْجَلاَلِ – মহিমা – Glory
-وَالإِكْرَامِ – এবং সম্মান – And honor
-
+[.translation-bangla]
+আল্লাহ্‌, আল্লাহ্‌, আমার প্রতিপালক, আমি তাঁর সাথে কোন কিছুই শরীক করি না
 [.translation-computer-generated-bangla]
-হে চিরঞ্জীব, হে রক্ষাকারী! আপনার রহমতের মাধ্যমে আমি সাহায্য প্রার্থনা করছি। হে মহিমা ও সম্মানের অধিকারী!
-
 [.translation-english]
-O Living and Eternal Sustainer! By Your mercy I seek relief.
-
+Allah, Allah is my Lord, I do not associate anything with Him
 [.translation-computer-generated-english]
-O Ever-Living, O Sustainer! I seek relief through Your mercy. O Lord of Glory and Honor!
 
 [.reference]
 Ar-Raheeq-Al-Makhtum, Tabarani and Seerah of Ibn Hisham
@@ -4703,20 +4671,29 @@ O Allah! I complain to you of my weakness, my scarcity of resources and humiliat
 [.translation-computer-generated-english]
 O Allah! I complain to You of my weakness, my lack of resources, and my humiliation before the people. O Most Merciful of those who show mercy! You are the Lord of the weak, and You are my Lord. To whom have You entrusted me? To one distant who receives me with hostility, or to an enemy to whom You have given control over my affairs? As long as You are not angry with me, I do not mind. But Your protection is more encompassing for me. I seek refuge in the light of Your Face, which illuminates all darkness and through which the affairs of this world and the Hereafter are set right, from Your anger descending upon me or Your displeasure befalling me. Yours is the right to reprimand until You are pleased, and there is no power (to do good) and no might (to refrain from evil) except through You.
 
-[.reference]
-.when something overwhelms you, to not feel helpless because of weakness
-SIM 4168
-[.arabic-text]
-قَدَّرَ اللَّهُ وَمَا شَاءَ فَعَلَ
-[.word-by-word]
-[.translation-bangla]
-আল্লাহ নির্দ্ধারণ করেছেন এবং নিজ মর্জি মাফিক করে রেখেছেন।
-[.translation-computer-generated-bangla]
-[.translation-english]
-It is the decree of Allah and what He wills He does
-[.translation-computer-generated-english]
+== Protection (During)
 
-== Protection
+[.reference]
+SM 3005
+
+[.arabic-text]
+اللَّهُمَّ اكْفِنِيهِمْ بِمَا شِئْتَ
+
+[.word-by-word]
+اللَّهُمَّ – হে আল্লাহ – O Allah
+اكْفِنِيهِمْ – আমাকে তাদের থেকে রক্ষা করুন – Save me from them
+بِمَا شِئْتَ – আপনি যেভাবে চান – In whatever way You will
+
+[.translation-computer-generated-bangla]
+"হে আল্লাহ! আপনি যেভাবে চান, আমাকে তাদের থেকে রক্ষা করুন।"
+
+[.translation-english]
+O Allah, save me from them (in any way) Thou likest
+
+[.translation-computer-generated-english]
+"O Allah, protect me from them in whatever way You will."
+
+== Protection (Pre)
 
 [.reference]
 .Protection Against Saitan: In the morning and evening
@@ -4879,197 +4856,55 @@ I seek refuge for you both in the Perfect Words of Allah, from every devil and e
 [.translation-computer-generated-english]
 I seek refuge in the Perfect Words of Allah, from every devil, every poisonous creature, and from every harmful eye.
 
-[.reference]
-AAM 664
-
-[.arabic-text]
-اللَّهُمَّ أَعِنِّي وَلاَ تُعِنْ عَلَيَّ، وَانْصُرْنِي وَلاَ تَنْصُرْ عَلَيَّ، وَيَسِّرِ الْهُدَى لِي
-
-[.word-by-word]
-اللَّهُمَّ – হে আল্লাহ – O Allah
-أَعِنِّي – আমাকে সাহায্য করুন – Help me
-وَلاَ تُعِنْ – এবং আমার বিরুদ্ধে সাহায্য করবেন না – And do not help against me
-وَانْصُرْنِي – এবং আমাকে সমর্থন করুন – And support me
-وَلاَ تَنْصُرْ – এবং আমার বিরুদ্ধে সমর্থন করবেন না – And do not support against me
-وَيَسِّرِ – এবং সহজ করে দিন – And make easy
-الْهُدَى – হেদায়াত – Guidance
-لِي – আমার জন্য – For me
-
-[.translation-computer-generated-bangla]
-হে আল্লাহ! আমাকে সাহায্য করুন এবং আমার বিরুদ্ধে সাহায্য করবেন না। আমাকে সমর্থন করুন এবং আমার বিরুদ্ধে কাউকে সমর্থন করবেন না। আমাকে হেদায়াতের পথ সহজ করে দিন।
-
-[.translation-english]
-O Allah, help me and do not help against me. Support me and do not support anyone against me. Make guidance easy for me.
-
-[.translation-computer-generated-english]
-O Allah, help me and do not help against me. Support me and do not support anyone against me. Make guidance easy for me.
+== Post Disaster
 
 [.reference]
-SD 1510
+.Allah will give him reward for affliction, and would give him something better than it in exchange
+SM 918b
+JT 3511
 
 [.arabic-text]
-رَبِّ أَعِنِّي وَلاَ تُعِنْ عَلَىَّ وَانْصُرْنِي وَلاَ تَنْصُرْ عَلَىَّ وَامْكُرْ لِي وَلاَ تَمْكُرْ عَلَىَّ وَاهْدِنِي وَيَسِّرْ هُدَاىَ إِلَىَّ وَانْصُرْنِي عَلَى مَنْ بَغَى عَلَىَّ اللَّهُمَّ اجْعَلْنِي لَكَ شَاكِرًا لَكَ ذَاكِرًا لَكَ رَاهِبًا لَكَ مِطْوَاعًا إِلَيْكَ مُخْبِتًا أَوْ مُنِيبًا رَبِّ تَقَبَّلْ تَوْبَتِي وَاغْسِلْ حَوْبَتِي وَأَجِبْ دَعْوَتِي وَثَبِّتْ حُجَّتِي وَاهْدِ قَلْبِي وَسَدِّدْ لِسَانِي وَاسْلُلْ سَخِيمَةَ قَلْبِي
+إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي وَأَخْلِفْ لِي خَيْرًا مِنْهَا
 
 [.word-by-word]
-رَبِّ – হে আমার প্রভু – My Lord
-أَعِنِّي – আমাকে সাহায্য করুন – Help me
-وَلاَ تُعِنْ – এবং আমার বিরুদ্ধে সাহায্য করবেন না – And do not help against me
-وَانْصُرْنِي – এবং আমাকে বিজয় দান করুন – And grant me victory
-وَلاَ تَنْصُرْ – এবং আমার বিরুদ্ধে বিজয় দান করবেন না – And do not grant victory over me
-وَامْكُرْ لِي – এবং আমার পক্ষে পরিকল্পনা করুন – And plan on my behalf
-وَلاَ تَمْكُرْ عَلَىَّ – এবং আমার বিরুদ্ধে পরিকল্পনা করবেন না – And do not plan against me
-وَاهْدِنِي – আমাকে হেদায়াত দিন – Guide me
-وَيَسِّرْ هُدَاىَ – এবং আমার হেদায়াতকে সহজ করুন – And make my guidance easy for me
-إِلَىَّ – আমার জন্য – For me
-وَانْصُرْنِي – এবং আমাকে সাহায্য করুন – And grant me victory
-عَلَى مَنْ بَغَى عَلَىَّ – যারা আমার প্রতি অন্যায় করে তাদের বিরুদ্ধে – Over those who act wrongfully towards me
-اللَّهُمَّ – হে আল্লাহ – O Allah
-اجْعَلْنِي – আমাকে বানান – Make me
-لَكَ شَاكِرًا – আপনার প্রতি কৃতজ্ঞ – Grateful to You
-لَكَ ذَاكِرًا – আপনার স্মরণকারী – Mindful of You
-لَكَ رَاهِبًا – আপনার প্রতি ভয়কারী – Full of fear towards You
-لَكَ مِطْوَاعًا – আপনার আনুগত্যে সম্পূর্ণ নিবেদিত – Devoted to Your obedience
-إِلَيْكَ مُخْبِتًا – আপনার প্রতি বিনীত – Humble before You
-أَوْ مُنِيبًا – অথবা তওবাকারী – Or repentant
-رَبِّ – হে আমার প্রভু – My Lord
-تَقَبَّلْ تَوْبَتِي – আমার তওবা কবুল করুন – Accept my repentance
-وَاغْسِلْ حَوْبَتِي – এবং আমার পাপ ধুয়ে ফেলুন – Wash away my sin
-وَأَجِبْ دَعْوَتِي – এবং আমার দোয়া কবুল করুন – Answer my supplication
-وَثَبِّتْ حُجَّتِي – এবং আমার প্রমাণ সুস্পষ্ট করুন – Firmly establish my proof
-وَاهْدِ قَلْبِي – এবং আমার হৃদয়কে হেদায়াত দিন – Guide my heart
-وَسَدِّدْ لِسَانِي – এবং আমার জিহ্বাকে সত্যবাদী করুন – Make my tongue truthful
-وَاسْلُلْ سَخِيمَةَ قَلْبِي – এবং আমার অন্তরের ক্রোধ দূর করে দিন – Remove malice from my heart
-
-[.translation-computer-generated-bangla]
-হে আমার প্রভু! আমাকে সাহায্য করুন এবং আমার বিরুদ্ধে সাহায্য করবেন না; আমাকে বিজয় দান করুন এবং আমার বিরুদ্ধে বিজয় দান করবেন না; আমার পক্ষে পরিকল্পনা করুন এবং আমার বিরুদ্ধে পরিকল্পনা করবেন না; আমাকে পথ দেখান এবং আমার জন্য সঠিক পথে চলা সহজ করুন; যারা আমার প্রতি অন্যায় করে তাদের বিরুদ্ধে আমাকে বিজয় দান করুন। হে আল্লাহ! আমাকে আপনার প্রতি কৃতজ্ঞ বানান, আপনাকে স্মরণকারী বানান, আপনার প্রতি ভীত, আপনার আনুগত্যে সম্পূর্ণ নিবেদিত, বিনীত এবং তওবাকারী বানান। হে আমার প্রভু! আমার তওবা কবুল করুন, আমার পাপ ধুয়ে ফেলুন, আমার দোয়া কবুল করুন, আমার প্রমাণ সুস্পষ্ট করুন, আমার হৃদয়কে হেদায়াত দিন, আমার জিহ্বাকে সত্যবাদী করুন এবং আমার অন্তরের ক্রোধ দূর করে দিন।
-
-[.translation-english]
-My Lord, help me and do not give help against me; grant me victory, and do not grant victory over me; plan on my behalf and do not plan against me; guide me, and made my right guidance easy for me; grant me victory over those who act wrongfully towards me; O Allah, make me grateful to Thee, mindful of Thee, full of fear towards Thee, devoted to Thy obedience, humble before Thee, or penitent. My Lord, accept my repentance, wash away my sin, answer my supplication, clearly establish my evidence, guide my heart, make true my tongue and draw out malice in my breast.
-
-[.translation-computer-generated-english]
-My Lord, help me and do not help against me; grant me victory and do not grant victory over me; plan on my behalf and do not plan against me; guide me and make my guidance easy for me; grant me victory over those who act wrongfully towards me. O Allah, make me grateful to You, mindful of You, full of fear towards You, devoted to Your obedience, humble before You, and repentant. My Lord, accept my repentance, wash away my sin, answer my supplication, firmly establish my proof, guide my heart, make my tongue truthful, and remove malice from my heart.
-
-[.reference]
-JT 3551
-
-[.arabic-text]
-رَبِّ أَعِنِّي وَلاَ تُعِنْ عَلَىَّ وَانْصُرْنِي وَلاَ تَنْصُرْ عَلَىَّ وَامْكُرْ لِي وَلاَ تَمْكُرْ عَلَىَّ وَاهْدِنِي وَيَسِّرِ الْهُدَى لِي وَانْصُرْنِي عَلَى مَنْ بَغَى عَلَىَّ رَبِّ اجْعَلْنِي لَكَ شَكَّارًا لَكَ ذَكَّارًا لَكَ رَهَّابًا لَكَ مِطْوَاعًا لَكَ مُخْبِتًا إِلَيْكَ أَوَّاهًا مُنِيبًا رَبِّ تَقَبَّلْ تَوْبَتِي وَاغْسِلْ حَوْبَتِي وَأَجِبْ دَعْوَتِي وَثَبِّتْ حُجَّتِي وَسَدِّدْ لِسَانِي وَاهْدِ قَلْبِي وَاسْلُلْ سَخِيمَةَ صَدْرِي
-
-[.word-by-word]
-رَبِّ - হে প্রভু - My Lord
-أَعِنِّي - আমাকে সাহায্য করুন - aid me
-وَلاَ - এবং না - and do not
-تُعِنْ - সাহায্য করুন - aid
-عَلَىَّ - আমার বিরুদ্ধে - against me
-وَانْصُرْنِي - আমাকে বিজয় দিন - grant me victory
-وَلاَ - এবং না - and do not
-تَنْصُرْ - বিজয় দিন - grant victory
-عَلَىَّ - আমার বিরুদ্ধে - over me
-وَامْكُرْ - পরিকল্পনা করুন - plot
-لِي - আমার জন্য - for me
-وَلاَ - এবং না - and do not
-تَمْكُرْ - পরিকল্পনা করুন - plot
-عَلَىَّ - আমার বিরুদ্ধে - against me
-وَاهْدِنِي - আমাকে পথ দেখান - guide me
-وَيَسِّرِ - সহজ করুন - facilitate
-الْهُدَى - হেদায়েত - guidance
-لِي - আমার জন্য - for me
-وَانْصُرْنِي - আমাকে বিজয় দিন - grant me victory
-عَلَى - এর বিরুদ্ধে - over
-مَنْ - যে - the one who
-بَغَى - জুলুম করেছে - has transgressed
-عَلَىَّ - আমার বিরুদ্ধে - against me
-رَبِّ - হে প্রভু - My Lord
-اجْعَلْنِي - আমাকে বানান - make me
-لَكَ - আপনার জন্য - for You
-شَكَّارًا - কৃতজ্ঞ - grateful
-لَكَ - আপনার জন্য - for You
-ذَكَّارًا - স্মরণকারী - remembering
-لَكَ - আপনার জন্য - for You
-رَهَّابًا - ভীত - fearful
-لَكَ - আপনার জন্য - for You
-مِطْوَاعًا - বাধ্য - obedient
-لَكَ - আপনার জন্য - for You
-مُخْبِتًا - বিনম্র - humble
-إِلَيْكَ - আপনার দিকে - to You
-أَوَّاهًا - অনুতপ্ত - remorseful
-مُنِيبًا - ফিরে আসা - returning
-رَبِّ - হে প্রভু - My Lord
-تَقَبَّلْ - গ্রহণ করুন - accept
-تَوْبَتِي - আমার তওবা - my repentance
-وَاغْسِلْ - ধুয়ে ফেলুন - wash away
-حَوْبَتِي - আমার পাপ - my sin
-وَأَجِبْ - উত্তর দিন - answer
-دَعْوَتِي - আমার প্রার্থনা - my call
-وَثَبِّتْ - দৃঢ় করুন - make firm
-حُجَّتِي - আমার প্রমাণ - my proof
-وَسَدِّدْ - সঠিক করুন - make firm
-لِسَانِي - আমার জিহ্বা - my tongue
-وَاهْدِ - পথ দেখান - guide
-قَلْبِي - আমার হৃদয় - my heart
-وَاسْلُلْ - সরিয়ে ফেলুন - remove
-سَخِيمَةَ - বিদ্বেষ - treachery/resentment
-صَدْرِي - আমার বক্ষ - from my chest
+إِنَّا - আমরা - indeed we
+لِلَّهِ - আল্লাহর জন্য - belong to Allah
+وَإِنَّا - এবং নিশ্চয়ই আমরা - and indeed we
+إِلَيْهِ - তাঁর দিকে - to Him
+رَاجِعُونَ - ফিরে যাব - will return
+اللَّهُمَّ - হে আল্লাহ - O Allah
+أْجُرْنِي - আমাকে প্রতিদান দিন - reward me
+فِي - মধ্যে - in
+مُصِيبَتِي - আমার বিপদে - my affliction
+وَأَخْلِفْ - এবং বিনিময় দিন - and give in exchange
+لِي - আমাকে - to me
+خَيْرًا - উত্তম - something better
+مِنْهَا - এর চেয়ে - than it
 
 [.translation-bangla]
---
-হে আল্লাহ! আমাকে সহযোগিতা কর এবং আমার বিরুদ্ধে (কাউকে) সহযোগিতা করো না, আমাকে সাহায্য কর এবং আমার বিরুদ্ধে কাউকে সাহায্য করো না, আমার জন্য পরিকল্পনা এঁটে দাও এবং আমার বিরুদ্ধে পরিকল্পনা এঁটো না, আমাকে হিদায়াত দান কর, আমার জন্য হিদায়াতের পথ সহজসাধ্য কর এবং যে লোক আমার উপর যুলম ও সীমালঙ্ঘন করে তার বিরুদ্ধে আমাকে সহযোগিতা কর।
-
-হে আল্লাহ! আমাকে তোমার জন্য কৃতজ্ঞ বান্দা কর, তোমার জন্য অধিক যিকরকারী, তোমাকে বেশি ভয়কারী, তোমার অনেক আনুগত্যকারী, তোমার কাছে অনুনয়-বিনয়কারী ও তোমার দিকে প্রত্যাবর্তনকারী কর। হে আমার প্রভু! আমার তওবা কবুল কর, আমার সকল গুনাহ ধুয়ে-মুছে ফেল, আমার দু’আ কবুল কর, আমার সাক্ষ্য-প্রমাণ বহাল কর, আমার যবানকে দৃঢ় কর, আমার অন্তরে হিদায়াত দান কর এবং আমার বুক হতে সমস্ত হিংসা দূর কর
---
+আমরা আল্লাহরই জন্যে এবং তারই কাছে ফিরে যাব। হে আল্লাহ! আমাকে আমার মুসীবাতে সাওয়াব দান কর এবং এর বিনিময়ে এর চেয়ে উত্তম বস্তু দান কর
 
 [.translation-computer-generated-bangla]
-হে প্রভু! আমাকে সাহায্য করুন এবং আমার বিরুদ্ধে সাহায্য করবেন না। আমাকে বিজয় দিন এবং অন্যদের আমার বিরুদ্ধে বিজয়ী করবেন না। আমার জন্য পরিকল্পনা করুন এবং আমার বিরুদ্ধে পরিকল্পনা করবেন না। আমাকে পথ দেখান এবং আমার জন্য হেদায়েত সহজ করে দিন। যারা আমার বিরুদ্ধে জুলুম করেছে তাদের বিরুদ্ধে আমাকে সাহায্য করুন। হে প্রভু! আমাকে আপনার প্রতি কৃতজ্ঞ, আপনার অধিক স্মরণকারী, আপনার ভীত, আপনার বাধ্য, এবং আপনার প্রতি বিনম্র এবং আপনার দিকে ফিরে আসা বানান। হে প্রভু! আমার তওবা গ্রহণ করুন, আমার পাপ ধুয়ে ফেলুন, আমার প্রার্থনার উত্তর দিন, আমার প্রমাণ দৃঢ় করুন, আমার জিহ্বা সঠিক করুন, আমার হৃদয়কে সঠিক পথে পরিচালিত করুন, এবং আমার বক্ষ থেকে বিদ্বেষ সরিয়ে দিন।
+নিশ্চয়ই আমরা আল্লাহর জন্য এবং নিশ্চয়ই আমরা তাঁর কাছে ফিরে যাব। হে আল্লাহ! আমার এই বিপদের জন্য আমাকে প্রতিদান দিন এবং এর পরিবর্তে আমার জন্য এর চেয়ে উত্তম কিছু দিন।
 
 [.translation-english]
-My Lord, aid me and do not aid against me, and grant me victory and do not grant victory over me, plot for me and do not plot against me, guide me and facilitate guidance for me, grant me victory over those who transgress against me. My Lord, make me ever-grateful to You, ever-remembering of You, ever-fearful of You, ever-obedient to You, ever-humble to You, oft-turning and returning to You. My Lord, accept my repentance, wash my sin, answer my call, make firm my proof, make firm my tongue, guide my heart, and remove the treachery of my chest
+O Allah, reward me for my affliction and give me something better than it in exchange for it
 
 [.translation-computer-generated-english]
-My Lord, aid me and do not aid against me, and grant me victory and do not grant victory over me. Plot for me and do not plot against me. Guide me and facilitate guidance for me, and grant me victory over those who transgress against me. My Lord, make me ever-grateful to You, ever-remembering of You, ever-fearful of You, ever-obedient to You, humble before You, and always turning to You. My Lord, accept my repentance, wash away my sin, answer my call, make my proof firm, make my tongue steadfast, guide my heart, and remove resentment from my chest.
+Indeed, we belong to Allah, and indeed, to Him we will return. O Allah, reward me for my affliction and give me something better than it in exchange.
 
 [.reference]
-SM 3005
-
+.কোন কাজ তোমাকে পরাভূত করলে তুমি বলো, আল্লাহ নির্দ্ধারণ করেছেন এবং নিজ মর্জি মাফিক করে রেখেছেন। ’’যদি’’ শব্দ সম্পর্কে সাবধান থাকো। কেননা ’’যদি’’ শয়তানের কর্মের পথ উন্মুক্ত করে।
+SIM 4168
 [.arabic-text]
-اللَّهُمَّ اكْفِنِيهِمْ بِمَا شِئْتَ
-
+قَدَّرَ اللَّهُ وَمَا شَاءَ فَعَلَ
 [.word-by-word]
-اللَّهُمَّ – হে আল্লাহ – O Allah
-اكْفِنِيهِمْ – আমাকে তাদের থেকে রক্ষা করুন – Save me from them
-بِمَا شِئْتَ – আপনি যেভাবে চান – In whatever way You will
-
+[.translation-bangla]
+আল্লাহ নির্দ্ধারণ করেছেন এবং নিজ মর্জি মাফিক করে রেখেছেন।
 [.translation-computer-generated-bangla]
-"হে আল্লাহ! আপনি যেভাবে চান, আমাকে তাদের থেকে রক্ষা করুন।"
-
 [.translation-english]
-O Allah, save me from them (in any way) Thou likest
-
+It is the decree of Allah and what He wills He does
 [.translation-computer-generated-english]
-"O Allah, protect me from them in whatever way You will."
-
-[.reference]
-.Nun (Prophet Yunus) when he supplicated, while in the belly of the whale
-JT 3505
-
-[.arabic-text]
-لاَ إِلَهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ
-
-[.word-by-word]
-لاَ إِلَهَ – কোনো উপাস্য নেই – There is no god
-إِلاَّ أَنْتَ – আপনার ছাড়া – Except You
-سُبْحَانَكَ – মহিমা আপনারই – Glory be to You
-إِنِّي – নিশ্চয়ই আমি – Indeed, I
-كُنْتُ – ছিলাম – Have been
-مِنَ الظَّالِمِينَ – অত্যাচারীদের মধ্যে – Of the wrongdoers
-
-[.translation-computer-generated-bangla]
-আপনার ছাড়া আর কোনো উপাস্য নেই। মহিমা আপনারই, নিশ্চয়ই আমি ছিলাম অত্যাচারীদের মধ্যে।
-
-[.translation-english]
-There is none worthy of worship except You, Glory to You, Indeed, I have been of the transgressors.
-
-[.translation-computer-generated-english]
-There is none worthy of worship except You, Glory be to You, Indeed, I have been of the wrongdoers.
 
 == Going to Jihad
 
