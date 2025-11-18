@@ -684,7 +684,6 @@ Allah hears the one who praises Him. O our Lord! All praise is for You, many goo
 
 [.reference]
 SM 478a
-SM 477
 MAM 876
 SM 771a (T)
 SAN 1068
@@ -745,6 +744,57 @@ Allah! our Lord, to Thee be the praise that would fill the heavens and the earth
 
 [.translation-computer-generated-english]
 O Allah, our Lord! To You belongs all praise, as much as would fill the heavens, the earth, and what is between them, and as much as You will beyond that. You are worthy of all praise and glory. No one can withhold what You give, and no one can give what You withhold. The wealth of the wealthy does not benefit them before You.
+
+[.reference]
+SM 477
+[.arabic-text]
+رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَوَاتِ وَالأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَىْءٍ بَعْدُ أَهْلَ الثَّنَاءِ وَالْمَجْدِ أَحَقُّ مَا قَالَ الْعَبْدُ وَكُلُّنَا لَكَ عَبْدٌ اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ وَلاَ مُعْطِيَ لِمَا مَنَعْتَ وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ
+[.word-by-word]
+رَبَّنَا - হে আমাদের রব! - O our Lord!
+لَكَ - আপনার জন্যই - For You
+الْحَمْدُ - সমস্ত প্রশংসা - All praise
+مِلْءَ - পরিপূর্ণতা - Fullness
+السَّمَوَاتِ - আসমানসমূহ - The heavens
+وَ - এবং - And
+الْأَرْضِ - যমীন - The earth
+وَمِلْءَ - এবং পরিপূর্ণতা - And fullness
+مَا - যা - Whatever
+شِئْتَ - আপনি ইচ্ছা করেন - You will
+مِنْ - হতে - From
+شَيْءٍ - যেকোনো বস্তু - Anything
+بَعْدُ - এরপর - After that
+أَهْلَ - যোগ্য - Worthy
+الثَّنَاءِ - প্রশংসার - Of praise
+وَالْمَجْدِ - ও মহিমার - And glory
+أَحَقُّ - সবচেয়ে যোগ্য - Most deserving
+مَا - যা - That which
+قَالَ - বলেছেন - Said
+الْعَبْدُ - বান্দা - The servant
+وَكُلُّنَا - এবং আমরা সবাই - And all of us
+لَكَ - আপনার - To You
+عَبْدٌ - বান্দা - Servants
+اللَّهُمَّ - হে আল্লাহ! - O Allah!
+لَا - নেই - There is no
+مَانِعَ - বাধাদানকারী - Preventer
+لِمَا - সেটা - For that which
+أَعْطَيْتَ - আপনি দান করেছেন - You have given
+وَلَا - এবং নেই - And no
+مُعْطِيَ - দানকারী - Giver
+لِمَا - সেটা - For that which
+مَنَعْتَ - আপনি বিরত রেখেছেন - You have withheld
+وَلَا - এবং না - And not
+يَنْفَعُ - উপকার করে - Benefits
+ذَا - যিনি/যে - The one
+الْجَدِّ - সম্পদ/সৌভাগ্যের - Of wealth/fortune
+مِنْكَ - আপনার কাছ থেকে - From You
+الْجَدُّ - সম্পদ/সৌভাগ্য - Wealth/fortune
+
+[.translation-bangla]
+হে আমাদের রব! আসমান ও জমিন পরিমিত এবং আপনার ইচ্ছানুযায়ী অন্যান্য বস্তু পরিমিত সমস্ত প্রশংসা শুধু আপনারই জন্য। সমস্ত প্রশংসা ও মহিমার আপনি অধিকারী। বান্দা যা বলে, তার মধ্যে সবচেয়ে সত্য কথা এই যে, 'আমরা সবাই আপনারই বান্দা'। হে আল্লাহ! আপনি যা দান করেন, তা বিরতকারী কেউ নেই এবং আপনি যা বিরত রাখেন, তা দানকারী কেউ নেই। আর আপনার কাছে সম্পদশালীর সম্পদ তাকে কোনো উপকার দিতে পারবে না।
+[.translation-computer-generated-bangla]
+[.translation-english]
+O Allah! our Lord, to Thee be the praise that would fill all the heavens and the earth, and all that it pleases Thee besides (them). O, thou art worthy of praise and glory, most worthy of what a servant says, and we all are Thy servants, no one can withhold what Thou givest or give what Thou withholdest, and riches cannot avail a wealthy person against Thee.
+[.translation-computer-generated-english]
 
 [.reference]
 SAN 1060
@@ -3283,6 +3333,9 @@ Our Lord! Perfect our light for us, and forgive us. ˹For˺ You are truly Most C
 &&&&
 
 [.reference]
+Quran 1:1-4
+
+[.reference]
 Quran 3:26-27
 
 [.arabic-text]
@@ -3298,49 +3351,40 @@ Quran 3:26-27
 --
 [.translation-english]
 --
-O Allah! Possessor of the kingdom, You give the kingdom to whom You will, and You take the kingdom from whom You will, and You endue with honour whom You will, and You humiliate whom You will. In Your Hand is the good. Verily, You are Able to do all things. You make the night to enter into the day, and You make the day to enter into the night (i.e. increase and decrease in the hours of the night and the day during winter and summer), You bring the living out of the dead, and You bring the dead out of the living. And You give wealth and sustenance to whom You will, without limit (measure or account).
 --
-
-[.reference]
-Quran 30:17-19
-
-[.arabic-text]
---
---
-
-[.word-by-word]
---
---
-
-[.translation-bangla]
---
---
-[.translation-english]
---
-O Allah! Possessor of the kingdom, You give the kingdom to whom You will, and You take the kingdom from whom You will, and You endue with honour whom You will, and You humiliate whom You will. In Your Hand is the good. Verily, You are Able to do all things. You make the night to enter into the day, and You make the day to enter into the night (i.e. increase and decrease in the hours of the night and the day during winter and summer), You bring the living out of the dead, and You bring the dead out of the living. And You give wealth and sustenance to whom You will, without limit (measure or account).
---
-
-[.reference]
-Quran 1:168
-
-[.reference]
-Quran 59:22-24
-
-[.reference]
-Quran 18:39
-
-[.reference]
-Quran 17:111
 
 [.reference]
 Quran 6:1
 
 [.reference]
+Quran 7:43
+
+[.reference]
+Quran 17:111
+
+[.reference]
 Quran 18:1
+
+[.reference]
+Quran 18:39
+
+[.reference]
+Quran 27:15
+
+[.reference]
+Quran 27:59
+
+[.reference]
+Quran 30:17-19
+
 [.reference]
 Quran 34:1
+
 [.reference]
 Quran 35:1
+
+[.reference]
+Quran 59:22-24
 
 == Praise Allah Hadith
 
@@ -3543,7 +3587,9 @@ O Lord, to You is praise as befits the Glory of Your Face and the greatness of Y
 [.reference]
 .Daif
 Musnad Ahmad 23355
+Al-Ṭabarānī 1746
 https://al-hadees.com/musnad-ahmed/23355
+https://shamela.ws/book/13016/1906
 [.arabic-text]
 اللَّهُمَّ لَكَ الْحَمْدُ كُلُّهُ، وَلَكَ الْمُلْكُ كُلُّهُ، بيَدِكَ الْخَيْرُ كُلُّهُ، إِلَيْكَ يُرْجَعُ الْأَمْرُ كُلُّهُ، عَلَانِيَتُهُ وَسِرُّهُ، فَأَهْلٌ أَنْ تُحْمَدَ، إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، اللَّهُمَّ اغْفِرْ لِي جَمِيعَ مَا مَضَى مِنْ ذَنْبي، وَاعْصِمْنِي فِيمَا بقِيَ مِنْ عُمْرِي، وَارْزُقْنِي عَمَلًا زَاكِيًا تَرْضَى بهِ عَنِّي
 
@@ -3553,6 +3599,21 @@ https://al-hadees.com/musnad-ahmed/23355
 [.translation-english]
 [.translation-computer-generated-english]
 O Allah, all praise belongs to You entirely; all sovereignty belongs to You entirely; all good is in Your Hand; to You all matters return — both their outward and their hidden aspects. You deserve to be praised. You are capable of all things. O Allah, forgive all of my past sins, protect me from sin for the remainder of my life, and grant me a pure, righteous deed by which You will be pleased with me.
+
+[.reference]
+.Daif
+The Hadith Book of Abu al-Faḍl al-Zuhri 307
+https://shamela.ws/book/8227/298
+
+[.arabic-text]
+اللَّهُمَّ لَكَ الْحَمْدُ كُلُّهُ، وَلَكَ الْخَلْقُ كُلُّهُ، وَإِلَيْكَ يَرْجِعُ الْأَمْرُ كُلُّهُ، أَسْأَلُكَ مِنَ الْخَيْرِ كُلِّهُ، وَأَعُوذُ بِكَ مِنَ الشَّرِّ كُلِّهُ
+
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+[.translation-computer-generated-english]
+O Allah, to You belongs all praise, and to You belongs all creation, and to You all matters return. I ask You for all good, and I seek refuge with You from all evil.
 
 == Ism-Azam
 
