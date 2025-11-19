@@ -750,51 +750,62 @@ SM 477
 [.arabic-text]
 رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَوَاتِ وَالأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَىْءٍ بَعْدُ أَهْلَ الثَّنَاءِ وَالْمَجْدِ أَحَقُّ مَا قَالَ الْعَبْدُ وَكُلُّنَا لَكَ عَبْدٌ اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ وَلاَ مُعْطِيَ لِمَا مَنَعْتَ وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ
 [.word-by-word]
+
 رَبَّنَا - হে আমাদের রব! - O our Lord!
-لَكَ - আপনার জন্যই - For You
-الْحَمْدُ - সমস্ত প্রশংসা - All praise
-مِلْءَ - পরিপূর্ণতা - Fullness
-السَّمَوَاتِ - আসমানসমূহ - The heavens
-وَ - এবং - And
-الْأَرْضِ - যমীন - The earth
-وَمِلْءَ - এবং পরিপূর্ণতা - And fullness
-مَا - যা - Whatever
-شِئْتَ - আপনি ইচ্ছা করেন - You will
-مِنْ - হতে - From
-شَيْءٍ - যেকোনো বস্তু - Anything
+لَكَ - আপনার জন্যই - To You belongs
+الْحَمْدُ - সমস্ত প্রশংসা - all praise
+مِلْءَ - পরিপূর্ণতা - the fullness
+السَّمَوَاتِ - আসমানসমূহের - of the heavens
+وَ - এবং - and
+الأَرْضِ - যমীনের - of the earth
+وَ - এবং - and
+مِلْءَ - পরিপূর্ণতা - the fullness
+مَا - যা - of what
+شِئْتَ - আপনি ইচ্ছা করেছেন - You will
+مِن - থেকে - from
+شَىْءٍ - কোনো বস্তু - anything
 بَعْدُ - এরপর - After that
-أَهْلَ - যোগ্য - Worthy
-الثَّنَاءِ - প্রশংসার - Of praise
-وَالْمَجْدِ - ও মহিমার - And glory
-أَحَقُّ - সবচেয়ে যোগ্য - Most deserving
-مَا - যা - That which
-قَالَ - বলেছেন - Said
-الْعَبْدُ - বান্দা - The servant
-وَكُلُّنَا - এবং আমরা সবাই - And all of us
-لَكَ - আপনার - To You
-عَبْدٌ - বান্দা - Servants
+
+أَهْلَ - উপযুক্ত - The One deserving
+الثَّنَاءِ - প্রশংসার - of praise
+وَ - এবং - and
+الْمَجْدِ - মর্যাদা ও মহিমার - and glory
+أَحَقُّ - সর্বাধিক যোগ্য - is the most worthy
+مَا - যা - of what
+قَالَ - বলেছে - said
+الْعَبْدُ - বান্দা - the servant
+وَ - এবং - and
+كُلُّنَا - আমরা সবাই - and all of us
+لَكَ - আপনার - for You
+عَبْدٌ - বান্দা - are servants
 اللَّهُمَّ - হে আল্লাহ! - O Allah!
-لَا - নেই - There is no
-مَانِعَ - বাধাদানকারী - Preventer
-لِمَا - সেটা - For that which
+لاَ - নেই - there is no
+مَانِعَ - বাধাদানকারী - withholder
+لِمَا - তা - for what
 أَعْطَيْتَ - আপনি দান করেছেন - You have given
-وَلَا - এবং নেই - And no
-مُعْطِيَ - দানকারী - Giver
-لِمَا - সেটা - For that which
+وَ - এবং - and
+لاَ - নেই - there is no
+مُعْطِيَ - দানকারী - giver
+لِمَا - তা - for what
 مَنَعْتَ - আপনি বিরত রেখেছেন - You have withheld
-وَلَا - এবং না - And not
-يَنْفَعُ - উপকার করে - Benefits
-ذَا - যিনি/যে - The one
-الْجَدِّ - সম্পদ/সৌভাগ্যের - Of wealth/fortune
-مِنْكَ - আপনার কাছ থেকে - From You
-الْجَدُّ - সম্পদ/সৌভাগ্য - Wealth/fortune
+وَ - এবং - and
+لاَ - না - nor
+يَنْفَعُ - উপকার দেবে - will benefit
+ذَا - ধারী - the possessor
+الْجَدِّ - সম্পদ/সৌভাগ্যের - of fortune
+مِنْكَ - আপনার কাছ থেকে - from You
+الْجَدُّ - সম্পদ - his fortune
 
 [.translation-bangla]
-হে আমাদের রব! আসমান ও জমিন পরিমিত এবং আপনার ইচ্ছানুযায়ী অন্যান্য বস্তু পরিমিত সমস্ত প্রশংসা শুধু আপনারই জন্য। সমস্ত প্রশংসা ও মহিমার আপনি অধিকারী। বান্দা যা বলে, তার মধ্যে সবচেয়ে সত্য কথা এই যে, 'আমরা সবাই আপনারই বান্দা'। হে আল্লাহ! আপনি যা দান করেন, তা বিরতকারী কেউ নেই এবং আপনি যা বিরত রাখেন, তা দানকারী কেউ নেই। আর আপনার কাছে সম্পদশালীর সম্পদ তাকে কোনো উপকার দিতে পারবে না।
+
 [.translation-computer-generated-bangla]
+হে আমাদের রব! আসমান ও জমিন পরিমাণ এবং আপনার ইচ্ছানুযায়ী অন্যান্য বস্তু পরিমাণ সমস্ত প্রশংসা শুধু আপনারই জন্য। সমস্ত প্রশংসা ও মহিমার আপনি অধিকারী। বান্দা যা বলে, তার মধ্যে সবচেয়ে সত্য কথা এই যে, 'আমরা সবাই আপনারই বান্দা'। হে আল্লাহ! আপনি যা দান করেন, তা বিরতকারী কেউ নেই এবং আপনি যা বিরত রাখেন, তা দানকারী কেউ নেই। আর আপনার কাছে সম্পদশালীর সম্পদ তাকে কোনো উপকার দিতে পারবে না।
+
 [.translation-english]
 O Allah! our Lord, to Thee be the praise that would fill all the heavens and the earth, and all that it pleases Thee besides (them). O, thou art worthy of praise and glory, most worthy of what a servant says, and we all are Thy servants, no one can withhold what Thou givest or give what Thou withholdest, and riches cannot avail a wealthy person against Thee.
+
 [.translation-computer-generated-english]
+Our Lord! All praise is for You—filling the heavens, filling the earth, and filling whatever else You will after that. You alone deserve all praise and all glory. The truest words a servant can say are: ‘We are all Your servants.’ O Allah! There is none who can withhold what You give, and none who can give what You withhold. And the wealth of the wealthy cannot benefit him against You.
 
 [.reference]
 SAN 1060
