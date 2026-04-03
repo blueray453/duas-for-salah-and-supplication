@@ -7581,6 +7581,20 @@ SIM 2825
 [.translation-english]
 I command you to Allah’s keeping, Whose trust is never lost.
 [.translation-computer-generated-english]
+
+[.reference]
+.farewell to an army
+SD 2601
+[.arabic-text]
+أَسْتَوْدِعُ اللَّهَ دِينَكُمْ وَأَمَانَتَكُمْ وَخَوَاتِيمَ أَعْمَالِكُمْ
+
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+I entrust to Allah your religion, what you are responsible for, and your final deeds.
+[.translation-computer-generated-english]
+
 [.reference]
 .Dua for person who is leaving
 JT 3445
