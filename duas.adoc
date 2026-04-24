@@ -4441,9 +4441,9 @@ NOTE: it is probably sufficient to be thinking of the matter whilst making this 
 
 [.reference]
 SAB 1166
+SAB 6382
 SAN 3253
 AAM 703
-SAB 6382
 SIM 1383
 JT 480
 SD 1538
