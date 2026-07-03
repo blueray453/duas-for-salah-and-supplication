@@ -5075,13 +5075,48 @@ Here’s a list of the different verses from the Quran which can be recited.
 
 * Surah Fatiha
 * Surah Baqarah
+* Surah Al-Kafirun
+* Surah Ikhlas
 * Surah Falaq
 * Surah An-Nas
-* Surah Ikhlas
 * Ayatul Kursi (Surah Baqarah ayat 255)
 * Surah Al A’raf Ayat 106-122
-* Surah Taha Ayat 65-69
-* Surah Al-Kafirun
+* Surah Taha Ayat 65-69 / 69
+* Surah Al Baqarah verse 1-5, 102-103, 163-164, 255-257, 285-286
+* Surah Al Araaf 23, 115-122, 179
+* Surah Al Yunus 76-82, 107
+* Surah Al Imran 18-19, 26-27, 160
+* Surah Al Nisaa 76
+* Surah Al Maaidah 118
+* Surah Al Anaam 17-18
+* Surah Al Tawbah 51
+* Surah Raad 28-29
+* Surah Al Isra 32, 81-82, 97
+* Surah Al Taha 25-28, 65-76
+* Surah Al Anbiya 87
+* Surah Al Muminun 115-118
+* Surah Al Qasas 24
+* Surah Al Luqman 27
+* Surah Al Sajdah 13-14
+* Surah Al Fatir 2, 36-37
+* Surah Al Yaseen 1-10
+* Surah Al Saffat 1-10
+* Surah Al Ghafir 59-60
+* Surah Al Qamar 10
+* Surah Al Rahman 33-36
+* Surah Al Mujadila 19-21
+* Surah Al Hashr 18-24
+* Surah Al Jinn
+* Surah Al Burooj
+* Surah Al Zalzalah
+
+
+
+
+
+
+
+NOTE: These verses may be read over water or oil. Part of it should be used for Ghusl (ritual bathing), and the other part should be drunk. You may rub your body with the oil. You should repeat this until you are cured.
 
 NOTE: The Use of Zam-Zam Water
 
@@ -5152,6 +5187,7 @@ In the Name of Allah, I seek refuge in Allah’s might and power from the evil o
 [.translation-computer-generated-english]
 
 [.reference]
+.Put your hand on the part of your body where you feel pain and say ‘Bismillah (in the name of Allah) three times, then say seven times
 SM 2202
 [.arabic-text]
 أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ
