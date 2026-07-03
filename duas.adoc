@@ -4932,6 +4932,17 @@ I seek refuge for you both in the Perfect Words of Allah, from every devil and e
 [.translation-computer-generated-english]
 I seek refuge in the Perfect Words of Allah, from every devil, every poisonous creature, and from every harmful eye.
 
+[.reference]
+Musnad Ahmad 446
+[.arabic-text]
+بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+in the Name of Allah, with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing, All-Knowing
+[.translation-computer-generated-english]
+
 == Post Disaster
 
 [.reference]
@@ -5069,7 +5080,7 @@ O Allah! I complain to you of my weakness, my scarcity of resources and humiliat
 [.translation-computer-generated-english]
 O Allah! I complain to You of my weakness, my lack of resources, and my humiliation before the people. O Most Merciful of those who show mercy! You are the Lord of the weak, and You are my Lord. To whom have You entrusted me? To one distant who receives me with hostility, or to an enemy to whom You have given control over my affairs? As long as You are not angry with me, I do not mind. But Your protection is more encompassing for me. I seek refuge in the light of Your Face, which illuminates all darkness and through which the affairs of this world and the Hereafter are set right, from Your anger descending upon me or Your displeasure befalling me. Yours is the right to reprimand until You are pleased, and there is no power (to do good) and no might (to refrain from evil) except through You.
 
-=== Ruqya
+=== Ruqya (For Self)
 
 Here’s a list of the different verses from the Quran which can be recited.
 
@@ -5110,17 +5121,106 @@ Here’s a list of the different verses from the Quran which can be recited.
 * Surah Al Burooj
 * Surah Al Zalzalah
 
-
-
-
-
-
-
 NOTE: These verses may be read over water or oil. Part of it should be used for Ghusl (ritual bathing), and the other part should be drunk. You may rub your body with the oil. You should repeat this until you are cured.
 
 NOTE: The Use of Zam-Zam Water
 
 NOTE: According to Sahih Muslim 389c, Say Azan
+
+[.reference]
+.when you suffer from some ailment, then place your hand at the place of the ailment, Then lift your hand and repeat that an odd number of times.
+JT 3588
+
+[.arabic-text]
+بِسْمِ اللَّهِ أَعُوذُ بِعِزَّةِ اللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ مِنْ وَجَعِي هَذَا
+[.word-by-word]
+[.translation-bangla]
+আল্লাহ তাআলার নামে, আমি আল্লাহ তাআলার অসীম সম্মান ও তাঁর বিরাট ক্ষমতার নিকট আমার এ ব্যথার অনুভূতি ও অনিষ্ট থেকে আশ্রয় প্রার্থণা করি
+[.translation-computer-generated-bangla]
+[.translation-english]
+In the Name of Allah, I seek refuge in Allah’s might and power from the evil of this pain I feel
+[.translation-computer-generated-english]
+
+[.reference]
+.Put your hand on the part of your body where you feel pain and say ‘Bismillah (in the name of Allah) three times, then say seven times
+SM 2202
+SIM 3522
+[.arabic-text]
+أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ
+
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+I seek refuge with Allah and with His Power from the evil that I find and that I fear
+[.translation-computer-generated-english]
+
+[.reference]
+.No Grade: https://sunnah.com/urn/7545205
+Musannaf Ibn Abi Shayba 29041
+Muwatta Malik Book 51, Hadith 1742
+
+NOTE: The devils came to the Messenger of Allah (peace and blessings be upon him) from the valleys, and they descended upon him from the mountains. Among them was a devil carrying a flaming torch, intending to burn the Messenger of Allah (peace and blessings be upon him) with it. Then Jibril (AS) taught Messenger of Allah (peace and blessings be upon him) this dua. Then the fire of the devils was extinguished, and Allah defeated them.
+
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ الَّتِي لَا يُجَاوِزُهُنَّ بَرٌّ وَلَا فَاجِرٌ مِنْ شَرِّ مَا خَلَقَ وَذَرَأَ وَبَرَأَ , وَمِنْ شَرِّ مَا يَنْزِلُ مِنَ السَّمَاءِ وَمِنْ شَرِّ مَا يَعْرُجُ فِيهَا , وَمِنْ شَرِّ مَا ذَرَأَ فِي الْأَرْضِ وَمِنْ شَرِّ مَا يَخْرُجُ مِنْهَا , وَمِنْ شَرِّ فِتَنِ اللَّيْلِ وَالنَّهَارِ , وَمِنْ شَرِّ كُلِّ طَارِقٍ إِلَّا طَارِقًا يَطْرُقُ بِخَيْرٍ يَا رَحْمَنُ
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+[.translation-computer-generated-english]
+I seek refuge in the Perfect Words of Allah, which neither the righteous nor the wicked can surpass, from the evil of what He has created, brought into existence, and fashioned; from the evil of what descends from the heaven, and from the evil of what ascends into it; from the evil of what He has spread throughout the earth, and from the evil of what comes out of it; from the evil of the trials of the night and the day; and from the evil of every night visitor, except a visitor who comes with good, O Most Merciful.
+
+[.reference]
+.Grade: Sahih (authentic) according to Al-Albani. Jibril (AS) taught
+Musnad Aḥmad 15460
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّةِ مِنْ شَرِّ مَا خَلَقَ وَذَرَأَ وَبَرَأَ وَمِنْ شَرِّ مَا يَنْزِلُ مِنَ السَّمَاءِ وَمِنْ شَرِّ مَا يَعْرُجُ فِيهَا وَمِنْ شَرِّ فِتَنِ اللَّيْلِ وَالنَّهَارِ وَمِنْ شَرِّ كُلِّ طَارِقٍ إِلَّا طَارِقًا يَطْرُقُ بِخَيْرٍ يَا رَحْمَنُ
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+I seek protection in the perfect words of Allah – which neither the upright nor the corrupt may overcome – from the evil of what He created, of what He brought into existence, and of what He scattered, from the evil of what descends from the heavens, and of what rises up to them, from the evil of what He scattered in the earth and of what emerges from it, from the evil trials of night and day, and from the evil of every night visitor, except the night visitor who comes with good, O Merciful One.
+[.translation-computer-generated-english]
+
+[.reference]
+.No Grade: https://sunnah.com/malik/51 Khalid ibn al-Walid's nightmares
+Muwatta Malik Book 51, Hadith 1741
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ غَضَبِهِ وَعِقَابِهِ وَشَرِّ عِبَادِهِ وَمِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَنْ يَحْضُرُونِ
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+I seek refuge with the complete words of Allah from His anger and His punishment and the evil of His slaves, and from the evil suggestions of the shayatin and from their being present (at death).
+[.translation-computer-generated-english]
+
+[.reference]
+.No Grade: Kab al-Ahbar, jews would have made me into a donkey.
+Muwatta Malik Book 51, Hadith 1744
+[.arabic-text]
+أَعُوذُ بِوَجْهِ اللَّهِ الْعَظِيمِ الَّذِي لَيْسَ شَىْءٌ أَعْظَمَ مِنْهُ وَبِكَلِمَاتِ اللَّهِ التَّامَّاتِ الَّتِي لاَ يُجَاوِزُهُنَّ بَرٌّ وَلاَ فَاجِرٌ وَبِأَسْمَاءِ اللَّهِ الْحُسْنَى كُلِّهَا مَا عَلِمْتُ مِنْهَا وَمَا لَمْ أَعْلَمْ مِنْ شَرِّ مَا خَلَقَ وَبَرَأَ وَذَرَأَ
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+I seek refuge with the immense Face of Allah - there is nothing greater than it - and with the complete words of Allah which neither the good person nor the corrupt can exceed and with all the most beautiful names of Allah, what I know of them and what I do not know, from the evil of what He has created and originated and multiplied.
+[.translation-computer-generated-english]
+
+[.reference]
+.হাসান গরীব
+SD 3893
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ غَضَبِهِ وَشَرِّ عِبَادِهِ وَمِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَنْ يَحْضُرُونِ
+[.word-by-word]
+[.translation-bangla]
+আল্লাহর পূর্ণ কালেমাসমূহের দ্বারা তাঁর গযব ও তাঁর বান্দাদের খারাবী ও শয়তানের কুমন্ত্রণা ও আমার নিকট তার উপস্থিত হওয়া থেকে আশ্রয় চাইছি।
+[.translation-computer-generated-bangla]
+[.translation-english]
+I seek refuge in Allah's perfect words from His anger, the evil of His servants, the evil suggestions of the devils and their presence.
+[.translation-computer-generated-english]
+
+=== Ruqya (For Others)
 
 [.reference]
 .treat some of his wives by passing his right hand over the place of ailment and used to say
@@ -5161,7 +5261,32 @@ O Allah, the Lord of the people! Remove the trouble and heal the patient, for Yo
 O Allah, Lord of mankind, remove the hardship and heal him, for You are the Healer. There is no healing but Your healing, a healing that leaves no illness behind.
 
 [.reference]
+.Jibril (AS)
+SIM 3527
+[.arabic-text]
+بِسْمِ اللَّهِ أَرْقِيكَ مِنْ كُلِّ شَىْءٍ يُؤْذِيكَ مِنْ حَسَدِ حَاسِدٍ وَمِنْ كُلِّ عَيْنٍ اللَّهُ يَشْفِيكَ
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+In the Name of Allah I perform Ruqyah for you, from everything that is harming you; from the envy of the envier and from every evil eye, may Allah heal you
+[.translation-computer-generated-english]
+
+[.reference]
+.If anyone visits a sick whose time (of death) has not come, and says with him seven times, Allah will cure him from that disease
+SD 3106
+[.arabic-text]
+أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ
+[.word-by-word]
+[.translation-bangla]
+[.translation-computer-generated-bangla]
+[.translation-english]
+I ask Allah, the Mighty, the Lord of the mighty Throne, to cure you
+[.translation-computer-generated-english]
+
+[.reference]
 SM 2186
+SM 2185
 SIM 3523
 [.arabic-text]
 بِاسْمِ اللَّهِ أَرْقِيكَ مِنْ كُلِّ شَىْءٍ يُؤْذِيكَ مِنْ شَرِّ كُلِّ نَفْسٍ أَوْ عَيْنِ حَاسِدٍ اللَّهُ يَشْفِيكَ بِاسْمِ اللَّهِ أَرْقِيكَ
@@ -5170,85 +5295,6 @@ SIM 3523
 [.translation-computer-generated-bangla]
 [.translation-english]
 In the name of Allah I exorcise you from everything and safeguard you from every evil that may harm you and from the eye of a jealous one. Allah would cure you and I invoke the name of Allah for you.
-[.translation-computer-generated-english]
-
-[.reference]
-.when you suffer from some ailment, then place your hand at the place of the ailment, Then lift your hand and repeat that an odd number of times.
-JT 3588
-
-[.arabic-text]
-بِسْمِ اللَّهِ أَعُوذُ بِعِزَّةِ اللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ مِنْ وَجَعِي هَذَا
-[.word-by-word]
-[.translation-bangla]
-আল্লাহ তাআলার নামে, আমি আল্লাহ তাআলার অসীম সম্মান ও তাঁর বিরাট ক্ষমতার নিকট আমার এ ব্যথার অনুভূতি ও অনিষ্ট থেকে আশ্রয় প্রার্থণা করি
-[.translation-computer-generated-bangla]
-[.translation-english]
-In the Name of Allah, I seek refuge in Allah’s might and power from the evil of this pain I feel
-[.translation-computer-generated-english]
-
-[.reference]
-.Put your hand on the part of your body where you feel pain and say ‘Bismillah (in the name of Allah) three times, then say seven times
-SM 2202
-[.arabic-text]
-أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ
-
-[.word-by-word]
-[.translation-bangla]
-[.translation-computer-generated-bangla]
-[.translation-english]
-I seek refuge with Allah and with His Power from the evil that I find and that I fear
-[.translation-computer-generated-english]
-
-[.reference]
-.No Grade: https://sunnah.com/urn/7545205
-Musannaf Ibn Abi Shayba 29041
-Muwatta Malik Book 51, Hadith 1742
-
-NOTE: The devils came to the Messenger of Allah (peace and blessings be upon him) from the valleys, and they descended upon him from the mountains. Among them was a devil carrying a flaming torch, intending to burn the Messenger of Allah (peace and blessings be upon him) with it. Then Jibril (AS) taught Messenger of Allah (peace and blessings be upon him) this dua. Then the fire of the devils was extinguished, and Allah defeated them.
-
-[.arabic-text]
-أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ الَّتِي لَا يُجَاوِزُهُنَّ بَرٌّ وَلَا فَاجِرٌ مِنْ شَرِّ مَا خَلَقَ وَذَرَأَ وَبَرَأَ , وَمِنْ شَرِّ مَا يَنْزِلُ مِنَ السَّمَاءِ وَمِنْ شَرِّ مَا يَعْرُجُ فِيهَا , وَمِنْ شَرِّ مَا ذَرَأَ فِي الْأَرْضِ وَمِنْ شَرِّ مَا يَخْرُجُ مِنْهَا , وَمِنْ شَرِّ فِتَنِ اللَّيْلِ وَالنَّهَارِ , وَمِنْ شَرِّ كُلِّ طَارِقٍ إِلَّا طَارِقًا يَطْرُقُ بِخَيْرٍ يَا رَحْمَنُ
-[.word-by-word]
-[.translation-bangla]
-[.translation-computer-generated-bangla]
-[.translation-english]
-[.translation-computer-generated-english]
-I seek refuge in the Perfect Words of Allah, which neither the righteous nor the wicked can surpass, from the evil of what He has created, brought into existence, and fashioned; from the evil of what descends from the heaven, and from the evil of what ascends into it; from the evil of what He has spread throughout the earth, and from the evil of what comes out of it; from the evil of the trials of the night and the day; and from the evil of every night visitor, except a visitor who comes with good, O Most Merciful.
-
-[.reference]
-.Grade: Sahih (authentic) according to Al-Albani
-Musnad Aḥmad 15460
-[.arabic-text]
-أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّةِ مِنْ شَرِّ مَا خَلَقَ وَذَرَأَ وَبَرَأَ وَمِنْ شَرِّ مَا يَنْزِلُ مِنَ السَّمَاءِ وَمِنْ شَرِّ مَا يَعْرُجُ فِيهَا وَمِنْ شَرِّ فِتَنِ اللَّيْلِ وَالنَّهَارِ وَمِنْ شَرِّ كُلِّ طَارِقٍ إِلَّا طَارِقًا يَطْرُقُ بِخَيْرٍ يَا رَحْمَنُ
-[.word-by-word]
-[.translation-bangla]
-[.translation-computer-generated-bangla]
-[.translation-english]
-I seek protection in the perfect words of Allah – which neither the upright nor the corrupt may overcome – from the evil of what He created, of what He brought into existence, and of what He scattered, from the evil of what descends from the heavens, and of what rises up to them, from the evil of what He scattered in the earth and of what emerges from it, from the evil trials of night and day, and from the evil of every night visitor, except the night visitor who comes with good, O Merciful One.
-[.translation-computer-generated-english]
-
-[.reference]
-.No Grade: https://sunnah.com/malik/51
-Muwatta Malik Book 51, Hadith 1741
-[.arabic-text]
-أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ غَضَبِهِ وَعِقَابِهِ وَشَرِّ عِبَادِهِ وَمِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَنْ يَحْضُرُونِ
-[.word-by-word]
-[.translation-bangla]
-[.translation-computer-generated-bangla]
-[.translation-english]
-I seek refuge with the complete words of Allah from His anger and His punishment and the evil of His slaves, and from the evil suggestions of the shayatin and from their being present (at death).
-[.translation-computer-generated-english]
-
-[.reference]
-.No Grade: Kab al-Ahbar, jews would have made me into a donkey.
-Muwatta Malik Book 51, Hadith 1744
-[.arabic-text]
-أَعُوذُ بِوَجْهِ اللَّهِ الْعَظِيمِ الَّذِي لَيْسَ شَىْءٌ أَعْظَمَ مِنْهُ وَبِكَلِمَاتِ اللَّهِ التَّامَّاتِ الَّتِي لاَ يُجَاوِزُهُنَّ بَرٌّ وَلاَ فَاجِرٌ وَبِأَسْمَاءِ اللَّهِ الْحُسْنَى كُلِّهَا مَا عَلِمْتُ مِنْهَا وَمَا لَمْ أَعْلَمْ مِنْ شَرِّ مَا خَلَقَ وَبَرَأَ وَذَرَأَ
-[.word-by-word]
-[.translation-bangla]
-[.translation-computer-generated-bangla]
-[.translation-english]
-I seek refuge with the immense Face of Allah - there is nothing greater than it - and with the complete words of Allah which neither the good person nor the corrupt can exceed and with all the most beautiful names of Allah, what I know of them and what I do not know, from the evil of what He has created and originated and multiplied.
 [.translation-computer-generated-english]
 
 == Going to Jihad
@@ -5497,49 +5543,6 @@ We are returning, if Allah wishes, with repentance and worshipping and praising 
 We are returning, if Allah wills, with repentance, worship, praise for our Lord, and prostrating ourselves before Him. Allah fulfilled His promise, helped His servant, and He alone defeated the clans.
 
 == Health
-
-[.reference]
-AAM 701
-
-[.arabic-text]
-اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ
-
-[.word-by-word]
---
-اللَّهُمَّ – হে আল্লাহ – O Allah
-عَافِنِي – আমাকে সুস্থ করুন – Grant me health
-فِي بَدَنِي – আমার শরীরে – In my body
-
-اللَّهُمَّ – হে আল্লাহ – O Allah
-عَافِنِي – আমাকে সুস্থ করুন – Grant me health
-فِي سَمْعِي – আমার শ্রবণে – In my hearing
-
-اللَّهُمَّ – হে আল্লাহ – O Allah
-عَافِنِي – আমাকে সুস্থ করুন – Grant me health
-فِي بَصَرِي – আমার দৃষ্টিতে – In my sight
-
-لاَ إِلَهَ إِلاَّ أَنْتَ – আপনি ছাড়া আর কোনো উপাস্য নেই – There is no god but You
-
-اللَّهُمَّ – হে আল্লাহ – O Allah
-إِنِّي أَعُوذُ بِكَ – আমি আপনার কাছে আশ্রয় চাই – I seek refuge in You
-مِنَ الْكُفْرِ – কুফর থেকে – From disbelief
-وَالْفَقْرِ – এবং দারিদ্র্য থেকে – And poverty
-
-اللَّهُمَّ – হে আল্লাহ – O Allah
-إِنِّي أَعُوذُ بِكَ – আমি আপনার কাছে আশ্রয় চাই – I seek refuge in You
-مِنْ عَذَابِ الْقَبْرِ – কবরের শাস্তি থেকে – From the punishment of the grave
-
-لاَ إِلَهَ إِلاَّ أَنْتَ – আপনি ছাড়া আর কোনো উপাস্য নেই – There is no god but You
---
-
-[.translation-computer-generated-bangla]
-হে আল্লাহ! আমার শরীরে সুস্থতা দিন। হে আল্লাহ! আমার শ্রবণে সুস্থতা দিন। হে আল্লাহ! আমার দৃষ্টিতে সুস্থতা দিন। আপনার ছাড়া আর কোনো উপাস্য নেই। হে আল্লাহ! আমি আপনার কাছে কুফর এবং দারিদ্র্য থেকে আশ্রয় প্রার্থনা করছি। হে আল্লাহ! আমি আপনার কাছে কবরের শাস্তি থেকে আশ্রয় প্রার্থনা করছি। আপনার ছাড়া আর কোনো উপাস্য নেই।
-
-[.translation-english]
-O Allah, make me healthy in my body. O Allah, make me healthy in my hearing. O Allah, make me healthy in my sight. There is no god but You. O Allah, I seek refuge with You from disbelief and poverty. O Allah, I seek refuge with You from the punishment of the grave. There is no god but You.
-
-[.translation-computer-generated-english]
-O Allah, grant me health in my body. O Allah, grant me health in my hearing. O Allah, grant me health in my sight. There is no god but You. O Allah, I seek refuge with You from disbelief and poverty. O Allah, I seek refuge with You from the punishment of the grave. There is no god but You.
 
 [.reference]
 JT 3604h
@@ -7833,6 +7836,50 @@ O Allah, bless for them what You have provided them, and forgive them, and have 
 [.translation-computer-generated-english]
 
 == Regular Amal
+
+[.reference]
+.You repeat it three times in the evening and three times in the morning
+AAM 701
+
+[.arabic-text]
+اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ
+
+[.word-by-word]
+--
+اللَّهُمَّ – হে আল্লাহ – O Allah
+عَافِنِي – আমাকে সুস্থ করুন – Grant me health
+فِي بَدَنِي – আমার শরীরে – In my body
+
+اللَّهُمَّ – হে আল্লাহ – O Allah
+عَافِنِي – আমাকে সুস্থ করুন – Grant me health
+فِي سَمْعِي – আমার শ্রবণে – In my hearing
+
+اللَّهُمَّ – হে আল্লাহ – O Allah
+عَافِنِي – আমাকে সুস্থ করুন – Grant me health
+فِي بَصَرِي – আমার দৃষ্টিতে – In my sight
+
+لاَ إِلَهَ إِلاَّ أَنْتَ – আপনি ছাড়া আর কোনো উপাস্য নেই – There is no god but You
+
+اللَّهُمَّ – হে আল্লাহ – O Allah
+إِنِّي أَعُوذُ بِكَ – আমি আপনার কাছে আশ্রয় চাই – I seek refuge in You
+مِنَ الْكُفْرِ – কুফর থেকে – From disbelief
+وَالْفَقْرِ – এবং দারিদ্র্য থেকে – And poverty
+
+اللَّهُمَّ – হে আল্লাহ – O Allah
+إِنِّي أَعُوذُ بِكَ – আমি আপনার কাছে আশ্রয় চাই – I seek refuge in You
+مِنْ عَذَابِ الْقَبْرِ – কবরের শাস্তি থেকে – From the punishment of the grave
+
+لاَ إِلَهَ إِلاَّ أَنْتَ – আপনি ছাড়া আর কোনো উপাস্য নেই – There is no god but You
+--
+
+[.translation-computer-generated-bangla]
+হে আল্লাহ! আমার শরীরে সুস্থতা দিন। হে আল্লাহ! আমার শ্রবণে সুস্থতা দিন। হে আল্লাহ! আমার দৃষ্টিতে সুস্থতা দিন। আপনার ছাড়া আর কোনো উপাস্য নেই। হে আল্লাহ! আমি আপনার কাছে কুফর এবং দারিদ্র্য থেকে আশ্রয় প্রার্থনা করছি। হে আল্লাহ! আমি আপনার কাছে কবরের শাস্তি থেকে আশ্রয় প্রার্থনা করছি। আপনার ছাড়া আর কোনো উপাস্য নেই।
+
+[.translation-english]
+O Allah, make me healthy in my body. O Allah, make me healthy in my hearing. O Allah, make me healthy in my sight. There is no god but You. O Allah, I seek refuge with You from disbelief and poverty. O Allah, I seek refuge with You from the punishment of the grave. There is no god but You.
+
+[.translation-computer-generated-english]
+O Allah, grant me health in my body. O Allah, grant me health in my hearing. O Allah, grant me health in my sight. There is no god but You. O Allah, I seek refuge with You from disbelief and poverty. O Allah, I seek refuge with You from the punishment of the grave. There is no god but You.
 
 [.reference]
 .তোমরা ভোরে উপনীত হয়ে বলবে
