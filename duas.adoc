@@ -3899,26 +3899,6 @@ O Allah, make me one of those who, if they do good deeds, they rejoice, and if t
 == Istiqamat, Shirk & Nifak
 
 [.reference]
-.Say it when you reach morning, and evening, and when you go to bed
-JT 3392
-JT 3529
-
-[.arabic-text]
-اللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ السَّمَوَاتِ وَالأَرْضِ رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ أَنْتَ أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ
-
-[.word-by-word]
-
-[.translation-bangla]
-হে আল্লাহ্‌! অদৃশ্য ও দৃশ্যের পরিজ্ঞাত, আকাশ ও যামীনের সৃষ্টিকর্তা, প্রতিটি জিনিসের প্রতিপালক ও মালিক, আমি সাক্ষ্য দেই যে, তুমি ছাড়া কোন মা‘বূদ নেই। আমি আমার শরীরের ক্ষতি হতে এবং শাইতানের ক্ষতি ও শির্‌কি কার্যকালাপ হতে তোমার কাছে আশ্রয় প্রার্থনা করি।
-
-[.translation-computer-generated-bangla]
-
-[.translation-english]
-O Allah Knower of the Unseen and the Seen, Originator of the heavens and the earth, Lord of everything and its Possessor, I bear witness that there is none worthy of worship except You, I seek refuge from You from the evil of my soul and from the evil of Shaitan and his Shirk
-
-[.translation-computer-generated-english]
-
-[.reference]
 AAM 716
 
 [.arabic-text]
