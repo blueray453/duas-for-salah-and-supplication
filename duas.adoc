@@ -7751,7 +7751,7 @@ O Allah, open to me the gates of Your mercy
 
 [.translation-computer-generated-english]
 
-== Exiting Masjid
+=== Exiting Masjid
 
 [.reference]
 SIM 772
@@ -8473,25 +8473,6 @@ O Allah, in Your Name I die and I live
 [.translation-computer-generated-english]
 
 [.reference]
-.when would wake
-JT 3417
-
-[.arabic-text]
-الْحَمْدُ لِلَّهِ الَّذِي أَحْيَا نَفْسِي بَعْدَ مَا أَمَاتَهَا وَإِلَيْهِ النُّشُورُ
-
-[.word-by-word]
-
-[.translation-bangla]
-সমস্ত প্রশংসা আল্লাহ তা'আলার, যিনি মৃত্যুদানের পর আমার এ দেহকে পুনরায় জীবিত করেছেন এবং তাঁর নিকটই ফিরে যেতে হবে
-
-[.translation-computer-generated-bangla]
-
-[.translation-english]
-Allah praise is due to Allah who revived my soul after causing its death and to Him is the resurrection
-
-[.translation-computer-generated-english]
-
-[.reference]
 .যদি তোমাদের কোন ব্যক্তি শয্যা গ্রহণ করতে যায়, তখন সে যেন তার লুঙ্গির ভেতর দিক দিয়ে নিজ বিছানাটা ঝেড়ে নেয়। কারণ, সে জানে না যে, বিছানার উপর তার অনুপস্থিতিতে পীড়াদায়ক কোন কিছু আছে কিনা।
 SAB 6320
 
@@ -8593,31 +8574,6 @@ O Allah. the Lord of the Heavens and the Lord of the Earth and Lord of the Magni
 [.translation-computer-generated-english]
 
 [.reference]
-.wakes up in the morning and says upon waking
-SIM 3878
-[.arabic-text]
---
-لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ الْعَلِيِّ الْعَظِيمِ
-
-رَبِّ اغْفِرْ لِي
---
-[.word-by-word]
-[.translation-bangla]
---
-আল্লাহ্‌ ব্যতীত কোন ইলাহ নাই, তিনি এক, তাঁর কোন শরীক নাই, সার্বভৌমত্ব তাঁর, সমস্ত প্রশংসা তাঁর প্রাপ্য, তিনি সবকিছুর উপর সর্বশক্তিমান, আল্লাহ্‌ মহা পবিত্র, আল্লাহ্‌ই সমস্ত প্রশংসার অধিকারী, আল্লাহ্‌ ব্যতীত কোন ইলাহ নাই, আল্লাহ্‌ সুমহান, মহান আল্লাহ্‌র অনুগ্রহ ব্যতীত অন্যায় থেকে বিরত থাকার কিংবা ভালো কাজ করার শক্তি কারো নাই
-
-প্রভু! আমাকে ক্ষমা করো
---
-[.translation-computer-generated-bangla]
-[.translation-english]
---
-None has the right to be worshipped but Allah alone, with no partner or associate. His is the dominion and all praise is to Him, and He is Able to do all things. Glory is to Allah, praise is to Allah, none has the right to be worshiped but Allah, Allah is the Most Great, and there is no power and no strength except with Allah, the Most High, the Most Supreme
-
-O Lord, forgive me
---
-[.translation-computer-generated-english]
-
-[.reference]
 SIM 3880
 [.arabic-text]
 الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ
@@ -8656,6 +8612,52 @@ Hākim 2001
 [.translation-computer-generated-bangla]
 [.translation-english]
 All praise is for Allah who has sufficed me and given me refuge. All praise is for Allah who has fed me and given me drink. All praise is for Allah who has been gracious to me and showered favours on me. O Allah, I ask You by Your glory to save me from the Hell-Fire.
+[.translation-computer-generated-english]
+
+=== Wake Up
+
+[.reference]
+.when would wake
+JT 3417
+
+[.arabic-text]
+الْحَمْدُ لِلَّهِ الَّذِي أَحْيَا نَفْسِي بَعْدَ مَا أَمَاتَهَا وَإِلَيْهِ النُّشُورُ
+
+[.word-by-word]
+
+[.translation-bangla]
+সমস্ত প্রশংসা আল্লাহ তা'আলার, যিনি মৃত্যুদানের পর আমার এ দেহকে পুনরায় জীবিত করেছেন এবং তাঁর নিকটই ফিরে যেতে হবে
+
+[.translation-computer-generated-bangla]
+
+[.translation-english]
+Allah praise is due to Allah who revived my soul after causing its death and to Him is the resurrection
+
+[.translation-computer-generated-english]
+
+[.reference]
+.wakes up in the morning and says upon waking
+SIM 3878
+[.arabic-text]
+--
+لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ الْعَلِيِّ الْعَظِيمِ
+
+رَبِّ اغْفِرْ لِي
+--
+[.word-by-word]
+[.translation-bangla]
+--
+আল্লাহ্‌ ব্যতীত কোন ইলাহ নাই, তিনি এক, তাঁর কোন শরীক নাই, সার্বভৌমত্ব তাঁর, সমস্ত প্রশংসা তাঁর প্রাপ্য, তিনি সবকিছুর উপর সর্বশক্তিমান, আল্লাহ্‌ মহা পবিত্র, আল্লাহ্‌ই সমস্ত প্রশংসার অধিকারী, আল্লাহ্‌ ব্যতীত কোন ইলাহ নাই, আল্লাহ্‌ সুমহান, মহান আল্লাহ্‌র অনুগ্রহ ব্যতীত অন্যায় থেকে বিরত থাকার কিংবা ভালো কাজ করার শক্তি কারো নাই
+
+প্রভু! আমাকে ক্ষমা করো
+--
+[.translation-computer-generated-bangla]
+[.translation-english]
+--
+None has the right to be worshipped but Allah alone, with no partner or associate. His is the dominion and all praise is to Him, and He is Able to do all things. Glory is to Allah, praise is to Allah, none has the right to be worshiped but Allah, Allah is the Most Great, and there is no power and no strength except with Allah, the Most High, the Most Supreme
+
+O Lord, forgive me
+--
 [.translation-computer-generated-english]
 
 === Wake Up At Night
