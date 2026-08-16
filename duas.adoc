@@ -5957,6 +5957,7 @@ O Allah! I complain to you of my weakness, my scarcity of resources and humiliat
 --
 O Allah! I complain to You of my weakness, my lack of resources, and my humiliation before the people. O Most Merciful of those who show mercy! You are the Lord of the weak, and You are my Lord. To whom have You entrusted me? To one distant who receives me with hostility, or to an enemy to whom You have given control over my affairs? As long as You are not angry with me, I do not mind. But Your protection is more encompassing for me. I seek refuge in the light of Your Face, which illuminates all darkness and through which the affairs of this world and the Hereafter are set right, from Your anger descending upon me or Your displeasure befalling me. Yours is the right to reprimand until You are pleased, and there is no power (to do good) and no might (to refrain from evil) except through You.
 --
+
 == Poverty
 
 [.reference]
@@ -6229,6 +6230,26 @@ O Allah, the Absolute Sovereign, You grant sovereignty to whomever You will and 
 --
 
 [.translation-computer-generated-english]
+
+== Wealth
+
+[.reference]
+.To make it for myself, changed the pronouns from لَهُ / مَالَهُ / وَلَدَهُ (“his/him”) to لِي / مَالِي / وَلَدِي (“my/me”)
+SAB 6344
+
+[.arabic-text]
+--
+اللَّهُمَّ أَكْثِرْ مَالِي وَوَلَدِي، وَبَارِكْ لِي فِيمَا أَعْطَيْتَنِي
+--
+
+[.word-by-word]
+--
+--
+
+[.translation-computer-generated-english]
+--
+O Allah, increase my wealth and children, and bless me in what You have given me.
+--
 
 == Health
 
