@@ -1789,6 +1789,29 @@ O Changer of hearts, make my heart firm upon Your religion.
 == After Taslim
 
 [.reference]
+.After Subh (morning prayer)
+SIM 925
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً
+
+[.word-by-word]
+
+[.translation-bangla]
+--
+হে আল্লাহ্! আমি আপনার কাছে উপকারী জ্ঞান, পবিত্র রিযিক ও এবং কবূল হওয়ার যোগ্য কর্মতৎপরতা প্রার্থনা করি
+--
+
+[.translation-computer-generated-bangla]
+
+[.translation-english]
+--
+O Allah, I ask You for beneficial knowledge, goodly provision and acceptable deeds
+--
+
+[.translation-computer-generated-english]
+
+[.reference]
 JT 3567
 
 [.arabic-text]
@@ -2054,29 +2077,6 @@ O Allah, forgive me my former and latter sins, what I have kept secret and what 
 --
 O Allah, forgive me for my past and future sins, what I have kept secret and what I have done openly, and what I have done extravagantly; and what You know better than I do. You are the Advancer, the Delayer; there is no god but You.
 --
-
-[.reference]
-.After Subh (morning prayer)
-SIM 925
-
-[.arabic-text]
-اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً
-
-[.word-by-word]
-
-[.translation-bangla]
---
-হে আল্লাহ্! আমি আপনার কাছে উপকারী জ্ঞান, পবিত্র রিযিক ও এবং কবূল হওয়ার যোগ্য কর্মতৎপরতা প্রার্থনা করি
---
-
-[.translation-computer-generated-bangla]
-
-[.translation-english]
---
-O Allah, I ask You for beneficial knowledge, goodly provision and acceptable deeds
---
-
-[.translation-computer-generated-english]
 
 [.reference]
 SAN 1339
@@ -5957,6 +5957,278 @@ O Allah! I complain to you of my weakness, my scarcity of resources and humiliat
 --
 O Allah! I complain to You of my weakness, my lack of resources, and my humiliation before the people. O Most Merciful of those who show mercy! You are the Lord of the weak, and You are my Lord. To whom have You entrusted me? To one distant who receives me with hostility, or to an enemy to whom You have given control over my affairs? As long as You are not angry with me, I do not mind. But Your protection is more encompassing for me. I seek refuge in the light of Your Face, which illuminates all darkness and through which the affairs of this world and the Hereafter are set right, from Your anger descending upon me or Your displeasure befalling me. Yours is the right to reprimand until You are pleased, and there is no power (to do good) and no might (to refrain from evil) except through You.
 --
+== Poverty
+
+[.reference]
+SIM 3354
+SD 1547
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْجُوعِ فَإِنَّهُ بِئْسَ الضَّجِيعُ وَأَعُوذُ بِكَ مِنَ الْخِيَانَةِ فَإِنَّهَا بِئْسَتِ الْبِطَانَةُ
+
+[.word-by-word]
+--
+اللَّهُمَّ – O Allah – হে আল্লাহ!
+إِنِّي – Indeed I – নিশ্চয়ই আমি
+أَعُوذُ بِكَ – Seek refuge with You – আপনার আশ্রয় প্রার্থনা করছি
+مِنَ الْجُوعِ – From hunger – ক্ষুধা থেকে
+فَإِنَّهُ – For indeed it – কারণ নিশ্চয়ই তা
+بِئْسَ – Is a bad – খুবই খারাপ
+الضَّجِيعُ – Companion – সঙ্গী
+وَأَعُوذُ بِكَ – And I seek refuge with You – এবং আমি আপনার আশ্রয় প্রার্থনা করছি
+مِنَ الْخِيَانَةِ – From treachery – বিশ্বাসঘাতকতা থেকে
+فَإِنَّهَا – For indeed it – কারণ নিশ্চয়ই এটি
+بِئْسَتِ – Is a bad – খুবই খারাপ
+الْبِطَانَةُ – Thing to hide in one’s heart – অন্তরের গোপন বিষয় (খারাপ জিনিস যা গোপনে রাখা হয়)
+--
+
+[.translation-bangla]
+--
+হে আল্লাহ! আমি আপনার নিকট ক্ষুধা ও দুর্ভিক্ষ থেকে আশ্রয় প্রার্থনা করি। কারণ তা (মানুষের) নিকৃষ্ট সাথী এবং আমি আপনার নিকট আরও আশ্রয় প্রার্থনা করি প্রতারণা থেকে। কারণ তা গোপন চারিত্রিক দোষ
+--
+
+[.translation-computer-generated-bangla]
+--
+হে আল্লাহ! আমি আপনার আশ্রয় প্রার্থনা করছি ক্ষুধা থেকে, কারণ এটি একটি অত্যন্ত খারাপ সঙ্গী। এবং আমি আপনার আশ্রয় প্রার্থনা করছি বিশ্বাসঘাতকতা থেকে, কারণ এটি অন্তরে লুকানোর জন্য অত্যন্ত খারাপ একটি বিষয়।
+--
+
+[.translation-english]
+--
+O Allah, I seek refuge with You from hunger, for it is a bad companion, and I seek refuge with You from treachery, for it is a bad thing to hide in one’s heart
+--
+
+[.translation-computer-generated-english]
+--
+O Allah, I seek refuge with You from hunger, for it is a bad companion, and I seek refuge with You from treachery, for it is a bad thing to hide in one’s heart.
+--
+
+[.reference]
+.If you had a debt upon you similar to the mountain of Sir, Allah would fulfill it for you
+JT 3563
+
+[.arabic-text]
+اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ
+
+[.word-by-word]
+--
+--
+
+[.translation-bangla]
+--
+হে আল্লাহ! তোমার হালালের মাধ্যমে আমাকে তোমার হারাম হতে বিরত রাখ বা দূরে রাখ এবং তোমার দয়ায় তুমি ব্যতীত অন্যের মুখাপেক্ষী হওয়া হতে আমাকে আত্মনির্ভরশীল কর
+--
+
+[.translation-computer-generated-bangla]
+--
+--
+
+[.translation-english]
+--
+O Allah, suffice me with Your lawful against Your prohibited, and make me independent of all those besides You
+--
+
+[.translation-computer-generated-english]
+--
+--
+
+[.reference]
+JT 3481
+
+[.arabic-text]
+اللَّهُمَّ رَبَّ السَّمَوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ الْعَظِيمِ رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ مُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْقُرْآنِ فَالِقَ الْحَبِّ وَالنَّوَى أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ شَيْءٍ أَنْتَ آخِذٌ بِنَاصِيَتِهِ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَيْءٌ وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَيْءٌ وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَيْءٌ اقْضِ عَنِّي الدَّيْنَ وَأَغْنِنِي مِنَ الْفَقْرِ
+
+[.word-by-word]
+--
+--
+
+[.translation-bangla]
+--
+হে আল্লাহ, সাত আকাশের প্রতিপালক এবং মহান আরশের প্রভূ, আমাদের প্রতিপালক এবং প্রতিটি বস্তুর পালনকর্তা, তাওরাত, ইনজীল ও কুরআন অবতীর্ণকারী এবং শস্যবীজ ও আঁটির অংকুর উদগমনকারী! আমি এমন প্রতিটি জিনিসের অনিষ্ট হতে তোমার নিকটে আশ্রয় চাই যার মস্তকের অগ্রভাগের চুলগুলো তুমি ধরে রেখেছ (অর্থাৎ তোমার নিয়ন্ত্রণাধীন)। তুমিই শুরু, তোমার আগে কিছুই নেই। তুমিই শেষ, তোমার পরেও কিছুই নেই। তুমিই প্রবল ও বিজয়ী, তোমার উপর কিছুই নেই। তুমিই লুকানো, তুমি ছাড়া আর কিছুই নেই। অতএব আমার ঋণ তুমি মিটিয়ে দাও এবং দরিদ্রতা হতে আমাকে স্বাবলম্বী করে দাও
+--
+
+[.translation-computer-generated-bangla]
+--
+--
+
+[.translation-english]
+--
+O Allah, Lord of the Seven Heavens and the Lord of the Magnificent Throne, our Lord, and the Lord of everything, Revealer of the Tawrah, the Injil, and the Quran, Splitter of the seed-grain and the date-stone, I seek refuge in You from the evil of everything that You are holding by the forelock, You are the First, for there is nothing above You, and You are the Last, for there is nothing after you. And you are az-Zahir, for there is nothing above you. And you are Al-Batin, for there is nothing beyond You. Relieve me from debt, and enrich me from poverty
+--
+
+[.translation-computer-generated-english]
+--
+--
+
+[.reference]
+.Wealth (ফাতিমা (রাঃ))
+SIM 3831
+
+[.arabic-text]
+اللَّهُمَّ رَبَّ السَّمَوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ الْعَظِيمِ رَبَّنَا وَرَبَّ كُلِّ شَىْءٍ مُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْقُرْآنِ الْعَظِيمِ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَىْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَىْءٌ وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَىْءٌ وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَىْءٌ اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ
+
+[.word-by-word]
+--
+اللَّهُمَّ – হে আল্লাহ – O Allah
+رَبَّ السَّمَوَاتِ السَّبْعِ – সাত আসমানের রব – Lord of the seven heavens
+وَرَبَّ الْعَرْشِ الْعَظِيمِ – এবং মহান আরশের রব – And Lord of the Mighty Throne
+
+رَبَّنَا – আমাদের রব – Our Lord
+وَرَبَّ كُلِّ شَىْءٍ – এবং সবকিছুর রব – And the Lord of everything
+
+مُنْزِلَ التَّوْرَاةِ – আপনি তাওরাত প্রেরণ করেছেন – Revealer of the Tawrah
+وَالإِنْجِيلِ – এবং ইঞ্জিল – And the Injil
+وَالْقُرْآنِ الْعَظِيمِ – এবং মহিমান্বিত কুরআন – And the Magnificent Qur'an
+
+أَنْتَ الأَوَّلُ – আপনি প্রথম – You are the First
+فَلَيْسَ قَبْلَكَ شَىْءٌ – আপনার আগে কিছু নেই – And there is nothing before You
+
+وَأَنْتَ الآخِرُ – এবং আপনি শেষ – And You are the Last
+فَلَيْسَ بَعْدَكَ شَىْءٌ – আপনার পরে কিছু নেই – And there is nothing after You
+
+وَأَنْتَ الظَّاهِرُ – এবং আপনি সর্বোচ্চ – And You are the Most High
+فَلَيْسَ فَوْقَكَ شَىْءٌ – আপনার উপরে কিছু নেই – And there is nothing above You
+
+وَأَنْتَ الْبَاطِنُ – এবং আপনি নিকটতম – And You are the Most Near
+فَلَيْسَ دُونَكَ شَىْءٌ – আপনার চেয়ে নিকটবর্তী কিছু নেই – And there is nothing nearer than You
+
+اقْضِ عَنَّا الدَّيْنَ – আমাদের দেনা পরিশোধ করে দিন – Settle our debts
+وَأَغْنِنَا مِنَ الْفَقْرِ – এবং আমাদের অভাবমুক্ত করুন – And make us free of want (poverty)
+--
+
+[.translation-bangla]
+--
+হে আল্লাহ, সাত আসমানের প্রতিপালক ও মহান আরশের প্রভু, আমাদের প্রতিপালক এবং প্রতিটি জিনিসের প্রতিপালক, তাওরাত, ইনজীল ও মহান কুরআন নাযিলকারী, তুমিই আদি, তোমার পূর্বে কিছুই নাই, তুমি অন্ত, তোমার পরেও কিছুই নাই, তুমিই প্রবল, বিজয়ী ও প্রকাশ্য, তোমার উপরে কিছুই নাই, তুমিই গুপ্ত, তুমি ছাড়া আর কিছু নাই। অতএব তুমি আমাদের ঋণ পরিশোধ করে দাও এবং আমাদেরকে দরিদ্রতা থেকে স্বাবলম্বী বানাও
+--
+
+[.translation-computer-generated-bangla]
+--
+হে আল্লাহ! সাত আসমানের রব এবং মহান আরশের রব, আমাদের রব এবং সবকিছুর রব, আপনি তাওরাত, ইঞ্জিল এবং মহিমান্বিত কুরআনের প্রেরণকারী। আপনি প্রথম, আপনার আগে কিছু নেই। আপনি শেষ, আপনার পরে কিছু নেই। আপনি সর্বোচ্চ, আপনার উপরে কিছু নেই। আপনি নিকটতম, আপনার চেয়ে নিকটবর্তী কিছু নেই। আমাদের দেনা পরিশোধ করে দিন এবং আমাদের অভাবমুক্ত করুন।
+--
+
+[.translation-english]
+--
+O Allah, Lord of the seven heavens and Lord of the Mighty Throne, Our Lord, and the Lord of Everything, Revealer of the Tawrah, the Injil and the Magnificent Qur'an. You are the First and there is nothing after You; You are the Last and there is nothing after You. You are the Most High, and there is nothing above You, and You are the Most Near and there is nothing nearer than You. Settle our debts and make us free of want
+--
+
+[.translation-computer-generated-english]
+--
+O Allah, Lord of the seven heavens and Lord of the Mighty Throne, our Lord and the Lord of everything, Revealer of the Tawrah, the Injil, and the Magnificent Qur'an. You are the First, and there is nothing before You. You are the Last, and there is nothing after You. You are the Most High, and there is nothing above You. You are the Most Near, and there is nothing nearer than You. Settle our debts and free us from poverty.
+--
+
+[.reference]
+SAN 5460
+SIM 3842
+AAM 678
+SD 1544
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْفَقْرِ وَأَعُوذُ بِكَ مِنَ الْقِلَّةِ وَالذِّلَّةِ وَأَعُوذُ بِكَ أَنْ أَظْلِمَ أَوْ أُظْلَمَ
+
+[.word-by-word]
+--
+اللَّهُمَّ – হে আল্লাহ – O Allah
+إِنِّي – নিশ্চয়ই আমি – Indeed, I
+أَعُوذُ بِكَ – আপনার কাছে আশ্রয় প্রার্থনা করছি – Seek refuge in You
+مِنَ الْفَقْرِ – দারিদ্র্য থেকে – From poverty
+
+وَأَعُوذُ بِكَ – এবং আমি আপনার কাছে আশ্রয় প্রার্থনা করছি – And I seek refuge in You
+مِنَ الْقِلَّةِ – অভাব থেকে – From want
+وَالذِّلَّةِ – এবং অসম্মান থেকে – And from humiliation
+
+وَأَعُوذُ بِكَ – এবং আমি আপনার কাছে আশ্রয় চাই – And I seek refuge in You
+أَنْ أَظْلِمَ – অন্যের উপর জুলুম করা থেকে – From wronging others
+أَوْ أُظْلَمَ – বা নিজে অত্যাচারিত হওয়া থেকে – Or being wronged
+--
+
+[.translation-english]
+--
+O Allah, I seek refuge with you from poverty, I seek refuge with You from want and humiliation, and I seek refuge with You from wronging others or being wronged.
+--
+
+[.translation-computer-generated-english]
+--
+O Allah, I seek refuge with You from poverty, I seek refuge with You from want and humiliation, and I seek refuge with You from wronging others or being wronged.
+--
+
+[.translation-computer-generated-bangla]
+--
+হে আল্লাহ! আমি আপনার কাছে আশ্রয় প্রার্থনা করছি দারিদ্র্য থেকে, আমি আপনার কাছে আশ্রয় প্রার্থনা করছি অভাব এবং অসম্মান থেকে, এবং আমি আপনার কাছে আশ্রয় চাই অন্যের উপর জুলুম করা থেকে অথবা নিজে অত্যাচারিত হওয়া থেকে।
+--
+
+[.reference]
+SAB 6369
+SAB 5425
+JT 3484
+SAN 5503
+SAN 5453
+SAN 5476
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ
+
+[.word-by-word]
+--
+اللَّهُمَّ – হে আল্লাহ – O Allah
+إِنِّي – নিশ্চয়ই আমি – Indeed, I
+أَعُوذُ بِكَ – আপনার কাছে আশ্রয় প্রার্থনা করছি – Seek refuge in You
+مِنَ الْهَمِّ – দুশ্চিন্তা থেকে – From worry
+وَالْحَزَنِ – এবং দুঃখ থেকে – And from grief
+
+وَالْعَجْزِ – এবং অক্ষমতা থেকে – And from incapacity
+وَالْكَسَلِ – এবং অলসতা থেকে – And from laziness
+
+وَالْجُبْنِ – এবং কাপুরুষতা থেকে – And from cowardice
+وَالْبُخْلِ – এবং কৃপণতা থেকে – And from miserliness
+
+وَضَلَعِ الدَّيْنِ – ঋণের বোঝা থেকে – From the burden of debt
+وَغَلَبَةِ الرِّجَالِ – এবং মানুষের দ্বারা পরাস্ত হওয়া থেকে – And from being overpowered by men
+--
+
+[.translation-bangla]
+--
+হে আল্লাহ! নিশ্চয়ই আমি আপনার কাছে আশ্রয় চাই- দুশ্চিন্তা, পেরেশানী, অক্ষমতা, অলসতা, কাপুরুষতা, কৃপণতা, ঋণভার ও মানুষের প্রভাবাধীন হওয়া থেকে।
+--
+
+[.translation-computer-generated-bangla]
+--
+হে আল্লাহ! আমি আপনার কাছে আশ্রয় প্রার্থনা করছি দুশ্চিন্তা ও দুঃখ থেকে, অক্ষমতা ও অলসতা থেকে, কাপুরুষতা ও কৃপণতা থেকে, ঋণের বোঝা এবং মানুষের দ্বারা পরাস্ত হওয়া থেকে।
+--
+
+[.translation-english]
+--
+O Allah! I seek refuge with You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from being heavily in debt and from being overpowered by (other) men.
+--
+
+[.translation-computer-generated-english]
+--
+O Allah, I seek refuge with You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from being heavily in debt, and from being overpowered by men.
+--
+
+[.reference]
+.Hasan (fair) according to Al-Albani https://www.abuaminaelias.com/dailyhadithonline/2022/08/31/dua-debt-like-mountains/ https://www.islamestic.com/praises-of-allah/
+al-Mu’jam al-Ṣaghīr lil-Ṭabarānī 558
+
+[.arabic-text]
+اللَّهُمَّ مَالِكُ الْمُلْكِ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ بِيَدِكَ الْخَيْرِ إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ رَحْمَانُ الدُّنْيَا وَالْآخِرَةِ تُعْطِيهُمَا مَنْ تَشَاءُ وَتَمْنَعُ مِنْهُمَا مَنْ تَشَاءُ ارْحَمْنِي رَحْمَةً تُغْنِينِي بِهَا عَنْ رَحْمَةِ مَنْ سِوَاكَ
+
+[.word-by-word]
+--
+--
+
+[.translation-bangla]
+--
+--
+
+[.translation-computer-generated-bangla]
+--
+--
+
+[.translation-english]
+--
+O Allah, the Absolute Sovereign, You grant sovereignty to whomever You will and deny sovereignty to whomever You will. You empower whomever You will and subjugate whomever You will. All goodness is in Your hand, for You alone have power over all things. The Most Merciful of the world and the Hereafter, You give from them both to whomever You will and withhold from them both to whomever You will. Have mercy upon me with such mercy that will free me from anyone else besides You.
+--
+
+[.translation-computer-generated-english]
 
 == Health
 
@@ -6723,279 +6995,6 @@ We are returning, if Allah wishes, with repentance and worshipping and praising 
 
 [.translation-computer-generated-english]
 We are returning, if Allah wills, with repentance, worship, praise for our Lord, and prostrating ourselves before Him. Allah fulfilled His promise, helped His servant, and He alone defeated the clans.
-
-== Poverty
-
-[.reference]
-SIM 3354
-SD 1547
-
-[.arabic-text]
-اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْجُوعِ فَإِنَّهُ بِئْسَ الضَّجِيعُ وَأَعُوذُ بِكَ مِنَ الْخِيَانَةِ فَإِنَّهَا بِئْسَتِ الْبِطَانَةُ
-
-[.word-by-word]
---
-اللَّهُمَّ – O Allah – হে আল্লাহ!
-إِنِّي – Indeed I – নিশ্চয়ই আমি
-أَعُوذُ بِكَ – Seek refuge with You – আপনার আশ্রয় প্রার্থনা করছি
-مِنَ الْجُوعِ – From hunger – ক্ষুধা থেকে
-فَإِنَّهُ – For indeed it – কারণ নিশ্চয়ই তা
-بِئْسَ – Is a bad – খুবই খারাপ
-الضَّجِيعُ – Companion – সঙ্গী
-وَأَعُوذُ بِكَ – And I seek refuge with You – এবং আমি আপনার আশ্রয় প্রার্থনা করছি
-مِنَ الْخِيَانَةِ – From treachery – বিশ্বাসঘাতকতা থেকে
-فَإِنَّهَا – For indeed it – কারণ নিশ্চয়ই এটি
-بِئْسَتِ – Is a bad – খুবই খারাপ
-الْبِطَانَةُ – Thing to hide in one’s heart – অন্তরের গোপন বিষয় (খারাপ জিনিস যা গোপনে রাখা হয়)
---
-
-[.translation-bangla]
---
-হে আল্লাহ! আমি আপনার নিকট ক্ষুধা ও দুর্ভিক্ষ থেকে আশ্রয় প্রার্থনা করি। কারণ তা (মানুষের) নিকৃষ্ট সাথী এবং আমি আপনার নিকট আরও আশ্রয় প্রার্থনা করি প্রতারণা থেকে। কারণ তা গোপন চারিত্রিক দোষ
---
-
-[.translation-computer-generated-bangla]
---
-হে আল্লাহ! আমি আপনার আশ্রয় প্রার্থনা করছি ক্ষুধা থেকে, কারণ এটি একটি অত্যন্ত খারাপ সঙ্গী। এবং আমি আপনার আশ্রয় প্রার্থনা করছি বিশ্বাসঘাতকতা থেকে, কারণ এটি অন্তরে লুকানোর জন্য অত্যন্ত খারাপ একটি বিষয়।
---
-
-[.translation-english]
---
-O Allah, I seek refuge with You from hunger, for it is a bad companion, and I seek refuge with You from treachery, for it is a bad thing to hide in one’s heart
---
-
-[.translation-computer-generated-english]
---
-O Allah, I seek refuge with You from hunger, for it is a bad companion, and I seek refuge with You from treachery, for it is a bad thing to hide in one’s heart.
---
-
-[.reference]
-.If you had a debt upon you similar to the mountain of Sir, Allah would fulfill it for you
-JT 3563
-
-[.arabic-text]
-اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ
-
-[.word-by-word]
---
---
-
-[.translation-bangla]
---
-হে আল্লাহ! তোমার হালালের মাধ্যমে আমাকে তোমার হারাম হতে বিরত রাখ বা দূরে রাখ এবং তোমার দয়ায় তুমি ব্যতীত অন্যের মুখাপেক্ষী হওয়া হতে আমাকে আত্মনির্ভরশীল কর
---
-
-[.translation-computer-generated-bangla]
---
---
-
-[.translation-english]
---
-O Allah, suffice me with Your lawful against Your prohibited, and make me independent of all those besides You
---
-
-[.translation-computer-generated-english]
---
---
-
-[.reference]
-JT 3481
-
-[.arabic-text]
-اللَّهُمَّ رَبَّ السَّمَوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ الْعَظِيمِ رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ مُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْقُرْآنِ فَالِقَ الْحَبِّ وَالنَّوَى أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ شَيْءٍ أَنْتَ آخِذٌ بِنَاصِيَتِهِ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَيْءٌ وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَيْءٌ وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَيْءٌ اقْضِ عَنِّي الدَّيْنَ وَأَغْنِنِي مِنَ الْفَقْرِ
-
-[.word-by-word]
---
---
-
-[.translation-bangla]
---
-হে আল্লাহ, সাত আকাশের প্রতিপালক এবং মহান আরশের প্রভূ, আমাদের প্রতিপালক এবং প্রতিটি বস্তুর পালনকর্তা, তাওরাত, ইনজীল ও কুরআন অবতীর্ণকারী এবং শস্যবীজ ও আঁটির অংকুর উদগমনকারী! আমি এমন প্রতিটি জিনিসের অনিষ্ট হতে তোমার নিকটে আশ্রয় চাই যার মস্তকের অগ্রভাগের চুলগুলো তুমি ধরে রেখেছ (অর্থাৎ তোমার নিয়ন্ত্রণাধীন)। তুমিই শুরু, তোমার আগে কিছুই নেই। তুমিই শেষ, তোমার পরেও কিছুই নেই। তুমিই প্রবল ও বিজয়ী, তোমার উপর কিছুই নেই। তুমিই লুকানো, তুমি ছাড়া আর কিছুই নেই। অতএব আমার ঋণ তুমি মিটিয়ে দাও এবং দরিদ্রতা হতে আমাকে স্বাবলম্বী করে দাও
---
-
-[.translation-computer-generated-bangla]
---
---
-
-[.translation-english]
---
-O Allah, Lord of the Seven Heavens and the Lord of the Magnificent Throne, our Lord, and the Lord of everything, Revealer of the Tawrah, the Injil, and the Quran, Splitter of the seed-grain and the date-stone, I seek refuge in You from the evil of everything that You are holding by the forelock, You are the First, for there is nothing above You, and You are the Last, for there is nothing after you. And you are az-Zahir, for there is nothing above you. And you are Al-Batin, for there is nothing beyond You. Relieve me from debt, and enrich me from poverty
---
-
-[.translation-computer-generated-english]
---
---
-
-[.reference]
-.Wealth (ফাতিমা (রাঃ))
-SIM 3831
-
-[.arabic-text]
-اللَّهُمَّ رَبَّ السَّمَوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ الْعَظِيمِ رَبَّنَا وَرَبَّ كُلِّ شَىْءٍ مُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْقُرْآنِ الْعَظِيمِ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَىْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَىْءٌ وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَىْءٌ وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَىْءٌ اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ
-
-[.word-by-word]
---
-اللَّهُمَّ – হে আল্লাহ – O Allah
-رَبَّ السَّمَوَاتِ السَّبْعِ – সাত আসমানের রব – Lord of the seven heavens
-وَرَبَّ الْعَرْشِ الْعَظِيمِ – এবং মহান আরশের রব – And Lord of the Mighty Throne
-
-رَبَّنَا – আমাদের রব – Our Lord
-وَرَبَّ كُلِّ شَىْءٍ – এবং সবকিছুর রব – And the Lord of everything
-
-مُنْزِلَ التَّوْرَاةِ – আপনি তাওরাত প্রেরণ করেছেন – Revealer of the Tawrah
-وَالإِنْجِيلِ – এবং ইঞ্জিল – And the Injil
-وَالْقُرْآنِ الْعَظِيمِ – এবং মহিমান্বিত কুরআন – And the Magnificent Qur'an
-
-أَنْتَ الأَوَّلُ – আপনি প্রথম – You are the First
-فَلَيْسَ قَبْلَكَ شَىْءٌ – আপনার আগে কিছু নেই – And there is nothing before You
-
-وَأَنْتَ الآخِرُ – এবং আপনি শেষ – And You are the Last
-فَلَيْسَ بَعْدَكَ شَىْءٌ – আপনার পরে কিছু নেই – And there is nothing after You
-
-وَأَنْتَ الظَّاهِرُ – এবং আপনি সর্বোচ্চ – And You are the Most High
-فَلَيْسَ فَوْقَكَ شَىْءٌ – আপনার উপরে কিছু নেই – And there is nothing above You
-
-وَأَنْتَ الْبَاطِنُ – এবং আপনি নিকটতম – And You are the Most Near
-فَلَيْسَ دُونَكَ شَىْءٌ – আপনার চেয়ে নিকটবর্তী কিছু নেই – And there is nothing nearer than You
-
-اقْضِ عَنَّا الدَّيْنَ – আমাদের দেনা পরিশোধ করে দিন – Settle our debts
-وَأَغْنِنَا مِنَ الْفَقْرِ – এবং আমাদের অভাবমুক্ত করুন – And make us free of want (poverty)
---
-
-[.translation-bangla]
---
-হে আল্লাহ, সাত আসমানের প্রতিপালক ও মহান আরশের প্রভু, আমাদের প্রতিপালক এবং প্রতিটি জিনিসের প্রতিপালক, তাওরাত, ইনজীল ও মহান কুরআন নাযিলকারী, তুমিই আদি, তোমার পূর্বে কিছুই নাই, তুমি অন্ত, তোমার পরেও কিছুই নাই, তুমিই প্রবল, বিজয়ী ও প্রকাশ্য, তোমার উপরে কিছুই নাই, তুমিই গুপ্ত, তুমি ছাড়া আর কিছু নাই। অতএব তুমি আমাদের ঋণ পরিশোধ করে দাও এবং আমাদেরকে দরিদ্রতা থেকে স্বাবলম্বী বানাও
---
-
-[.translation-computer-generated-bangla]
---
-হে আল্লাহ! সাত আসমানের রব এবং মহান আরশের রব, আমাদের রব এবং সবকিছুর রব, আপনি তাওরাত, ইঞ্জিল এবং মহিমান্বিত কুরআনের প্রেরণকারী। আপনি প্রথম, আপনার আগে কিছু নেই। আপনি শেষ, আপনার পরে কিছু নেই। আপনি সর্বোচ্চ, আপনার উপরে কিছু নেই। আপনি নিকটতম, আপনার চেয়ে নিকটবর্তী কিছু নেই। আমাদের দেনা পরিশোধ করে দিন এবং আমাদের অভাবমুক্ত করুন।
---
-
-[.translation-english]
---
-O Allah, Lord of the seven heavens and Lord of the Mighty Throne, Our Lord, and the Lord of Everything, Revealer of the Tawrah, the Injil and the Magnificent Qur'an. You are the First and there is nothing after You; You are the Last and there is nothing after You. You are the Most High, and there is nothing above You, and You are the Most Near and there is nothing nearer than You. Settle our debts and make us free of want
---
-
-[.translation-computer-generated-english]
---
-O Allah, Lord of the seven heavens and Lord of the Mighty Throne, our Lord and the Lord of everything, Revealer of the Tawrah, the Injil, and the Magnificent Qur'an. You are the First, and there is nothing before You. You are the Last, and there is nothing after You. You are the Most High, and there is nothing above You. You are the Most Near, and there is nothing nearer than You. Settle our debts and free us from poverty.
---
-
-[.reference]
-SAN 5460
-SIM 3842
-AAM 678
-SD 1544
-
-[.arabic-text]
-اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْفَقْرِ وَأَعُوذُ بِكَ مِنَ الْقِلَّةِ وَالذِّلَّةِ وَأَعُوذُ بِكَ أَنْ أَظْلِمَ أَوْ أُظْلَمَ
-
-[.word-by-word]
---
-اللَّهُمَّ – হে আল্লাহ – O Allah
-إِنِّي – নিশ্চয়ই আমি – Indeed, I
-أَعُوذُ بِكَ – আপনার কাছে আশ্রয় প্রার্থনা করছি – Seek refuge in You
-مِنَ الْفَقْرِ – দারিদ্র্য থেকে – From poverty
-
-وَأَعُوذُ بِكَ – এবং আমি আপনার কাছে আশ্রয় প্রার্থনা করছি – And I seek refuge in You
-مِنَ الْقِلَّةِ – অভাব থেকে – From want
-وَالذِّلَّةِ – এবং অসম্মান থেকে – And from humiliation
-
-وَأَعُوذُ بِكَ – এবং আমি আপনার কাছে আশ্রয় চাই – And I seek refuge in You
-أَنْ أَظْلِمَ – অন্যের উপর জুলুম করা থেকে – From wronging others
-أَوْ أُظْلَمَ – বা নিজে অত্যাচারিত হওয়া থেকে – Or being wronged
---
-
-[.translation-english]
---
-O Allah, I seek refuge with you from poverty, I seek refuge with You from want and humiliation, and I seek refuge with You from wronging others or being wronged.
---
-
-[.translation-computer-generated-english]
---
-O Allah, I seek refuge with You from poverty, I seek refuge with You from want and humiliation, and I seek refuge with You from wronging others or being wronged.
---
-
-[.translation-computer-generated-bangla]
---
-হে আল্লাহ! আমি আপনার কাছে আশ্রয় প্রার্থনা করছি দারিদ্র্য থেকে, আমি আপনার কাছে আশ্রয় প্রার্থনা করছি অভাব এবং অসম্মান থেকে, এবং আমি আপনার কাছে আশ্রয় চাই অন্যের উপর জুলুম করা থেকে অথবা নিজে অত্যাচারিত হওয়া থেকে।
---
-
-[.reference]
-SAB 6369
-SAB 5425
-JT 3484
-SAN 5503
-SAN 5453
-SAN 5476
-
-[.arabic-text]
-اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ
-
-[.word-by-word]
---
-اللَّهُمَّ – হে আল্লাহ – O Allah
-إِنِّي – নিশ্চয়ই আমি – Indeed, I
-أَعُوذُ بِكَ – আপনার কাছে আশ্রয় প্রার্থনা করছি – Seek refuge in You
-مِنَ الْهَمِّ – দুশ্চিন্তা থেকে – From worry
-وَالْحَزَنِ – এবং দুঃখ থেকে – And from grief
-
-وَالْعَجْزِ – এবং অক্ষমতা থেকে – And from incapacity
-وَالْكَسَلِ – এবং অলসতা থেকে – And from laziness
-
-وَالْجُبْنِ – এবং কাপুরুষতা থেকে – And from cowardice
-وَالْبُخْلِ – এবং কৃপণতা থেকে – And from miserliness
-
-وَضَلَعِ الدَّيْنِ – ঋণের বোঝা থেকে – From the burden of debt
-وَغَلَبَةِ الرِّجَالِ – এবং মানুষের দ্বারা পরাস্ত হওয়া থেকে – And from being overpowered by men
---
-
-[.translation-bangla]
---
-হে আল্লাহ! নিশ্চয়ই আমি আপনার কাছে আশ্রয় চাই- দুশ্চিন্তা, পেরেশানী, অক্ষমতা, অলসতা, কাপুরুষতা, কৃপণতা, ঋণভার ও মানুষের প্রভাবাধীন হওয়া থেকে।
---
-
-[.translation-computer-generated-bangla]
---
-হে আল্লাহ! আমি আপনার কাছে আশ্রয় প্রার্থনা করছি দুশ্চিন্তা ও দুঃখ থেকে, অক্ষমতা ও অলসতা থেকে, কাপুরুষতা ও কৃপণতা থেকে, ঋণের বোঝা এবং মানুষের দ্বারা পরাস্ত হওয়া থেকে।
---
-
-[.translation-english]
---
-O Allah! I seek refuge with You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from being heavily in debt and from being overpowered by (other) men.
---
-
-[.translation-computer-generated-english]
---
-O Allah, I seek refuge with You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from being heavily in debt, and from being overpowered by men.
---
-
-[.reference]
-.Hasan (fair) according to Al-Albani https://www.abuaminaelias.com/dailyhadithonline/2022/08/31/dua-debt-like-mountains/ https://www.islamestic.com/praises-of-allah/
-al-Mu’jam al-Ṣaghīr lil-Ṭabarānī 558
-
-[.arabic-text]
-اللَّهُمَّ مَالِكُ الْمُلْكِ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ بِيَدِكَ الْخَيْرِ إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ رَحْمَانُ الدُّنْيَا وَالْآخِرَةِ تُعْطِيهُمَا مَنْ تَشَاءُ وَتَمْنَعُ مِنْهُمَا مَنْ تَشَاءُ ارْحَمْنِي رَحْمَةً تُغْنِينِي بِهَا عَنْ رَحْمَةِ مَنْ سِوَاكَ
-
-[.word-by-word]
---
---
-
-[.translation-bangla]
---
---
-
-[.translation-computer-generated-bangla]
---
---
-
-[.translation-english]
---
-O Allah, the Absolute Sovereign, You grant sovereignty to whomever You will and deny sovereignty to whomever You will. You empower whomever You will and subjugate whomever You will. All goodness is in Your hand, for You alone have power over all things. The Most Merciful of the world and the Hereafter, You give from them both to whomever You will and withhold from them both to whomever You will. Have mercy upon me with such mercy that will free me from anyone else besides You.
---
-
-[.translation-computer-generated-english]
 
 == Dua Memorize (Important)
 
