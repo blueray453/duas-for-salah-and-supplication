@@ -6058,6 +6058,38 @@ I seek refuge with Allah and with His Power from the evil that I find and that I
 == Protection (Pre)
 
 [.reference]
+.Three Times At Night
+JT 3604b
+Muwatta Malik Book 51, Hadith 1743 (No Grade)
+
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
+
+[.reference]
+.When anyone lands at a place
+SM 2708a
+JT 3437
+
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
+
+[.word-by-word]
+أَعُوذُ – আমি আশ্রয় প্রার্থনা করছি – I seek refuge
+بِكَلِمَاتِ – শব্দগুলোর মাধ্যমে – In the words
+اللَّهِ – আল্লাহর – Of Allah
+التَّامَّاتِ – পরিপূর্ণ – Perfect
+مِنْ – থেকে – From
+شَرِّ – অনিষ্ট – The evil
+مَا – যা – Of what
+خَلَقَ – তিনি সৃষ্টি করেছেন – He has created
+
+[.translation-computer-generated-bangla]
+আল্লাহর পরিপূর্ণ শব্দগুলোর মাধ্যমে আমি আশ্রয় প্রার্থনা করছি, তাঁর সৃষ্টির অনিষ্ট থেকে।
+
+[.translation-english]
+I seek refuge in the Perfect Word of Allah from the evil of what He has created
+
+[.reference]
 .Protection Against Saitan: In the morning and evening
 SIM 3867
 
@@ -8809,6 +8841,45 @@ O Allah! All the Praises are for You; You are the Light of the Heavens and the E
 [.translation-computer-generated-english]
 O Allah! All the praises are for You; You are the Light of the heavens and the earth. And all the praises are for You; You are the Sustainer of the heavens and the earth. And all the praises are for You; You are the Lord of the heavens and the earth and whatever is within them. You are the Truth, and Your promise is the Truth, and Your speech is the Truth, and meeting You is the Truth, and Paradise is the Truth, and Hellfire is the Truth, and the Prophets are the Truth, and the Hour is the Truth. O Allah! I submit to You, believe in You, depend upon You, turn to You, and through You, I fight, and through You, I judge. So forgive me for my past and future sins, those I did in secret and those I did in public. You are my God, and there is no god but You.
 
+=== Return from Journey
+
+[.reference]
+.whenever the Prophet (ﷺ) would return from a trip
+JT 3440
+
+[.arabic-text]
+آيِبُونَ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
+
+[.word-by-word]
+
+[.translation-bangla]
+আমরা (সফর হতে হিফাযাতে) ফিরে আসা ব্যক্তি , তাওবাহকারী ,’ ইবাদাতকারী , আমাদের প্রভুর প্রশংসাকারী।
+
+[.translation-computer-generated-bangla]
+
+[.translation-english]
+(We are) Returning, repenting, worshipping, and to our Lord directing the praise
+
+[.translation-computer-generated-english]
+
+[.reference]
+.when he would return
+JT 3447
+
+[.arabic-text]
+آيِبُونُ إِنْ شَاءَ اللَّهُ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
+
+[.word-by-word]
+
+[.translation-bangla]
+ইনশা আল্লাহ আমরা প্রত্যাবর্তনকারী এবং তাওবাহকারী ও আমাদের রবের ইবাদতকারী ও প্রশংসাকারী
+
+[.translation-computer-generated-bangla]
+[.translation-english]
+(We are) Returning, if Allah wills, repenting, worshipping, and to our Lord directing the praise
+
+[.translation-computer-generated-english]
+
 === Going Out of Home
 
 [.reference]
@@ -8827,25 +8898,6 @@ JT 3439
 
 [.translation-english]
 O Allah, You are the companion on the journey, and the caretaker for the family, O Allah, accompany us in our journey, and watch over our families, O Allah, I seek refuge in You from the difficulties of the journey, and from returning in great sadness, and from loss after increase, and from the supplication of the oppressed, and from someone looking with evil at our families and wealth
-
-[.translation-computer-generated-english]
-
-[.reference]
-.whenever the Prophet (ﷺ) would return from a trip
-JT 3440
-
-[.arabic-text]
-آيِبُونَ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
-
-[.word-by-word]
-
-[.translation-bangla]
-আমরা (সফর হতে হিফাযাতে) ফিরে আসা ব্যক্তি , তাওবাহকারী ,’ ইবাদাতকারী , আমাদের প্রভুর প্রশংসাকারী।
-
-[.translation-computer-generated-bangla]
-
-[.translation-english]
-(We are) Returning, repenting, worshipping, and to our Lord directing the praise
 
 [.translation-computer-generated-english]
 
@@ -8971,53 +9023,46 @@ O Allah, I ask You in this journey of mine from the righteousness and piety and 
 [.translation-computer-generated-english]
 
 [.reference]
+.when he traveled
+SIM 3888
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمُنْقَلَبِ وَالْحَوْرِ بَعْدَ الْكَوْرِ وَدَعْوَةِ الْمَظْلُومِ وَسُوءِ الْمَنْظَرِ فِي الأَهْلِ وَالْمَالِ
+[.word-by-word]
+[.translation-bangla]
+হে আল্লাহ! আমি তোমার নিকট সফরের ব্যর্থতা, প্রাচুর্যের পরে রিক্ততা, নির্যাতিতের বদদোয়া এবং পরিবার-পরিজন ও মাল-সম্পদের প্রতি কুদৃষ্টি থেকে তোমার আশ্রয় প্রার্থনা করি
+[.translation-computer-generated-bangla]
+[.translation-english]
+O Allah, I seek refuge with You from the hardships of travel and the sorrows of return, from decrease after increase, from the prayer of the one who has been wronged, and seeing some calamity befall my family or wealth
+[.translation-computer-generated-english]
+
+=== Get in Vehicle
+
+[.reference]
+.When the Prophet (ﷺ) wanted to travel, when he mounted his riding camel, he would say the Takbir three times and say
+Quran 43:13-14
 JT 3447
 
 [.arabic-text]
-آيِبُونُ إِنْ شَاءَ اللَّهُ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
+--
+سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَـٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ
+وَإِنَّا إِلَىٰ رَبِّنَا لَمُنْقَلِبُونَ
+--
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
-ইনশা আল্লাহ আমরা প্রত্যাবর্তনকারী এবং তাওবাহকারী ও আমাদের রবের ইবাদতকারী ও প্রশংসাকারী
-
-[.translation-computer-generated-bangla]
-[.translation-english]
-(We are) Returning, if Allah wills, repenting, worshipping, and to our Lord directing the praise
-
-[.translation-computer-generated-english]
-
-[.reference]
-.Three Times At Night
-JT 3604b
-Muwatta Malik Book 51, Hadith 1743 (No Grade)
-
-[.arabic-text]
-أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
-
-[.reference]
-.When anyone lands at a place
-SM 2708a
-JT 3437
-
-[.arabic-text]
-أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
-
-[.word-by-word]
-أَعُوذُ – আমি আশ্রয় প্রার্থনা করছি – I seek refuge
-بِكَلِمَاتِ – শব্দগুলোর মাধ্যমে – In the words
-اللَّهِ – আল্লাহর – Of Allah
-التَّامَّاتِ – পরিপূর্ণ – Perfect
-مِنْ – থেকে – From
-شَرِّ – অনিষ্ট – The evil
-مَا – যা – Of what
-خَلَقَ – তিনি সৃষ্টি করেছেন – He has created
-
-[.translation-computer-generated-bangla]
-আল্লাহর পরিপূর্ণ শব্দগুলোর মাধ্যমে আমি আশ্রয় প্রার্থনা করছি, তাঁর সৃষ্টির অনিষ্ট থেকে।
+--
+পবিত্র তিনি যিনি, এগুলোকে আমাদের (ব্যবহারের জন্য) বশীভূত করে দিয়েছেন, আমরা এগুলোকে বশীভূত করতে সক্ষম ছিলাম না। আর আমাদেরকে অবশ্যই আমাদের প্রতিপালকের দিকে ফিরে যেতে হবে।
+--
 
 [.translation-english]
-I seek refuge in the Perfect Word of Allah from the evil of what He has created
+--
+Glory be to the One Who has subjected these for us, for we could have never done so ˹on our own˺. And surely to our Lord we will ˹all˺ return.”
+--
+
+=== Saying Farewell (Valediction)
 
 [.reference]
 .bid farewell to a man
@@ -9081,19 +9126,6 @@ JT 3445
 [.translation-english]
 O Allah make near for him the distance, and ease for him the journey
 
-[.translation-computer-generated-english]
-
-[.reference]
-.when he traveled
-SIM 3888
-[.arabic-text]
-اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمُنْقَلَبِ وَالْحَوْرِ بَعْدَ الْكَوْرِ وَدَعْوَةِ الْمَظْلُومِ وَسُوءِ الْمَنْظَرِ فِي الأَهْلِ وَالْمَالِ
-[.word-by-word]
-[.translation-bangla]
-হে আল্লাহ! আমি তোমার নিকট সফরের ব্যর্থতা, প্রাচুর্যের পরে রিক্ততা, নির্যাতিতের বদদোয়া এবং পরিবার-পরিজন ও মাল-সম্পদের প্রতি কুদৃষ্টি থেকে তোমার আশ্রয় প্রার্থনা করি
-[.translation-computer-generated-bangla]
-[.translation-english]
-O Allah, I seek refuge with You from the hardships of travel and the sorrows of return, from decrease after increase, from the prayer of the one who has been wronged, and seeing some calamity befall my family or wealth
 [.translation-computer-generated-english]
 
 === For Host
