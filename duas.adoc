@@ -8750,45 +8750,6 @@ O Allah! All the Praises are for You; You are the Light of the Heavens and the E
 [.translation-computer-generated-english]
 O Allah! All the praises are for You; You are the Light of the heavens and the earth. And all the praises are for You; You are the Sustainer of the heavens and the earth. And all the praises are for You; You are the Lord of the heavens and the earth and whatever is within them. You are the Truth, and Your promise is the Truth, and Your speech is the Truth, and meeting You is the Truth, and Paradise is the Truth, and Hellfire is the Truth, and the Prophets are the Truth, and the Hour is the Truth. O Allah! I submit to You, believe in You, depend upon You, turn to You, and through You, I fight, and through You, I judge. So forgive me for my past and future sins, those I did in secret and those I did in public. You are my God, and there is no god but You.
 
-=== Return from Journey
-
-[.reference]
-.whenever the Prophet (ﷺ) would return from a trip
-JT 3440
-
-[.arabic-text]
-آيِبُونَ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
-
-[.word-by-word]
-
-[.translation-bangla]
-আমরা (সফর হতে হিফাযাতে) ফিরে আসা ব্যক্তি , তাওবাহকারী ,’ ইবাদাতকারী , আমাদের প্রভুর প্রশংসাকারী।
-
-[.translation-computer-generated-bangla]
-
-[.translation-english]
-(We are) Returning, repenting, worshipping, and to our Lord directing the praise
-
-[.translation-computer-generated-english]
-
-[.reference]
-.when he would return
-JT 3447
-
-[.arabic-text]
-آيِبُونُ إِنْ شَاءَ اللَّهُ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
-
-[.word-by-word]
-
-[.translation-bangla]
-ইনশা আল্লাহ আমরা প্রত্যাবর্তনকারী এবং তাওবাহকারী ও আমাদের রবের ইবাদতকারী ও প্রশংসাকারী
-
-[.translation-computer-generated-bangla]
-[.translation-english]
-(We are) Returning, if Allah wills, repenting, worshipping, and to our Lord directing the praise
-
-[.translation-computer-generated-english]
-
 === Going Out of Home
 
 [.reference]
@@ -8970,6 +8931,45 @@ JT 3447
 --
 Glory be to the One Who has subjected these for us, for we could have never done so ˹on our own˺. And surely to our Lord we will ˹all˺ return.”
 --
+
+=== Return from Journey
+
+[.reference]
+.whenever the Prophet (ﷺ) would return from a trip
+JT 3440
+
+[.arabic-text]
+آيِبُونَ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
+
+[.word-by-word]
+
+[.translation-bangla]
+আমরা (সফর হতে হিফাযাতে) ফিরে আসা ব্যক্তি , তাওবাহকারী ,’ ইবাদাতকারী , আমাদের প্রভুর প্রশংসাকারী।
+
+[.translation-computer-generated-bangla]
+
+[.translation-english]
+(We are) Returning, repenting, worshipping, and to our Lord directing the praise
+
+[.translation-computer-generated-english]
+
+[.reference]
+.when he would return
+JT 3447
+
+[.arabic-text]
+آيِبُونُ إِنْ شَاءَ اللَّهُ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
+
+[.word-by-word]
+
+[.translation-bangla]
+ইনশা আল্লাহ আমরা প্রত্যাবর্তনকারী এবং তাওবাহকারী ও আমাদের রবের ইবাদতকারী ও প্রশংসাকারী
+
+[.translation-computer-generated-bangla]
+[.translation-english]
+(We are) Returning, if Allah wills, repenting, worshipping, and to our Lord directing the praise
+
+[.translation-computer-generated-english]
 
 === Saying Farewell (Valediction)
 
