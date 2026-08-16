@@ -469,6 +469,11 @@ div.paragraph.reference .title {
     font-size: 0.9em;
 }
 
+.toc .sub-four {
+    margin-left: 40px;
+    font-size: 0.8em;
+}
+
 h2, h3 {
     string-set: section-title content();
 }

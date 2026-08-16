@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // tocDiv.style.breakBefore = 'page';
     // Select all h2 and h3 elements for ToC generation
-    let headings = document.querySelectorAll("h2, h3");
+    let headings = document.querySelectorAll("h2, h3, h4");
 
     headings.forEach((heading, index) => {
         let id = heading.id || `section${index + 1}`;
@@ -30,6 +30,10 @@ document.addEventListener("DOMContentLoaded", function () {
         // If it's a <h3>, indent it in the ToC
         if (heading.tagName === "H3") {
             tocEntry.classList.add("sub");
+        }
+
+        if (heading.tagName === "H4") {
+            tocEntry.classList.add("sub-four");
         }
 
         toc.appendChild(tocEntry);
