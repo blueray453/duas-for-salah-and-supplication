@@ -166,6 +166,17 @@ mark {
 }
 
 @font-face {
+    font-family: 'Noto Naskh Arabic';
+    src: local('Noto Naskh Arabic Regular'),
+         url('fonts/NotoNaskhArabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFE;
+    size-adjust: 180%;
+}
+
+@font-face {
     font-family: 'KacstBook';
     src: local('KacstBook'),
          url('fonts/KacstBook.ttf') format('truetype');
