@@ -8771,10 +8771,14 @@ SAB 6311
 --
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আমি আমার চেহারা (অর্থাৎ নিজেকে) আপনার কাছে সমর্পণ করলাম। আমার সমস্ত বিষয় আপনার নিকট অর্পণ করলাম এবং আমার পৃষ্ঠদেশ আপনার আশ্রয়ে সোপর্দ করলাম। আপনার রহমতের আশায় এবং আপনার গযবের ভয়ে আমি আপনার দিকে ফিরে এলাম। আপনার কাছ ছাড়া অন্য কোথাও আশ্রয় নেই এবং নেই মুক্তির স্থান। আপনি যে কিতাব অবতীর্ণ করেছেন, আমি তার প্রতি ঈমান এনেছি এবং আপনি যে নবীকে পাঠিয়েছেন, তাঁর প্রতি আমি ঈমান এনেছি।
+--
 
 [.translation-computer-generated-english]
+--
 O Allah! I have submitted my face (i.e., myself) to You, entrusted all my affairs to You, and taken refuge with You, placing my back in Your protection, with hope in Your mercy and fear of Your punishment. There is no refuge and no escape from You except to You. I believe in Your Book, which You have revealed, and in Your Prophet, whom You have sent.
+--
 
 [.reference]
 .When you go to bed, perform ablution as is done for prayer
@@ -8784,6 +8788,7 @@ SM 2710a
 اللَّهُمَّ إِنِّي أَسْلَمْتُ وَجْهِي إِلَيْكَ وَفَوَّضْتُ أَمْرِي إِلَيْكَ وَأَلْجَأْتُ ظَهْرِي إِلَيْكَ رَغْبَةً وَرَهْبَةً إِلَيْكَ لاَ مَلْجَأَ وَلاَ مَنْجَا مِنْكَ إِلاَّ إِلَيْكَ آمَنْتُ بِكِتَابِكَ الَّذِي أَنْزَلْتَ وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ
 
 [.word-by-word]
+--
 اللَّهُمَّ - হে আল্লাহ - O Allah
 إِنِّي - নিশ্চয়ই আমি - indeed I
 أَسْلَمْتُ - সমর্পণ করেছি - have submitted
@@ -8812,15 +8817,22 @@ SM 2710a
 وَبِنَبِيِّكَ - এবং আপনার নবীর উপর - and in Your Prophet
 الَّذِي - যাকে - whom
 أَرْسَلْتَ - আপনি প্রেরণ করেছেন - You have sent
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আমি আমার চেহারা (অর্থাৎ নিজেকে) আপনার দিকে ফিরিয়ে দিলাম এবং আমার সমস্ত বিষয় আপনার কাছে সমর্পণ করলাম। আপনার প্রতি আশায় ও আপনার ভয়ে আমি আপনার সুরক্ষার জন্য আশ্রয় গ্রহণ করেছি। আপনার ছাড়া আর কোনো আশ্রয় নেই, এবং মুক্তিরও কোনো উপায় নেই। আমি আপনার অবতীর্ণ কিতাবের প্রতি এবং আপনার প্রেরিত নবীর প্রতি ঈমান এনেছি।
+--
 
 [.translation-english]
+--
 O Allah, I turn my face towards Thee and entrust my affair to Thee. I retreat unto Thee for protection with hope in Thee and fear of Thee. There is no resort and no deliverer (from hardship) but Thou only. I affirm my faith in Thine books which Thou revealed and in Thine Apostles whom Thou sent.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah, I turn my face towards You and entrust my affair to You. I retreat unto You for protection, with hope in You and fear of You. There is no refuge and no deliverer from hardship but You alone. I affirm my faith in Your Book which You revealed and in Your Prophet whom You sent.
+--
 
 [.reference]
 JT 3394
@@ -8829,6 +8841,7 @@ JT 3394
 اللَّهُمَّ إِنِّي أَسْلَمْتُ نَفْسِي إِلَيْكَ وَوَجَّهْتُ وَجْهِي إِلَيْكَ وَفَوَّضْتُ أَمْرِي إِلَيْكَ رَغْبَةً وَرَهْبَةً إِلَيْكَ وَأَلْجَأْتُ ظَهْرِي إِلَيْكَ لاَ مَلْجَأَ وَلاَ مَنْجَا مِنْكَ إِلاَّ إِلَيْكَ آمَنْتُ بِكِتَابِكَ الَّذِي أَنْزَلْتَ وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ
 
 [.word-by-word]
+--
 اللَّهُمَّ - হে আল্লাহ - O Allah
 إِنِّي - নিশ্চয়ই আমি - indeed I
 أَسْلَمْتُ - সমর্পণ করেছি - I have submitted
@@ -8860,18 +8873,27 @@ JT 3394
 وَبِنَبِيِّكَ - এবং আপনার নবীর উপর - and in Your Prophet
 الَّذِي - যাকে - whom
 أَرْسَلْتَ - আপনি প্রেরণ করেছেন - You have sent
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! নিজেকে আমি তোমার কাছে সমর্পণ করলাম, আমি আমার মুখ তোমার দিকে ফিরিয়ে দিলাম। আমার সকল বিষয় আমি তোমার উপর সমর্পণ করলাম, তোমার রহমতের আশা ও তোমার শাস্তির ভয় নিয়ে আমার পিঠ তোমার আশ্রয়ে সমর্পণ করলাম। তোমার হতে পালিয়ে আশ্রয় নেয়ার এবং নাজাত পাওয়ার তুমি ছাড়া আর কোন আশ্রয়স্থল নেই। যে কিতাব তুমি অবতীর্ণ করেছ এবং যে নবী প্রেরণ করেছ তার উপর আমি ঈমান এনেছি।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! নিশ্চয়ই আমি আমার সত্তা আপনার কাছে সমর্পণ করেছি, আমার মুখমণ্ডল (অর্থাৎ নিজেকে) আপনার দিকে ফিরিয়ে দিয়েছি এবং আমার সমস্ত বিষয় আপনার কাছে অর্পণ করেছি, আপনার প্রতি আশাবাদী ও আপনার ভয়ে। আমি আপনার উপর নির্ভর করে নিজেকে সোপর্দ করেছি। আপনার ছাড়া অন্য কোথাও আশ্রয় নেই, এবং মুক্তিরও কোনো উপায় নেই। আমি আপনার সেই কিতাবে ঈমান এনেছি, যা আপনি অবতীর্ণ করেছেন এবং আপনার প্রেরিত নবীর প্রতি ঈমান এনেছি।
+--
 
 [.translation-english]
+--
 O Allah, verily, I submit myself to You, and I turn my face to You, and I entrust my affair to You, hoping in You and fearing in You. And I lay myself down depending upon You, there is no refuge [nor escape] from You except to You. I believe in Your Book which You have revealed, and in Your Prophet whom You have sent
+--
 
 [.translation-computer-generated-english]
+--
 O Allah, indeed, I submit myself to You, and I turn my face to You, and I entrust my affair to You, with hope in You and fear of You. I lay myself down depending upon You. There is no refuge nor escape from You except to You. I believe in Your Book which You have revealed, and in Your Prophet whom You have sent.
+--
 
 [.reference]
 .when he went to his bed, the Messenger of Allah (ﷺ) used to say
@@ -8881,16 +8903,26 @@ JT 3396
 الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَكَفَانَا وَآوَانَا وَكَمْ مِمَّنْ لاَ كَافِيَ لَهُ وَلاَ مُؤْوِيَ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 সকল প্রশংসা আল্লাহ তা‘আলার যিনি আমাদেরকে আহার করিয়েছেন, পান করিয়েছেন, (সৃষ্টির অনিষ্ট হতে) আমাদের রক্ষা করেছেন এবং আমাদেরকে আশ্রয় দিয়েছেন (বিছানায়)। কিন্তু অনেক লোক আছে যাদের কোন রক্ষাকারী নেই এবং আশ্রয়স্থলও নেই
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 All praise is due to Allah, who has fed us and given us to drink, and has sufficed and granted us refuge, and how many are they who have none to suffice them and none to grant them refuge
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .The Messenger of Allah (ﷺ) used to lay his head upon his right hand when going to sleep, then say
@@ -8901,16 +8933,26 @@ SIM 3877
 رَبِّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 হে আমার প্রভু! যেদিন তুমি তোমার বান্দাদেরকে উত্থিত করবে, আমাকে সেদিন তোমার শাস্তি হতে নিরাপদে রেখ।
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 My Lord, safeguard me from Your punishment the Day You resurrect Your slaves
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 JT 3400
@@ -8919,41 +8961,78 @@ JT 3400
 اللَّهُمَّ رَبَّ السَّمَوَاتِ وَرَبَّ الأَرَضِينَ وَرَبَّنَا وَرَبَّ كُلِّ شَيْءٍ وَفَالِقَ الْحَبِّ وَالنَّوَى وَمُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْقُرْآنِ أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ ذِي شَرٍّ أَنْتَ آخِذٌ بِنَاصِيَتِهِ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَيْءٌ وَالظَّاهِرُ فَلَيْسَ فَوْقَكَ شَيْءٌ وَالْبَاطِنُ فَلَيْسَ دُونَكَ شَيْءٌ اقْضِ عَنِّي الدَّيْنَ وَأَغْنِنِي مِنَ الْفَقْرِ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! আকাশমণ্ডলীর প্রভু, মাটিসমূহের প্রভু, আমাদের প্রভু, প্রতিটি বস্তুর প্রভু, শস্যবীজ ও আঁটির অংকুরোদ্গমনকারী এবং তাওরাত, ইনজীল ও কুরআন অবতীর্ণকারী! আমি প্রত্যেক অনিষ্টকারীর ক্ষতি হতে তোমার কাছে আশ্রয় প্রার্থনা করি। এগুলো তোমারই আয়ত্তাধীন, তুমিই শুরু, তোমার আগে কিছুই নেই। আর তুমিই শেষ, তোমার পরে কিছুই নেই। তুমিই প্রকাশিত, তোমার উপরে কিছুই নেই। তুমিই লুকায়িত, তোমার হতে কিছুই গোপন নয়। সুতরাং তুমি আমার ঋণ পরিশোধের ব্যবস্থা করে দাও এবং দরিদ্রতা হতে আমাকে সাবলম্বী করে দাও
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 O Allah, Lord of the heavens and Lord of the earths, and our Lord, and the Lord of everything, splitter of the seed-grain and date-stone, and Revealer of the Tawrah and the Injil and the Qur’an. I seek refuge in You from the evil of every evil that You are holding by the forelock. You are the First, there is nothing before You, You are the Last, there is nothing after You, and Az-Zahir, there is nothing above you, and Al-Batin, there is nothing below You. Relieve me of my debt, and enrich me from poverty
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 JT 3401
 [.arabic-text]
 بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي وَبِكَ أَرْفَعُهُ فَإِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
 হে আমার প্রতিপালক! তোমার নামে আমার পাশ্বদেশ আমি বিছানায় সোপর্দ করলাম এবং আবার তোমার নামেই তা উঠাব। যদি আমার জান তুমি রেখে দাও (মৃত্যু দান কর) তবে তার প্রতি দয়া কর, আর যদি তাকে ছেড়ে দাও তবে তা সেভাবে প্রতিরক্ষা কর যেভাবে তুমি তোমার সৎকর্মপরায়ণ বান্দাদের প্রতিরক্ষা কর
+--
 
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 In Your Name, my Lord, I lay my side down, and in Your Name I raise it. And if You take my soul, then have mercy upon it, and if You release it, then protect it with that which You protect Your righteous worshipers
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 JT 3401
 [.arabic-text]
 الْحَمْدُ لِلَّهِ الَّذِي عَافَانِي فِي جَسَدِي وَرَدَّ عَلَىَّ رُوحِي وَأَذِنَ لِي بِذِكْرِهِ
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
 সকল প্রশংসা আল্লাহ তা'আলার যিনি আমার দেহকে হিফাযাত করেছেন এবং আমার জান আবার আমাকে ফেরত দিয়েছেন এবং তাকে স্মরণ করারও অনুমতি (তাওকীক) দান করেছেন
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 All praise is due to Allah, Who healed me in my body, and returned to me my soul, and permitted me to remember Him
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 JT 3417
@@ -8962,16 +9041,26 @@ JT 3417
 اللَّهُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! আমি তোমার নামেই মৃত্যুবরণ করি ও জীবন লাভ করি
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 O Allah, in Your Name I die and I live
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .যদি তোমাদের কোন ব্যক্তি শয্যা গ্রহণ করতে যায়, তখন সে যেন তার লুঙ্গির ভেতর দিক দিয়ে নিজ বিছানাটা ঝেড়ে নেয়। কারণ, সে জানে না যে, বিছানার উপর তার অনুপস্থিতিতে পীড়াদায়ক কোন কিছু আছে কিনা।
@@ -8981,6 +9070,7 @@ SAB 6320
 بِاسْمِكَ رَبِّ وَضَعْتُ جَنْبِي، وَبِكَ أَرْفَعُهُ، إِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ
 
 [.word-by-word]
+--
 بِاسْمِكَ - আপনার নামে - in Your name
 رَبِّ - হে আমার প্রভু - O my Lord
 وَضَعْتُ - আমি রাখলাম - I have placed
@@ -8999,15 +9089,22 @@ SAB 6320
 بِهِ - যার দ্বারা - with it
 عِبَادَكَ - আপনার বান্দাদের - Your servants
 الصَّالِحِينَ - সৎকর্মশীলদের - the righteous
+--
 
 [.translation-bangla]
+--
 হে আমার রবব! আপনারই নামে আমার শরীরটা বিছানায় রাখলাম এবং আপনারই নামে আবার উঠবো। যদি আপনি ইতোমধ্যে আমার জান কবয করে নেন তা হলে, তার উপর রহম করবেন। আর যদি তা আমাকে ফিরিয়ে দেন, তবে তাকে এমনভাবে হিফাযত করবেন, যেভাবে আপনি আপনার নেক বান্দাদের হিফাযাত করে থাকেন।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আমার প্রভু! আপনারই নামে আমি আমার শরীর বিছানায় রাখলাম এবং আপনারই ইচ্ছায় আবার তা উঠাবো। যদি আপনি আমার জান কবয করে নেন, তবে তার প্রতি দয়া করবেন। আর যদি তা আমাকে ফিরিয়ে দেন, তবে তাকে সেভাবে হিফাযত করবেন, যেভাবে আপনি আপনার নেক বান্দাদের হিফাযত করেন।
+--
 
 [.translation-computer-generated-english]
+--
 O my Lord! In Your name, I place my body on the bed, and by Your will, I will raise it again. If You take my soul, then have mercy on it, and if You return it to me, then protect it as You protect Your righteous servants.
+--
 
 [.reference]
 SM 2714a
@@ -9016,6 +9113,7 @@ SM 2714a
 سُبْحَانَكَ اللَّهُمَّ رَبِّي بِكَ وَضَعْتُ جَنْبِي وَبِكَ أَرْفَعُهُ إِنْ أَمْسَكْتَ نَفْسِي فَاغْفِرْ لَهَا وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ
 
 [.word-by-word]
+--
 سُبْحَانَكَ - মহিমা হোক আপনার - Glory be to You
 اللَّهُمَّ - হে আল্লাহ - O Allah
 رَبِّي - আমার প্রভু - my Lord
@@ -9037,54 +9135,111 @@ SM 2714a
 بِهِ - যার দ্বারা - with it
 عِبَادَكَ - আপনার বান্দাদের - Your servants
 الصَّالِحِينَ - সৎকর্মশীলদের - the righteous
+--
 
 [.translation-bangla]
+--
 আপনার পবিত্রতা ঘোষণা করছি, হে আমার প্রতিপালক! আপনার নামেই আমি আমার পার্শ্ব (দেহ) রাখলাম, আপনার নামেই তা তুলব। আপনি যদি আমার প্রাণ আটকিয়ে রাখে তাহলে আমাকে মাফ করে দিন। আর যদি আপনি তাকে উঠবার অবকাশ দেন তাহলে তাকে রক্ষা করুন, যেমন আপনি আপনার নেক বান্দাদের রক্ষা করে থাকেন।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ, আপনার মহিমা প্রকাশ করি, আপনি আমার প্রভু। আপনার ইচ্ছায় আমি আমার শরীর বিছানায় রাখলাম এবং আপনার ইচ্ছায়ই তা উঠাবো। যদি আপনি আমার জান কবজ করেন (আমাকে মৃত্যুবরণ করান), তবে তাকে ক্ষমা করুন। আর যদি তা ফিরিয়ে দেন, তবে তাকে সেভাবে হিফাযত করুন, যেভাবে আপনি আপনার সৎ বান্দাদের হিফাযত করেন।
+--
 
 [.translation-english]
+--
 Hallowed be Allah, my Lord. It is with Thine (grace) that I place my side (upon the bed) and it is with Thee that I take it up (after sleep), and in case Thou withholdst my being (if thou causest me to die), then grant pardon to my being, and if Thou keepst (this process of breathing on), then protect it with that with which Thou protected Thine pious servants.
+--
 
 [.translation-computer-generated-english]
+--
 Glory be to You, O Allah, my Lord. By Your grace, I lie down, and by Your will, I rise again. If You take my soul, then forgive it, and if You return it to me, then protect it as You protect Your righteous servants.
+--
 
 [.reference]
 SD 5058
+
 [.arabic-text]
 الْحَمْدُ لِلَّهِ الَّذِي كَفَانِي وَآوَانِي وَأَطْعَمَنِي وَسَقَانِي وَالَّذِي مَنَّ عَلَىَّ فَأَفْضَلَ وَالَّذِي أَعْطَانِي فَأَجْزَلَ الْحَمْدُ لِلَّهِ عَلَى كُلِّ حَالٍ اللَّهُمَّ رَبَّ كُلِّ شَىْءٍ وَمَلِيكَهُ وَإِلَهَ كُلِّ شَىْءٍ أَعُوذُ بِكَ مِنَ النَّارِ
+
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
 সকল প্রশংসা ও কৃতজ্ঞতা আল্লাহর জন্য, যিনি আমার প্রয়োজন পুরা করলেন, আমাকে মুক্তি দিলেন, আমাকে পানাহার করালেন, যিনি আমার প্রতি অসীম দয়াবান এবং আমাকে দান করলেন। সুতরাং সর্বাবস্থায় আল্লাহর প্রশংসা ও কৃতজ্ঞতা। হে আল্লাহ! প্রত্যেক বস্তুর রব ও অধিকারী এবং প্রত্যেক জিনিসের ইলাহ্‌! আমি আপনার নিকট জাহান্নামের শাস্তি হতে আশ্রয় চাই।
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 Praise be to Allah Who has given me sufficiency, has guarded me, given me food and drink, been most gracious to me, and given to me most lavishly. Praise be to Allah in every circumstance. O Allah! Lord and King of everything, God of everything, I seek refuge in Thee from Hell.
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 SM 2713a
+
 [.arabic-text]
 اللَّهُمَّ رَبَّ السَّمَوَاتِ وَرَبَّ الأَرْضِ وَرَبَّ الْعَرْشِ الْعَظِيمِ رَبَّنَا وَرَبَّ كُلِّ شَىْءٍ فَالِقَ الْحَبِّ وَالنَّوَى وَمُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْفُرْقَانِ أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ شَىْءٍ أَنْتَ آخِذٌ بِنَاصِيَتِهِ اللَّهُمَّ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَىْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَىْءٌ وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَىْءٌ وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَىْءٌ اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ
+
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
 হে আল্লাহ! আপনি আকাশমণ্ডলী, জমিন ও মহান আরশের রব। আমাদের রব ও সব কিছুর পালনকর্তা। আপনি শস্য ও বীজের সৃষ্টিকর্তা, আপনি তাওরাত, ইনজীল ও কুরআনের অবতীর্ণকারী। আমি আপনার নিকট সকল বিষয়ের খারাবী হতে আশ্রয় চাই। আপনিই একমাত্র সব বিষয়ের পরিচর্যাকারী। হে আল্লাহ! আপনিই শুরু, আপনার আগে কোন কিছুর অস্তিত্ব নেই এবং আপনিই শেষ, আপনার পরে কোন কিছু নেই। আপনিই প্রকাশ, আপনার উর্ধ্বে কেউ নেই। আপনিই বাতিন, আপনার অগোচরে কিছু নেই। আমাদের ঋণকে আদায় করে দিন এবং অভাব থেকে আমাদেরকে সচ্ছলতা দিন।
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 O Allah. the Lord of the Heavens and the Lord of the Earth and Lord of the Magnificent Throne, our Lord, and the Lord of evervthina, the Splitter of the grain of corn and the datestone (or fruit kernal), the Revealer of Torah and Injil (Bible) and Criterion (the Holy Qur'an), I seek refuge in Thee from the evil of every- thing Thou art to sieze by the forelock (Thou hast perfect control over it). O Allah, Thou art the First, there is naught before Thee, and Thou art the Last and there is naught after Thee, and Thou art Evident and there is nothing above Thee, and Thou art Innermost and there is nothing beyond Thee. Remove the burden of debt from us and relieve us from want.
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 SIM 3880
+
 [.arabic-text]
 الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ
+
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
 সমস্ত প্রশংসা আল্লাহ্‌র যিনি আমাদের মৃত্যুর পর পুনরায় জীবিত করেছেন এবং তাঁর কাছেই প্রত্যাবর্তন
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 Praise is to Allah Who has given us life after taking it from us, and unto Him is the Resurrection
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .Imams Ibn Hibban and Hakim (rahimahumallah) have declared the Hadith authentic https://islamqa.org/hanafi/hadithanswers/123627/a-dua-to-recite-when-changing-position-while-sleeping/
@@ -9096,24 +9251,53 @@ Ibn Hibbān 5530
 NOTE: Sayyidah ‘Aaishah (radiyallahu ‘anha) says that Nabi (sallallahu ‘alayhi wa sallam) would recite this du’a when turning while sleeping at night.
 
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 There is no god worthy of worship except Allah, the One, the Supremely Powerful; Lord of the heavens and the earth and whatever is in between them, the All-Mighty, the Most Forgiving.
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .No Grade (Dhahabī): https://hadithunlocked.com/hakim:2001 https://www.islamestic.com/praises-of-allah/ Whoever says [the above] when retiring to bed has praised Allah with all the praises of His entire creation.
 Hākim 2001
+
 [.arabic-text]
 الْحَمْدُ لِلَّهِ الَّذِي كَفَانِي وَآوَانِي الْحَمْدُ لِلَّهِ الَّذِي أَطْعِمْنِي وَسَقَانِي الْحَمْدُ لِلَّهِ الَّذِي مَنَّ عَلَيَّ فَأَفْضَلَ اللَّهُمَّ إِنِّي أَسْأَلُكَ بِعِزَّتِكَ أَنْ تُنَجِّيَنِي مِنَ النَّارِ
 
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 All praise is for Allah who has sufficed me and given me refuge. All praise is for Allah who has fed me and given me drink. All praise is for Allah who has been gracious to me and showered favours on me. O Allah, I ask You by Your glory to save me from the Hell-Fire.
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 === Wake Up
 
@@ -9125,41 +9309,63 @@ JT 3417
 الْحَمْدُ لِلَّهِ الَّذِي أَحْيَا نَفْسِي بَعْدَ مَا أَمَاتَهَا وَإِلَيْهِ النُّشُورُ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 সমস্ত প্রশংসা আল্লাহ তা'আলার, যিনি মৃত্যুদানের পর আমার এ দেহকে পুনরায় জীবিত করেছেন এবং তাঁর নিকটই ফিরে যেতে হবে
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 Allah praise is due to Allah who revived my soul after causing its death and to Him is the resurrection
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .wakes up in the morning and says upon waking
 SIM 3878
+
 [.arabic-text]
 --
 لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ الْعَلِيِّ الْعَظِيمِ
 
 رَبِّ اغْفِرْ لِي
 --
+
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
 --
 আল্লাহ্‌ ব্যতীত কোন ইলাহ নাই, তিনি এক, তাঁর কোন শরীক নাই, সার্বভৌমত্ব তাঁর, সমস্ত প্রশংসা তাঁর প্রাপ্য, তিনি সবকিছুর উপর সর্বশক্তিমান, আল্লাহ্‌ মহা পবিত্র, আল্লাহ্‌ই সমস্ত প্রশংসার অধিকারী, আল্লাহ্‌ ব্যতীত কোন ইলাহ নাই, আল্লাহ্‌ সুমহান, মহান আল্লাহ্‌র অনুগ্রহ ব্যতীত অন্যায় থেকে বিরত থাকার কিংবা ভালো কাজ করার শক্তি কারো নাই
 
 প্রভু! আমাকে ক্ষমা করো
 --
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
 --
 None has the right to be worshipped but Allah alone, with no partner or associate. His is the dominion and all praise is to Him, and He is Able to do all things. Glory is to Allah, praise is to Allah, none has the right to be worshiped but Allah, Allah is the Most Great, and there is no power and no strength except with Allah, the Most High, the Most Supreme
 
 O Lord, forgive me
 --
+
 [.translation-computer-generated-english]
+--
+--
 
 === Wake Up At Night
 
@@ -9172,16 +9378,26 @@ NOTE: Whoever wakes up in the night and says, then he supplicates, he shall be r
 لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ وَسُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 আল্লাহ তা'আলা ব্যতীত কোন মা'বুদ নেই, তিনি এক, তাঁর কোন শারীক নেই, সার্বভৌমত্ব তাঁর, সকল প্রশংসা তাঁর জন্য এবং সমস্ত কিছুর উপর তিনি সর্বশক্তিমান। আল্লাহ তা’আলা সম্পূর্ণ পবিত্র, আল্লাহ তা'আলাই সকল প্রশংসার অধিকারী। আল্লাহ তা'আলা ব্যতীত কোন ইলাহ নেই, আল্লাহ আ'আলা সুমহান। আল্লাহ তা'আলার অনুগ্রহ ছাড়া অন্যায় হতে বিরত থাকার কিংবা ন্যায় কাজ করার শক্তি কারো নেই।
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 None has the right to be worshiped but Allah, alone, without partner, to Him belongs the Dominion, and to Him is the praise, and He has power over all things. And Glory is to Allah, and all the praise is to Allah, and ‘None has the right to be worshiped but Allah, and Allah is the greatest, and there is no might nor power except by Allah
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .Wake Up At Night: last ten Verses of Surat-al-`Imran till he finished it
@@ -9240,16 +9456,24 @@ SAN 1619
 --
 
 [.translation-bangla]
+--
 হে আল্লাহ্! সব প্রশংসা একমাত্র তোমারই, তুমিই আসমান ও যমীনের জ্যোতি। তোমারই সমস্ত প্রশংসা, তুমিই আসমান ও যমীনের একমাত্র পরিচালক। তোমারই সব প্রশংসা, তুমিই আসমান ও যমীন এবং এ দু’য়ের মধ্যে যা আছে সব কিছুর রব। তুমি মহাসত্য। তোমার প্রতিশ্রুতি সত্য। তোমার বাণী সত্য। তোমার সাক্ষাৎ সত্য। জান্নাত সত্য। জাহান্নাম সত্য। নবীগণ সত্য। ক্বিয়ামাত (কিয়ামত) সত্য। হে আল্লাহ্! তোমারই জন্য আনুগত্য স্বীকার করি। তোমারই প্রতি ঈমান আনি। তোমারই ওপর ভরসা করি এবং তোমারই দিকে ফিরি। তোমারই জন্য বিতর্ক করি। তোমার কাছেই আমি সিদ্ধান্ত চাই। কাজেই আমার আগের ও পরের গোপনীয় ও প্রকাশ্য যাবতীয় গুনাহ্ ক্ষমা করে দাও। তুমিই আমার একমাত্র মাবূদ। তুমি ছাড়া কোন ইলাহ্ নেই।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! সমস্ত প্রশংসা আপনার জন্যই। আপনি আসমান ও জমিনের আলো। সমস্ত প্রশংসা আপনার জন্যই। আপনি আসমান ও জমিনের রক্ষাকর্তা। সমস্ত প্রশংসা আপনার জন্যই। আপনি আসমান ও জমিনের এবং যেসব কিছু তাদের মধ্যে রয়েছে, তাদের রব। আপনি সত্য, আপনার প্রতিশ্রুতি সত্য, আপনার বাক্য সত্য, আপনার সাক্ষাৎ সত্য, জান্নাত সত্য, জাহান্নাম সত্য, সমস্ত নবী সত্য, এবং কিয়ামতের সময় সত্য। হে আল্লাহ! আমি আপনার কাছে আত্মসমর্পণ করেছি, আপনার প্রতি ঈমান এনেছি, আপনার উপর নির্ভর করি, আপনার কাছে ফিরে আসি, এবং আপনার পথে লড়াই করি এবং আপনার আদেশ অনুযায়ী বিচার করি। সুতরাং, আমার অতীত ও ভবিষ্যতের পাপগুলো, যা গোপনে করেছি এবং যা প্রকাশ্যে করেছি, ক্ষমা করে দিন। আপনি আমার ইলাহ, আপনি ছাড়া আর কোনো ইলাহ নেই।
+--
 
 [.translation-english]
+--
 O Allah! All the Praises are for You; You are the Light of the Heavens and the Earth. And all the Praises are for You; You are the Keeper of the Heavens and the Earth. All the Praises are for You; You are the Lord of the Heavens and the Earth and whatever is therein. You are the Truth, and Your Promise is the Truth, and Your Speech is the Truth, and meeting You is the Truth, and Paradise is the Truth and Hell (Fire) is the Truth and all the prophets are the Truth and the Hour is the Truth. O Allah! I surrender to You, and believe in You, and depend upon You, and repent to You, and in Your cause I fight and with Your orders I rule. So please forgive my past and future sins and those sins which I did in secret or in public. It is You Whom I worship, None has the right to be worshipped except You.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah! All the praises are for You; You are the Light of the heavens and the earth. And all the praises are for You; You are the Sustainer of the heavens and the earth. And all the praises are for You; You are the Lord of the heavens and the earth and whatever is within them. You are the Truth, and Your promise is the Truth, and Your speech is the Truth, and meeting You is the Truth, and Paradise is the Truth, and Hellfire is the Truth, and the Prophets are the Truth, and the Hour is the Truth. O Allah! I submit to You, believe in You, depend upon You, turn to You, and through You, I fight, and through You, I judge. So forgive me for my past and future sins, those I did in secret and those I did in public. You are my God, and there is no god but You.
+--
 
 === Going Out of Home
 
@@ -9261,16 +9485,26 @@ JT 3439
 اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيفَةُ فِي الأَهْلِ اللَّهُمَّ اصْحَبْنَا فِي سَفَرِنَا وَاخْلُفْنَا فِي أَهْلِنَا اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمُنْقَلَبِ وَمِنَ الْحَوْرِ بَعْدَ الْكَوْنِ وَمِنْ دَعْوَةِ الْمَظْلُومِ وَمِنْ سُوءِ الْمَنْظَرِ فِي الأَهْلِ وَالْمَالِ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ ! তুমি সফরে আমার সঙ্গী এবং আমার (অনুপস্হিতিতে) আমার পরিবার-পরিজনের তুমিই (আমার) স্হলাভিষিক্ত। হে আল্লাহ ! আমাদের সফরে তুমি আমাদের সাথী হও এবং আমাদের পরিবার –পরিজনের জন্য আমাদের প্রতিনিধি হও। হে আল্লাহ ! তোমার কাছে আমরা সফরের ক্লান্তি , ফিরে আসার ব্যর্থতা , প্রাচুর্যের পরে রিক্ততা , নির্যাতিতের অভিশাপ এবং পরিবার –পরিজন ও মাল-সম্পত্তির প্রতি কু- দৃষ্টি হতে তোমার নিকট আশ্রয় কামনা করি
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 O Allah, You are the companion on the journey, and the caretaker for the family, O Allah, accompany us in our journey, and watch over our families, O Allah, I seek refuge in You from the difficulties of the journey, and from returning in great sadness, and from loss after increase, and from the supplication of the oppressed, and from someone looking with evil at our families and wealth
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .Protection: set out on a journey
@@ -9280,6 +9514,7 @@ SM 2718
 سَمَّعَ سَامِعٌ بِحَمْدِ اللَّهِ وَحُسْنِ بَلاَئِهِ عَلَيْنَا رَبَّنَا صَاحِبْنَا وَأَفْضِلْ عَلَيْنَا عَائِذًا بِاللَّهِ مِنَ النَّارِ
 
 [.word-by-word]
+--
 سَمَّعَ - শুনলো - a listener listened
 سَامِعٌ - শ্রোতা - a listener
 بِحَمْدِ - প্রশংসার সাথে - to the praise
@@ -9295,15 +9530,22 @@ SM 2718
 بِاللَّهِ - আল্লাহর কাছে - in Allah
 مِنَ - থেকে - from
 النَّارِ - আগুন - the Fire
+--
 
 [.translation-computer-generated-bangla]
+--
 কেউ আল্লাহর প্রশংসা এবং আমাদের উপর তাঁর উত্তম পরীক্ষার কথা শুনলো। হে আমাদের প্রভু! আমাদের সঙ্গী হোন, আমাদের রক্ষা করুন এবং আমাদের উপর আপনার অনুগ্রহ বর্ষণ করুন। আমি আল্লাহর কাছে আগুন থেকে আশ্রয় প্রার্থনা করছি।
+--
 
 [.translation-english]
+--
 A listener listened to our praising Allah (for) His goodly trial of us. Our Lord! acompany us, guard us and bestow upon us Thy grace. I am seeker of refuge in Allah from the Fire.
+--
 
 [.translation-computer-generated-english]
+--
 A listener listened to our praising of Allah for His good trial upon us. O our Lord! Accompany us, guard us, and bestow Your grace upon us. I seek refuge in Allah from the Fire.
+--
 
 [.reference]
 SD 5095
@@ -9312,6 +9554,7 @@ SD 5095
 بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ
 
 [.word-by-word]
+--
 بِسْمِ - নামে - in the name
 اللَّهِ - আল্লাহর - of Allah
 تَوَكَّلْتُ - আমি নির্ভর করছি - I trust
@@ -9323,15 +9566,22 @@ SD 5095
 قُوَّةَ - ক্ষমতা - power
 إِلاَّ - ছাড়া - except
 بِاللَّهِ - আল্লাহর দ্বারা - by Allah
+--
 
 [.translation-computer-generated-bangla]
+--
 আল্লাহর নামে, আমি আল্লাহর উপর নির্ভর করছি; আল্লাহ ছাড়া আর কোনো শক্তি ও ক্ষমতা নেই।
+--
 
 [.translation-english]
+--
 In the name of Allah, I trust in Allah; there is no might and no power but in Allah
+--
 
 [.translation-computer-generated-english]
+--
 In the name of Allah, I trust in Allah; there is no might and no power except by Allah.
+--
 
 [.reference]
 .raise eye to the sky and say
@@ -9341,6 +9591,7 @@ SD 5094
 اللَّهُمَّ إِنِّي أَعُوذُ بِكَ أَنْ أَضِلَّ أَوْ أُضَلَّ أَوْ أَزِلَّ أَوْ أُزَلَّ أَوْ أَظْلِمَ أَوْ أُظْلَمَ أَوْ أَجْهَلَ أَوْ يُجْهَلَ عَلَىَّ
 
 [.word-by-word]
+--
 اللَّهُمَّ - হে আল্লাহ - O Allah
 إِنِّي - নিশ্চয়ই আমি - indeed I
 أَعُوذُ - আশ্রয় চাই - seek refuge
@@ -9362,18 +9613,27 @@ SD 5094
 أَوْ - অথবা - or
 يُجْهَلَ - অজ্ঞতার প্রকাশ ঘটে - ignorance be shown
 عَلَىَّ - আমার প্রতি - towards me
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! আমি আপনার নিকট পথভ্রষ্ট হওয়া বা পথভ্রষ্ট করা, গুনাহ করা বা গুনাহের দিকে ধাবিত করা, উৎপীড়ন করা বা উৎপীড়িত হওয়া, অজ্ঞতা প্রকাশ করা বা অজ্ঞত প্রকাশ্যের পাত্র হওয়া থেকে আশ্রয় চাইছি।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আমি আপনার কাছে আশ্রয় চাই, যেন পথভ্রষ্ট হই বা পথভ্রষ্ট করা হয়, গুনাহ করি বা গুনাহের দিকে ধাবিত করা হয়, জুলুম করি বা জুলুমের শিকার হই, অজ্ঞতা প্রকাশ করি বা আমার প্রতি অজ্ঞতা প্রকাশ করা হয়।
+--
 
 [.translation-english]
+--
 O Allah! I seek refuge in Thee lest I stray or be led astray, or slip or made to slip, or cause injustice, or suffer injustice, or do wrong, or have wrong done to me.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah, I seek refuge in You from going astray or being led astray, from slipping into sin or being made to slip, from oppressing or being oppressed, from acting ignorantly or being treated ignorantly.
+--
 
 [.reference]
 JT 3447
@@ -9382,29 +9642,55 @@ JT 3447
 اللَّهُمَّ إِنِّي أَسْأَلُكَ فِي سَفَرِي هَذَا مِنَ الْبِرِّ وَالتَّقْوَى وَمِنَ الْعَمَلِ مَا تَرْضَى اللَّهُمَّ هَوِّنْ عَلَيْنَا الْمَسِيرَ وَاطْوِ عَنَّا بُعْدَ الأَرْضِ اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيفَةُ فِي الأَهْلِ اللَّهُمَّ اصْحَبْنَا فِي سَفَرِنَا وَاخْلُفْنَا فِي أَهْلِنَا
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! আমার এ সফরে আমি তোমার নিকট পুণ্য ও তাকওয়া এবং তোমার পছন্দনীয় কাজ করার তাওফীক প্রার্থনা করি। হে আল্লাহ! আমাদের সফরটি আমাদের জন্য সহজসাধ্য করে দাও এবং আমাদের জন্য পথের ব্যবধান সংকুচিত করে দাও। হে আল্লাহ! সফরে তুমিই আমাদের সঙ্গী এবং আমাদের পরিবার-পরিজনের প্রতিনিধি। হে আল্লাহ! আমাদের এ সফরে তুমি আমাদের বন্ধু এবং আমাদের পরিজনের প্রতিনিধি হয়ে যাও।
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 O Allah, I ask You in this journey of mine from the righteousness and piety and actions that which you are pleased with. O Allah, ease for us the path, and make near for us the distance of the land. O Allah, You are the companion in the journey, and the caretaker for the family. O Allah, accompany us in our journey, and take care of our families
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .when he traveled
 SIM 3888
+
 [.arabic-text]
 اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمُنْقَلَبِ وَالْحَوْرِ بَعْدَ الْكَوْرِ وَدَعْوَةِ الْمَظْلُومِ وَسُوءِ الْمَنْظَرِ فِي الأَهْلِ وَالْمَالِ
+
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
 হে আল্লাহ! আমি তোমার নিকট সফরের ব্যর্থতা, প্রাচুর্যের পরে রিক্ততা, নির্যাতিতের বদদোয়া এবং পরিবার-পরিজন ও মাল-সম্পদের প্রতি কুদৃষ্টি থেকে তোমার আশ্রয় প্রার্থনা করি
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 O Allah, I seek refuge with You from the hardships of travel and the sorrows of return, from decrease after increase, from the prayer of the one who has been wronged, and seeing some calamity befall my family or wealth
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 === Get in Vehicle
 
@@ -9443,16 +9729,26 @@ JT 3440
 آيِبُونَ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 আমরা (সফর হতে হিফাযাতে) ফিরে আসা ব্যক্তি , তাওবাহকারী ,’ ইবাদাতকারী , আমাদের প্রভুর প্রশংসাকারী।
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 (We are) Returning, repenting, worshipping, and to our Lord directing the praise
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .when he would return
@@ -9462,15 +9758,26 @@ JT 3447
 آيِبُونُ إِنْ شَاءَ اللَّهُ تَائِبُونَ عَابِدُونَ لِرَبِّنَا حَامِدُونَ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 ইনশা আল্লাহ আমরা প্রত্যাবর্তনকারী এবং তাওবাহকারী ও আমাদের রবের ইবাদতকারী ও প্রশংসাকারী
+--
 
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 (We are) Returning, if Allah wills, repenting, worshipping, and to our Lord directing the praise
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 === Saying Farewell (Valediction)
 
@@ -9482,42 +9789,83 @@ JT 3443
 أَسْتَوْدِعُ اللَّهَ دِينَكَ وَأَمَانَتَكَ وَخَوَاتِيمَ عَمَلِكَ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 তোমার দ্বীন , ঈমান ও সর্বশেষ ‘আমলের জন্য আমি আল্লাহ তা’আলাকে যিম্মাদার করলাম
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 I entrust to Allah your religion, and your trusts, and the last of your deeds
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .বিদায় দিয়ে বলেন
 SIM 2825
+
 [.arabic-text]
 أَسْتَوْدِعُكَ اللَّهَ الَّذِي لاَ تَضِيعُ وَدَائِعُهُ
+
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
 আমি তোমাকে আল্লাহর আমানতে সোপর্দ করলাম, যাঁর নিকট সোপর্দকৃত জিনিস ধ্বংস হয় না।
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 I command you to Allah’s keeping, Whose trust is never lost.
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .farewell to an army
 SD 2601
+
 [.arabic-text]
 أَسْتَوْدِعُ اللَّهَ دِينَكُمْ وَأَمَانَتَكُمْ وَخَوَاتِيمَ أَعْمَالِكُمْ
 
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 I entrust to Allah your religion, what you are responsible for, and your final deeds.
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 .Dua for person who is leaving
@@ -9527,16 +9875,26 @@ JT 3445
 اللَّهُمَّ اطْوِ لَهُ الأَرْضَ وَهَوِّنْ عَلَيْهِ السَّفَرَ
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ ! তার পথের ব্যবধান কমিয়ে দাও এবং তার জন্য সফর সহজতর করে দাও
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 O Allah make near for him the distance, and ease for him the journey
+--
 
 [.translation-computer-generated-english]
+--
+--
 
 === Majlish
 
@@ -9570,10 +9928,14 @@ Quran 37:180-182
 --
 
 [.translation-bangla]
+--
 তারা যা আরোপ করে তা হতে পবিত্র ও মহান তোমার রাব্ব, যিনি সকল ক্ষমতার অধিকারী। শান্তি বর্ষিত হোক রসূলদের প্রতি। আর যাবতীয় প্রশংসা বিশ্বজগতের প্রতিপালক আল্লাহর জন্যই।
+--
 
 [.translation-english]
+--
 Pure is your Lord, the Lord of all might and honor, from what they describe. And peace be on the Messengers! And praise be to Allah—Lord of all worlds.
+--
 
 [.reference]
 JT 3433
@@ -9583,6 +9945,7 @@ SD 4859
 سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ أَنْتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ
 
 [.word-by-word]
+--
 سُبْحَانَكَ - মহিমাময় আপনি - Glory is to You
 اللَّهُمَّ - হে আল্লাহ - O Allah
 وَبِحَمْدِكَ - এবং সমস্ত প্রশংসা আপনার - and with Your praise
@@ -9595,18 +9958,27 @@ SD 4859
 أَسْتَغْفِرُكَ - আমি আপনার কাছে ক্ষমা চাই - I seek Your forgiveness
 وَأَتُوبُ - এবং আমি ফিরে আসছি - and I repent
 إِلَيْكَ - আপনার কাছে - to You
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! তুমি পবিত্র এবং সমস্ত প্রশংসা তোমার জন্য। আমি সাক্ষ্য দেই যে, তুমি ব্যতীত আর কোন মা’বূদ নেই, তোমার কাছে আমি ক্ষমা প্রার্থনা করি এবং তোমার দিকেই প্রত্যাবর্তন করি
+--
 
 [.translation-computer-generated-bangla]
+--
 মহিমাময় আপনি, হে আল্লাহ, এবং সমস্ত প্রশংসা আপনার। আমি সাক্ষ্য দিচ্ছি যে আপনি ছাড়া আর কোনো উপাস্য নেই। আমি আপনার কাছে ক্ষমা চাই এবং আপনার কাছে তওবা করছি।
+--
 
 [.translation-english]
+--
 Glory is to You, O Allah, and praise, I bear witness that there is none worthy of worship except You, I seek You forgiveness, and I repent to You
+--
 
 [.translation-computer-generated-english]
+--
 Glory is to You, O Allah, and all praise. I bear witness that there is none worthy of worship except You. I seek Your forgiveness, and I repent to You.
+--
 
 [.reference]
 .one could count that he said a hundred time
@@ -9617,6 +9989,7 @@ AAM 618
 رَبِّ اغْفِرْ لِي وَتُبْ عَلَىَّ إِنَّكَ أَنْتَ التَّوَّابُ الْغَفُورُ
 
 [.word-by-word]
+--
 رَبِّ - হে আমার প্রভু - O my Lord
 اغْفِرْ - ক্ষমা করুন - forgive
 لِي - আমাকে - me
@@ -9626,18 +9999,27 @@ AAM 618
 أَنْتَ - আপনি - You are
 التَّوَّابُ - তওবা গ্রহণকারী - the Oft-Returning
 الْغَفُورُ - অতিরিক্ত ক্ষমাশীল - the Most Forgiving
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! আমাকে ক্ষমা করে দাও এবং আমার তাওবা গ্রহণ কর। কারণ তুমিই তওবা কবুলকারী, ক্ষমাকারী
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আমার প্রভু, আমাকে ক্ষমা করুন এবং আমার তওবা কবুল করুন। নিশ্চয়ই আপনি তওবা গ্রহণকারী, অতিরিক্ত ক্ষমাশীল।
+--
 
 [.translation-english]
+--
 O my Lord, forgive me, and accept my repentance. Verily, You are the Oft-Returning, the Most Forgiving
+--
 
 [.translation-computer-generated-english]
+--
 O my Lord, forgive me, and accept my repentance. Verily, You are the Oft-Returning, the Most Forgiving.
+--
 
 [.reference]
 .রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম নিম্নোক্ত বাক্যে তার সাহাবীগণের জন্য দু’আ না করে হঠাৎ কোন মাজলিস হতে খুব কমই বিদায় হতেন
@@ -9706,27 +10088,49 @@ JT 3502
 --
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আপনি আমাদের জন্য আপনার ভয় নির্ধারণ করুন, যা আমাদের আপনার অবাধ্য হওয়া থেকে বিরত রাখবে, এবং আপনার আনুগত্য করুন, যা আমাদেরকে আপনার জান্নাতে পৌঁছাবে, এবং আমাদেরকে দৃঢ় বিশ্বাস দিন, যা আমাদের জন্য দুনিয়ার পরীক্ষাগুলো সহজ করে দেবে। আমাদের শ্রবণ, দৃষ্টি এবং শক্তি যতদিন আপনি আমাদের জীবিত রাখবেন তা উপভোগ করার তৌফিক দিন, এবং এটি যেন আমাদের সাথে থেকে যায়। এবং আমাদের প্রতিশোধ তাদের উপর দিন, যারা আমাদের উপর অত্যাচার করেছে, এবং আমাদেরকে তাদের বিরুদ্ধে বিজয় দান করুন, যারা আমাদের প্রতি শত্রুতা প্রদর্শন করে। আমাদের বিপদকে আমাদের দ্বীনের মধ্যে করবেন না এবং দুনিয়াকে আমাদের সবচেয়ে বড় চিন্তা করবেন না, কিংবা আমাদের জ্ঞানের সীমা করবেন না। এবং আমাদের উপর এমন কাউকে ক্ষমতাশালী করবেন না, যারা আমাদের প্রতি দয়া প্রদর্শন করবে না।
+--
 
 [.translation-english]
+--
 O Allah, apportion for us, fear of You, that shall come between us and disobedience of You, and of obedience to You, which shall cause us to obtain Your Paradise, and of certainty, which shall make the afflictions of the world easy for us, and enjoyment of our hearing, and our seeing, and our strength as long as You keep us alive, and make it the inheritor of us. *And let our vengeance be upon those who have wronged us, and aid us against those who show enmity towards us*, and do not make our affliction in our religion, and do not make this world our greatest concern, nor the limit of our knowledge, *and do not give power over us to those who will not have mercy on us*.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah, apportion for us fear of You, that will prevent us from disobeying You, and obedience to You, which will lead us to Your Paradise, and certainty, which will make the trials of this world easy for us. Grant us enjoyment of our hearing, our sight, and our strength as long as You keep us alive, and let it remain with us. And let our vengeance be upon those who have wronged us, and grant us victory over those who show enmity towards us. Do not let our affliction be in our religion, and do not make this world our greatest concern nor the extent of our knowledge, and do not place over us those who will not show us mercy.
+--
 
 === For Host
 
 [.reference]
 JT 3576
+
 [.arabic-text]
 اللَّهُمَّ بَارِكْ لَهُمْ فِيمَا رَزَقْتَهُمْ وَاغْفِرْ لَهُمْ وَارْحَمْهُمْ
+
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
+--
 হে আল্লাহ! তাদের যে রিযিক্ব দিয়েছ তাতে বারাকাত দান কর, তাদেরকে ক্ষমা কর এবং তাদের প্রতি দয়া কর
+--
+
 [.translation-computer-generated-bangla]
+--
+--
+
 [.translation-english]
+--
 O Allah, bless for them what You have provided them, and forgive them, and have mercy on them
+--
+
 [.translation-computer-generated-english]
+--
+--
 
 == Misc
 
@@ -9740,17 +10144,32 @@ Quran 76:9
 
 [.reference]
 SIM 2858
+
 [.arabic-text]
 بِاسْمِ اللَّهِ وَفِي سَبِيلِ اللَّهِ
-[.word-by-word]
-[.translation-bangla]
-আল্লাহর নামে এবং আল্লাহর পথে
-[.translation-computer-generated-bangla]
-[.translation-english]
-in the Name of Allah and in the cause of Allah
-[.translation-computer-generated-english]
 
+[.word-by-word]
+--
+--
+[.translation-bangla]
+--
+আল্লাহর নামে এবং আল্লাহর পথে
+--
+
+[.translation-computer-generated-bangla]
+--
+--
+
+[.translation-english]
+--
+in the Name of Allah and in the cause of Allah
+--
+
+[.translation-computer-generated-english]
+--
+--
 NOTE: Bismillah means ‘I start this action accompanied by the name of Allah or *seeking help through the name of Allah*, seeking blessing thereby.’ Bismillah also means ‘I start this action by mentioning the name of Allah.’ https://islamqa.info/en/answers/21722/what-is-the-meaning-of-the-basmalah
+
 
 [.reference]
 .Pain of Death
@@ -9760,23 +10179,33 @@ JT 978
 اللَّهُمَّ أَعِنِّي عَلَى غَمَرَاتِ الْمَوْتِ أَوْ سَكَرَاتِ الْمَوْتِ
 
 [.word-by-word]
+--
 اللَّهُمَّ – O Allah – হে আল্লাহ!
 أَعِنِّي – Help me – আমাকে সাহায্য করুন
 عَلَى – With/against – উপর
 غَمَرَاتِ الْمَوْتِ – The throes of death – মৃত্যুর কঠিন মুহূর্তগুলি
 أَوْ سَكَرَاتِ الْمَوْتِ – Or the agony of death – অথবা মৃত্যুর যন্ত্রণা
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! মৃত্যুকষ্ট ও মৃত্যুযন্ত্রণা হ্রাসে আমায় সহায়তা করুন।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আমাকে মৃত্যুর কঠিন মুহূর্ত এবং মৃত্যুর যন্ত্রণার সময় সাহায্য করুন।
+--
 
 [.translation-english]
+--
 O Allah! Help me with the throes of death and the agony of death.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah! Help me with the throes of death and the agony of death.
+--
 
 [.reference]
 SM 2721a
@@ -9787,25 +10216,35 @@ JT 3489
 اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ وَالْغِنَى
 
 [.word-by-word]
+--
 اللَّهُمَّ – O Allah – হে আল্লাহ!
 إِنِّي أَسْأَلُكَ – I ask You – আমি আপনার কাছে প্রার্থনা করছি
 الْهُدَى – Guidance – সঠিক পথনির্দেশনা
 وَالتُّقَى – And piety – এবং তাকওয়া
 وَالْعَفَافَ – And chastity – এবং পবিত্রতা (খারাপ চরিত্র থেকে)
 وَالْغِنَى – And affluence/freedom from want – এবং ধনশালী হওয়া/মুক্তি
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! আমি তোমার নিকট হেদায়াত, তাক্বওয়া, চরিত্রের নির্মলতা ও আত্মনির্ভরশীলতা প্রার্থনা করি
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আমি আপনার কাছে সঠিক পথনির্দেশনা, ধার্মিকতা, পবিত্রতা এবং ধনশালী হওয়ার প্রার্থনা করছি।
+--
 
 [.translation-english]
+--
 O Allah. I beg of Thee the right guidance, safeguard against evils, chastity and freedom from want.
 O Allah, I ask You for guidance, piety, chastity and affluence
+--
 
 [.translation-computer-generated-english]
+--
 O Allah, I ask You for guidance, piety, chastity, and affluence.
+--
 
 [.reference]
 SAB 4522
@@ -9814,6 +10253,7 @@ SAB 4522
 اللَّهُمَّ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ
 
 [.word-by-word]
+--
 اللَّهُمَّ – O Allah – হে আল্লাহ!
 رَبَّنَا – Our Lord – হে আমাদের প্রতিপালক!
 آتِنَا – Give us – আমাদের দান করুন
@@ -9822,20 +10262,28 @@ SAB 4522
 حَسَنَة – কল্যাণ
 وَقِنَا – এবং আমাদেরকে রক্ষা করুন
 عَذَابَ النَّارِ – জাহান্নামের শাস্তি (থেকে)
+--
 
 [.translation-bangla]
+--
 হে আমাদের প্রভু! এ দুনিয়াতেও আমাদের কল্যাণ দান কর এবং আখিরাতেও কল্যাণ দান কর এবং দোজখের ’আযাব থেকে আমাদের রক্ষা কর
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! হে আমাদের প্রতিপালক! আমাদের দুনিয়াতে যা ভালো তা দান করুন এবং আখিরাতে যা ভালো তা দান করুন এবং আমাদেরকে জাহান্নামের শাস্তি থেকে রক্ষা করুন।
-
+--
 [.translation-english]
+--
 O Allah! Our Lord! Give us in this world that, which is good and in the Hereafter that, which is good and save us from the torment of the Fire.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah! Our Lord! Give us in this world that which is good and in the Hereafter that which is good, and save us from the torment of the Fire.
-
+--
 [.reference]
+
 SM 2716a
 SIM 3839
 
@@ -9843,6 +10291,7 @@ SIM 3839
 اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ مَا عَمِلْتُ وَمِنْ شَرِّ مَا لَمْ أَعْمَلْ
 
 [.word-by-word]
+--
 اللَّهُمَّ - হে আল্লাহ - O Allah
 إِنِّي - আমি - indeed I
 أَعُوذُ - আশ্রয় চাই - seek refuge
@@ -9856,18 +10305,27 @@ SIM 3839
 مَا - যা - of what
 لَمْ - আমি করিনি - I have not done
 أَعْمَلْ - করেছি - I did
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! আমি আপনার নিকট সেসব কর্মের খারাবী থেকে আশ্রয় চাই যা আমি করেছি এবং তাথেকেও যা আমি করিনি।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আমি আপনার নিকট সেসব কর্মের খারাবী থেকে আশ্রয় চাই যা আমি করেছি এবং সেসব খারাবী থেকেও যা আমি করিনি।
+--
 
 [.translation-english]
+--
 I seek refuge in Thee from the evil of what I did and from the evil of what I did not.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah! I seek refuge in You from the evil of what I have done and from the evil of what I have not done.
+--
 
 [.reference]
 JT 3492
@@ -9876,33 +10334,50 @@ JT 3492
 اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ سَمْعِي وَمِنْ شَرِّ بَصَرِي وَمِنْ شَرِّ لِسَانِي وَمِنْ شَرِّ قَلْبِي وَمِنْ شَرِّ مَنِيِّي
 
 [.word-by-word]
+--
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ্‌! তোমার কাছে আমি আশ্রয় প্রার্থনা করি আমার কানের অনিষ্ট, আমার চোখের (দৃষ্টির) অনিষ্ট, আমার জিহবার (কথার) অনিষ্ট, আমার মনের অনিষ্ট এবং আমার বীর্য অর্থাৎ লজ্জাস্থানের অনিষ্ট হতে
+--
 
 [.translation-computer-generated-bangla]
+--
+--
 
 [.translation-english]
+--
 O Allah, indeed I seek refuge in You from the evil of my hearing and the evil of my sight, and the evil of my tongue and the evil of my heart, and the evil of my semen
-
+--
 [.translation-computer-generated-english]
+--
+--
 
 [.reference]
 JT 3604h
+
 [.arabic-text]
 اللَّهُمَّ مَتِّعْنِي بِسَمْعِي وَبَصَرِي وَاجْعَلْهُمَا الْوَارِثَ مِنِّي وَانْصُرْنِي عَلَى مَنْ يَظْلِمُنِي وَخُذْ مِنْهُ بِثَأْرِي
+
 [.word-by-word]
+--
+--
+
 [.translation-bangla]
 --
 হে আল্লাহ! আমার কর্ণ ও চক্ষুর মাধ্যমে আমাকে উপকৃত কর এবং এ দুটোকে আমার উত্তরাধিকারী কর (মৃত্যু পর্যন্ত অটুট রাখ), যে লোক আমার উপর অত্যাচার করে তার বিরুদ্ধে আমায় তুমি সহযোগিতা কর এবং তার হতে তুমি আমার প্রতিশোধ গ্রহণ কর
 --
+
 [.translation-computer-generated-bangla]
 --
 --
+
 [.translation-english]
 --
 O Allah, give me pleasure in my hearing and my sight, and make it the inheritor from me, and aid me against whoever oppresses me, and take vengeance from him for me
 --
+
 [.translation-computer-generated-english]
 --
 --
@@ -9997,6 +10472,7 @@ SD 3201
 اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا وَصَغِيرِنَا وَكَبِيرِنَا وَذَكَرِنَا وَأُنْثَانَا وَشَاهِدِنَا وَغَائِبِنَا اللَّهُمَّ مَنْ أَحْيَيْتَهُ مِنَّا فَأَحْيِهِ عَلَى الإِيمَانِ وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَى الإِسْلاَمِ اللَّهُمَّ لاَ تَحْرِمْنَا أَجْرَهُ وَلاَ تُضِلَّنَا بَعْدَهُ
 
 [.word-by-word]
+--
 اللَّهُمَّ - হে আল্লাহ - O Allah
 اغْفِرْ - ক্ষমা করুন - forgive
 لِحَيِّنَا - আমাদের জীবিতদের - those of us who are living
@@ -10027,18 +10503,27 @@ SD 3201
 وَلاَ - এবং না - and do not
 تُضِلَّنَا - আমাদের পথভ্রষ্ট করুন - lead us astray
 بَعْدَهُ - তার পরে - after him
+--
 
 [.translation-bangla]
+--
 হে আল্লাহ! আমাদের জীবিত-মৃত, ছোট-বড়, পুরুষ-নারী এবং উপস্থিত-অনুপস্থিত সকলকে ক্ষমা করে দিন। হে আল্লাহ! আমাদের মধ্যে আপনি যাকে জীবিত রাখবেন তাকে ইসলামের উপর জীবিত রাখেন এবং আমাদের মধ্যে যাকে মৃত্যু দিবেন তাকে ঈমানের সাথে মৃত্যু দিন। হে আল্লাহ! এর সাওয়াব থেকে আমাদেরকে বঞ্চিত করবেন না এবং এর পর আমাদেরকে পথভ্রষ্ট করবেন না।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আমাদের জীবিতদের এবং মৃতদের, আমাদের উপস্থিতদের এবং অনুপস্থিতদের, আমাদের ছোটদের এবং বড়দের, আমাদের পুরুষদের এবং নারীদের ক্ষমা করুন। হে আল্লাহ! আমাদের মধ্যে যাকে আপনি জীবিত রাখেন, তাকে ঈমানের সাথে জীবিত রাখুন এবং যাকে আপনি মৃত্যু দেন, তাকে ইসলামের সাথে মৃত্যু দিন। হে আল্লাহ! আমাদেরকে তার পুরস্কার থেকে বঞ্চিত করবেন না এবং তার মৃত্যুর পরে আমাদের পথভ্রষ্ট করবেন না।
+--
 
 [.translation-english]
+--
 O Allah, forgive those of us who are living and those of us who are dead, those of us who are present and those of us who are absent, our young and our old, our male and our female. O Allah, to whomsoever of us Thou givest life grant him life as a believer, and whomsoever of us Thou takest in death take him in death as a follower of Islam. O Allah, do not withhold from us the reward (of faith) and do not lead us astray after his death.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah, forgive those of us who are living and those of us who are dead, those of us who are present and those of us who are absent, our young and our old, our male and our female. O Allah, to whomever of us You give life, grant him life as a believer, and to whomever of us You take in death, take him in death as a follower of Islam. O Allah, do not withhold from us the reward (of faith) and do not lead us astray after his death.
+--
 
 [.reference]
 it’s okay for a person to make supplications that aren’t mentioned in reports, as long as they use permissible words and avoid sin or harming others. https://islamqa.info/en/answers/262254/is-it-permissible-to-make-dua-in-other-than-arabic “Then let him choose whatever supplications he wishes.” (Narrated by Al-Bukhari (835) and Muslim (402) This is referring to supplication before the Taslim in the prayer.
@@ -10070,42 +10555,60 @@ it’s okay for a person to make supplications that aren’t mentioned in report
 --
 
 [.transliteration]
+--
 Allahumma a'izzal-Islama wal-Muslimeen, Allahumma a'izzal-Islama wal-Muslimeen, wa adhillash-shirka wal-Mushrikeen, wa dammir a'daa’ad-deen, wahmi hawzatal-Islami ya rabbal-3alameen.
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! ইসলাম এবং মুসলমানদের মর্যাদা বৃদ্ধি করুন। হে আল্লাহ! ইসলাম এবং মুসলমানদের মর্যাদা বৃদ্ধি করুন, এবং কুফর এবং কাফেরদের, শিরক এবং মুশরিকদের মর্যাদা হ্রাস করুন। দ্বীনের শত্রুদের ধ্বংস করুন, এবং ইসলামের ভূমিকে রক্ষা করুন, হে সকল জগতের পালনকর্তা।
+--
 
 [.translation-english]
+--
 O Allah! Raise the standing of Islam and the Muslims. O Allah! Raise the standing  of Islam and the Muslims, and degrade the standing of Kufr and the Kaafireen, and Shirk and the Mushrikeen. Destroy the enemies of the Deen, and protect the lands of Islam, O Lord of the Worlds.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah! Raise the standing of Islam and the Muslims. O Allah! Raise the standing of Islam and the Muslims, and degrade the standing of disbelief and the disbelievers, and Shirk and the polytheists. Destroy the enemies of the Deen, and protect the lands of Islam, O Lord of the Worlds.
-
+--
 [.reference]
+
 it’s okay for a person to make supplications that aren’t mentioned in reports, as long as they use permissible words and avoid sin or harming others. https://islamqa.info/en/answers/262254/is-it-permissible-to-make-dua-in-other-than-arabic “Then let him choose whatever supplications he wishes.” (Narrated by Al-Bukhari (835) and Muslim (402) This is referring to supplication before the Taslim in the prayer.
 
 [.arabic-text]
 اللهُمَّ انْصُرْ دِينَكَ وَكِتَابَكَ وَسُنَّةَ نَبِيِّكَ وَعِبادَكَ المُوَحِّدينَ.
 
 [.word-by-word]
+--
 اللهُمَّ – হে আল্লাহ – O Allah
 انْصُرْ – সাহায্য করুন/জয় প্রদান করুন – Grant victory to
 دِينَكَ – আপনার দ্বীনকে – Your religion
 وَكِتَابَكَ – এবং আপনার কিতাবকে – And Your book
 وَسُنَّةَ نَبِيِّكَ – এবং আপনার নবীর সুন্নাহকে – And the Sunnah of Your Prophet
 وَعِبادَكَ المُوَحِّدينَ – এবং আপনার তাওহীদ অনুসারী বান্দাদের – And Your monotheist slaves
+--
 
 [.transliteration]
+--
 Allahummansur deenaka wa kitabaka wa sunnahta nabiyyika wa ibaadakal-Muwahhideen.
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! আপনার দ্বীন, আপনার কিতাব, আপনার নবীর সুন্নাহ এবং আপনার তাওহীদ অনুসারী বান্দাদের বিজয় দান করুন।
+--
 
 [.translation-english]
+--
 O Allah! Grant Victory to Your religion, Your book, and the Sunnah of Your prophet, and Your monotheist slaves.
+--
 
 [.translation-computer-generated-english]
+--
 O Allah! Grant victory to Your religion, Your book, and the Sunnah of Your prophet, and Your monotheist slaves.
+--
 
 [.reference]
 it’s okay for a person to make supplications that aren’t mentioned in reports, as long as they use permissible words and avoid sin or harming others. https://islamqa.info/en/answers/262254/is-it-permissible-to-make-dua-in-other-than-arabic “Then let him choose whatever supplications he wishes.” (Narrated by Al-Bukhari (835) and Muslim (402) This is referring to supplication before the Taslim in the prayer.
@@ -10134,16 +10637,24 @@ it’s okay for a person to make supplications that aren’t mentioned in report
 --
 
 [.transliteration]
+--
 An tansural-Islama wa ahlahu fi kulli makaan. Allahumma-nsuril-Islama wa ahlahu fi kulli makaan. Allahumma-nsuril-Islama wa ahlahu fi kulli makaan.
+--
 
 [.translation-computer-generated-bangla]
+--
 [আমরা আপনার কাছে প্রার্থনা করছি] যাতে আপনি ইসলাম এবং মুসলমানদের সর্বত্র বিজয় দান করেন। হে আল্লাহ! ইসলাম এবং মুসলমানদের সর্বত্র বিজয় দান করুন। হে আল্লাহ! ইসলাম এবং মুসলমানদের সর্বত্র বিজয় দান করুন।
+--
 
 [.translation-english]
+--
 [we ask You] to grant victory to Islam and the Muslims everywhere. O Allah! Grant victory to Islam and the Muslims everywhere. O Allah! Grant victory to Islam and the Muslims everywhere.
+--
 
 [.translation-computer-generated-english]
+--
 [We ask You] to grant victory to Islam and the Muslims everywhere. O Allah! Grant victory to Islam and the Muslims everywhere. O Allah! Grant victory to Islam and the Muslims everywhere.
+--
 
 [.reference]
 SD 2747
@@ -10170,16 +10681,24 @@ SD 2747
 --
 
 [.translation-bangla]
+--
 হে আল্লাহ! এরা পদাতিক বাহিনী, এদেরকে বাহন দান করেন। হে আল্লাহ! এরা বস্ত্রহীন, এদেরকে পরিধেয় বস্ত্র দান করুন। হে আল্লাহ! এরা অন্নহীন, এদেরকে খাদ্য দিয়ে পরিতৃপ্ত করুন।
+--
 
 [.translation-computer-generated-bangla]
+--
 হে আল্লাহ! এরা পদাতিক বাহিনী, এদেরকে বাহন দান করুন। হে আল্লাহ! এরা বস্ত্রহীন, এদেরকে পরিধেয় বস্ত্র দান করুন। হে আল্লাহ! এরা অন্নহীন, এদেরকে খাদ্য দিয়ে পরিতৃপ্ত করুন।
+--
 
 [.translation-english]
+--
 O Allah, they are on foot, provide mount for them; O Allah , they are naked, clothe them; O Allah, they are hungry, provide food for them. Allah then bestowed victory on them
+--
 
 [.translation-computer-generated-english]
+--
 O Allah! They are without means of transportation, so provide them with it. O Allah! They are unclothed, so clothe them. O Allah! They are hungry, so feed them to their satisfaction.
+--
 
 [.reference]
 Surah 1: 250
@@ -10203,13 +10722,19 @@ Surah 1: 250
 --
 
 [.translation-computer-generated-bangla]
+--
 হে আমাদের পালনকর্তা! আমাদের উপর ধৈর্য ঢেলে দিন এবং আমাদের পদসমূহকে দৃঢ় করুন, আর আমাদেরকে অবিশ্বাসী জাতির উপর বিজয় দান করুন।
+--
 
 [.translation-english]
+--
 Our Lord! Pour forth on us patience and make us victorious over the disbelieving people.
+--
 
 [.translation-computer-generated-english]
+--
 Our Lord! Pour forth on us patience and make firm our feet, and grant us victory over the disbelieving people.
+--
 
 === Rain
 
