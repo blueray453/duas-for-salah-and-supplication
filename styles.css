@@ -147,7 +147,7 @@ mark {
     src: local('Scheherazade'),
          url('fonts/Scheherazade-Regular.ttf') format('truetype');
 
-    size-adjust: 250%;
+    size-adjust: 210%;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -158,7 +158,7 @@ mark {
     font-family: 'Scheherazade';
     src: local('Scheherazade Bold'),
          url('fonts/Scheherazade-Bold.ttf') format('truetype');
-    size-adjust: 250%;
+    size-adjust: 210%;
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -271,12 +271,25 @@ body {
    ARABIC TEXT BLOCKS
    ============================================================ */
 
-/* General Arabic prose (duas, hadith) — appears as BOTH
-   openblock (--) and paragraph in your source. */
-div.openblock.arabic-text,
 div.paragraph.arabic-text {
     direction: rtl;
     text-align: right;
+    line-height: var(--line-height);
+}
+
+/* Target the <p> inside the standalone paragraph */
+div.paragraph.arabic-text p {
+    line-height: var(--line-height);
+}
+
+div.openblock.arabic-text div.paragraph {
+    direction: rtl;
+    text-align: right;
+    line-height: var(--line-height);
+}
+
+/* Target the <p> tags inside those containers */
+div.openblock.arabic-text div.paragraph p {
     line-height: var(--line-height);
 }
 
@@ -286,16 +299,13 @@ div.openblock.arabic-text div.admonitionblock.note {
     line-height: normal;
 }
 
-div.openblock.arabic-text p,
-div.paragraph.arabic-text p {
-    white-space: pre-line;
-    line-height: var(--line-height);
-}
-
 /* Quran ayat only — mushaf-accurate font, same layout rules
    as .arabic-text but a dedicated, narrower font stack.
    Use this role ONLY for actual Quran verses, not duas/hadith. */
-div.openblock.arabic-text-quran,
+
+/* ============================================================
+   Quran-specific: Openblock with .arabic-text-quran
+   ============================================================ */
 div.paragraph.arabic-text-quran {
     direction: rtl;
     text-align: right;
@@ -305,20 +315,42 @@ div.paragraph.arabic-text-quran {
         "KFGQPC Uthman Taha Naskh",
         "AlQuran IndoPak by QuranWBW",
         serif !important;
-    border-right: 2px solid var(--base-border-color);
-    padding-right: 0.5em;
 }
 
-div.openblock.arabic-text-quran p,
 div.paragraph.arabic-text-quran p {
-    white-space: pre-line;
     line-height: var(--line-height);
+}
+
+div.openblock.arabic-text-quran div.paragraph {
+    direction: rtl;
+    text-align: right;
+    line-height: var(--line-height);
+    font-family:
+        "KFGQPC Uthmanic Script HAFS",
+        "KFGQPC Uthman Taha Naskh",
+        "AlQuran IndoPak by QuranWBW",
+        serif !important;
+}
+
+div.openblock.arabic-text-quran div.paragraph p {
+    line-height: var(--line-height);
+}
+
+div.openblock.arabic-text-quran div.admonitionblock.note {
+    direction: ltr;
+    text-align: left;
+    line-height: normal;
 }
 
 /* ============================================================
    WORD-BY-WORD / TRANSLATION BLOCKS
    These only ever appear as openblocks (--) in your source.
    ============================================================ */
+
+/* div.openblock.word-by-word, div.openblock.translation-computer-generated-english, div.openblock.translation-computer-generated-bangla {
+    display: none;
+} */
+
 div.openblock.word-by-word > div.content > div.paragraph > p {
     white-space: pre-line;
     line-height: var(--line-height);
