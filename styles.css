@@ -177,17 +177,6 @@ mark {
 }
 
 @font-face {
-    font-family: 'KacstBook';
-    src: local('KacstBook'),
-         url('fonts/KacstBook.ttf') format('truetype');
-    size-adjust: 180%;
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+0600-06FF, U+FE70-FEFC;
-}
-
-@font-face {
     font-family: 'Amiri Quran';
     src: local('Amiri Quran'),
          url('fonts/AmiriQuran.ttf') format('truetype');
@@ -254,7 +243,6 @@ body {
     font-family:
         "Scheherazade",
         "Amiri Quran",
-        "KacstBook",
         "Noto Naskh Arabic",
         "Al Qalam Quran Majeed Web",
         "Muhammadi Quranic Font",
