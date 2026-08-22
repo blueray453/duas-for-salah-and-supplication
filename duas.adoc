@@ -4190,7 +4190,6 @@ SIM 3870
 [.arabic-text]
 رَضِيتُ بِاللَّهِ رَبًّا وَبِالإِسْلاَمِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا
 
-
 [.reference]
 .Whoever says in the morning Allah will forgive him for whatever he does that day, and if he says it in the evening, Allah will forgive him for whatever sin he commits that night.
 JT 3501
@@ -4395,6 +4394,229 @@ JT 3390
 --
 We have reached the evening, and the Dominion has reached the evening, while belonging to Allah. And all praise belongs to Allah. None has the right to be worshiped but Allah, alone, without partner.
 To Him belongs the Dominion, and to Him is the praise, and He is capable of all things. I ask You for the good that is in this night, and the good of what is after it, and I seek refuge in You from the evil of this night, and the evil of what is after it, and I seek refuge in You from laziness and helpless old age. And I seek refuge in You from the punishment of the Fire and the punishment of the grave
+--
+
+[.translation-computer-generated-english]
+--
+--
+
+=== Protection (Pre)
+
+[.reference]
+.Three Times At Night
+JT 3604b
+Muwatta Malik Book 51, Hadith 1743 (No Grade)
+
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
+
+[.reference]
+.When anyone lands at a place
+SM 2708a
+JT 3437
+
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
+
+[.word-by-word]
+--
+أَعُوذُ – আমি আশ্রয় প্রার্থনা করছি – I seek refuge
+بِكَلِمَاتِ – শব্দগুলোর মাধ্যমে – In the words
+اللَّهِ – আল্লাহর – Of Allah
+التَّامَّاتِ – পরিপূর্ণ – Perfect
+مِنْ – থেকে – From
+شَرِّ – অনিষ্ট – The evil
+مَا – যা – Of what
+خَلَقَ – তিনি সৃষ্টি করেছেন – He has created
+--
+
+[.translation-computer-generated-bangla]
+--
+আল্লাহর পরিপূর্ণ শব্দগুলোর মাধ্যমে আমি আশ্রয় প্রার্থনা করছি, তাঁর সৃষ্টির অনিষ্ট থেকে।
+--
+
+[.translation-english]
+--
+I seek refuge in the Perfect Word of Allah from the evil of what He has created
+--
+
+[.reference]
+.Protection Against Saitan: In the morning and evening
+SIM 3867
+
+NOTE: আবূ দাউদ ৫০৭৭, আহমাদ ১৬১৪৭, আত-তালীকুর রাগীব ১/২২৭, ২২৮। তাহকীক আলবানীঃ সহীহ। উক্ত হাদিসের রাবী সুহায়ল বিন আবু সালিহ সম্পর্কে মুহাম্মাদ বিন সাঈদ বলেন, তিনি সিকাহ। সুফইয়ান বিন উয়াইনাহ বলেন, সাবত। আহমাদ বিন হাম্বল বলেন, তার বর্ণিত হাদিস সহিহ নয়। ইমাম নাসাঈ বলেন, কোন সমস্যা নেই। ইবনু আদী বলেন, তার খবর মাকবুল বা গ্রহণযোগ্য। ইবনু হিব্বান বলেন, তিনি সিকাহ তবে অন্যত্র বলেন, তিনি হাদিস বর্ণনায় ভুল করেন। (তাহযীবুল কামালঃ রাবী নং ২৬২৯, ১২/২২৩ নং পৃষ্ঠা)
+
+[.arabic-text]
+لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ
+
+[.word-by-word]
+--
+لاَ إِلَهَ – কোনো উপাস্য নেই – None has the right to be worshipped
+إِلاَّ اللَّهُ – আল্লাহ ছাড়া – Except Allah
+
+وَحْدَهُ – তিনি একক – Alone
+لاَ شَرِيكَ لَهُ – তাঁর কোনো অংশীদার নেই – With no partner or associate
+
+لَهُ الْمُلْكُ – তাঁরই রাজত্ব – His is the dominion
+وَلَهُ الْحَمْدُ – এবং তাঁর জন্যই সমস্ত প্রশংসা – And to Him belongs all praise
+وَهُوَ – এবং তিনি – And He
+عَلَى كُلِّ شَىْءٍ – সমস্ত বিষয়ে – Over all things
+قَدِيرٌ – ক্ষমতাবান – Is Able
+--
+
+[.translation-bangla]
+--
+আল্লাহ ব্যতীত কোন ইলাহ নই, তিনি এক, তাঁর কোন শরীক নাই, রাজত্ব-সার্বভোমত্ব তাঁর, সমস্ত প্রশংসা তাঁর জন্য, তিনি সর্ববিষয়ে শক্তিমান
+--
+
+[.translation-computer-generated-bangla]
+--
+আল্লাহ ছাড়া আর কোনো উপাস্য নেই, তিনি একক, তাঁর কোনো অংশীদার নেই। তাঁরই রাজত্ব এবং সমস্ত প্রশংসা তাঁরই জন্য, এবং তিনি সমস্ত বিষয়ে ক্ষমতাবান।
+--
+
+[.translation-english]
+--
+None has the right to be worshipped but Allah alone, with no partner or associate. His is the dominion and all praise is to Him, and He is Able to all things
+--
+
+[.translation-computer-generated-english]
+--
+None has the right to be worshipped but Allah alone, with no partner or associate. His is the dominion, and all praise is to Him, and He is Able to do all things.
+--
+
+[.reference]
+.never failed to utter these supplications in the evening and in the morning
+SD 5074
+SIM 3871
+AAM 1200
+
+[.arabic-text]
+اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَاىَ وَأَهْلِي وَمَالِي اللَّهُمَّ اسْتُرْ عَوْرَتِي وَآمِنْ رَوْعَاتِي اللَّهُمَّ احْفَظْنِي مِنْ بَيْنِ يَدَىَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي وَمِنْ فَوْقِي وَأَعُوذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي
+
+[.word-by-word]
+--
+اللَّهُمَّ – হে আল্লাহ – O Allah
+إِنِّي أَسْأَلُكَ – আমি আপনার কাছে প্রার্থনা করছি – I ask You
+الْعَافِيَةَ – নিরাপত্তা – For well-being/safety
+فِي الدُّنْيَا وَالآخِرَةِ – দুনিয়া ও আখিরাতে – In this world and the Hereafter
+
+اللَّهُمَّ – হে আল্লাহ – O Allah
+إِنِّي أَسْأَلُكَ – আমি আপনার কাছে প্রার্থনা করছি – I ask You
+الْعَفْوَ – ক্ষমা – For forgiveness
+وَالْعَافِيَةَ – এবং নিরাপত্তা – And well-being
+فِي دِينِي وَدُنْيَاىَ – আমার দ্বীন ও দুনিয়ায় – In my religion and my worldly life
+وَأَهْلِي وَمَالِي – এবং আমার পরিবার ও সম্পদে – And in my family and my wealth
+
+اللَّهُمَّ – হে আল্লাহ – O Allah
+اسْتُرْ – ঢেকে রাখুন – Cover/conceal
+عَوْرَتِي – আমার দোষত্রুটিগুলো – My faults
+
+وَآمِنْ – এবং নিরাপদ রাখুন – And safeguard
+رَوْعَاتِي – আমার ভয়সমূহ থেকে – My fears (from alarming things)
+
+اللَّهُمَّ – হে আল্লাহ – O Allah
+احْفَظْنِي – আমাকে হেফাযত করুন – Protect me
+مِنْ بَيْنِ يَدَىَّ – আমার সম্মুখ থেকে – From in front of me
+وَمِنْ خَلْفِي – এবং আমার পিছন দিক থেকে – And from behind me
+وَعَنْ يَمِينِي – এবং আমার ডান দিক থেকে – And from my right side
+وَعَنْ شِمَالِي – এবং আমার বাম দিক থেকে – And from my left side
+وَمِنْ فَوْقِي – এবং আমার উপর দিক থেকে – And from above me
+
+وَأَعُوذُ – এবং আমি আশ্রয় প্রার্থনা করছি – And I seek refuge
+بِعَظَمَتِكَ – আপনার মর্যাদার ওয়াসিলায় – By Your majesty
+أَنْ أُغْتَالَ – যেন ধ্বংস হয়ে না যাই – That I be destroyed
+مِنْ تَحْتِي – মাটির নিচ থেকে – From beneath me
+--
+
+[.translation-bangla]
+--
+হে আল্লাহ! আমি আপনার নিকট দুনিয়া ও আখিরাতের নিরাপত্তা চাই। হে আল্লাহ! আমি আপনার নিকট ক্ষমা এবং আমার দীন, দুনিয়া, পরিবার ও সম্পদের নিরাপত্তা চাই। হে আল্লাহ! আপনি আমার দোষত্রুটিগুলো ঢেকে রাখুন এবং ভীতিপ্রদ বিষয়সমূহ থেকে আমাকে নিরাপদ রাখুন। হে আল্লাহ! আপনি আমাকে হেফাযাত করুন আমার সম্মুখ থেকে, আমার পিছন দিক থেকে, আমার ডান দিক থেকে, আমার বাম দিক থেকে এবং আমার উপর দিক থেকে। হে আল্লাহ! আমি আপনার মর্যাদার ওয়াসিলায় মাটিতে ধ্বসে যাওয়া থেকে আপনার কাছে আশ্রয় চাইছি।
+--
+
+[.translation-computer-generated-bangla]
+--
+হে আল্লাহ! আমি আপনার কাছে দুনিয়া ও আখিরাতে নিরাপত্তা চাই। হে আল্লাহ! আমি আপনার কাছে ক্ষমা এবং আমার দ্বীন, দুনিয়া, পরিবার ও সম্পদের নিরাপত্তা চাই। হে আল্লাহ! আপনি আমার দোষত্রুটিগুলো ঢেকে রাখুন এবং ভীতিপ্রদ বিষয়সমূহ থেকে আমাকে নিরাপদ রাখুন। হে আল্লাহ! আপনি আমাকে হেফাজত করুন আমার সম্মুখ থেকে, আমার পিছন থেকে, আমার ডান দিক থেকে, আমার বাম দিক থেকে এবং আমার উপর দিক থেকে। হে আল্লাহ! আমি আপনার মর্যাদার ওয়াসিলায় মাটিতে ধ্বসে যাওয়া থেকে আপনার কাছে আশ্রয় চাই।
+--
+
+[.translation-english]
+--
+হে আল্লাহ! আমি আপনার নিকট দুনিয়া ও আখিরাতের নিরাপত্তা চাই। হে আল্লাহ! আমি আপনার নিকট ক্ষমা এবং আমার দীন, দুনিয়া, পরিবার ও সম্পদের নিরাপত্তা চাই। হে আল্লাহ! আপনি আমার দোষত্রুটিগুলো ঢেকে রাখুন এবং ভীতিপ্রদ বিষয়সমূহ থেকে আমাকে নিরাপদ রাখুন। হে আল্লাহ! আপনি আমাকে হেফাযাত করুন আমার সম্মুখ থেকে, আমার পিছন দিক থেকে, আমার ডান দিক থেকে, আমার বাম দিক থেকে এবং আমার উপর দিক থেকে। হে আল্লাহ! আমি আপনার মর্যাদার ওয়াসিলায় মাটিতে ধ্বসে যাওয়া থেকে আপনার কাছে আশ্রয় চাইছি।
+--
+
+[.translation-computer-generated-english]
+--
+O Allah! I ask You for well-being in this world and the Hereafter. O Allah! I ask You for forgiveness and safety in my religion, my worldly affairs, my family, and my wealth. O Allah! Conceal my faults and calm my fears. O Allah! Protect me from in front of me, behind me, from my right, from my left, and from above me. I seek refuge in Your majesty from being destroyed from beneath me.
+--
+
+[.reference]
+.Protection: 3 Times Morning, and 3 Times Evening
+SD 5088
+SIM 3869
+JT 3388
+Musnad Ahmad 446
+
+[.arabic-text]
+بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَىْءٌ فِي الأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ
+
+[.word-by-word]
+--
+بِسْمِ – নামে – In the name of
+اللَّهِ – আল্লাহর – Allah
+الَّذِي – যিনি – Who
+لاَ يَضُرُّ – ক্ষতি করতে পারে না – Can cause no harm
+مَعَ اسْمِهِ – তাঁর নামের সঙ্গে – With His name
+شَىْءٌ – কিছুই – Nothing
+فِي الأَرْضِ – পৃথিবীতে – On Earth
+وَلاَ فِي السَّمَاءِ – এবং আসমানে নয় – And not in Heaven
+وَهُوَ – এবং তিনি – And He is
+السَّمِيعُ – সর্বশ্রোতা – The All-Hearing
+الْعَلِيمُ – সর্বজ্ঞ – The All-Knowing
+--
+
+[.translation-bangla]
+--
+আল্লাহর নামে যাঁর নামের বরকতে আসমান ও যমীনের কোনো বস্তুই ক্ষতি করতে পারে না, তিনি সর্বশ্রোতা ও মহাজ্ঞানী।
+--
+
+[.translation-computer-generated-bangla]
+--
+আল্লাহর নামে, যাঁর নামের বরকতে পৃথিবীতে বা আসমানে কোনো কিছুই ক্ষতি করতে পারে না, আর তিনি সর্বশ্রোতা, সর্বজ্ঞ।
+--
+
+[.translation-english]
+--
+In the name of Allah, when Whose name is mentioned nothing on Earth or in Heaven can cause harm, and He is the Hearer, the Knower
+--
+
+[.translation-computer-generated-english]
+--
+In the name of Allah, with Whose name nothing on earth or in the heavens can cause harm, and He is the All-Hearing, the All-Knowing.
+--
+
+[.reference]
+.Say it when you reach morning, and evening, and when you go to bed
+JT 3529
+JT 3392
+
+[.arabic-text]
+اللَّهُمَّ فَاطِرَ السَّمَوَاتِ وَالأَرْضِ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ لاَ إِلَهَ إِلاَّ أَنْتَ رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي وَمِنْ شَرِّ الشَّيْطَانِ وَشَرَكِهِ وَأَنْ أَقْتَرِفَ عَلَى نَفْسِي سُوءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ
+
+[.word-by-word]
+--
+--
+
+[.translation-bangla]
+--
+হে আল্লাহ, আকাশসমূহ ও যামীনের সৃষ্টিকর্তা, অদৃশ্য ও দৃশ্যের জ্ঞাতা! তুমি ছাড়া আর কোন মা’বূদ নেই, তুমি প্রতিটি বস্তুর পালনকর্তা ও মালিক। আমি তোমার কাছে আশ্রয় প্রার্থনা করি আমার নিজের অন্তরের অনিষ্ট হতে এবং শাইতানের ক্ষতি ও তার শিরকী হতে এবং আমি আমার নিজের জন্য ক্ষতিকর কিছু লাভ করা হতে কিংবা উক্ত অনিষ্টকর জিনিস কোন মুসলিমের কাছে টেনে নিয়ে যাওয়া হতে
+--
+
+[.translation-computer-generated-bangla]
+--
+--
+
+[.translation-english]
+--
+O Allah, Creator of the heavens and the earth, Knower of the unseen and the seen, there is none worthy of worship except You, Lord of everything and its Owner, I seek refuge in You from the evil of my soul and from the evil of Shaitan and his Shirk, or that I should do some evil to myself or bring it upon a Muslim
 --
 
 [.translation-computer-generated-english]
@@ -7016,301 +7238,6 @@ There is no god but You.
 
 NOTE: وَلاَ إِلَهَ غَيْرُكَ three times
 
-== Protection (Pre)
-
-[.reference]
-.Three Times At Night
-JT 3604b
-Muwatta Malik Book 51, Hadith 1743 (No Grade)
-
-[.arabic-text]
-أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
-
-[.reference]
-.When anyone lands at a place
-SM 2708a
-JT 3437
-
-[.arabic-text]
-أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
-
-[.word-by-word]
---
-أَعُوذُ – আমি আশ্রয় প্রার্থনা করছি – I seek refuge
-بِكَلِمَاتِ – শব্দগুলোর মাধ্যমে – In the words
-اللَّهِ – আল্লাহর – Of Allah
-التَّامَّاتِ – পরিপূর্ণ – Perfect
-مِنْ – থেকে – From
-شَرِّ – অনিষ্ট – The evil
-مَا – যা – Of what
-خَلَقَ – তিনি সৃষ্টি করেছেন – He has created
---
-
-[.translation-computer-generated-bangla]
---
-আল্লাহর পরিপূর্ণ শব্দগুলোর মাধ্যমে আমি আশ্রয় প্রার্থনা করছি, তাঁর সৃষ্টির অনিষ্ট থেকে।
---
-
-[.translation-english]
---
-I seek refuge in the Perfect Word of Allah from the evil of what He has created
---
-
-[.reference]
-.Protection Against Saitan: In the morning and evening
-SIM 3867
-
-NOTE: আবূ দাউদ ৫০৭৭, আহমাদ ১৬১৪৭, আত-তালীকুর রাগীব ১/২২৭, ২২৮। তাহকীক আলবানীঃ সহীহ। উক্ত হাদিসের রাবী সুহায়ল বিন আবু সালিহ সম্পর্কে মুহাম্মাদ বিন সাঈদ বলেন, তিনি সিকাহ। সুফইয়ান বিন উয়াইনাহ বলেন, সাবত। আহমাদ বিন হাম্বল বলেন, তার বর্ণিত হাদিস সহিহ নয়। ইমাম নাসাঈ বলেন, কোন সমস্যা নেই। ইবনু আদী বলেন, তার খবর মাকবুল বা গ্রহণযোগ্য। ইবনু হিব্বান বলেন, তিনি সিকাহ তবে অন্যত্র বলেন, তিনি হাদিস বর্ণনায় ভুল করেন। (তাহযীবুল কামালঃ রাবী নং ২৬২৯, ১২/২২৩ নং পৃষ্ঠা)
-
-[.arabic-text]
-لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ
-
-[.word-by-word]
---
-لاَ إِلَهَ – কোনো উপাস্য নেই – None has the right to be worshipped
-إِلاَّ اللَّهُ – আল্লাহ ছাড়া – Except Allah
-
-وَحْدَهُ – তিনি একক – Alone
-لاَ شَرِيكَ لَهُ – তাঁর কোনো অংশীদার নেই – With no partner or associate
-
-لَهُ الْمُلْكُ – তাঁরই রাজত্ব – His is the dominion
-وَلَهُ الْحَمْدُ – এবং তাঁর জন্যই সমস্ত প্রশংসা – And to Him belongs all praise
-وَهُوَ – এবং তিনি – And He
-عَلَى كُلِّ شَىْءٍ – সমস্ত বিষয়ে – Over all things
-قَدِيرٌ – ক্ষমতাবান – Is Able
---
-
-[.translation-bangla]
---
-আল্লাহ ব্যতীত কোন ইলাহ নই, তিনি এক, তাঁর কোন শরীক নাই, রাজত্ব-সার্বভোমত্ব তাঁর, সমস্ত প্রশংসা তাঁর জন্য, তিনি সর্ববিষয়ে শক্তিমান
---
-
-[.translation-computer-generated-bangla]
---
-আল্লাহ ছাড়া আর কোনো উপাস্য নেই, তিনি একক, তাঁর কোনো অংশীদার নেই। তাঁরই রাজত্ব এবং সমস্ত প্রশংসা তাঁরই জন্য, এবং তিনি সমস্ত বিষয়ে ক্ষমতাবান।
---
-
-[.translation-english]
---
-None has the right to be worshipped but Allah alone, with no partner or associate. His is the dominion and all praise is to Him, and He is Able to all things
---
-
-[.translation-computer-generated-english]
---
-None has the right to be worshipped but Allah alone, with no partner or associate. His is the dominion, and all praise is to Him, and He is Able to do all things.
---
-
-[.reference]
-.never failed to utter these supplications in the evening and in the morning
-SD 5074
-SIM 3871
-AAM 1200
-
-[.arabic-text]
-اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَاىَ وَأَهْلِي وَمَالِي اللَّهُمَّ اسْتُرْ عَوْرَتِي وَآمِنْ رَوْعَاتِي اللَّهُمَّ احْفَظْنِي مِنْ بَيْنِ يَدَىَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي وَمِنْ فَوْقِي وَأَعُوذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي
-
-[.word-by-word]
---
-اللَّهُمَّ – হে আল্লাহ – O Allah
-إِنِّي أَسْأَلُكَ – আমি আপনার কাছে প্রার্থনা করছি – I ask You
-الْعَافِيَةَ – নিরাপত্তা – For well-being/safety
-فِي الدُّنْيَا وَالآخِرَةِ – দুনিয়া ও আখিরাতে – In this world and the Hereafter
-
-اللَّهُمَّ – হে আল্লাহ – O Allah
-إِنِّي أَسْأَلُكَ – আমি আপনার কাছে প্রার্থনা করছি – I ask You
-الْعَفْوَ – ক্ষমা – For forgiveness
-وَالْعَافِيَةَ – এবং নিরাপত্তা – And well-being
-فِي دِينِي وَدُنْيَاىَ – আমার দ্বীন ও দুনিয়ায় – In my religion and my worldly life
-وَأَهْلِي وَمَالِي – এবং আমার পরিবার ও সম্পদে – And in my family and my wealth
-
-اللَّهُمَّ – হে আল্লাহ – O Allah
-اسْتُرْ – ঢেকে রাখুন – Cover/conceal
-عَوْرَتِي – আমার দোষত্রুটিগুলো – My faults
-
-وَآمِنْ – এবং নিরাপদ রাখুন – And safeguard
-رَوْعَاتِي – আমার ভয়সমূহ থেকে – My fears (from alarming things)
-
-اللَّهُمَّ – হে আল্লাহ – O Allah
-احْفَظْنِي – আমাকে হেফাযত করুন – Protect me
-مِنْ بَيْنِ يَدَىَّ – আমার সম্মুখ থেকে – From in front of me
-وَمِنْ خَلْفِي – এবং আমার পিছন দিক থেকে – And from behind me
-وَعَنْ يَمِينِي – এবং আমার ডান দিক থেকে – And from my right side
-وَعَنْ شِمَالِي – এবং আমার বাম দিক থেকে – And from my left side
-وَمِنْ فَوْقِي – এবং আমার উপর দিক থেকে – And from above me
-
-وَأَعُوذُ – এবং আমি আশ্রয় প্রার্থনা করছি – And I seek refuge
-بِعَظَمَتِكَ – আপনার মর্যাদার ওয়াসিলায় – By Your majesty
-أَنْ أُغْتَالَ – যেন ধ্বংস হয়ে না যাই – That I be destroyed
-مِنْ تَحْتِي – মাটির নিচ থেকে – From beneath me
---
-
-[.translation-bangla]
---
-হে আল্লাহ! আমি আপনার নিকট দুনিয়া ও আখিরাতের নিরাপত্তা চাই। হে আল্লাহ! আমি আপনার নিকট ক্ষমা এবং আমার দীন, দুনিয়া, পরিবার ও সম্পদের নিরাপত্তা চাই। হে আল্লাহ! আপনি আমার দোষত্রুটিগুলো ঢেকে রাখুন এবং ভীতিপ্রদ বিষয়সমূহ থেকে আমাকে নিরাপদ রাখুন। হে আল্লাহ! আপনি আমাকে হেফাযাত করুন আমার সম্মুখ থেকে, আমার পিছন দিক থেকে, আমার ডান দিক থেকে, আমার বাম দিক থেকে এবং আমার উপর দিক থেকে। হে আল্লাহ! আমি আপনার মর্যাদার ওয়াসিলায় মাটিতে ধ্বসে যাওয়া থেকে আপনার কাছে আশ্রয় চাইছি।
---
-
-[.translation-computer-generated-bangla]
---
-হে আল্লাহ! আমি আপনার কাছে দুনিয়া ও আখিরাতে নিরাপত্তা চাই। হে আল্লাহ! আমি আপনার কাছে ক্ষমা এবং আমার দ্বীন, দুনিয়া, পরিবার ও সম্পদের নিরাপত্তা চাই। হে আল্লাহ! আপনি আমার দোষত্রুটিগুলো ঢেকে রাখুন এবং ভীতিপ্রদ বিষয়সমূহ থেকে আমাকে নিরাপদ রাখুন। হে আল্লাহ! আপনি আমাকে হেফাজত করুন আমার সম্মুখ থেকে, আমার পিছন থেকে, আমার ডান দিক থেকে, আমার বাম দিক থেকে এবং আমার উপর দিক থেকে। হে আল্লাহ! আমি আপনার মর্যাদার ওয়াসিলায় মাটিতে ধ্বসে যাওয়া থেকে আপনার কাছে আশ্রয় চাই।
---
-
-[.translation-english]
---
-হে আল্লাহ! আমি আপনার নিকট দুনিয়া ও আখিরাতের নিরাপত্তা চাই। হে আল্লাহ! আমি আপনার নিকট ক্ষমা এবং আমার দীন, দুনিয়া, পরিবার ও সম্পদের নিরাপত্তা চাই। হে আল্লাহ! আপনি আমার দোষত্রুটিগুলো ঢেকে রাখুন এবং ভীতিপ্রদ বিষয়সমূহ থেকে আমাকে নিরাপদ রাখুন। হে আল্লাহ! আপনি আমাকে হেফাযাত করুন আমার সম্মুখ থেকে, আমার পিছন দিক থেকে, আমার ডান দিক থেকে, আমার বাম দিক থেকে এবং আমার উপর দিক থেকে। হে আল্লাহ! আমি আপনার মর্যাদার ওয়াসিলায় মাটিতে ধ্বসে যাওয়া থেকে আপনার কাছে আশ্রয় চাইছি।
---
-
-[.translation-computer-generated-english]
---
-O Allah! I ask You for well-being in this world and the Hereafter. O Allah! I ask You for forgiveness and safety in my religion, my worldly affairs, my family, and my wealth. O Allah! Conceal my faults and calm my fears. O Allah! Protect me from in front of me, behind me, from my right, from my left, and from above me. I seek refuge in Your majesty from being destroyed from beneath me.
---
-
-[.reference]
-.Protection: 3 Times Morning, and 3 Times Evening
-SD 5088
-SIM 3869
-JT 3388
-
-[.arabic-text]
-بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَىْءٌ فِي الأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ
-
-[.word-by-word]
---
-بِسْمِ – নামে – In the name of
-اللَّهِ – আল্লাহর – Allah
-الَّذِي – যিনি – Who
-لاَ يَضُرُّ – ক্ষতি করতে পারে না – Can cause no harm
-مَعَ اسْمِهِ – তাঁর নামের সঙ্গে – With His name
-شَىْءٌ – কিছুই – Nothing
-فِي الأَرْضِ – পৃথিবীতে – On Earth
-وَلاَ فِي السَّمَاءِ – এবং আসমানে নয় – And not in Heaven
-وَهُوَ – এবং তিনি – And He is
-السَّمِيعُ – সর্বশ্রোতা – The All-Hearing
-الْعَلِيمُ – সর্বজ্ঞ – The All-Knowing
---
-
-[.translation-bangla]
---
-আল্লাহর নামে যাঁর নামের বরকতে আসমান ও যমীনের কোনো বস্তুই ক্ষতি করতে পারে না, তিনি সর্বশ্রোতা ও মহাজ্ঞানী।
---
-
-[.translation-computer-generated-bangla]
---
-আল্লাহর নামে, যাঁর নামের বরকতে পৃথিবীতে বা আসমানে কোনো কিছুই ক্ষতি করতে পারে না, আর তিনি সর্বশ্রোতা, সর্বজ্ঞ।
---
-
-[.translation-english]
---
-In the name of Allah, when Whose name is mentioned nothing on Earth or in Heaven can cause harm, and He is the Hearer, the Knower
---
-
-[.translation-computer-generated-english]
---
-In the name of Allah, with Whose name nothing on earth or in the heavens can cause harm, and He is the All-Hearing, the All-Knowing.
---
-
-[.reference]
-.Say it when you reach morning, and evening, and when you go to bed
-JT 3529
-JT 3392
-
-[.arabic-text]
-اللَّهُمَّ فَاطِرَ السَّمَوَاتِ وَالأَرْضِ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ لاَ إِلَهَ إِلاَّ أَنْتَ رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي وَمِنْ شَرِّ الشَّيْطَانِ وَشَرَكِهِ وَأَنْ أَقْتَرِفَ عَلَى نَفْسِي سُوءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ
-
-[.word-by-word]
---
---
-
-[.translation-bangla]
---
-হে আল্লাহ, আকাশসমূহ ও যামীনের সৃষ্টিকর্তা, অদৃশ্য ও দৃশ্যের জ্ঞাতা! তুমি ছাড়া আর কোন মা’বূদ নেই, তুমি প্রতিটি বস্তুর পালনকর্তা ও মালিক। আমি তোমার কাছে আশ্রয় প্রার্থনা করি আমার নিজের অন্তরের অনিষ্ট হতে এবং শাইতানের ক্ষতি ও তার শিরকী হতে এবং আমি আমার নিজের জন্য ক্ষতিকর কিছু লাভ করা হতে কিংবা উক্ত অনিষ্টকর জিনিস কোন মুসলিমের কাছে টেনে নিয়ে যাওয়া হতে
---
-
-[.translation-computer-generated-bangla]
---
---
-
-[.translation-english]
---
-O Allah, Creator of the heavens and the earth, Knower of the unseen and the seen, there is none worthy of worship except You, Lord of everything and its Owner, I seek refuge in You from the evil of my soul and from the evil of Shaitan and his Shirk, or that I should do some evil to myself or bring it upon a Muslim
---
-
-[.translation-computer-generated-english]
---
---
-
-[.reference]
-.Protection Children
-SIM 3525
-SAB 3371
-SD 4737
-
-[.arabic-text]
-أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ وَمِنْ كُلِّ عَيْنٍ لاَمَّةٍ
-
-[.word-by-word]
---
-أَعُوذُ - আমি আশ্রয় চাই - I seek refuge
-بِكَلِمَاتِ - কথাগুলির মাধ্যমে - in the words
-اللَّهِ - আল্লাহর - of Allah
-التَّامَّةِ - সম্পূর্ণ - perfect
-مِنْ - থেকে - from
-كُلِّ - প্রতিটি - every
-شَيْطَانٍ - শয়তান - devil
-وَ - এবং - and
-هَامَّةٍ - বিষাক্ত জীব - poisonous creature
-وَمِنْ - এবং থেকে - and from
-كُلِّ - প্রতিটি - every
-عَيْنٍ - দৃষ্টি - eye
-لاَمَّةٍ - ক্ষতিকর - harmful
---
-
-[.translation-bangla]
---
-আমি আল্লাহর পরিপূর্ণ কল্যাণময় বাক্যাবলীর উসীলায় প্রতিটি শয়তান, প্রাণনাশী বিষাক্ত জীব ও অনিষ্টকারী বদনজর থেকে আশ্রয় প্রার্থনা করছি
---
-
-[.translation-computer-generated-bangla]
---
-আমি আল্লাহর পরিপূর্ণ বাণীগুলির মাধ্যমে আশ্রয় চাই প্রতিটি শয়তান, প্রতিটি বিষাক্ত জীব এবং প্রতিটি ক্ষতিকর দৃষ্টি থেকে।
---
-
-[.translation-english]
---
-I seek refuge for you both in the Perfect Words of Allah, from every devil and every poisonous reptile, and from every evil eye
---
-
-[.translation-computer-generated-english]
---
-I seek refuge in the Perfect Words of Allah, from every devil, every poisonous creature, and from every harmful eye.
---
-
-[.reference]
-Musnad Ahmad 446
-
-[.arabic-text]
-بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ
-
-[.word-by-word]
---
---
-
-[.translation-bangla]
---
---
-
-[.translation-computer-generated-bangla]
---
---
-
-[.translation-english]
---
-in the Name of Allah, with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing, All-Knowing
---
-
-[.translation-computer-generated-english]
---
---
-
 == Ruqya (For Self)
 
 Here’s a list of the different verses from the Quran which can be recited.
@@ -7843,6 +7770,54 @@ O Allah, forgive me and have mercy on me, and join me with the Highest Company
 
 [.translation-computer-generated-english]
 --
+--
+
+=== Children (Protection)
+
+[.reference]
+.Protection Children
+SIM 3525
+SAB 3371
+SD 4737
+
+[.arabic-text]
+أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ وَمِنْ كُلِّ عَيْنٍ لاَمَّةٍ
+
+[.word-by-word]
+--
+أَعُوذُ - আমি আশ্রয় চাই - I seek refuge
+بِكَلِمَاتِ - কথাগুলির মাধ্যমে - in the words
+اللَّهِ - আল্লাহর - of Allah
+التَّامَّةِ - সম্পূর্ণ - perfect
+مِنْ - থেকে - from
+كُلِّ - প্রতিটি - every
+شَيْطَانٍ - শয়তান - devil
+وَ - এবং - and
+هَامَّةٍ - বিষাক্ত জীব - poisonous creature
+وَمِنْ - এবং থেকে - and from
+كُلِّ - প্রতিটি - every
+عَيْنٍ - দৃষ্টি - eye
+لاَمَّةٍ - ক্ষতিকর - harmful
+--
+
+[.translation-bangla]
+--
+আমি আল্লাহর পরিপূর্ণ কল্যাণময় বাক্যাবলীর উসীলায় প্রতিটি শয়তান, প্রাণনাশী বিষাক্ত জীব ও অনিষ্টকারী বদনজর থেকে আশ্রয় প্রার্থনা করছি
+--
+
+[.translation-computer-generated-bangla]
+--
+আমি আল্লাহর পরিপূর্ণ বাণীগুলির মাধ্যমে আশ্রয় চাই প্রতিটি শয়তান, প্রতিটি বিষাক্ত জীব এবং প্রতিটি ক্ষতিকর দৃষ্টি থেকে।
+--
+
+[.translation-english]
+--
+I seek refuge for you both in the Perfect Words of Allah, from every devil and every poisonous reptile, and from every evil eye
+--
+
+[.translation-computer-generated-english]
+--
+I seek refuge in the Perfect Words of Allah, from every devil, every poisonous creature, and from every harmful eye.
 --
 
 === Istikhara
