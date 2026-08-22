@@ -10387,7 +10387,9 @@ SAB 6616
 
 [.arabic-text]
 تَعَوَّذُوا بِاللَّهِ مِنْ جَهْدِ الْبَلاَءِ، وَدَرَكِ الشَّقَاءِ، وَسُوءِ الْقَضَاءِ، وَشَمَاتَةِ الأَعْدَاءِ
+
 اللَّهُمَّ إِنَّا أَعُوذُ بِكَ مِنْ جَهْدِ الْبَلاَءِ، وَدَرَكِ الشَّقَاءِ، وَسُوءِ الْقَضَاءِ، وَشَمَاتَةِ الأَعْدَاءِ.
+
 اللَّهُمَّ إِنَّا نَعُوذُ بِكَ مِنْ جَهْدِ الْبَلاَءِ، وَدَرَكِ الشَّقَاءِ، وَسُوءِ الْقَضَاءِ، وَشَمَاتَةِ الأَعْدَاءِ.
 
 [.word-by-word]
@@ -10415,17 +10417,22 @@ SAB 6616
 
 [.translation-computer-generated-bangla]
 --
-হে আল্লাহ! আমরা আপনার কাছে আশ্রয় চাইছি কঠিন বিপদের কষ্ট থেকে, দুর্দশায় পড়া থেকে, খারাপ সিদ্ধান্ত থেকে, এবং শত্রুদের প্রতিহিংসাপরায়ণ আনন্দ থেকে।
 --
 
 [.translation-english]
 --
-O Allah, we seek refuge in You from the difficulties of severe calamities, from having an evil end and a bad fate and from the malicious joy of your enemies.
+Take refuge with Allah from the difficulties of severe calamities, from having an evil end and a bad fate and from the malicious joy of your enemies.
 --
 
 [.translation-computer-generated-english]
 --
-O Allah, we seek refuge in You from the hardships of severe trials, from reaching a wretched state, from bad fate, and from the malicious joy of enemies.
+Seek refuge in Allah from severe affliction, from being overtaken by misery, from an evil decree, and from the enemies’ rejoicing over your misfortune.
+
+O Allah, indeed I seek refuge in You from severe affliction, from being overtaken by misery, from an evil decree, and from the enemies’ rejoicing over my misfortune.
+
+O Allah, indeed we seek refuge in You from severe affliction, from being overtaken by misery, from an evil decree, and from the enemies’ rejoicing over our misfortune.
+
+NOTE: Here أَعُوذُ (aʿūdhu) is singular: “I seek refuge.” Here نَعُوذُ (naʿūdhu) is plural: “we seek refuge.”
 --
 
 [.reference]
