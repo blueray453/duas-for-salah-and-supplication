@@ -177,22 +177,10 @@ mark {
 }
 
 @font-face {
-    font-family: 'Katibeh';
-    src: local('Katibeh'),
-         url('fonts/Katibeh-Regular.ttf') format('truetype');
-
-    size-adjust: 250%;
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFE;
-}
-
-@font-face {
     font-family: 'Amiri Quran';
     src: local('Amiri Quran'),
          url('fonts/AmiriQuran.ttf') format('truetype');
-    size-adjust: 300%;
+    size-adjust: 150%;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -215,7 +203,7 @@ mark {
     src: local('Muhammadi Quranic Font'),
          url('fonts/MUHAMMADI QURANIC FONT.ttf') format('truetype');
 
-    size-adjust: 250%;
+    size-adjust: 150%;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -254,15 +242,13 @@ body {
     font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1;
     font-family:
         "Scheherazade",
-        "Katibeh",
+        "Amiri Quran",
         "KacstBook",
+        "Noto Naskh Arabic",
         "Al Qalam Quran Majeed Web",
         "Muhammadi Quranic Font",
         "_PDMS_Saleem_QuranFont",
-        "AlQuran IndoPak by QuranWBW",
-        "Amiri Quran",
         "Noto Serif Bengali",
-        "Noto Naskh Arabic",
         "Noto Serif",
         serif !important;
 }
@@ -351,16 +337,16 @@ div.openblock.arabic-text-quran div.admonitionblock.note {
     display: none;
 } */
 
-div.openblock.word-by-word > div.content > div.paragraph > p {
-    white-space: pre-line;
-    line-height: var(--line-height);
-}
-
 div.openblock.word-by-word::before {
     content: "Word-By-Word Translation";
     text-decoration: underline;
     display: block;
     padding-top: 10px;
+}
+
+div.openblock.word-by-word div.paragraph p {
+    white-space: pre-line;   /* preserves line breaks, collapses spaces */
+    line-height: var(--line-height);  /* or a fixed value like 2.5 */
 }
 
 div.openblock.translation-computer-generated-english::before {
