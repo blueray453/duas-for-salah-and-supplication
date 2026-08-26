@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arabic Font Test</title>
+
+    <style>
+        @font-face {
+            font-family: 'KacstBook';
+            src: local('KacstBook'),
+                url('fonts/KacstBook.ttf') format('truetype');
+        }
+
+        body {
+            font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1;
+
+            font-family:
+                "KacstBook",
+                serif !important;
+        }
+
+        .test {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .label {
+            font-family: sans-serif;
+            font-size: 14px;
+            direction: ltr;
+            text-align: left;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="test">
+        <div class="label">Arabic text</div>
+
+        <p>
+            بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+        </p>
+
+        <p>
+            الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+        </p>
+
+        <p>
+            الرَّحْمَٰنِ الرَّحِيمِ مَالِكِ يَوْمِ الدِّينِ
+        </p>
+
+        <p>
+            إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+        </p>
+
+        <p>
+            اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ
+        </p>
+    </div>
+
+    <div class="test">
+        <div class="label">Mixed Arabic + Latin</div>
+
+        <p>
+            القرآن الكريم — Al-Qur'an
+        </p>
+
+        <p>
+            بِسْمِ اللَّهِ 1234567890
+        </p>
+    </div>
+
+</body>
+
+</html>
+

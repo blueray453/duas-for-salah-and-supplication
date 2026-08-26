@@ -6877,6 +6877,33 @@ O Allah, Lord of mankind, remove the hardship and heal him, for You are the Heal
 --
 
 [.reference]
+.If anyone visits a sick whose time (of death) has not come, and says with him seven times, Allah will cure him from that disease
+SD 3106
+[.arabic-text]
+أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ
+
+[.word-by-word]
+--
+--
+
+[.translation-bangla]
+--
+--
+
+[.translation-computer-generated-bangla]
+--
+--
+
+[.translation-english]
+--
+I ask Allah, the Mighty, the Lord of the mighty Throne, to cure you
+--
+
+[.translation-computer-generated-english]
+--
+--
+
+[.reference]
 .when you suffer from some ailment, then place your hand at the place of the ailment, Then lift your hand and repeat that an odd number of times.
 JT 3588
 
@@ -7443,33 +7470,6 @@ SIM 3527
 [.translation-english]
 --
 In the Name of Allah I perform Ruqyah for you, from everything that is harming you; from the envy of the envier and from every evil eye, may Allah heal you
---
-
-[.translation-computer-generated-english]
---
---
-
-[.reference]
-.If anyone visits a sick whose time (of death) has not come, and says with him seven times, Allah will cure him from that disease
-SD 3106
-[.arabic-text]
-أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ
-
-[.word-by-word]
---
---
-
-[.translation-bangla]
---
---
-
-[.translation-computer-generated-bangla]
---
---
-
-[.translation-english]
---
-I ask Allah, the Mighty, the Lord of the mighty Throne, to cure you
 --
 
 [.translation-computer-generated-english]
