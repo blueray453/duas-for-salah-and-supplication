@@ -3979,11 +3979,18 @@ AAM 690
 --
 
 [.reference]
+Quran 37:180-182
+JT 299
 SD 1505
 
 [.arabic-text]
-لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ وَلاَ مُعْطِيَ لِمَا مَنَعْتَ وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ
+--
+تَبَارَكْتَ يَا ذَا الْجَلاَلِ وَالإِكْرَامِ
 
+لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ
+
+سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلاَمٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+--
 [.word-by-word]
 --
 لاَ - নেই - no
@@ -3998,6 +4005,9 @@ SD 1505
 الْمُلْكُ - রাজত্ব - the dominion
 وَلَهُ - এবং তাঁর জন্য - and for Him
 الْحَمْدُ - সমস্ত প্রশংসা - all praise
+يُحْيِي - তিনি জীবন দান করেন - He gives life
+وَ - এবং - and
+يُمِيتُ - তিনি মৃত্যু ঘটান - He causes death
 وَهُوَ - এবং তিনি - and He
 عَلَى - উপর - over
 كُلِّ - সবকিছুর - all
@@ -4022,17 +4032,15 @@ SD 1505
 
 [.translation-computer-generated-bangla]
 --
-আল্লাহ ছাড়া আর কোনো উপাস্য নেই, তিনি একক, তাঁর কোনো অংশীদার নেই, রাজত্ব তাঁর, সমস্ত প্রশংসা তাঁর, এবং তিনি সবকিছুর উপর সর্বশক্তিমান। হে আল্লাহ, আপনি যা প্রদান করেন তা কেউ বাধা দিতে পারে না এবং আপনি যা আটকান তা কেউ প্রদান করতে পারে না, এবং আপনি ছাড়া সৌভাগ্যের অধিকারীকে (সম্পদ এবং ক্ষমতা) তার সৌভাগ্য কিছু উপকার করতে পারে না।
---
-
-[.translation-english]
---
-There is no God but Allah, Alone, Who has no partner, to Him belongs the dominion, to Him praise is due, and He is Omnipotent. O Allah no one cane withhold what You give and give what You withhold, and none benefits the fortunate person, for from You is the fortune.
 --
 
 [.translation-computer-generated-english]
 --
-There is no god but Allah, Alone, without any partner. To Him belongs the dominion, all praise is due to Him, and He is Omnipotent. O Allah, no one can withhold what You give, and no one can give what You withhold, and no fortune can benefit a fortunate person except from You.
+You are Blessed, O Possessor of Majesty and Honor.
+
+There is no deity worthy of worship except Allah alone, without any partner. To Him belongs the dominion and to Him belongs all praise. He gives life and causes death, and He has power over all things. O Allah, none can withhold what You give, and none can give what You withhold. And the wealth or status of a wealthy person cannot benefit him against You.
+
+Glory be to your Lord, the Lord of Might, above what they describe. And peace be upon the Messengers. And all praise belongs to Allah, Lord of the worlds.
 --
 
 [.reference]
