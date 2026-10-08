@@ -28,6 +28,13 @@
 [.reference]
 Quran 1:1-4
 
+[.arabic-text]
+--
+الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+الرَّحْمَـٰنِ الرَّحِيمِ
+مَالِكِ يَوْمِ الدِّينِ
+--
+
 [.reference]
 Quran 3:26-27
 
@@ -293,11 +300,11 @@ NOTE: Whoever says it three times, Allah will free him completely from the Fire.
 
 [.translation-english]
 --
-O Allah, I testify that You are Allah, there is no god but You, alone, without partner, and I testify that Muhammad is Your servant and Messenger
 --
 
 [.translation-computer-generated-english]
 --
+O Allah, I call You to witness, and I call Your angels, the bearers of Your Throne, and all those in the heavens and on the earth to witness that You are Allah. There is no god except You, alone, without any partner. And I bear witness that Muhammad is Your servant and Your Messenger.
 --
 
 [.reference]
