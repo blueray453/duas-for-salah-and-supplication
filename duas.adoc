@@ -351,33 +351,6 @@ O Allah, I call You to witness, and I call Your angels, the bearers of Your Thro
 --
 
 [.reference]
-SAN 931
-
-[.arabic-text]
-الْحَمْدُ لِلَّهِ حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ مُبَارَكًا عَلَيْهِ كَمَا يُحِبُّ رَبُّنَا وَيَرْضَى
-
-[.word-by-word]
---
---
-
-[.translation-bangla]
---
---
-
-[.translation-computer-generated-bangla]
---
---
-
-[.translation-english]
---
-Praise be to Allah, much good and blessed praise as our Lord loves and is pleased with.
---
-
-[.translation-computer-generated-english]
---
---
-
-[.reference]
 .Weak
 SIM 3801
 https://hadithanswers.com/allah-personally-re-compensating-the-one-who-says-a-certain-hamd-praise-of-allah/
@@ -401,6 +374,33 @@ https://hadithanswers.com/allah-personally-re-compensating-the-one-who-says-a-ce
 [.translation-english]
 --
 O Lord, to You is praise as befits the Glory of Your Face and the greatness of Your Might.
+--
+
+[.translation-computer-generated-english]
+--
+--
+
+[.reference]
+SAN 931
+
+[.arabic-text]
+الْحَمْدُ لِلَّهِ حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ مُبَارَكًا عَلَيْهِ كَمَا يُحِبُّ رَبُّنَا وَيَرْضَى
+
+[.word-by-word]
+--
+--
+
+[.translation-bangla]
+--
+--
+
+[.translation-computer-generated-bangla]
+--
+--
+
+[.translation-english]
+--
+Praise be to Allah, much good and blessed praise as our Lord loves and is pleased with.
 --
 
 [.translation-computer-generated-english]
