@@ -2905,14 +2905,43 @@ SD 850
 === Last Sitting
 
 [.reference]
-SAB 3370
-SAN 1287
-SD 978
+SAB 3369
+SAB 6360
+SM 407
 SD 979
-SD 976
+
+[.arabic-text]
+--
+اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا صَلَّيْتَ عَلَى آلِ إِبْرَاهِيمَ، وَبَارِكْ عَلَى مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا بَارَكْتَ عَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ
+--
+
+[.word-by-word]
+--
+--
+
+[.translation-bangla]
+--
+--
+
+[.translation-computer-generated-bangla]
+--
+--
+
+[.translation-english]
+--
+O Allah! Send Your Mercy on Muhammad and on his wives and on his off spring, as You sent Your Mercy on Abraham's family; and send Your Blessings on Muhammad and on his offspring, as You sent Your Blessings on Abraham's family, for You are the Most Praiseworthy, the Most Glorious.
+--
+
+[.translation-computer-generated-english]
+--
+--
+
+[.reference]
+SAB 3370
 SAB 6357
-SAB 4797
-SM 406a
+SAN 1287
+SD 976
+SD 978
 SIM 904
 
 [.arabic-text]
