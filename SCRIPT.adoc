@@ -1,0 +1,13 @@
+pip install weasyprint beautifulsoup4
+sudo apt install fonts-noto-core        # macOS: brew install --cask font-noto-sans font-noto-sans-bengali font-noto-naskh-arabic
+
+python html2pdf.py input.html output.pdf \
+  --title "My Report" --subtitle "Annual Overview" \
+  --author "Your Name" --date "9 November 2026" \
+  --accent "#0f4c81" --toc-depth 2
+
+Your own CSS is dropped by default, so the look stays consistent. Add --keep-styles to keep your <style> tags. Expect to adjust the result, since your styles may fight the print layout.
+Relative images work, because the script uses your HTML file’s folder as the base path.
+Each h1 starts a new page. To change that, edit break-before: page in the .content h1 rule.
+Fonts must be installed on the machine running the script. To embed them from files instead, add @font-face rules pointing at your .ttf files in the CSS template.
+Arabic digits and Bangla digits in your text render as written. The page numbers are Western digits, and you can change that in the @bottom-center rule.
