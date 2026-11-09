@@ -1,0 +1,66 @@
+/* ==========================================================
+   BLACK & WHITE PRINT STYLE  (loaded on top of style.css)
+   Rules of thumb for mono printers:
+   - pure black text on pure white paper
+   - no tinted backgrounds (they print as dirty halftone dots)
+   - hairlines in solid black, not light grey (grey lines break up)
+   - outlines instead of big solid blocks (saves toner)
+   ========================================================== */
+:root {
+  --ink:    #000;
+  --accent: #000;
+  --line:   #000;
+  --tint:   #fff;
+}
+
+html { color: #000; }
+
+/* ---- page furniture ---- */
+@page {
+  @top-left  { color: #000; }
+  @top-right {
+    background: none;
+    color: #000;
+    border: 1pt solid #000;
+  }
+  @bottom-left  { content: url("../assets/logo-bw.svg"); }
+  @bottom-right { color: #000; }
+}
+@page cover {
+  @top-right { content: none; background: none; border: none; }
+}
+
+/* ---- cover: white page, line art (see book.html) ---- */
+.cover { background: #fff; }
+.cover h1, .cover .subtitle { color: #000; }
+.cover .tagline {
+  color: #000;
+  top: 142mm; bottom: auto; width: 95mm;
+  border-top: 1pt solid #000; padding-top: 4mm;
+}
+
+/* ---- headings ---- */
+.toc-title, .dua-title { color: #000; }
+.dua-title { border-bottom: 1pt solid #000; padding-bottom: 2mm; }
+
+/* ---- TOC ---- */
+.toc li { border-bottom: 0.4pt solid #000; }
+
+/* ---- note boxes: outline + thick left rule, no fill ---- */
+.note {
+  background: #fff;
+  border: 0.5pt solid #000;
+  border-inline-start: 2mm solid #000;
+}
+
+/* ---- word grid ---- */
+.word .ar    { color: #000; }
+.word .gloss { border: 0.6pt solid #000; }
+.gloss .g-bn { color: #000; }
+
+.ref { color: #000; }
+
+/* ---- about page ---- */
+.about .links li { border-bottom: 0.4pt solid #000; }
+.about .links a  { color: #000; text-decoration: underline; }
+.free-note       { color: #000; border-top: 0.6pt solid #000; padding-top: 4mm; }

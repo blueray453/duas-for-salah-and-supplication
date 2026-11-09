@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="{{ meta.lang }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ meta.title }}{% if meta.subtitle %} - {{ meta.subtitle }}{% endif %}</title>
+  <meta name="author" content="{{ meta.org }}">
+  <link rel="stylesheet" href="style.css">
+  {% if extra_css %}<link rel="stylesheet" href="{{ extra_css }}">{% endif %}
+</head>
+<body>
+
+<!-- ================= COVER ================= -->
+<section class="cover">
+{% if style_name == 'bw' %}
+  <svg class="cover-art" viewBox="0 0 210 297" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+    <rect x="9" y="9" width="192" height="279" fill="none" stroke="#000" stroke-width="0.6"/>
+    <rect x="11.5" y="11.5" width="187" height="274" fill="none" stroke="#000" stroke-width="0.25"/>
+    <circle cx="150" cy="170" r="26" fill="none" stroke="#000" stroke-width="0.6"/>
+    <path d="M9 225 C50 207 90 217 125 226 C160 235 185 220 201 214" fill="none" stroke="#000" stroke-width="0.6"/>
+    <path d="M9 248 C55 230 100 255 150 246 C172 242 190 236 201 238" fill="none" stroke="#000" stroke-width="0.6"/>
+    <path d="M9 270 C60 254 110 275 170 264 C185 261 195 260 201 261" fill="none" stroke="#000" stroke-width="0.6"/>
+  </svg>
+  {% else %}
+    <svg class="cover-art" viewBox="0 0 210 297" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="150" cy="150" r="30" fill="#fbe3d3"/>
+    <path d="M0 215 C40 195 80 205 120 215 C160 225 190 205 210 200 L210 297 L0 297 Z" fill="#e8a98c"/>
+    <path d="M0 245 C50 225 100 250 150 240 C175 235 195 228 210 230 L210 297 L0 297 Z" fill="#cf8268"/>
+    <path d="M0 275 C60 258 110 280 170 268 C190 264 200 262 210 264 L210 297 L0 297 Z" fill="#8c5240"/>
+  </svg>
+  {% endif %}
+  <div class="cover-text">
+    <img class="cover-logo" src="{{ logo }}" alt="">
+    <h1>{{ meta.title }}</h1>
+    {% if meta.subtitle %}<div class="subtitle">{{ meta.subtitle }}</div>{% endif %}
+  </div>
+  {% if meta.tagline %}<div class="tagline">{{ meta.tagline }}</div>{% endif %}
+  <span class="hidden-strings">{{ meta.running_title }}</span>
+  <span class="hidden-org">{{ meta.org }}</span>
+</section>
+
+<!-- ================= TOC ================= -->
+<section class="toc">
+  <h2 class="toc-title">Contents</h2>
+  <ul>
+  {% for d in duas %}
+    <li><a href="#dua-{{ loop.index }}"><span class="num">1.{{ loop.index }}</span><span class="ttl">{{ d.title }}</span></a></li>
+  {% endfor %}
+  </ul>
+</section>
+
+<!-- ================= DUAS ================= -->
+{% for d in duas %}
+<section class="dua" id="dua-{{ loop.index }}">
+  <h2 class="dua-title"><span class="num">1.{{ loop.index }}</span> {{ d.title }}</h2>
+
+  {% if d.intro %}
+  <div class="note">
+    {% for lang in languages if d.intro[lang] %}
+      <p class="tr-{{ lang }}">{{ d.intro[lang] }}</p>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% for line in d.lines %}
+  <div class="line">
+    <div class="words {{ grid_class }}" dir="rtl">
+      {% for w in line.words %}
+      <div class="word">
+        <div class="ar" lang="ar">{{ w.ar }}</div>
+        <div class="gloss">
+          {% for lang in languages if w[lang] %}
+            <span class="g-{{ lang }}">{{ w[lang] }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="note">
+      {% for lang in languages if line.translation[lang] %}
+        <p class="tr-{{ lang }}">{{ line.translation[lang] }}</p>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+  {% if d.reference %}<p class="ref">{{ d.reference }}</p>{% endif %}
+</section>
+{% endfor %}
+
+<!-- ================= ABOUT ================= -->
+{% if about %}
+<section class="about">
+  <h2 class="dua-title">{{ about.heading }}</h2>
+  <p>{{ about.text }}</p>
+  <ul class="links">
+    {% for l in about.links %}<li><span>{{ l.label }}</span> <a href="{{ l.url }}">{{ l.url }}</a></li>{% endfor %}
+  </ul>
+  {% if about.footer_note %}<div class="free-note">{{ about.footer_note }}</div>{% endif %}
+</section>
+{% endif %}
+
+</body>
+</html>

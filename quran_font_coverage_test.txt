@@ -1,0 +1,33 @@
+FONT COVERAGE TEST - actual locally available fonts
+RAQM enabled: True
+
+==== UTHMANI; 29 distinct non-space characters
+  Amiri                  missing  0: -
+  Amiri Quran            missing  0: -
+  Amiri Quran Colored    missing  0: -
+  Noto Naskh Arabic      missing  0: -
+  Noto Nastaliq Urdu     missing  0: -
+  Noto Kufi Arabic       missing  0: -
+==== INDOPAK; 31 distinct non-space characters
+  Amiri                  missing  0: -
+  Amiri Quran            missing  0: -
+  Amiri Quran Colored    missing  0: -
+  Noto Naskh Arabic      missing  0: -
+  Noto Nastaliq Urdu     missing  2: U+0615 U+06D9
+  Noto Kufi Arabic       missing  0: -
+
+SPACE ADVANCE (font hmtx metrics, in em units)
+  Amiri                  0.292 em
+  Amiri Quran            0.292 em
+  Amiri Quran Colored    0.292 em
+  Noto Naskh Arabic      0.221 em
+  Noto Nastaliq Urdu     0.132 em
+  Noto Kufi Arabic       0.340 em
+
+MARKER COVERAGE: U+06DD, U+FD3E, U+FD3F, U+0661, U+06F1
+  Amiri                  {'U+06DD': True, 'U+FD3E': True, 'U+FD3F': True, 'U+0661': True, 'U+06F1': True}
+  Amiri Quran            {'U+06DD': True, 'U+FD3E': True, 'U+FD3F': True, 'U+0661': True, 'U+06F1': True}
+  Amiri Quran Colored    {'U+06DD': True, 'U+FD3E': True, 'U+FD3F': True, 'U+0661': True, 'U+06F1': True}
+  Noto Naskh Arabic      {'U+06DD': True, 'U+FD3E': True, 'U+FD3F': True, 'U+0661': True, 'U+06F1': True}
+  Noto Nastaliq Urdu     {'U+06DD': True, 'U+FD3E': True, 'U+FD3F': True, 'U+0661': True, 'U+06F1': True}
+  Noto Kufi Arabic       {'U+06DD': True, 'U+FD3E': True, 'U+FD3F': True, 'U+0661': True, 'U+06F1': True}
