@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "title": "Dua in the Morning & Evening",
+    "subtitle": "Word by Word",
+    "tagline": "Supplication from Quran and Authentic Hadith",
+    "running_title": "Duas in the Morning & Evening",
+    "org": "Your Organisation",
+    "lang": "en"
+  },
+  "languages": [
+    "en",
+    "bn"
+  ],
+  "duas": [
+    {
+      "title": "Bismillah",
+      "lines": [
+        {
+          "words": [
+            {
+              "ar": "بِسْمِ",
+              "en": "In the name",
+              "bn": "নামে"
+            },
+            {
+              "ar": "ٱللَّهِ",
+              "en": "of Allah",
+              "bn": "আল্লাহর"
+            },
+            {
+              "ar": "ٱلرَّحْمَـٰنِ",
+              "en": "the Most Gracious",
+              "bn": "পরম করুণাময়"
+            },
+            {
+              "ar": "ٱلرَّحِيمِ",
+              "en": "the Most Merciful",
+              "bn": "অসীম দয়ালু"
+            }
+          ],
+          "translation": {
+            "en": "In the name of Allah, the Most Gracious, the Most Merciful.",
+            "bn": "পরম করুণাময় অসীম দয়ালু আল্লাহর নামে (শুরু করছি)।"
+          }
+        }
+      ],
+      "intro": {
+        "bn": "প্রতিটি ভালো কাজ আল্লাহর নামে শুরু করা মুমিনের অভ্যাস।",
+        "en": "Beginning with the name of Allah is the habit of the believer in every good deed."
+      },
+      "reference": "Quran 1:1"
+    },
+    {
+      "title": "Ayatul Kursi (excerpt)",
+      "lines": [
+        {
+          "words": [
+            {
+              "ar": "ٱللَّهُ",
+              "en": "Allah"
+            },
+            {
+              "ar": "لَآ",
+              "en": "there is no"
+            },
+            {
+              "ar": "إِلَـٰهَ",
+              "en": "God"
+            },
+            {
+              "ar": "إِلَّا",
+              "en": "but"
+            },
+            {
+              "ar": "هُوَ",
+              "en": "He"
+            },
+            {
+              "ar": "ٱلْحَىُّ",
+              "en": "the Ever Living"
+            },
+            {
+              "ar": "ٱلْقَيُّومُ",
+              "en": "the One Who Sustains"
+            }
+          ],
+          "translation": {
+            "en": "Allah! There is none worthy of worship but He, the Ever Living, the One Who Sustains and Protects all that exists."
+          }
+        },
+        {
+          "words": [
+            {
+              "ar": "لَا",
+              "en": "Not"
+            },
+            {
+              "ar": "تَأْخُذُهُۥ",
+              "en": "overtakes Him"
+            },
+            {
+              "ar": "سِنَةٌۭ",
+              "en": "slumber"
+            },
+            {
+              "ar": "وَلَا",
+              "en": "and not"
+            },
+            {
+              "ar": "نَوْمٌۭ",
+              "en": "sleep"
+            }
+          ],
+          "translation": {
+            "en": "Neither slumber nor sleep overtakes Him."
+          }
+        }
+      ],
+      "intro": {
+        "en": "The opening lines of Ayatul Kursi, shown here as a layout sample."
+      },
+      "reference": "Al-Baqarah 2:255"
+    },
+    {
+      "title": "Morning Dua",
+      "lines": [
+        {
+          "words": [
+            {
+              "ar": "ٱللَّهُمَّ",
+              "en": "O Allah"
+            },
+            {
+              "ar": "بِكَ",
+              "en": "by You"
+            },
+            {
+              "ar": "أَصْبَحْنَا",
+              "en": "we have reached the morning"
+            },
+            {
+              "ar": "وَبِكَ",
+              "en": "and by You"
+            },
+            {
+              "ar": "أَمْسَيْنَا",
+              "en": "we reach the evening"
+            }
+          ],
+          "translation": {
+            "en": "O Allah, by You we have reached the morning, and by You we reach the evening."
+          }
+        },
+        {
+          "words": [
+            {
+              "ar": "وَبِكَ",
+              "en": "and by You"
+            },
+            {
+              "ar": "نَحْيَا",
+              "en": "we live"
+            },
+            {
+              "ar": "وَبِكَ",
+              "en": "and by You"
+            },
+            {
+              "ar": "نَمُوتُ",
+              "en": "we die"
+            },
+            {
+              "ar": "وَإِلَيْكَ",
+              "en": "and to You"
+            },
+            {
+              "ar": "ٱلنُّشُورُ",
+              "en": "is the resurrection"
+            }
+          ],
+          "translation": {
+            "en": "By You we live and by You we die, and to You is the resurrection."
+          }
+        }
+      ],
+      "intro": {
+        "en": "A short dua said in the morning, acknowledging that everything is by the will of Allah."
+      },
+      "reference": "Sunan at-Tirmidhi 3391"
+    }
+  ],
+  "about": {
+    "heading": "About Your Organisation",
+    "text": "Replace this text with a short description of your organisation and how readers can find your apps and resources.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://example.org"
+      },
+      {
+        "label": "Download the app",
+        "url": "https://example.org/app"
+      }
+    ],
+    "footer_note": "FOR FREE DISTRIBUTION ONLY | NOT FOR SALE"
+  }
+}
