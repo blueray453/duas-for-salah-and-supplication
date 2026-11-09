@@ -11,3 +11,9 @@ Relative images work, because the script uses your HTML file’s folder as the b
 Each h1 starts a new page. To change that, edit break-before: page in the .content h1 rule.
 Fonts must be installed on the machine running the script. To embed them from files instead, add @font-face rules pointing at your .ttf files in the CSS template.
 Arabic digits and Bangla digits in your text render as written. The page numbers are Western digits, and you can change that in the @bottom-center rule.
+
+.dua_book_v3
+pip install -r requirements.txt
+python build.py                        # JSON (default)
+python build.py --data data/book.md    # Markdown
+python build.py --data data/book.md --to-json data/converted.json   # also convert Markdown to JSON
