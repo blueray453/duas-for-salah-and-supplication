@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qur'anic Font Coverage Report — Live Text Specimens</title>
+<style>
+@font-face {
+  font-family: "SpecimenFont1";
+  src: url("_PDMS_Saleem_QuranFont%20Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00C1, U+00C8, U+00CB, U+00CD-00CE, U+00D3-00D4, U+00D7, U+00D9, U+00E0, U+00E2, U+00F7, U+00F9, U+00FB-00FC, U+00FF, U+0131, U+0152-0153, U+0160-0161, U+0178, U+0192, U+02C6-02C7, U+060C, U+0611, U+0613, U+0615, U+061B, U+061F, U+0621-063A, U+0640-0657, U+0660-066A, U+066D-066E, U+0670-0672, U+0674, U+0679, U+067E, U+0686, U+0688, U+0691, U+0698, U+06A4, U+06A9-06AA, U+06AF, U+06BA, U+06BE, U+06C1, U+06CC, U+06D2, U+06D4-06ED, U+06F0-06F9, U+2006, U+200C-2010, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2024, U+2026, U+2030, U+2039-203A, U+2122, U+2421, U+25CC, U+E000-E001, U+E003-E004, U+E00E-E022, U+E811-E818, U+E820-E82D, U+E832-E836, U+FB50-FB51, U+FB56-FB59, U+FB6A-FB6D, U+FB7A-FB7D, U+FB8A-FB8B, U+FB8E-FB95, U+FBFC-FBFD, U+FC08-FC0A, U+FC0E, U+FC10, U+FC12, U+FC31-FC32, U+FC3F-FC44, U+FC4E-FC50, U+FC58-FC59, U+FC5E-FC62, U+FC6A, U+FC6D-FC70, U+FC73-FC75, U+FC8E-FC8F, U+FC91, U+FC94-FC95, U+FC9C-FC9F, U+FCA1-FCA4, U+FCA6, U+FCA8, U+FCAA, U+FCAC, U+FCB0, U+FCC9-FCD5, U+FCD8, U+FCDA-FCDD, U+FCF2-FCF4, U+FD30, U+FD3C-FD3F, U+FD88, U+FDF2, U+FDFA-FDFB, U+FDFD, U+FE70-FE72, U+FE74, U+FE76-FE8C, U+FE8E-FEFC;
+}@font-face {
+  font-family: "SpecimenFont2";
+  src: url("Al%20Qalam%20Quran%20Majeed%20Web%20Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00C1, U+00C8, U+00CB, U+00CD-00CE, U+00D3-00D4, U+00D7, U+00D9, U+00E0, U+00E2, U+00F7, U+00F9, U+00FB-00FC, U+00FF, U+0131, U+0152-0153, U+0160-0161, U+0178, U+0192, U+02C6-02C7, U+060C, U+0610-0611, U+0613-0615, U+061B, U+061F, U+0621-063A, U+0640-065D, U+0660-066A, U+066D-066E, U+0670-0672, U+0674, U+0679, U+067C, U+067E, U+0681, U+0685-0686, U+0688-0689, U+0691, U+0693, U+0696, U+0698, U+069A, U+06A4, U+06A9-06AB, U+06AF, U+06BA, U+06BC, U+06BE, U+06C1, U+06C3, U+06CC-06CD, U+06D0, U+06D2, U+06D4-06E4, U+06E6-06ED, U+06F0-06F9, U+200C-2011, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2024, U+2026, U+2030, U+2039-203A, U+2122, U+2421, U+25CC, U+E000-E001, U+E003-E004, U+E00E-E022, U+E811-E818, U+E820-E82D, U+E832-E836, U+FB50-FB51, U+FB56-FB59, U+FB6A-FB6D, U+FB7A-FB7D, U+FB8A-FB8B, U+FB8E-FB95, U+FBFC-FBFD, U+FC08-FC0A, U+FC0E, U+FC10, U+FC12, U+FC31-FC32, U+FC3F-FC44, U+FC4E-FC50, U+FC58-FC59, U+FC5E-FC62, U+FC6A, U+FC6D-FC70, U+FC73-FC75, U+FC8E-FC8F, U+FC91, U+FC94-FC95, U+FC9C-FC9F, U+FCA1-FCA4, U+FCA6, U+FCA8, U+FCAA, U+FCAC, U+FCB0, U+FCC9-FCD5, U+FCD8, U+FCDA-FCDD, U+FCF2-FCF4, U+FD30, U+FD3C-FD3F, U+FD88, U+FDF2, U+FDFA-FDFB, U+FDFD, U+FE70-FE72, U+FE74, U+FE76-FE8C, U+FE8E-FEFC;
+}@font-face {
+  font-family: "SpecimenFont3";
+  src: url("AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020, U+0028-0029, U+002D, U+02C6-02C7, U+060C, U+0610-0611, U+0613-0615, U+0617, U+061B, U+061F, U+0621-063A, U+0640-0657, U+065A, U+0660-066A, U+066D-066E, U+0670-0672, U+0674, U+0679, U+067C, U+067E, U+0681, U+0685-0686, U+0688-0689, U+0691, U+0693, U+0696, U+0698, U+069A, U+06A4, U+06A9-06AB, U+06BA, U+06BC, U+06BE, U+06C1, U+06C3, U+06CC-06CD, U+06D0, U+06D2, U+06D4-06ED, U+06F0-06F9, U+200C-2011, U+2013-2014, U+2421, U+25CC, U+E000-E001, U+E003-E004, U+E00E-E023, U+E811-E818, U+E820-E82D, U+E835-E836, U+F500-F61F, U+F631-F63E, U+F64A-F660, U+F662-F69A, U+F73A-F73C, U+FB50-FB51, U+FB56-FB59, U+FB6A-FB6D, U+FB7A-FB7D, U+FB8A-FB8B, U+FB8E-FB95, U+FBFC-FBFD, U+FC08-FC0A, U+FC0E, U+FC10, U+FC12, U+FC31-FC32, U+FC3F-FC44, U+FC4E-FC50, U+FC58-FC59, U+FC5E-FC62, U+FC6A, U+FC6D-FC70, U+FC73-FC75, U+FC8E-FC8F, U+FC91, U+FC94-FC95, U+FC9C-FC9F, U+FCA1-FCA4, U+FCA6, U+FCA8, U+FCAA, U+FCAC, U+FCB0, U+FCC9-FCD5, U+FCD8, U+FCDA-FCDD, U+FCF2-FCF4, U+FD30, U+FD3C-FD3F, U+FD88, U+FDF2, U+FDFA-FDFB, U+FDFD, U+FE70-FE72, U+FE74, U+FE76-FE8C, U+FE8E-FEFC;
+}@font-face {
+  font-family: "SpecimenFont4";
+  src: url("Amiri-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-017F, U+01E6-01E7, U+0237, U+02BB-02BC, U+02BE-02BF, U+02C6-02C7, U+02D8-02DD, U+0300-0308, U+030A, U+030C, U+0312, U+0315, U+0325-0328, U+0600-0604, U+0606-06FF, U+0750-077F, U+0890-0891, U+08A0, U+08AC, U+08B6-08BD, U+08D1, U+08E4-08FE, U+1E02-1E03, U+1E0A-1E11, U+1E1E-1E1F, U+1E24-1E25, U+1E28-1E2B, U+1E40-1E41, U+1E56-1E57, U+1E60-1E63, U+1E6A-1E6F, U+1E80-1E85, U+1E92-1E93, U+1E96-1E97, U+1EF2-1EF3, U+2000-2015, U+2018-2022, U+2024, U+2026, U+2028-2030, U+2032-2033, U+2038-203A, U+203E, U+2042, U+2044, U+204F, U+2070, U+2074-2079, U+20AC, U+2212-2213, U+2215, U+221A, U+25CC, U+2E41, U+FB50-FBC1, U+FBD3-FD3F, U+FD50-FD8F, U+FD92-FDC7, U+FDF0-FDFD, U+FE70-FE72, U+FE74, U+FE76-FEFC, U+FEFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}@font-face {
+  font-family: "SpecimenFont5";
+  src: url("AmiriQuran.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0, U+00A2-00A3, U+00A5, U+00A9, U+00AB, U+00AE, U+00B0, U+00B7, U+00BB, U+00D7, U+00F7, U+0305, U+030A, U+0325, U+060C, U+0615, U+0617-061B, U+061E-061F, U+0621-063A, U+0640-0658, U+065C, U+0660-0669, U+066E-0671, U+067A, U+06A1, U+06BA, U+06CC, U+06D6-06ED, U+06F0-06F9, U+08F0-08F3, U+2000-200F, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2028-202F, U+20AC, U+2212, U+25CC, U+FD3E-FD3F, U+FDFA, U+FDFD;
+}@font-face {
+  font-family: "SpecimenFont6";
+  src: url("AmiriQuranColored.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0, U+00A2-00A3, U+00A5, U+00A9, U+00AB, U+00AE, U+00B0, U+00B7, U+00BB, U+00D7, U+00F7, U+0305, U+030A, U+0325, U+060C, U+0615, U+0617-061B, U+061E-061F, U+0621-063A, U+0640-0658, U+065C, U+0660-0669, U+066E-0671, U+067A, U+06A1, U+06BA, U+06CC, U+06D6-06ED, U+06F0-06F9, U+08F0-08F3, U+2000-200F, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2028-202F, U+20AC, U+2212, U+25CC, U+FD3E-FD3F, U+FDFA, U+FDFD;
+}@font-face {
+  font-family: "SpecimenFont7";
+  src: url("DigitalKhattIndoPak.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+000A, U+0020, U+034F, U+0614-0615, U+0617, U+0621-063A, U+0640-0657, U+0660-0669, U+0670-0671, U+06D6, U+06D8-06DF, U+06E2, U+06E6, U+06E8-06E9, U+06ED, U+089C, U+08D5-08D7, U+08D9, U+08DB, U+08DD-08DF, U+08E2, U+08F0-08F2, U+200D;
+}@font-face {
+  font-family: "SpecimenFont8";
+  src: url("KacstBook.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0020, U+060C, U+061B, U+061F, U+0621-063A, U+0640-0652, U+0660-066A, U+066D, U+06F9, U+FC5E-FC62, U+FD3E-FD3F, U+FDF2, U+FE70, U+FE72, U+FE74, U+FE76, U+FE78, U+FE7A, U+FE7C, U+FE7E, U+FE80-FEFC;
+}@font-face {
+  font-family: "SpecimenFont9";
+  src: url("Katibeh-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-0148, U+014A-017E, U+0192, U+01FC-01FF, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0300-0304, U+0306-0308, U+030A-030C, U+0312, U+0326-0328, U+0335-0338, U+0394, U+03A9, U+03BC, U+03C0, U+0600-0604, U+0606-060C, U+060E-0617, U+061B, U+061F-0656, U+0658-0673, U+0675-06BE, U+06C1-06E4, U+06E6-06FF, U+0750-077F, U+08A0, U+08A2-08AB, U+08E4-08E9, U+08F0-08F6, U+1E80-1E85, U+1EF2-1EF3, U+200C-200F, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+202A-202E, U+2030, U+2039-203A, U+2044, U+20A3-20A4, U+20AC, U+2113, U+2122, U+2126, U+212E, U+2153-2154, U+215B-215E, U+2202, U+2206, U+220F, U+2211-2212, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25A0-25A3, U+25C7-25CA, U+25EF, U+F8FF, U+FB01-FB02, U+FB51, U+FB53-FB55, U+FB57-FB59, U+FB5B-FB5D, U+FB5F-FB61, U+FB63-FB65, U+FB67-FB69, U+FB6B-FB6D, U+FB6F-FB71, U+FB73-FB75, U+FB77-FB79, U+FB7B-FB7D, U+FB7F-FB81, U+FB83, U+FB85, U+FB87, U+FB89, U+FB8B, U+FB8D, U+FB8F-FB91, U+FB93-FB95, U+FB97-FB99, U+FB9B-FB9D, U+FB9F, U+FBA1-FBA3, U+FBA7-FBA9, U+FBAB-FBAD, U+FBAF, U+FBB1-FBBF, U+FBC1, U+FBD4-FBD6, U+FBD8, U+FBDA, U+FBDC, U+FBDF, U+FBE1, U+FBE3, U+FBE5-FBE9, U+FBFD-FBFF, U+FC18, U+FC1F, U+FC21, U+FC2A, U+FC3B, U+FC3D, U+FC40, U+FC42-FC43, U+FC49, U+FC53, U+FC5B-FC5D, U+FC81, U+FC83, U+FC86, U+FC90, U+FCAA, U+FCB0, U+FCB3, U+FCBB, U+FCC7, U+FCCA, U+FCCC-FCCD, U+FCD1, U+FCD9, U+FCEB, U+FCF5, U+FCF7, U+FCFB, U+FCFF, U+FD05, U+FD0E-FD0F, U+FD13, U+FD17, U+FD1B, U+FD21, U+FD2A-FD2B, U+FD3C-FD3F, U+FDFC, U+FE82, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEE8, U+FEEA-FEEC, U+FEEE, U+FEF0, U+FEF2-FEFE;
+}@font-face {
+  font-family: "SpecimenFont10";
+  src: url("KFGQPC%20Uthman%20Taha%20Naskh%20Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-003E, U+005B-005D, U+007B, U+007D, U+00AB, U+00B0, U+00B6-00B7, U+00BB, U+00D7, U+00F7, U+0601, U+060C, U+0610-0613, U+061B, U+061E-061F, U+0621-063A, U+0640-0655, U+0660-066A, U+066E, U+0670, U+0679, U+067E, U+0686, U+0688, U+0691, U+0698, U+06A9, U+06AF, U+06BA, U+06BE, U+06C1, U+06CC, U+06D2, U+06F0-06F9, U+200C-200F, U+2018-2019, U+201C-201D, U+2039-203A, U+F00A-F026, U+FB57-FB59, U+FB67-FB69, U+FB7B-FB7D, U+FB89, U+FB8B, U+FB8D, U+FB8F-FB91, U+FB93-FB95, U+FB9F, U+FBA7-FBA9, U+FBAF, U+FBE8-FBE9, U+FD3E-FD3F, U+FDF2, U+FDFA, U+FE82, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEE8, U+FEEA-FEEC, U+FEEE, U+FEF0, U+FEF2-FEFC;
+}@font-face {
+  font-family: "SpecimenFont11";
+  src: url("KFGQPC%20Uthmanic%20Script%20HAFS%20Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020, U+0030-0039, U+0600-06FF, U+200C-200F;
+}@font-face {
+  font-family: "SpecimenFont12";
+  src: url("MUHAMMADI%20QURANIC%20FONT.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0001, U+0020-007E, U+00A0-00AC, U+00AE-00B4, U+00B6, U+00B8-017F, U+0192, U+01FA-01FF, U+0218-0219, U+02BC, U+02C6-02C7, U+02D8-02DD, U+0323, U+0326, U+060C, U+061B, U+061F, U+0621-063A, U+0640-0657, U+0660-066B, U+066D, U+0670-06ED, U+06F0-06FE, U+1E0C-1E0D, U+1E24-1E25, U+1E62-1E63, U+1E6C-1E6D, U+1E80-1E85, U+1E92, U+1EF2-1EF3, U+200C-200F, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2074, U+20AC, U+2122, U+2212, U+2215, U+25CC, U+FB00-FB04, U+FB51, U+FB53-FB55, U+FB57-FB59, U+FB5B-FB5D, U+FB5F-FB61, U+FB63-FB65, U+FB68-FB69, U+FB6B-FB6D, U+FB6F-FB71, U+FB73-FB75, U+FB77-FB79, U+FB7B-FB7D, U+FB7F-FB81, U+FB83, U+FB85, U+FB87, U+FB89, U+FB8B, U+FB8D, U+FB8F-FB91, U+FB93-FB95, U+FB97-FB99, U+FB9F, U+FBA1, U+FBA5, U+FBA7-FBA9, U+FBAB-FBAD, U+FBAF, U+FBB1, U+FBD4-FBD6, U+FBD8, U+FBDA, U+FBDC, U+FBDF, U+FBE1, U+FBE3, U+FBE5, U+FBE8-FBE9, U+FBFD-FC25, U+FC29-FC37, U+FC3B-FC44, U+FC48-FC5A, U+FC64-FC7B, U+FC80-FC88, U+FC8A-FC8F, U+FC91-FCB7, U+FCBA-FCC3, U+FCC7-FCD8, U+FCDA-FCDE, U+FCE0, U+FCE2, U+FCE4, U+FCE6, U+FCEB-FCEC, U+FCEF, U+FCF1, U+FCFB-FCFE, U+FD05-FD10, U+FD17-FD1A, U+FD21-FD24, U+FD29-FD30, U+FD3E-FD3F, U+FD86, U+FD88, U+FD8A, U+FD8D, U+FD8F, U+FDB5, U+FDBA, U+FDF2, U+FE82, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEEC, U+FEEE, U+FEF0, U+FEF2, U+FEF5-FEFC;
+}@font-face {
+  font-family: "SpecimenFont13";
+  src: url("NotoKufiArabic-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020, U+0030-0039, U+00A0, U+0600-0603, U+060B-0615, U+061B, U+061E-061F, U+0621-063A, U+0640-0673, U+0675-06EB, U+06ED-06FF, U+0750-076D, U+200B-200F, U+25CC, U+FB6A-FB6D, U+FC63, U+FD3E-FD3F, U+FDF2, U+FDFC, U+FE70, U+FE72, U+FE74, U+FE76, U+FE78, U+FE7A, U+FE7C, U+FE7E;
+}@font-face {
+  font-family: "SpecimenFont14";
+  src: url("NotoNaskhArabic-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0021, U+002C, U+002E, U+0030-003A, U+00A0, U+00AB, U+00BB, U+0600-0604, U+0606-061B, U+061E-06FF, U+0750-077F, U+08A0, U+08A2-08AC, U+08E4-08FE, U+200B-2011, U+204F, U+25CC, U+2E41, U+FB50-FBC1, U+FBD3-FD3F, U+FD50-FD8F, U+FD92-FDC7, U+FDF0-FDFD, U+FE70-FE74, U+FE76-FEFC, U+FEFF;
+}@font-face {
+  font-family: "SpecimenFont15";
+  src: url("NotoNastaliqUrdu-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0021, U+0028-0029, U+002B-003A, U+003D, U+005B-005D, U+007B-007D, U+00A0, U+00AB, U+00B7, U+00BB, U+00D7, U+00F7, U+0600-0604, U+0609-0614, U+061B-061C, U+061E-0659, U+065D-0673, U+0679-0681, U+0683-068F, U+0691, U+0693, U+0696, U+0698-069A, U+069E, U+06A1, U+06A4, U+06A6, U+06A9, U+06AB, U+06AF-06B1, U+06B3, U+06B7, U+06BA-06BC, U+06BE, U+06C0-06C4, U+06C6-06C7, U+06CA, U+06CC-06CD, U+06D0, U+06D2-06D5, U+06DD-06DE, U+06E0-06E1, U+06E9, U+06EE-06F9, U+06FF, U+0759, U+075C, U+0763, U+0767-077D, U+08FF, U+200B-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2039-203A, U+2212, U+25CC, U+FBB2-FBC1, U+FD3E-FD3F, U+FDF2, U+FDF4, U+FDFA-FDFD;
+}@font-face {
+  font-family: "SpecimenFont52";
+  src: url("Scheherazade-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02C9, U+02DA, U+02DC, U+0600-061C, U+061E-06FF, U+0750-077F, U+08A0-08B4, U+08B6-08B7, U+08B9-08BD, U+08E3-08FF, U+2000-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026-2030, U+2039-203A, U+2060, U+2066-2069, U+206C-206D, U+20AC, U+2122, U+2212, U+2219-221A, U+25CC, U+F130-F131, U+FD3E-FD3F, U+FDF2, U+FDFC, U+FEFF;
+}@font-face {
+  font-family: "SpecimenFont53";
+  src: url("Scheherazade-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02C9, U+02DA, U+02DC, U+0600-061C, U+061E-06FF, U+0750-077F, U+08A0-08B4, U+08B6-08B7, U+08B9-08BD, U+08E3-08FF, U+2000-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026-2030, U+2039-203A, U+2060, U+2066-2069, U+206C-206D, U+20AC, U+2122, U+2212, U+2219-221A, U+25CC, U+F130-F131, U+FD3E-FD3F, U+FDF2, U+FDFC, U+FEFF;
+}@font-face {
+  font-family: "SpecimenFont54";
+  src: url("UthmanicHafs_V22.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020, U+0028-0029, U+0030-0039, U+005B, U+005D, U+00A0, U+0600-0621, U+0623-06FF, U+200C-200F, U+25CC, U+FC00-FD1D, U+FD50-FD7D;
+}
+:root{--ink:#1d2733;--muted:#637083;--line:#dfe5ec;--accent:#315a7d;--good:#176b4c;--good-bg:#e8f5ee;--warn:#8a5a00;--warn-bg:#fff4d7;--bad:#943e3e;--bad-bg:#faeaea}
+*{box-sizing:border-box}body{margin:0;background:#edf1f5;color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1440px;margin:0 auto;padding:28px 24px 56px}header{background:#172b3f;color:#fff;border-radius:16px;padding:28px 30px;margin-bottom:20px}header h1{margin:6px 0 8px;font-size:clamp(27px,4vw,40px);line-height:1.15}header p{margin:0;color:#d4dfeb;max-width:980px}.eyebrow{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#b9cce0;font-weight:700}
+.section{background:#fff;border:1px solid var(--line);border-radius:15px;padding:22px;margin:16px 0;box-shadow:0 5px 18px rgba(30,52,72,.035)}h2{font-size:21px;margin:0 0 10px}h3{font-size:16px;margin:20px 0 8px}p{margin:8px 0}.muted,.subtle{color:var(--muted)}.subtle{font-size:12px;margin-top:3px}.micro{font-size:12px;margin-top:6px}.good-text{color:var(--good)}.warn-text{color:var(--warn)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:16px 0}.stat{border:1px solid var(--line);border-radius:10px;padding:14px}.stat strong{display:block;font-size:27px;line-height:1.2}.stat span{font-size:12px;color:var(--muted)}.callout{background:#f4f8fc;border-left:4px solid var(--accent);padding:13px 15px;border-radius:8px;margin:14px 0}
+.spec-grid{display:grid;grid-template-columns:1fr;gap:12px}.spec-card{border:1px solid var(--line);border-radius:11px;padding:15px;overflow:hidden}.spec-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:9px}.file-name{font-weight:700;overflow-wrap:anywhere}.font-meta{font-size:12px;color:var(--muted);margin-top:3px}.sample{border:1px solid #e6ebf0;border-radius:8px;background:#fff;padding:10px 16px;color:#161b22}.quran{font-size:30px;line-height:2.05;text-align:right;direction:rtl;unicode-bidi:plaintext;text-rendering:optimizeLegibility;font-synthesis:none}.ayah{min-height:1.8em}.status{display:inline-block;white-space:nowrap;border-radius:18px;padding:3px 8px;font-size:11px;font-weight:700}.good{color:var(--good);background:var(--good-bg)}.warn{color:var(--warn);background:var(--warn-bg)}.bad{color:var(--bad);background:var(--bad-bg)}.phrase-row{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin-top:10px;padding-top:9px;border-top:1px solid #edf0f3}.label{font-size:12px;color:var(--muted)}.english-phrase{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:17px;direction:ltr;unicode-bidi:isolate}.saw{font-size:1.3em}.expanded{font-size:24px;unicode-bidi:isolate}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}input[type=search]{padding:9px 11px;border:1px solid var(--line);border-radius:8px;font:inherit;min-width:min(100%,320px)}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:9px}table{width:100%;border-collapse:collapse;min-width:1050px;font-size:13px}th,td{text-align:left;vertical-align:top;padding:10px;border-bottom:1px solid var(--line)}th{background:#f5f7fa;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:#536173;position:sticky;top:0}tr:last-child td{border:0}.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}details summary{cursor:pointer;color:var(--accent);font-weight:650}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#101d2b;color:#e4edf6;border-radius:8px;padding:12px;font:12px/1.5 ui-monospace,Consolas,monospace;max-height:430px;overflow:auto;min-width:450px}.cp-list{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.cp-chip{border:1px solid var(--line);background:#fafbfd;border-radius:7px;padding:5px 7px;font-size:11px;color:var(--muted)}.cp-chip b{color:var(--ink);font-family:ui-monospace,monospace}code{font-family:ui-monospace,Consolas,monospace;background:#f0f3f7;padding:2px 4px;border-radius:4px}ul{padding-left:21px}li{margin:5px 0}footer{font-size:12px;color:var(--muted);padding:8px 3px}
+@media(max-width:800px){.wrap{padding:12px}.section{padding:15px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}header{padding:22px}.spec-head{flex-direction:column}.quran{font-size:24px}}
+</style>
+</head>
+<body><main class="wrap">
+<header><div class="eyebrow">Font audit · Unicode coverage · live browser text</div><h1>Qur'anic font coverage report</h1><p>Analysis of 54 supplied TTF/OTF files. The specimens below are real, selectable HTML text rendered through local <code>@font-face</code> rules—not screenshots. Put this HTML file in the same folder as the font files.</p></header>
+<section class="section"><h2>Executive summary</h2>
+<div class="stats"><div class="stat"><strong>54</strong><span>font files inspected</span></div><div class="stat"><strong>18</strong><span>Arabic-capable fonts</span></div><div class="stat"><strong>16</strong><span>Full Al-Fātiḥah coverage (31/31)</span></div><div class="stat"><strong>2</strong><span>Partial Al-Fātiḥah coverage</span></div></div>
+<div class="callout"><strong>Important for Sunnah.com's recommendation:</strong> <code>KFGQPC Uthman Taha Naskh Regular.ttf</code> maps <strong>U+FDFA (ﷺ)</strong>. It can render the ﷺ symbol in <em>Allah's Messenger (ﷺ)</em>. Its 30/31 Al-Fātiḥah coverage is a separate test: the one missing character is <code>U+0671 ARABIC LETTER ALEF WASLA (ٱ)</code>.</div>
+<p>The phrase's English letters should normally come from the site's Latin/UI font. The Arabic font's important job in that phrase is to provide <code>ﷺ</code>. Do not mark an Arabic font as unsuitable just because it does not contain the Latin letters in “Allah's Messenger”.</p>
+<p><strong>Why the earlier report called KFGQPC partial:</strong> the earlier test asked whether the font mapped every distinct character in this particular Uthmani Al-Fātiḥah specimen. It did not test <code>ﷺ</code>. The updated report tests both independently.</p>
+</section>
+<section class="section"><h2>Actual browser-text previews</h2>
+<p>Each Arabic-capable font has three live text samples: Al-Fātiḥah, the exact English phrase containing <code>ﷺ</code>, and the expanded Arabic salawat wording. You can select and copy the text. The sample uses Amiri as an explicit fallback for missing code points; the coverage labels identify when fallback may be needed.</p>
+<div class="spec-grid"><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">_PDMS_Saleem_QuranFont Regular.ttf</div><div class="font-meta">_PDMS_Saleem_QuranFont · Regular · 737 glyphs · 599 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont1', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont1', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont1', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">Al Qalam Quran Majeed Web Regular.ttf</div><div class="font-meta">Al Qalam Quran Majeed Web · Regular · 2,188 glyphs · 618 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont2', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont2', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont2', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf</div><div class="font-meta">AlQuran IndoPak by QuranWBW · Regular · 992 glyphs · 835 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont3', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont3', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont3', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">Amiri-Regular.ttf</div><div class="font-meta">Amiri · Regular · 6,710 glyphs · 1,699 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont4', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont4', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont4', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">AmiriQuran.ttf</div><div class="font-meta">Amiri Quran · Regular · 1,446 glyphs · 266 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont5', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont5', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont5', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">AmiriQuranColored.ttf</div><div class="font-meta">Amiri Quran Colored · Regular · 1,981 glyphs · 266 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont6', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont6', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont6', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">DigitalKhattIndoPak.otf</div><div class="font-meta">DigitalKhatt IndoPak · Regular · 1,141 glyphs · 96 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont7', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont7', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont7', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">KacstBook.ttf</div><div class="font-meta">KacstBook · Medium · 206 glyphs · 203 cmap entries</div></div><span class="status warn">28/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont8', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro warn-text">Missing from this font: U+0653, U+0670, U+0671</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont8', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont8', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status warn">15/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, mark positioning: mark</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">Katibeh-Regular.ttf</div><div class="font-meta">Katibeh · Regular · 1,188 glyphs · 982 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont9', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont9', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont9', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">KFGQPC Uthman Taha Naskh Regular.ttf</div><div class="font-meta">KFGQPC Uthman Taha Naskh · Regular · 637 glyphs · 293 cmap entries</div></div><span class="status warn">30/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont10', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro warn-text">Missing from this font: U+0671</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont10', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont10', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">KFGQPC Uthmanic Script HAFS Regular.otf</div><div class="font-meta">KFGQPC Uthmanic Script HAFS · Regular · 1,071 glyphs · 271 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont11', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont11', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont11', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">MUHAMMADI QURANIC FONT.ttf</div><div class="font-meta">Muhammadi Quranic Font · Regular · 2,030 glyphs · 999 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont12', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont12', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont12', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">NotoKufiArabic-Regular.ttf</div><div class="font-meta">Noto Kufi Arabic · Regular · 733 glyphs · 301 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont13', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont13', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont13', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">NotoNaskhArabic-Regular.ttf</div><div class="font-meta">Noto Naskh Arabic · Regular · 1,602 glyphs · 1,122 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont14', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont14', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont14', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">NotoNastaliqUrdu-Regular.ttf</div><div class="font-meta">Noto Nastaliq Urdu · Regular · 1,138 glyphs · 281 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont15', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont15', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status good">Mapped in this font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont15', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">Scheherazade-Bold.ttf</div><div class="font-meta">Scheherazade · Bold · 1,411 glyphs · 629 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont52', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont52', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont52', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">Scheherazade-Regular.ttf</div><div class="font-meta">Scheherazade · Regular · 1,411 glyphs · 629 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont53', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont53', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont53', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, ccmp, mark positioning: mark, mkmk</div>
+</article><article class="spec-card">
+  <div class="spec-head"><div><div class="file-name">UthmanicHafs_V22.ttf</div><div class="font-meta">KFGQPC HAFS Uthmanic Script · Regular · 1,572 glyphs · 608 cmap entries</div></div><span class="status good">31/31 Al-Fātiḥah</span></div>
+  <div class="sample quran" lang="ar" dir="rtl" style="font-family:'SpecimenFont54', 'SpecimenFont4', serif"><div class="ayah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ</div><div class="ayah">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div><div class="ayah">مَٰلِكِ يَوْمِ ٱلدِّينِ</div><div class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</div><div class="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</div><div class="ayah">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div></div>
+  <div class="micro good-text">All Al-Fātiḥah specimen code points are mapped.</div>
+  <div class="phrase-row"><span class="label">English phrase:</span><span class="english-phrase" dir="ltr">Allah's Messenger (<bdi class="saw" lang="ar" dir="rtl" style="font-family:'SpecimenFont54', 'SpecimenFont4', serif">ﷺ</bdi>)</span><span class="status warn">Not mapped; needs fallback font</span></div>
+  <div class="phrase-row"><span class="label">Expanded Arabic form:</span><span class="expanded" lang="ar" dir="rtl" style="font-family:'SpecimenFont54', 'SpecimenFont4', serif">صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ</span><span class="status good">16/16 mapped</span></div>
+  <div class="micro muted">OpenType: joining forms, rlig, mark positioning: mark, mkmk</div>
+</article></div>
+</section>
+<section class="section"><h2>Focused test: “Allah's Messenger (ﷺ)”</h2>
+<p>The symbol <code>ﷺ</code> is Unicode <code>U+FDFA ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM</code>. It is one code point in the Arabic Presentation Forms-A block, not a normal sequence of Arabic letters.</p>
+<p><strong>Fonts in this archive that map U+FDFA:</strong> _PDMS_Saleem_QuranFont Regular.ttf, Al Qalam Quran Majeed Web Regular.ttf, AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf, Amiri-Regular.ttf, AmiriQuran.ttf, AmiriQuranColored.ttf, KFGQPC Uthman Taha Naskh Regular.ttf, NotoNaskhArabic-Regular.ttf, NotoNastaliqUrdu-Regular.ttf.</p>
+<p><strong>Fonts that do not map U+FDFA:</strong> DigitalKhattIndoPak.otf, KacstBook.ttf, Katibeh-Regular.ttf, KFGQPC Uthmanic Script HAFS Regular.otf, MUHAMMADI QURANIC FONT.ttf, NotoKufiArabic-Regular.ttf, NotoSerifBengali-Black.ttf, NotoSerifBengali-Bold.ttf, NotoSerifBengali-Condensed.ttf, NotoSerifBengali-CondensedBlack.ttf, NotoSerifBengali-CondensedBold.ttf, NotoSerifBengali-CondensedExtraBold.ttf, NotoSerifBengali-CondensedExtraLight.ttf, NotoSerifBengali-CondensedLight.ttf, NotoSerifBengali-CondensedMedium.ttf, NotoSerifBengali-CondensedSemiBold.ttf, NotoSerifBengali-CondensedThin.ttf, NotoSerifBengali-ExtraBold.ttf, NotoSerifBengali-ExtraCondensed.ttf, NotoSerifBengali-ExtraCondensedBlack.ttf, NotoSerifBengali-ExtraCondensedBold.ttf, NotoSerifBengali-ExtraCondensedExtraBold.ttf, NotoSerifBengali-ExtraCondensedExtraLight.ttf, NotoSerifBengali-ExtraCondensedLight.ttf, NotoSerifBengali-ExtraCondensedMedium.ttf, NotoSerifBengali-ExtraCondensedSemiBold.ttf, NotoSerifBengali-ExtraCondensedThin.ttf, NotoSerifBengali-ExtraLight.ttf, NotoSerifBengali-Light.ttf, NotoSerifBengali-Medium.ttf, NotoSerifBengali-Regular.ttf, NotoSerifBengali-SemiBold.ttf, NotoSerifBengali-SemiCondensed.ttf, NotoSerifBengali-SemiCondensedBlack.ttf, NotoSerifBengali-SemiCondensedBold.ttf, NotoSerifBengali-SemiCondensedExtraBold.ttf, NotoSerifBengali-SemiCondensedExtraLight.ttf, NotoSerifBengali-SemiCondensedLight.ttf, NotoSerifBengali-SemiCondensedMedium.ttf, NotoSerifBengali-SemiCondensedSemiBold.ttf, NotoSerifBengali-SemiCondensedThin.ttf, NotoSerifBengali-Thin.ttf, Scheherazade-Bold.ttf, Scheherazade-Regular.ttf, UthmanicHafs_V22.ttf.</p>
+<p>For a robust interface, use a fallback font after the preferred typeface so the browser can render the symbol when the primary font does not contain it. In a mixed English/Arabic phrase, isolate the Arabic item with <code>&lt;bdi dir="rtl" lang="ar"&gt;</code> to avoid bidirectional punctuation surprises.</p>
+</section>
+<section class="section"><h2>KFGQPC Uthman Taha Naskh: exact finding</h2>
+<p><strong>For the specific Sunnah.com phrase:</strong> the font contains <code>U+FDFA</code>; it is supported at the character-map level.</p>
+<p><strong>For this Al-Fātiḥah specimen:</strong> it misses <code>U+0671</code> (ٱ), so it is 30/31. This does not make the font generally incomplete. It means this one text sample contains a code point absent from this font. With a fallback font in the stack, the browser can render that one character from the fallback.</p>
+<p>The separate file <code>KFGQPC Uthmanic Script HAFS Regular.otf</code> maps all 31 Al-Fātiḥah code points in this sample but does not map <code>U+FDFA</code>. The two KFGQPC files therefore have different coverage profiles.</p>
+<h3>Same-folder @font-face example</h3><pre>@font-face {
+  font-family: &quot;SpecimenFont10&quot;;
+  src: url(&quot;KFGQPC%20Uthman%20Taha%20Naskh%20Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-003E, U+005B-005D, U+007B, U+007D, U+00AB, U+00B0, U+00B6-00B7, U+00BB, U+00D7, U+00F7, U+0601, U+060C, U+0610-0613, U+061B, U+061E-061F, U+0621-063A, U+0640-0655, U+0660-066A, U+066E, U+0670, U+0679, U+067E, U+0686, U+0688, U+0691, U+0698, U+06A9, U+06AF, U+06BA, U+06BE, U+06C1, U+06CC, U+06D2, U+06F0-06F9, U+200C-200F, U+2018-2019, U+201C-201D, U+2039-203A, U+F00A-F026, U+FB57-FB59, U+FB67-FB69, U+FB7B-FB7D, U+FB89, U+FB8B, U+FB8D, U+FB8F-FB91, U+FB93-FB95, U+FB9F, U+FBA7-FBA9, U+FBAF, U+FBE8-FBE9, U+FD3E-FD3F, U+FDF2, U+FDFA, U+FE82, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEE8, U+FEEA-FEEC, U+FEEE, U+FEF0, U+FEF2-FEFC;
+}</pre>
+<pre>.hadith-text {
+  font-family: "SpecimenFont10", "SpecimenFont4", serif;
+}
+
+.honorific {
+  font-family: "SpecimenFont10", "SpecimenFont4", serif;
+}
+
+&lt;p class="hadith-text"&gt;
+  Allah's Messenger (
+  &lt;bdi class="honorific" lang="ar" dir="rtl"&gt;ﷺ&lt;/bdi&gt;)
+&lt;/p&gt;</pre>
+<p class="muted">This is a coverage statement based on the font's Unicode cmap. It confirms that a character is mapped, but visual quality should still be checked in the target browser and at the font size used by the site.</p>
+</section>
+<section class="section"><h2>Al-Fātiḥah code points tested</h2>
+<p>The specimen contains <strong>31 unique non-space code points</strong> including Arabic letters, vowel marks, maddah, dagger alif and alif wasla. The exact character set is listed below.</p><div class="cp-list"><span class="cp-chip"><b>U+0623</b> ARABIC LETTER ALEF WITH HAMZA ABOVE</span><span class="cp-chip"><b>U+0625</b> ARABIC LETTER ALEF WITH HAMZA BELOW</span><span class="cp-chip"><b>U+0627</b> ARABIC LETTER ALEF</span><span class="cp-chip"><b>U+0628</b> ARABIC LETTER BEH</span><span class="cp-chip"><b>U+062A</b> ARABIC LETTER TEH</span><span class="cp-chip"><b>U+062D</b> ARABIC LETTER HAH</span><span class="cp-chip"><b>U+062F</b> ARABIC LETTER DAL</span><span class="cp-chip"><b>U+0630</b> ARABIC LETTER THAL</span><span class="cp-chip"><b>U+0631</b> ARABIC LETTER REH</span><span class="cp-chip"><b>U+0633</b> ARABIC LETTER SEEN</span><span class="cp-chip"><b>U+0635</b> ARABIC LETTER SAD</span><span class="cp-chip"><b>U+0636</b> ARABIC LETTER DAD</span><span class="cp-chip"><b>U+0637</b> ARABIC LETTER TAH</span><span class="cp-chip"><b>U+0639</b> ARABIC LETTER AIN</span><span class="cp-chip"><b>U+063A</b> ARABIC LETTER GHAIN</span><span class="cp-chip"><b>U+0642</b> ARABIC LETTER QAF</span><span class="cp-chip"><b>U+0643</b> ARABIC LETTER KAF</span><span class="cp-chip"><b>U+0644</b> ARABIC LETTER LAM</span><span class="cp-chip"><b>U+0645</b> ARABIC LETTER MEEM</span><span class="cp-chip"><b>U+0646</b> ARABIC LETTER NOON</span><span class="cp-chip"><b>U+0647</b> ARABIC LETTER HEH</span><span class="cp-chip"><b>U+0648</b> ARABIC LETTER WAW</span><span class="cp-chip"><b>U+064A</b> ARABIC LETTER YEH</span><span class="cp-chip"><b>U+064E</b> ARABIC FATHA</span><span class="cp-chip"><b>U+064F</b> ARABIC DAMMA</span><span class="cp-chip"><b>U+0650</b> ARABIC KASRA</span><span class="cp-chip"><b>U+0651</b> ARABIC SHADDA</span><span class="cp-chip"><b>U+0652</b> ARABIC SUKUN</span><span class="cp-chip"><b>U+0653</b> ARABIC MADDAH ABOVE</span><span class="cp-chip"><b>U+0670</b> ARABIC LETTER SUPERSCRIPT ALEF</span><span class="cp-chip"><b>U+0671</b> ARABIC LETTER ALEF WASLA</span></div>
+</section>
+<section class="section"><h2>Arabic font inventory and CSS unicode-ranges</h2>
+<p>Each CSS block uses the font's actual best Unicode cmap and a URL relative to this HTML file. There is no <code>fonts/</code> subdirectory in these paths.</p>
+<div class="toolbar"><input id="fontSearch" type="search" placeholder="Filter fonts by filename or family"><span id="visibleCount" class="muted">54 font files</span></div>
+<h3>Arabic-capable fonts (18)</h3><div class="table-wrap"><table><thead><tr><th>Font</th><th class="num">Glyphs</th><th class="num">Cmap entries</th><th>Al-Fātiḥah</th><th>ﷺ (U+FDFA)</th><th class="num">File size</th><th>CSS unicode-range</th></tr></thead><tbody><tr data-search="_pdms_saleem_quranfont regular.ttf _pdms_saleem_quranfont regular">
+<td><strong>_PDMS_Saleem_QuranFont Regular.ttf</strong><div class="subtle">_PDMS_Saleem_QuranFont · Regular</div></td>
+<td class="num">737</td><td class="num">599</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">184 KB</td><td><details><summary>CSS ranges (110)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont1&quot;;
+  src: url(&quot;_PDMS_Saleem_QuranFont%20Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00C1, U+00C8, U+00CB, U+00CD-00CE, U+00D3-00D4, U+00D7, U+00D9, U+00E0, U+00E2, U+00F7, U+00F9, U+00FB-00FC, U+00FF, U+0131, U+0152-0153, U+0160-0161, U+0178, U+0192, U+02C6-02C7, U+060C, U+0611, U+0613, U+0615, U+061B, U+061F, U+0621-063A, U+0640-0657, U+0660-066A, U+066D-066E, U+0670-0672, U+0674, U+0679, U+067E, U+0686, U+0688, U+0691, U+0698, U+06A4, U+06A9-06AA, U+06AF, U+06BA, U+06BE, U+06C1, U+06CC, U+06D2, U+06D4-06ED, U+06F0-06F9, U+2006, U+200C-2010, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2024, U+2026, U+2030, U+2039-203A, U+2122, U+2421, U+25CC, U+E000-E001, U+E003-E004, U+E00E-E022, U+E811-E818, U+E820-E82D, U+E832-E836, U+FB50-FB51, U+FB56-FB59, U+FB6A-FB6D, U+FB7A-FB7D, U+FB8A-FB8B, U+FB8E-FB95, U+FBFC-FBFD, U+FC08-FC0A, U+FC0E, U+FC10, U+FC12, U+FC31-FC32, U+FC3F-FC44, U+FC4E-FC50, U+FC58-FC59, U+FC5E-FC62, U+FC6A, U+FC6D-FC70, U+FC73-FC75, U+FC8E-FC8F, U+FC91, U+FC94-FC95, U+FC9C-FC9F, U+FCA1-FCA4, U+FCA6, U+FCA8, U+FCAA, U+FCAC, U+FCB0, U+FCC9-FCD5, U+FCD8, U+FCDA-FCDD, U+FCF2-FCF4, U+FD30, U+FD3C-FD3F, U+FD88, U+FDF2, U+FDFA-FDFB, U+FDFD, U+FE70-FE72, U+FE74, U+FE76-FE8C, U+FE8E-FEFC;
+}</pre></details></td>
+</tr><tr data-search="al qalam quran majeed web regular.ttf al qalam quran majeed web regular">
+<td><strong>Al Qalam Quran Majeed Web Regular.ttf</strong><div class="subtle">Al Qalam Quran Majeed Web · Regular</div></td>
+<td class="num">2,188</td><td class="num">618</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">858 KB</td><td><details><summary>CSS ranges (117)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont2&quot;;
+  src: url(&quot;Al%20Qalam%20Quran%20Majeed%20Web%20Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00C1, U+00C8, U+00CB, U+00CD-00CE, U+00D3-00D4, U+00D7, U+00D9, U+00E0, U+00E2, U+00F7, U+00F9, U+00FB-00FC, U+00FF, U+0131, U+0152-0153, U+0160-0161, U+0178, U+0192, U+02C6-02C7, U+060C, U+0610-0611, U+0613-0615, U+061B, U+061F, U+0621-063A, U+0640-065D, U+0660-066A, U+066D-066E, U+0670-0672, U+0674, U+0679, U+067C, U+067E, U+0681, U+0685-0686, U+0688-0689, U+0691, U+0693, U+0696, U+0698, U+069A, U+06A4, U+06A9-06AB, U+06AF, U+06BA, U+06BC, U+06BE, U+06C1, U+06C3, U+06CC-06CD, U+06D0, U+06D2, U+06D4-06E4, U+06E6-06ED, U+06F0-06F9, U+200C-2011, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2024, U+2026, U+2030, U+2039-203A, U+2122, U+2421, U+25CC, U+E000-E001, U+E003-E004, U+E00E-E022, U+E811-E818, U+E820-E82D, U+E832-E836, U+FB50-FB51, U+FB56-FB59, U+FB6A-FB6D, U+FB7A-FB7D, U+FB8A-FB8B, U+FB8E-FB95, U+FBFC-FBFD, U+FC08-FC0A, U+FC0E, U+FC10, U+FC12, U+FC31-FC32, U+FC3F-FC44, U+FC4E-FC50, U+FC58-FC59, U+FC5E-FC62, U+FC6A, U+FC6D-FC70, U+FC73-FC75, U+FC8E-FC8F, U+FC91, U+FC94-FC95, U+FC9C-FC9F, U+FCA1-FCA4, U+FCA6, U+FCA8, U+FCAA, U+FCAC, U+FCB0, U+FCC9-FCD5, U+FCD8, U+FCDA-FCDD, U+FCF2-FCF4, U+FD30, U+FD3C-FD3F, U+FD88, U+FDF2, U+FDFA-FDFB, U+FDFD, U+FE70-FE72, U+FE74, U+FE76-FE8C, U+FE8E-FEFC;
+}</pre></details></td>
+</tr><tr data-search="alquran-indopak-by-quranwbw.v.4.2.2-wl.ttf alquran indopak by quranwbw regular">
+<td><strong>AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf</strong><div class="subtle">AlQuran IndoPak by QuranWBW · Regular</div></td>
+<td class="num">992</td><td class="num">835</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">304 KB</td><td><details><summary>CSS ranges (98)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont3&quot;;
+  src: url(&quot;AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020, U+0028-0029, U+002D, U+02C6-02C7, U+060C, U+0610-0611, U+0613-0615, U+0617, U+061B, U+061F, U+0621-063A, U+0640-0657, U+065A, U+0660-066A, U+066D-066E, U+0670-0672, U+0674, U+0679, U+067C, U+067E, U+0681, U+0685-0686, U+0688-0689, U+0691, U+0693, U+0696, U+0698, U+069A, U+06A4, U+06A9-06AB, U+06BA, U+06BC, U+06BE, U+06C1, U+06C3, U+06CC-06CD, U+06D0, U+06D2, U+06D4-06ED, U+06F0-06F9, U+200C-2011, U+2013-2014, U+2421, U+25CC, U+E000-E001, U+E003-E004, U+E00E-E023, U+E811-E818, U+E820-E82D, U+E835-E836, U+F500-F61F, U+F631-F63E, U+F64A-F660, U+F662-F69A, U+F73A-F73C, U+FB50-FB51, U+FB56-FB59, U+FB6A-FB6D, U+FB7A-FB7D, U+FB8A-FB8B, U+FB8E-FB95, U+FBFC-FBFD, U+FC08-FC0A, U+FC0E, U+FC10, U+FC12, U+FC31-FC32, U+FC3F-FC44, U+FC4E-FC50, U+FC58-FC59, U+FC5E-FC62, U+FC6A, U+FC6D-FC70, U+FC73-FC75, U+FC8E-FC8F, U+FC91, U+FC94-FC95, U+FC9C-FC9F, U+FCA1-FCA4, U+FCA6, U+FCA8, U+FCAA, U+FCAC, U+FCB0, U+FCC9-FCD5, U+FCD8, U+FCDA-FCDD, U+FCF2-FCF4, U+FD30, U+FD3C-FD3F, U+FD88, U+FDF2, U+FDFA-FDFB, U+FDFD, U+FE70-FE72, U+FE74, U+FE76-FE8C, U+FE8E-FEFC;
+}</pre></details></td>
+</tr><tr data-search="amiri-regular.ttf amiri regular">
+<td><strong>Amiri-Regular.ttf</strong><div class="subtle">Amiri · Regular</div></td>
+<td class="num">6,710</td><td class="num">1,699</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">592 KB</td><td><details><summary>CSS ranges (98)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont4&quot;;
+  src: url(&quot;Amiri-Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-017F, U+01E6-01E7, U+0237, U+02BB-02BC, U+02BE-02BF, U+02C6-02C7, U+02D8-02DD, U+0300-0308, U+030A, U+030C, U+0312, U+0315, U+0325-0328, U+0600-0604, U+0606-06FF, U+0750-077F, U+0890-0891, U+08A0, U+08AC, U+08B6-08BD, U+08D1, U+08E4-08FE, U+1E02-1E03, U+1E0A-1E11, U+1E1E-1E1F, U+1E24-1E25, U+1E28-1E2B, U+1E40-1E41, U+1E56-1E57, U+1E60-1E63, U+1E6A-1E6F, U+1E80-1E85, U+1E92-1E93, U+1E96-1E97, U+1EF2-1EF3, U+2000-2015, U+2018-2022, U+2024, U+2026, U+2028-2030, U+2032-2033, U+2038-203A, U+203E, U+2042, U+2044, U+204F, U+2070, U+2074-2079, U+20AC, U+2212-2213, U+2215, U+221A, U+25CC, U+2E41, U+FB50-FBC1, U+FBD3-FD3F, U+FD50-FD8F, U+FD92-FDC7, U+FDF0-FDFD, U+FE70-FE72, U+FE74, U+FE76-FEFC, U+FEFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}</pre></details></td>
+</tr><tr data-search="amiriquran.ttf amiri quran regular">
+<td><strong>AmiriQuran.ttf</strong><div class="subtle">Amiri Quran · Regular</div></td>
+<td class="num">1,446</td><td class="num">266</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">161 KB</td><td><details><summary>CSS ranges (44)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont5&quot;;
+  src: url(&quot;AmiriQuran.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0, U+00A2-00A3, U+00A5, U+00A9, U+00AB, U+00AE, U+00B0, U+00B7, U+00BB, U+00D7, U+00F7, U+0305, U+030A, U+0325, U+060C, U+0615, U+0617-061B, U+061E-061F, U+0621-063A, U+0640-0658, U+065C, U+0660-0669, U+066E-0671, U+067A, U+06A1, U+06BA, U+06CC, U+06D6-06ED, U+06F0-06F9, U+08F0-08F3, U+2000-200F, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2028-202F, U+20AC, U+2212, U+25CC, U+FD3E-FD3F, U+FDFA, U+FDFD;
+}</pre></details></td>
+</tr><tr data-search="amiriqurancolored.ttf amiri quran colored regular">
+<td><strong>AmiriQuranColored.ttf</strong><div class="subtle">Amiri Quran Colored · Regular</div></td>
+<td class="num">1,981</td><td class="num">266</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">194 KB</td><td><details><summary>CSS ranges (44)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont6&quot;;
+  src: url(&quot;AmiriQuranColored.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0, U+00A2-00A3, U+00A5, U+00A9, U+00AB, U+00AE, U+00B0, U+00B7, U+00BB, U+00D7, U+00F7, U+0305, U+030A, U+0325, U+060C, U+0615, U+0617-061B, U+061E-061F, U+0621-063A, U+0640-0658, U+065C, U+0660-0669, U+066E-0671, U+067A, U+06A1, U+06BA, U+06CC, U+06D6-06ED, U+06F0-06F9, U+08F0-08F3, U+2000-200F, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2028-202F, U+20AC, U+2212, U+25CC, U+FD3E-FD3F, U+FDFA, U+FDFD;
+}</pre></details></td>
+</tr><tr data-search="digitalkhattindopak.otf digitalkhatt indopak regular">
+<td><strong>DigitalKhattIndoPak.otf</strong><div class="subtle">DigitalKhatt IndoPak · Regular</div></td>
+<td class="num">1,141</td><td class="num">96</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">483 KB</td><td><details><summary>CSS ranges (23)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont7&quot;;
+  src: url(&quot;DigitalKhattIndoPak.otf&quot;) format(&quot;opentype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+000A, U+0020, U+034F, U+0614-0615, U+0617, U+0621-063A, U+0640-0657, U+0660-0669, U+0670-0671, U+06D6, U+06D8-06DF, U+06E2, U+06E6, U+06E8-06E9, U+06ED, U+089C, U+08D5-08D7, U+08D9, U+08DB, U+08DD-08DF, U+08E2, U+08F0-08F2, U+200D;
+}</pre></details></td>
+</tr><tr data-search="kacstbook.ttf kacstbook medium">
+<td><strong>KacstBook.ttf</strong><div class="subtle">KacstBook · Medium</div></td>
+<td class="num">206</td><td class="num">203</td><td><span class="status warn">28/31</span><div class="subtle">Missing: U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">62 KB</td><td><details><summary>CSS ranges (21)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont8&quot;;
+  src: url(&quot;KacstBook.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0020, U+060C, U+061B, U+061F, U+0621-063A, U+0640-0652, U+0660-066A, U+066D, U+06F9, U+FC5E-FC62, U+FD3E-FD3F, U+FDF2, U+FE70, U+FE72, U+FE74, U+FE76, U+FE78, U+FE7A, U+FE7C, U+FE7E, U+FE80-FEFC;
+}</pre></details></td>
+</tr><tr data-search="katibeh-regular.ttf katibeh regular">
+<td><strong>Katibeh-Regular.ttf</strong><div class="subtle">Katibeh · Regular</div></td>
+<td class="num">1,188</td><td class="num">982</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">160 KB</td><td><details><summary>CSS ranges (182)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont9&quot;;
+  src: url(&quot;Katibeh-Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-0148, U+014A-017E, U+0192, U+01FC-01FF, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0300-0304, U+0306-0308, U+030A-030C, U+0312, U+0326-0328, U+0335-0338, U+0394, U+03A9, U+03BC, U+03C0, U+0600-0604, U+0606-060C, U+060E-0617, U+061B, U+061F-0656, U+0658-0673, U+0675-06BE, U+06C1-06E4, U+06E6-06FF, U+0750-077F, U+08A0, U+08A2-08AB, U+08E4-08E9, U+08F0-08F6, U+1E80-1E85, U+1EF2-1EF3, U+200C-200F, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+202A-202E, U+2030, U+2039-203A, U+2044, U+20A3-20A4, U+20AC, U+2113, U+2122, U+2126, U+212E, U+2153-2154, U+215B-215E, U+2202, U+2206, U+220F, U+2211-2212, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25A0-25A3, U+25C7-25CA, U+25EF, U+F8FF, U+FB01-FB02, U+FB51, U+FB53-FB55, U+FB57-FB59, U+FB5B-FB5D, U+FB5F-FB61, U+FB63-FB65, U+FB67-FB69, U+FB6B-FB6D, U+FB6F-FB71, U+FB73-FB75, U+FB77-FB79, U+FB7B-FB7D, U+FB7F-FB81, U+FB83, U+FB85, U+FB87, U+FB89, U+FB8B, U+FB8D, U+FB8F-FB91, U+FB93-FB95, U+FB97-FB99, U+FB9B-FB9D, U+FB9F, U+FBA1-FBA3, U+FBA7-FBA9, U+FBAB-FBAD, U+FBAF, U+FBB1-FBBF, U+FBC1, U+FBD4-FBD6, U+FBD8, U+FBDA, U+FBDC, U+FBDF, U+FBE1, U+FBE3, U+FBE5-FBE9, U+FBFD-FBFF, U+FC18, U+FC1F, U+FC21, U+FC2A, U+FC3B, U+FC3D, U+FC40, U+FC42-FC43, U+FC49, U+FC53, U+FC5B-FC5D, U+FC81, U+FC83, U+FC86, U+FC90, U+FCAA, U+FCB0, U+FCB3, U+FCBB, U+FCC7, U+FCCA, U+FCCC-FCCD, U+FCD1, U+FCD9, U+FCEB, U+FCF5, U+FCF7, U+FCFB, U+FCFF, U+FD05, U+FD0E-FD0F, U+FD13, U+FD17, U+FD1B, U+FD21, U+FD2A-FD2B, U+FD3C-FD3F, U+FDFC, U+FE82, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEE8, U+FEEA-FEEC, U+FEEE, U+FEF0, U+FEF2-FEFE;
+}</pre></details></td>
+</tr><tr data-search="kfgqpc uthman taha naskh regular.ttf kfgqpc uthman taha naskh regular">
+<td><strong>KFGQPC Uthman Taha Naskh Regular.ttf</strong><div class="subtle">KFGQPC Uthman Taha Naskh · Regular</div></td>
+<td class="num">637</td><td class="num">293</td><td><span class="status warn">30/31</span><div class="subtle">Missing: U+0671</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">169 KB</td><td><details><summary>CSS ranges (89)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont10&quot;;
+  src: url(&quot;KFGQPC%20Uthman%20Taha%20Naskh%20Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-003E, U+005B-005D, U+007B, U+007D, U+00AB, U+00B0, U+00B6-00B7, U+00BB, U+00D7, U+00F7, U+0601, U+060C, U+0610-0613, U+061B, U+061E-061F, U+0621-063A, U+0640-0655, U+0660-066A, U+066E, U+0670, U+0679, U+067E, U+0686, U+0688, U+0691, U+0698, U+06A9, U+06AF, U+06BA, U+06BE, U+06C1, U+06CC, U+06D2, U+06F0-06F9, U+200C-200F, U+2018-2019, U+201C-201D, U+2039-203A, U+F00A-F026, U+FB57-FB59, U+FB67-FB69, U+FB7B-FB7D, U+FB89, U+FB8B, U+FB8D, U+FB8F-FB91, U+FB93-FB95, U+FB9F, U+FBA7-FBA9, U+FBAF, U+FBE8-FBE9, U+FD3E-FD3F, U+FDF2, U+FDFA, U+FE82, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEE8, U+FEEA-FEEC, U+FEEE, U+FEF0, U+FEF2-FEFC;
+}</pre></details></td>
+</tr><tr data-search="kfgqpc uthmanic script hafs regular.otf kfgqpc uthmanic script hafs regular">
+<td><strong>KFGQPC Uthmanic Script HAFS Regular.otf</strong><div class="subtle">KFGQPC Uthmanic Script HAFS · Regular</div></td>
+<td class="num">1,071</td><td class="num">271</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">241 KB</td><td><details><summary>CSS ranges (4)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont11&quot;;
+  src: url(&quot;KFGQPC%20Uthmanic%20Script%20HAFS%20Regular.otf&quot;) format(&quot;opentype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020, U+0030-0039, U+0600-06FF, U+200C-200F;
+}</pre></details></td>
+</tr><tr data-search="muhammadi quranic font.ttf muhammadi quranic font regular">
+<td><strong>MUHAMMADI QURANIC FONT.ttf</strong><div class="subtle">Muhammadi Quranic Font · Regular</div></td>
+<td class="num">2,030</td><td class="num">999</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">335 KB</td><td><details><summary>CSS ranges (150)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont12&quot;;
+  src: url(&quot;MUHAMMADI%20QURANIC%20FONT.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0001, U+0020-007E, U+00A0-00AC, U+00AE-00B4, U+00B6, U+00B8-017F, U+0192, U+01FA-01FF, U+0218-0219, U+02BC, U+02C6-02C7, U+02D8-02DD, U+0323, U+0326, U+060C, U+061B, U+061F, U+0621-063A, U+0640-0657, U+0660-066B, U+066D, U+0670-06ED, U+06F0-06FE, U+1E0C-1E0D, U+1E24-1E25, U+1E62-1E63, U+1E6C-1E6D, U+1E80-1E85, U+1E92, U+1EF2-1EF3, U+200C-200F, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2074, U+20AC, U+2122, U+2212, U+2215, U+25CC, U+FB00-FB04, U+FB51, U+FB53-FB55, U+FB57-FB59, U+FB5B-FB5D, U+FB5F-FB61, U+FB63-FB65, U+FB68-FB69, U+FB6B-FB6D, U+FB6F-FB71, U+FB73-FB75, U+FB77-FB79, U+FB7B-FB7D, U+FB7F-FB81, U+FB83, U+FB85, U+FB87, U+FB89, U+FB8B, U+FB8D, U+FB8F-FB91, U+FB93-FB95, U+FB97-FB99, U+FB9F, U+FBA1, U+FBA5, U+FBA7-FBA9, U+FBAB-FBAD, U+FBAF, U+FBB1, U+FBD4-FBD6, U+FBD8, U+FBDA, U+FBDC, U+FBDF, U+FBE1, U+FBE3, U+FBE5, U+FBE8-FBE9, U+FBFD-FC25, U+FC29-FC37, U+FC3B-FC44, U+FC48-FC5A, U+FC64-FC7B, U+FC80-FC88, U+FC8A-FC8F, U+FC91-FCB7, U+FCBA-FCC3, U+FCC7-FCD8, U+FCDA-FCDE, U+FCE0, U+FCE2, U+FCE4, U+FCE6, U+FCEB-FCEC, U+FCEF, U+FCF1, U+FCFB-FCFE, U+FD05-FD10, U+FD17-FD1A, U+FD21-FD24, U+FD29-FD30, U+FD3E-FD3F, U+FD86, U+FD88, U+FD8A, U+FD8D, U+FD8F, U+FDB5, U+FDBA, U+FDF2, U+FE82, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEEC, U+FEEE, U+FEF0, U+FEF2, U+FEF5-FEFC;
+}</pre></details></td>
+</tr><tr data-search="notokufiarabic-regular.ttf noto kufi arabic regular">
+<td><strong>NotoKufiArabic-Regular.ttf</strong><div class="subtle">Noto Kufi Arabic · Regular</div></td>
+<td class="num">733</td><td class="num">301</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">173 KB</td><td><details><summary>CSS ranges (29)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont13&quot;;
+  src: url(&quot;NotoKufiArabic-Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020, U+0030-0039, U+00A0, U+0600-0603, U+060B-0615, U+061B, U+061E-061F, U+0621-063A, U+0640-0673, U+0675-06EB, U+06ED-06FF, U+0750-076D, U+200B-200F, U+25CC, U+FB6A-FB6D, U+FC63, U+FD3E-FD3F, U+FDF2, U+FDFC, U+FE70, U+FE72, U+FE74, U+FE76, U+FE78, U+FE7A, U+FE7C, U+FE7E;
+}</pre></details></td>
+</tr><tr data-search="notonaskharabic-regular.ttf noto naskh arabic regular">
+<td><strong>NotoNaskhArabic-Regular.ttf</strong><div class="subtle">Noto Naskh Arabic · Regular</div></td>
+<td class="num">1,602</td><td class="num">1,122</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">172 KB</td><td><details><summary>CSS ranges (28)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont14&quot;;
+  src: url(&quot;NotoNaskhArabic-Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0021, U+002C, U+002E, U+0030-003A, U+00A0, U+00AB, U+00BB, U+0600-0604, U+0606-061B, U+061E-06FF, U+0750-077F, U+08A0, U+08A2-08AC, U+08E4-08FE, U+200B-2011, U+204F, U+25CC, U+2E41, U+FB50-FBC1, U+FBD3-FD3F, U+FD50-FD8F, U+FD92-FDC7, U+FDF0-FDFD, U+FE70-FE74, U+FE76-FEFC, U+FEFF;
+}</pre></details></td>
+</tr><tr data-search="notonastaliqurdu-regular.ttf noto nastaliq urdu regular">
+<td><strong>NotoNastaliqUrdu-Regular.ttf</strong><div class="subtle">Noto Nastaliq Urdu · Regular</div></td>
+<td class="num">1,138</td><td class="num">281</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status good">Mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">557 KB</td><td><details><summary>CSS ranges (64)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont15&quot;;
+  src: url(&quot;NotoNastaliqUrdu-Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0021, U+0028-0029, U+002B-003A, U+003D, U+005B-005D, U+007B-007D, U+00A0, U+00AB, U+00B7, U+00BB, U+00D7, U+00F7, U+0600-0604, U+0609-0614, U+061B-061C, U+061E-0659, U+065D-0673, U+0679-0681, U+0683-068F, U+0691, U+0693, U+0696, U+0698-069A, U+069E, U+06A1, U+06A4, U+06A6, U+06A9, U+06AB, U+06AF-06B1, U+06B3, U+06B7, U+06BA-06BC, U+06BE, U+06C0-06C4, U+06C6-06C7, U+06CA, U+06CC-06CD, U+06D0, U+06D2-06D5, U+06DD-06DE, U+06E0-06E1, U+06E9, U+06EE-06F9, U+06FF, U+0759, U+075C, U+0763, U+0767-077D, U+08FF, U+200B-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2039-203A, U+2212, U+25CC, U+FBB2-FBC1, U+FD3E-FD3F, U+FDF2, U+FDF4, U+FDFA-FDFD;
+}</pre></details></td>
+</tr><tr data-search="scheherazade-bold.ttf scheherazade bold">
+<td><strong>Scheherazade-Bold.ttf</strong><div class="subtle">Scheherazade · Bold</div></td>
+<td class="num">1,411</td><td class="num">629</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">535 KB</td><td><details><summary>CSS ranges (38)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont52&quot;;
+  src: url(&quot;Scheherazade-Bold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02C9, U+02DA, U+02DC, U+0600-061C, U+061E-06FF, U+0750-077F, U+08A0-08B4, U+08B6-08B7, U+08B9-08BD, U+08E3-08FF, U+2000-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026-2030, U+2039-203A, U+2060, U+2066-2069, U+206C-206D, U+20AC, U+2122, U+2212, U+2219-221A, U+25CC, U+F130-F131, U+FD3E-FD3F, U+FDF2, U+FDFC, U+FEFF;
+}</pre></details></td>
+</tr><tr data-search="scheherazade-regular.ttf scheherazade regular">
+<td><strong>Scheherazade-Regular.ttf</strong><div class="subtle">Scheherazade · Regular</div></td>
+<td class="num">1,411</td><td class="num">629</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">489 KB</td><td><details><summary>CSS ranges (38)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont53&quot;;
+  src: url(&quot;Scheherazade-Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02C9, U+02DA, U+02DC, U+0600-061C, U+061E-06FF, U+0750-077F, U+08A0-08B4, U+08B6-08B7, U+08B9-08BD, U+08E3-08FF, U+2000-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026-2030, U+2039-203A, U+2060, U+2066-2069, U+206C-206D, U+20AC, U+2122, U+2212, U+2219-221A, U+25CC, U+F130-F131, U+FD3E-FD3F, U+FDF2, U+FDFC, U+FEFF;
+}</pre></details></td>
+</tr><tr data-search="uthmanichafs_v22.ttf kfgqpc hafs uthmanic script regular">
+<td><strong>UthmanicHafs_V22.ttf</strong><div class="subtle">KFGQPC HAFS Uthmanic Script · Regular</div></td>
+<td class="num">1,572</td><td class="num">608</td><td><span class="status good">31/31</span><div class="subtle">Missing: None</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">291 KB</td><td><details><summary>CSS ranges (12)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont54&quot;;
+  src: url(&quot;UthmanicHafs_V22.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0020, U+0028-0029, U+0030-0039, U+005B, U+005D, U+00A0, U+0600-0621, U+0623-06FF, U+200C-200F, U+25CC, U+FC00-FD1D, U+FD50-FD7D;
+}</pre></details></td>
+</tr></tbody></table></div>
+<h3>Fonts without Al-Fātiḥah Arabic glyph coverage (36)</h3><p>These supplied files are Bengali fonts. They do not map any of the Arabic code points in the Al-Fātiḥah specimen. Their inventory details and complete CSS ranges are retained below.</p><div class="table-wrap"><table><thead><tr><th>Font</th><th class="num">Glyphs</th><th class="num">Cmap entries</th><th>Al-Fātiḥah</th><th>ﷺ (U+FDFA)</th><th class="num">File size</th><th>CSS unicode-range</th></tr></thead><tbody><tr data-search="notoserifbengali-black.ttf noto serif bengali black">
+<td><strong>NotoSerifBengali-Black.ttf</strong><div class="subtle">Noto Serif Bengali · Black</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">263 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont16&quot;;
+  src: url(&quot;NotoSerifBengali-Black.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-bold.ttf noto serif bengali bold">
+<td><strong>NotoSerifBengali-Bold.ttf</strong><div class="subtle">Noto Serif Bengali · Bold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">252 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont17&quot;;
+  src: url(&quot;NotoSerifBengali-Bold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensed.ttf noto serif bengali condensed">
+<td><strong>NotoSerifBengali-Condensed.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">243 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont18&quot;;
+  src: url(&quot;NotoSerifBengali-Condensed.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensedblack.ttf noto serif bengali condensed black">
+<td><strong>NotoSerifBengali-CondensedBlack.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed Black</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">254 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont19&quot;;
+  src: url(&quot;NotoSerifBengali-CondensedBlack.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensedbold.ttf noto serif bengali condensed bold">
+<td><strong>NotoSerifBengali-CondensedBold.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed Bold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">249 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont20&quot;;
+  src: url(&quot;NotoSerifBengali-CondensedBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensedextrabold.ttf noto serif bengali condensed extrabold">
+<td><strong>NotoSerifBengali-CondensedExtraBold.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed ExtraBold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">255 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont21&quot;;
+  src: url(&quot;NotoSerifBengali-CondensedExtraBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensedextralight.ttf noto serif bengali condensed extralight">
+<td><strong>NotoSerifBengali-CondensedExtraLight.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed ExtraLight</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">216 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont22&quot;;
+  src: url(&quot;NotoSerifBengali-CondensedExtraLight.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensedlight.ttf noto serif bengali condensed light">
+<td><strong>NotoSerifBengali-CondensedLight.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed Light</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">235 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont23&quot;;
+  src: url(&quot;NotoSerifBengali-CondensedLight.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensedmedium.ttf noto serif bengali condensed medium">
+<td><strong>NotoSerifBengali-CondensedMedium.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed Medium</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">243 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont24&quot;;
+  src: url(&quot;NotoSerifBengali-CondensedMedium.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensedsemibold.ttf noto serif bengali condensed semibold">
+<td><strong>NotoSerifBengali-CondensedSemiBold.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed SemiBold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">251 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont25&quot;;
+  src: url(&quot;NotoSerifBengali-CondensedSemiBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-condensedthin.ttf noto serif bengali condensed thin">
+<td><strong>NotoSerifBengali-CondensedThin.ttf</strong><div class="subtle">Noto Serif Bengali · Condensed Thin</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">221 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont26&quot;;
+  src: url(&quot;NotoSerifBengali-CondensedThin.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extrabold.ttf noto serif bengali extrabold">
+<td><strong>NotoSerifBengali-ExtraBold.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraBold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">252 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont27&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensed.ttf noto serif bengali extracondensed">
+<td><strong>NotoSerifBengali-ExtraCondensed.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">241 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont28&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensed.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensedblack.ttf noto serif bengali extracondensed black">
+<td><strong>NotoSerifBengali-ExtraCondensedBlack.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed Black</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">247 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont29&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensedBlack.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensedbold.ttf noto serif bengali extracondensed bold">
+<td><strong>NotoSerifBengali-ExtraCondensedBold.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed Bold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">251 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont30&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensedBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensedextrabold.ttf noto serif bengali extracondensed extrabold">
+<td><strong>NotoSerifBengali-ExtraCondensedExtraBold.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed ExtraBold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">251 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont31&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensedExtraBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensedextralight.ttf noto serif bengali extracondensed extralight">
+<td><strong>NotoSerifBengali-ExtraCondensedExtraLight.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed ExtraLight</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">213 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont32&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensedExtraLight.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensedlight.ttf noto serif bengali extracondensed light">
+<td><strong>NotoSerifBengali-ExtraCondensedLight.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed Light</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">234 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont33&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensedLight.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensedmedium.ttf noto serif bengali extracondensed medium">
+<td><strong>NotoSerifBengali-ExtraCondensedMedium.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed Medium</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">242 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont34&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensedMedium.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensedsemibold.ttf noto serif bengali extracondensed semibold">
+<td><strong>NotoSerifBengali-ExtraCondensedSemiBold.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed SemiBold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">246 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont35&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensedSemiBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extracondensedthin.ttf noto serif bengali extracondensed thin">
+<td><strong>NotoSerifBengali-ExtraCondensedThin.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraCondensed Thin</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">220 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont36&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraCondensedThin.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-extralight.ttf noto serif bengali extralight">
+<td><strong>NotoSerifBengali-ExtraLight.ttf</strong><div class="subtle">Noto Serif Bengali · ExtraLight</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">220 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont37&quot;;
+  src: url(&quot;NotoSerifBengali-ExtraLight.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-light.ttf noto serif bengali light">
+<td><strong>NotoSerifBengali-Light.ttf</strong><div class="subtle">Noto Serif Bengali · Light</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">228 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont38&quot;;
+  src: url(&quot;NotoSerifBengali-Light.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-medium.ttf noto serif bengali medium">
+<td><strong>NotoSerifBengali-Medium.ttf</strong><div class="subtle">Noto Serif Bengali · Medium</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">250 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont39&quot;;
+  src: url(&quot;NotoSerifBengali-Medium.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-regular.ttf noto serif bengali regular">
+<td><strong>NotoSerifBengali-Regular.ttf</strong><div class="subtle">Noto Serif Bengali · Regular</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">257 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont40&quot;;
+  src: url(&quot;NotoSerifBengali-Regular.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semibold.ttf noto serif bengali semibold">
+<td><strong>NotoSerifBengali-SemiBold.ttf</strong><div class="subtle">Noto Serif Bengali · SemiBold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">249 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont41&quot;;
+  src: url(&quot;NotoSerifBengali-SemiBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensed.ttf noto serif bengali semicondensed">
+<td><strong>NotoSerifBengali-SemiCondensed.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">246 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont42&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensed.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensedblack.ttf noto serif bengali semicondensed black">
+<td><strong>NotoSerifBengali-SemiCondensedBlack.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed Black</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">256 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont43&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensedBlack.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensedbold.ttf noto serif bengali semicondensed bold">
+<td><strong>NotoSerifBengali-SemiCondensedBold.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed Bold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">251 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont44&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensedBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensedextrabold.ttf noto serif bengali semicondensed extrabold">
+<td><strong>NotoSerifBengali-SemiCondensedExtraBold.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed ExtraBold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">253 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont45&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensedExtraBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensedextralight.ttf noto serif bengali semicondensed extralight">
+<td><strong>NotoSerifBengali-SemiCondensedExtraLight.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed ExtraLight</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">218 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont46&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensedExtraLight.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensedlight.ttf noto serif bengali semicondensed light">
+<td><strong>NotoSerifBengali-SemiCondensedLight.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed Light</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">235 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont47&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensedLight.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensedmedium.ttf noto serif bengali semicondensed medium">
+<td><strong>NotoSerifBengali-SemiCondensedMedium.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed Medium</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">244 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont48&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensedMedium.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensedsemibold.ttf noto serif bengali semicondensed semibold">
+<td><strong>NotoSerifBengali-SemiCondensedSemiBold.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed SemiBold</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">251 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont49&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensedSemiBold.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-semicondensedthin.ttf noto serif bengali semicondensed thin">
+<td><strong>NotoSerifBengali-SemiCondensedThin.ttf</strong><div class="subtle">Noto Serif Bengali · SemiCondensed Thin</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">223 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont50&quot;;
+  src: url(&quot;NotoSerifBengali-SemiCondensedThin.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr><tr data-search="notoserifbengali-thin.ttf noto serif bengali thin">
+<td><strong>NotoSerifBengali-Thin.ttf</strong><div class="subtle">Noto Serif Bengali · Thin</div></td>
+<td class="num">640</td><td class="num">173</td><td><span class="status bad">0/31</span><div class="subtle">Missing: U+0623, U+0625, U+0627, U+0628, U+062A, U+062D, U+062F, U+0630, U+0631, U+0633, U+0635, U+0636, U+0637, U+0639, U+063A, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+064A, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0670, U+0671</div></td>
+<td><span class="status bad">Not mapped</span><div class="subtle">U+FDFA ﷺ</div></td>
+<td class="num">229 KB</td><td><details><summary>CSS ranges (47)</summary><pre>@font-face {
+  font-family: &quot;SpecimenFont51&quot;;
+  src: url(&quot;NotoSerifBengali-Thin.ttf&quot;) format(&quot;truetype&quot;);
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  unicode-range: U+0000, U+000D, U+0020-0023, U+0025, U+0027-003F, U+005B-005F, U+007B-007E, U+00A0, U+00AD, U+00D7, U+00F7, U+02BC, U+0951-0952, U+0964-0965, U+0980-0983, U+0985-098C, U+098F-0990, U+0993-09A8, U+09AA-09B0, U+09B2, U+09B6-09B9, U+09BC-09C4, U+09C7-09C8, U+09CB-09CE, U+09D7, U+09DC-09DD, U+09DF-09E3, U+09E6-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200B-200D, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC, U+A8F1;
+}</pre></details></td>
+</tr></tbody></table></div>
+</section>
+<section class="section"><h2>How to interpret the coverage results</h2><ul>
+<li><strong>Unicode cmap coverage:</strong> confirms that the font maps the code point to a glyph. It does not prove the glyph is beautifully drawn or that mark placement is correct.</li>
+<li><strong>Arabic shaping:</strong> GSUB joining substitutions and GPOS mark-positioning features are useful indicators, but actual browser shaping still needs visual verification.</li>
+<li><strong>Fallback:</strong> with a font stack, browsers can use the primary font for characters it supports and a later font for missing characters. A line can therefore contain glyphs from more than one font.</li>
+<li><strong>Unicode ranges:</strong> `unicode-range` only declares which code points a font face may supply. It cannot add a missing glyph.</li>
+</ul><p><strong>Al-Fātiḥah input used:</strong> the same Uthmani-style specimen as the previous report. This is a technical font rendering test, not an authoritative Qur'anic text verification or a tajwīd assessment.</p></section>
+<section class="section"><h2>Font embedding metadata</h2><p>Font binaries are not embedded inside this HTML. The browser loads the original local font files beside it. Check each vendor's licence before publishing font files on a public website.</p><ul><li><strong>_PDMS_Saleem_QuranFont Regular.ttf</strong>: fsType 0x0004; Preview/print only; Vendor / other.</li><li><strong>Al Qalam Quran Majeed Web Regular.ttf</strong>: fsType 0x0004; Preview/print only; No licence string in name table.</li><li><strong>DigitalKhattIndoPak.otf</strong>: fsType 0x0008; Editable embedding; OFL 1.1.</li><li><strong>MUHAMMADI QURANIC FONT.ttf</strong>: fsType 0x0006; Restricted embedding, Preview/print only; No licence string in name table.</li></ul></section>
+<footer>Generated from 54 supplied font files · 31 Al-Fātiḥah specimen code points · U+FDFA honorific test · live HTML text, not raster previews.</footer>
+</main>
+<script>
+const search=document.getElementById('fontSearch');
+search.addEventListener('input',()=>{const q=search.value.trim().toLowerCase();let n=0;document.querySelectorAll('tbody tr').forEach(tr=>{const ok=!q||tr.dataset.search.includes(q);tr.style.display=ok?'':'none';if(ok)n++;});document.getElementById('visibleCount').textContent=n+' matching font files';});
+</script>
+</body></html>
