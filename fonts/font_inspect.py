@@ -511,7 +511,7 @@ def health_warnings(font, cps_to_test=None, deep=True):
         warns.append("no glyph for NO-BREAK SPACE (U+00A0), which Quranic verse text often uses before the verse number")
     cps = sorted(cps_to_test if cps_to_test is not None else cm)
     # zero advance on non-mark characters
-    zero = [c for c in cps if c in cm and advance(font, cm[c]) == 0 and category(c) not in ("Mn", "Me", "Cf", "Cc", "Zs")]
+    zero = [c for c in cps if c in cm and advance(font, cm[c]) == 0 and category(c) not in ("Mn", "Me", "Cf", "Cc", "Zs", "Zl", "Zp")]
     if zero:
         warns.append("mapped but ZERO advance width and not a combining mark (will be invisible/overlap): "
                      + ", ".join(cp_fmt(c) for c in zero[:12]) + (" ..." if len(zero) > 12 else ""))
