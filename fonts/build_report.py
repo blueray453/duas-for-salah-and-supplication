@@ -48,6 +48,40 @@ EXTENDED_QURANIC = (
     + list(range(0x08F0, 0x08F4))
 )
 
+
+# Engineering classification from supplied font metadata, filenames, Unicode
+# coverage and OpenType features. This does NOT determine the rasm/riwayah of
+# an arbitrary source text or a fixed printed Mushaf page layout.
+FONT_ROLE_INFO = {
+    "KFGQPC Uthman Taha Naskh Regular.ttf": ("Unicode Arabic Naskh typeface", "Arabic prose and hadith-style text; maps the U+FDFA honorific used by Sunnah.com.", "Not a fixed Mushaf page layout; does not directly map the six U+06D6–U+06DB Madinah pause signs."),
+    "KFGQPC Uthmanic Script HAFS Regular.otf": ("Qur'anic Uthmani/Hafs typeface (font name and character map)", "Qur'anic Unicode text with all six Madinah pause signs mapped.", "Does not directly map U+FDFA in this supplied file; no 15-line page map."),
+    "UthmanicHafs_V22.ttf": ("Qur'anic Uthmani/Hafs typeface (version 2.2 metadata)", "Qur'anic Hafs text with a broad mapped Qur'anic annotation repertoire, including the six pause signs.", "Does not directly map U+FDFA; not a fixed-page 15-line font."),
+    "AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf": ("Indo-Pak Qur'anic typeface", "Indo-Pak style text when the text source's encoding and glyph conventions match.", "Contains many Private Use Area mappings; do not feed arbitrary Unicode Qur'an text without checking the matching encoding."),
+    "DigitalKhattIndoPak.otf": ("Indo-Pak Arabic typeface", "Indo-Pak calligraphic text with its supported shaping features.", "The font does not encode a 15-/16-line page map; some Qur'anic marks are not directly mapped."),
+    "AmiriQuran.ttf": ("Qur'anic Arabic typeface", "Qur'anic Arabic text; maps the six Madinah pause signs and U+FDFA in this supplied file.", "Font coverage alone does not verify a text's rasm/riwayah or match a printed page."),
+    "AmiriQuranColored.ttf": ("Qur'anic Arabic colour typeface", "Qur'anic Arabic text with colour-font design; maps the six Madinah pause signs and U+FDFA.", "Colour-font rendering varies by browser/platform; not a Mushaf page-layout file."),
+    "Amiri-Regular.ttf": ("General Arabic Naskh typeface", "Arabic prose and mixed Arabic text; broad Arabic Unicode and annotation coverage.", "Broad coverage does not make it a specific Uthmani or Indo-Pak text edition."),
+    "NotoNaskhArabic-Regular.ttf": ("General Arabic Naskh typeface", "General Arabic Unicode text and web interfaces.", "Not a dedicated Madani Mushaf page layout; visually verify Qur'anic mark placement."),
+    "NotoKufiArabic-Regular.ttf": ("Kufi-style Arabic typeface", "Display headings and design-led Arabic text.", "Not a conventional Naskh Mushaf page face or page layout."),
+    "NotoNastaliqUrdu-Regular.ttf": ("Nastaliq Urdu typeface", "Urdu and Nastaliq-style text when text and language shaping match.", "Not a substitute for a Madani Naskh Qur'an font; test Arabic-only Qur'anic marks separately."),
+    "Scheherazade-Regular.ttf": ("Unicode Arabic-script typeface", "Arabic-script languages and extended Unicode text; maps all six pause signs.", "Not an edition-specific Mushaf font; U+FDFA is not directly mapped."),
+    "Scheherazade-Bold.ttf": ("Unicode Arabic-script typeface, bold", "Bold Arabic-script text and extended Unicode content; maps all six pause signs.", "Not an edition-specific Mushaf font; U+FDFA is not directly mapped."),
+    "Al Qalam Quran Majeed Web Regular.ttf": ("Qur'an-oriented Arabic typeface (font family/name)", "Use with a compatible Qur'anic text sample; maps U+FDFA.", "The name alone does not prove Uthmani rasm, Hafs riwayah or a fixed printed-page layout."),
+    "_PDMS_Saleem_QuranFont Regular.ttf": ("Qur'an-oriented Arabic typeface (font family/name)", "Use with a compatible source text/encoding and inspect the live rendered result.", "Contains Private Use Area characters; the exact source encoding is important."),
+    "MUHAMMADI QURANIC FONT.ttf": ("Qur'an-oriented Arabic typeface (font family/name)", "Use with a verified sample from the font's intended text source.", "Name and Unicode map alone do not identify rasm, riwayah or page layout."),
+    "Katibeh-Regular.ttf": ("Decorative Arabic display typeface", "Headings and display text.", "Not a dedicated Qur'anic text or Mushaf page-layout font."),
+    "KacstBook.ttf": ("General Arabic book typeface", "General Arabic text where its character set is sufficient.", "Its character map does not cover the full tested Qur'anic specimen or pause-sign set."),
+}
+
+
+def get_font_role(filename: str, arabic_count: int) -> dict[str, str]:
+    info = FONT_ROLE_INFO.get(filename)
+    if info:
+        return {"class": info[0], "use": info[1], "limit": info[2]}
+    if arabic_count == 0:
+        return {"class": "Non-Arabic font in this supplied set", "use": "Its Arabic character map is empty; not suitable for Arabic/Qur'anic text by itself.", "limit": "Browser fallback may hide missing-glyph problems in a visual preview."}
+    return {"class": "Arabic-capable typeface; role not confidently classified", "use": "Inspect its intended text source, visual style and shaping behaviour before selection.", "limit": "Font file alone does not identify rasm, riwayah or a printed Mushaf page layout."}
+
 # Verbatim verse examples reproduced from Tanzil's Pause Marks documentation.
 # Verse strings intentionally remain unchanged; see README for source/license.
 PAUSE_EXAMPLES = [
@@ -214,6 +248,7 @@ def make_font_record(path: Path, index: int) -> dict:
         "gpos": get_features(font, "GPOS"),
         "fs_type": os2.fsType if os2 else None,
         "license_string": get_name(font, 13),
+        "font_role": get_font_role(path.name, sum(1 for cp in cps if any(a <= cp <= b for a, b in ARABIC_BLOCKS))),
     }
     font.close()
     record["css"] = css_face(record)
@@ -221,12 +256,11 @@ def make_font_record(path: Path, index: int) -> dict:
 
 
 def create_row(rec: dict) -> str:
-    arabic = rec["arabic_count"] > 0
     s = status_class(rec["fatiha_have"], len(FATIHA_CPS))
     w = status_class(rec["waqf_have"], len(MADANI_WAQF))
     e = status_class(rec["extended_have"], len(EXTENDED_QURANIC))
     saw = "good" if rec["saw"] else "bad"
-    search = f'{rec["filename"]} {rec["family"]} {rec["subfamily"]}'.lower()
+    search = f'{rec["filename"]} {rec["family"]} {rec["subfamily"]} {rec["font_role"]["class"]}'.lower()
     return f'''<tr data-search="{esc(search)}">
 <td><strong>{esc(rec['filename'])}</strong><div class="subtle">{esc(rec['family'])} · {esc(rec['subfamily'])}</div></td>
 <td class="num">{rec['glyphs']:,}</td>
@@ -237,7 +271,8 @@ def create_row(rec: dict) -> str:
 <td><span class="status {e}">{rec['extended_have']}/{len(EXTENDED_QURANIC)}</span><small>Extended annotation set</small></td>
 <td><span class="status {saw}">{'Mapped' if rec['saw'] else 'Missing'}</span><small>U+FDFA ﷺ</small></td>
 <td class="num">{rec['bytes'] / 1024:.0f} KB</td>
-<td><details><summary>CSS ranges</summary><pre>{esc(rec['css'])}</pre></details><details><summary>Missing code points</summary><pre>Al-Fātiḥah: {esc(cp_list(rec['fatiha_missing']))}
+<td><details><summary>Font role</summary><p>{esc(rec['font_role']['class'])}</p><p>{esc(rec['font_role']['use'])}</p><p class="note">{esc(rec['font_role']['limit'])}</p></details><details><summary>OpenType shaping</summary><pre>GSUB: {esc(', '.join(rec['gsub']) or 'none')}
+GPOS: {esc(', '.join(rec['gpos']) or 'none')}</pre></details><details><summary>CSS ranges</summary><pre>{esc(rec['css'])}</pre></details><details><summary>Missing code points</summary><pre>Al-Fātiḥah: {esc(cp_list(rec['fatiha_missing']))}
 Madinah pause marks: {esc(cp_list(rec['waqf_missing']))}
 Extended annotation set: {esc(cp_list(rec['extended_missing']))}</pre></details></td>
 </tr>'''
@@ -257,13 +292,15 @@ def make_specimen_card(rec: dict) -> str:
         for cp in EXTENDED_QURANIC
     )
     return f'''<article class="font-card" data-font-card="{rec['index']}">
-<div class="font-card-head"><div><h3>{esc(rec['filename'])}</h3><div class="subtle">{esc(rec['family'])} · {esc(rec['subfamily'])} · {rec['glyphs']:,} glyphs · {rec['cmap_count']:,} mapped code points</div></div>
+<div class="font-card-head"><div><h3>{esc(rec['filename'])}</h3><div class="subtle">{esc(rec['family'])} · {esc(rec['subfamily'])} · {rec['glyphs']:,} glyphs · {rec['cmap_count']:,} mapped code points</div><div class="subtle">{esc(rec['font_role']['class'])}</div></div>
 <div class="quick-metrics"><span class="status {status}">Waqf {rec['waqf_have']}/{len(MADANI_WAQF)}</span><span class="status {status_class(rec['fatiha_have'], len(FATIHA_CPS))}">Fātiḥah {rec['fatiha_have']}/{len(FATIHA_CPS)}</span></div></div>
+<div class="note">{esc(rec['font_role']['use'])} {esc(rec['font_role']['limit'])}</div>
 <div class="preview-label">Al-Fātiḥah · live HTML text</div><div class="arabic-panel quran" lang="ar" dir="rtl" style="{style}">{lines}</div>
 <div class="metrics-line">Pause marks: <b>{rec['waqf_have']}/{len(MADANI_WAQF)}</b> · Saktah: <b>{'yes' if rec['saktah'] else 'no'}</b> · U+FDFA ﷺ: <b>{'yes' if rec['saw'] else 'no'}</b> · Extended set: <b>{rec['extended_have']}/{len(EXTENDED_QURANIC)}</b></div>
 <details><summary>Show all six real pause-mark examples</summary><div class="verse-list">{pause_rows}</div></details>
 <details><summary>Show complete pause-mark glyph fixture (not a Qur'anic verse)</summary><div class="arabic-panel quran" lang="ar" dir="rtl" style="{style}">{esc(WAQF_FIXTURE)}</div><p class="note">The repeated word is only an anchor to expose each glyph. It is a typography test, not Qur'anic wording.</p></details>
 <details><summary>Show extended Qur'anic annotation glyph gallery</summary><div class="annotation-grid" style="{style}">{extended_chars}</div><p class="note">Each mark is anchored to a test letter for visual inspection. The set contains Unicode annotations from more than one regional/text convention; they are not all used together in one Mushaf.</p></details>
+<details><summary>OpenType shaping and positioning features</summary><p><b>GSUB:</b> {esc(', '.join(rec['gsub']) or 'none')}</p><p><b>GPOS:</b> {esc(', '.join(rec['gpos']) or 'none')}</p><p class="note">GSUB features cover substitutions such as contextual forms and ligatures; GPOS features include cursive attachment and mark positioning. Feature tags are evidence of shaping support, not a complete quality score.</p></details>
 <div class="phrase-line"><span>Allah's Messenger (</span><bdi lang="ar" dir="rtl" style="{style}">ﷺ</bdi><span>)</span><small>U+FDFA { 'mapped' if rec['saw'] else 'not mapped in this font' }</small></div>
 </article>'''
 
@@ -317,6 +354,8 @@ def main() -> None:
         "structural_codepoints": STRUCTURAL,
         "extended_quranic_annotation_codepoints": EXTENDED_QURANIC,
         "honorific_codepoint": SAW_CP,
+        "font_inventory_scope": "54 TTF/OTF files from the user-supplied archive; no external font binaries included",
+        "layout_note": "Rasm, riwayah and fixed Mushaf page layout are text/edition/page-data properties, not recoverable from font cmap alone.",
         "fonts": [{k: v for k, v in r.items() if k not in {"css"}} | {"unicode_ranges": [[a, b] for a, b in r["ranges"]]} for r in records],
     }
     OUT_JSON.write_text(json.dumps(report_json, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -353,15 +392,44 @@ footer{{font-size:12px;color:var(--muted);padding:10px}}a{{color:#145f9a}}ul{{pa
     html = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Qur'anic Font & Waqf Sign Audit</title>
 {css}</head><body><main class="wrap">
-<header><div class="eyebrow">Unicode font audit · live Arabic HTML text · all provided font files</div><h1>Qur'anic font coverage project</h1><p>Static coverage analysis and browser-rendered specimens for {len(records)} supplied TTF/OTF files. Every font file is placed in this same directory as <code>index.html</code>; no <code>fonts/</code> subfolder is required. Specimens are selectable text, not images.</p></header>
+<header><div class="eyebrow">Unicode coverage · OpenType shaping · text-layout guide · live Arabic HTML text</div><h1>Qur'anic fonts: coverage, shaping and text layout</h1><p>Static coverage analysis and browser-rendered specimens for {len(records)} supplied TTF/OTF files. Every font file is placed in this same directory as <code>index.html</code>; no <code>fonts/</code> subfolder is required. Specimens are selectable text, not images.</p></header>
 <section><h2>At a glance</h2><div class="stats">
 <div class="stat"><strong>{len(records)}</strong><span>font files audited</span></div>
 <div class="stat"><strong>{len(arabic_records)}</strong><span>fonts with Arabic Unicode mappings</span></div>
 <div class="stat"><strong>{full_fatiha}</strong><span>fonts covering every Al-Fātiḥah specimen code point ({len(FATIHA_CPS)})</span></div>
 <div class="stat"><strong>{full_waqf}</strong><span>fonts mapping all six Madinah pause types</span></div>
-</div><div class="callout"><strong>KFGQPC Uthman Taha Naskh finding:</strong> {esc(kfg_note)} This does not contradict the Sunnah.com recommendation for its intended text/rendering setup; it means this particular font file does not provide the six Madinah pause marks as directly mapped Unicode characters. A companion font or separate mark rendering may be necessary.</div>
+</div><div class="callout"><strong>Do not read the pause-mark score as a general font-quality score.</strong> KFGQPC Uthman Taha Naskh is a Unicode Arabic Naskh face with U+FDFA and Arabic GSUB/GPOS shaping features. Its missing six Madinah pause mappings matter for Qur'anic annotation-heavy text, not for the narrower Sunnah.com hadith-text requirement.</div>
 <p><strong>Other KFGQPC file:</strong> {esc(hafs_note)}</p>
 <p>The Latin words in <b>Allah's Messenger (ﷺ)</b> should use the site's regular Latin/UI font. The Arabic font is being tested for the single honorific character <code>U+FDFA</code>.</p></section>
+
+<section><h2>Text layout: what a font can and cannot tell you</h2>
+<p><b>Important:</b> a font file does not contain the complete identity of the Qur'anic text being rendered. This report tests glyph coverage and OpenType shaping/positioning, and gives a cautious role classification for each supplied font. It cannot infer the rasm or riwayah of an unseen text string.</p>
+<div class="table-scroll"><table><thead><tr><th>Layer</th><th>Technical meaning</th><th>Examples</th><th>Where it comes from</th></tr></thead><tbody>
+<tr><td><b>Orthography / Rasm</b></td><td>How words are spelled, including Qur'anic spelling conventions versus modern Arabic spelling.</td><td>Rasm Uthmani; Imla'i</td><td>The source text and its edition, not the font name.</td></tr>
+<tr><td><b>Riwayah / Qira'ah</b></td><td>The transmitted reading represented by the text, including its authorised vocalisation and variant readings.</td><td>Hafs 'an 'Asim; Warsh 'an Nafi'; Qalun</td><td>The verified text edition and editorial metadata. A font may be designed for one or more readings, but does not choose the reading.</td></tr>
+<tr><td><b>Script / Typeface</b></td><td>The shapes and typographic construction of letters.</td><td>Naskh; Nastaliq; Kufi; Maghribi</td><td>The font design and its metadata/visual specimen.</td></tr>
+<tr><td><b>Mushaf page layout</b></td><td>Fixed page breaks, line breaks, word positions, page numbering and line count.</td><td>Madani 15-line; Indo-Pak 15-line or 16-line</td><td>Separate page/word layout data or page-specific glyph fonts. An ordinary Unicode font does not provide this.</td></tr>
+<tr><td><b>Browser text flow</b></td><td>RTL direction, Arabic joining, mark placement, line wrapping and fallback.</td><td><code>dir="rtl"</code>, GSUB/GPOS, CSS line-height</td><td>HTML/CSS, browser shaping engine and font OpenType tables.</td></tr>
+</tbody></table></div>
+<p>A line-wrapped Arabic paragraph in a browser is not the same thing as a printed 15-line Mushaf page. To reproduce a specific Mushaf page, you need that edition's page boundaries and word/line placement data. Quran Foundation documents separate IDs for QCF V1/V2, IndoPak, Uthmani Hafs and IndoPak 15-/16-line pagination.</p>
+<h3>Role of the Arabic-capable fonts in this upload</h3>
+<div class="table-scroll"><table><thead><tr><th>Supplied font</th><th>Likely script/typeface role</th><th>Suitable use</th><th>Limits</th></tr></thead><tbody>
+<tr><td><b>KFGQPC Uthman Taha Naskh Regular.ttf</b></td><td>Unicode Arabic Naskh typeface</td><td>Arabic prose/hadith; maps U+FDFA and has Arabic GSUB/GPOS shaping tables.</td><td>Does not map the six Madinah pause signs; no fixed Mushaf page layout.</td></tr>
+<tr><td><b>KFGQPC Uthmanic Script HAFS Regular.otf</b></td><td>Qur'anic Uthmani/Hafs typeface</td><td>Qur'anic Unicode text with all six Madinah pause signs mapped.</td><td>Does not map U+FDFA in the supplied file; no page map.</td></tr>
+<tr><td><b>UthmanicHafs_V22.ttf</b></td><td>Qur'anic Uthmani/Hafs typeface, v2.2 metadata</td><td>Broad Qur'anic mark coverage, including the six pause signs.</td><td>Does not map U+FDFA; not a fixed 15-line page font.</td></tr>
+<tr><td><b>AmiriQuran.ttf / AmiriQuranColored.ttf</b></td><td>Qur'anic Arabic typefaces</td><td>Both map the six pause signs and U+FDFA in this upload.</td><td>Coverage does not verify the text's rasm/riwayah or match a printed page.</td></tr>
+<tr><td><b>AlQuran-IndoPak... / DigitalKhattIndoPak.otf</b></td><td>Indo-Pak typefaces</td><td>Indo-Pak text when paired with matching encoding/conventions.</td><td>Not a 15-/16-line page map; PUA encodings require matching source data.</td></tr>
+<tr><td><b>Amiri / Noto Naskh / Scheherazade</b></td><td>General Unicode Arabic or Arabic-script typefaces</td><td>General Arabic text and a range of Unicode marks, depending on the individual file.</td><td>Not inherently an Uthmani or Indo-Pak text edition.</td></tr>
+<tr><td><b>Noto Kufi / Noto Nastaliq Urdu / Katibeh / KacstBook</b></td><td>Display, Nastaliq or general Arabic typefaces</td><td>Specific design or language use cases.</td><td>Not a general recommendation for Madani Mushaf body text.</td></tr>
+</tbody></table></div>
+<p class="note">This is an engineering classification based on supplied names, OpenType metadata and cmap results. It is not scholarly certification of a text edition.</p></section>
+
+<section><h2>Why Sunnah.com recommends KFGQPC Uthman Taha Naskh</h2>
+<p>Sunnah.com's Fonts note recommends this font, but explicitly says any Arabic font with a complete set of ligatures will do. It specifically calls out Unicode character <code>ﷺ</code> (U+FDFA). This is an Arabic prose/hadith rendering requirement, not a requirement that the font contain all Qur'anic pause marks.</p>
+<div class="callout"><b>The supplied KFGQPC Uthman Taha Naskh file meets the key observable requirements:</b> it maps U+FDFA; its GSUB table includes Arabic contextual-form/ligature features (<code>init</code>, <code>medi</code>, <code>fina</code>, <code>liga</code>, <code>calt</code>); and its GPOS table includes cursive and mark positioning (<code>curs</code>, <code>mark</code>, <code>mkmk</code>).</div>
+<p>Its metadata reports <b>637 glyphs</b> but only <b>293 Unicode cmap mappings</b>. These figures are not contradictory: many glyphs are contextual forms, ligature outputs or alternates reached through OpenType shaping rather than separate Unicode characters. A low cmap count is not a reliable font-quality ranking.</p>
+<p>The earlier report made a <b>test-target mismatch</b>: it scored this Naskh font against pause marks that Sunnah.com does not name as its requirement. For Sunnah.com's stated use case, the font is a reasonable match. For Qur'anic Hafs text with the six Madinah pause marks, use a Qur'anic/Hafs font such as the supplied <code>UthmanicHafs_V22.ttf</code> or <code>AmiriQuran.ttf</code>, then verify the exact source text and visual rendering.</p>
+<p class="note">Feature tags are technical evidence, not a complete quality score. Actual text sequences still need visual review in the target browser.</p></section>
 
 <section><h2>Pause marks: the full Madinah set</h2>
 <p>Tanzil documents six Madinah Mushaf pause-mark classes. The set is represented by six distinct code points; the interchangeable-pause mark appears twice in its real example. A separate Saktah sign (U+06DC) is also tested below because it matters in Hafs reading but is not one of Tanzil's six listed classes.</p>
@@ -401,34 +469,38 @@ footer{{font-size:12px;color:var(--muted);padding:10px}}a{{color:#145f9a}}ul{{pa
 <section><h2>Full font inventory and CSS unicode-ranges</h2>
 <p>Each CSS block below is generated from the font's Unicode cmap. It is exact to the mapped code-point table, not a broad guessed Arabic range. File URLs point to the font files in this same directory.</p>
 <div class="toolbar"><input id="inventorySearch" type="search" placeholder="Filter all 54 font files"><span id="inventoryCount" class="muted">{len(records)} font files</span></div>
-<div class="table-scroll"><table id="fontInventoryTable"><thead><tr><th>Font file / family</th><th class="num">Glyphs</th><th>Al-Fātiḥah</th><th>Six pause types</th><th>Saktah</th><th>Structure</th><th>Extended marks</th><th>ﷺ</th><th class="num">Size</th><th>CSS unicode-range</th></tr></thead><tbody>{all_rows}</tbody></table></div></section>
+<div class="table-scroll"><table id="fontInventoryTable"><thead><tr><th>Font file / family</th><th class="num">Glyphs</th><th>Al-Fātiḥah</th><th>Six pause types</th><th>Saktah</th><th>Structure</th><th>Extended marks</th><th>ﷺ</th><th class="num">Size</th><th>Font role / OpenType / CSS</th></tr></thead><tbody>{all_rows}</tbody></table></div></section>
 
-<section><h2>Using the recommended KFGQPC Taha font with fallback</h2>
-<p>Because the KFGQPC Uthman Taha Naskh file maps U+FDFA but not the six standard pause code points, use a fallback face that contains the missing signs, or render the signs using a separate face.</p>
-<pre>.quran-text {{
-  font-family: "KFGQPC Uthman Taha Naskh", "Amiri Quran", serif;
+<section><h2>Suggested font selection by content type</h2>
+<p>Use different faces for different content. Do not select one font solely because it wins the largest Unicode count.</p>
+<pre>/* Hadith / ordinary Arabic prose: Sunnah.com-style use case */
+.hadith-arabic {{
+  font-family: "KFGQPC Uthman Taha Naskh", "Amiri", serif;
 }}
 
+/* Qur'anic Hafs text with Madinah pause annotations */
+.quran-hafs {{
+  font-family: "Uthmanic Hafs V22", "Amiri Quran", serif;
+}}
+
+/* Standalone honorific in a separate element */
 .honorific {{
   font-family: "KFGQPC Uthman Taha Naskh", "Amiri Quran", serif;
-}}
-
-&lt;p class="quran-text" lang="ar" dir="rtl"&gt;
-  وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ
-&lt;/p&gt;
-
-&lt;p dir="ltr"&gt;
-  Allah's Messenger (&lt;bdi class="honorific" lang="ar" dir="rtl"&gt;ﷺ&lt;/bdi&gt;)
-&lt;/p&gt;</pre>
-<p class="note">The `@font-face` block for each supplied font is available by expanding its row in the inventory. Use a separate `font-family` fallback order depending on your font licensing and visual preference.</p></section>
+}}</pre>
+<p>Define each <code>@font-face</code> using the supplied file names. Keep text in <code>lang="ar" dir="rtl"</code> containers. Do not assign an Indo-Pak font to Uthmani text unless the source's orthography and marks are compatible.</p>
+<p class="note">Fallback is relatively safe for a standalone symbol like U+FDFA. Fallback across combining marks in the middle of an Arabic word can produce mismatched placement, so visually validate it and prefer a single font that covers the complete target text.</p></section>
 
 <section><h2>How to interpret this report</h2><ul>
-<li><b>Unicode cmap mapping</b> confirms the font has a character-to-glyph mapping for a code point. It does not guarantee correct visual shape or mark placement.</li>
-<li><b>Arabic shaping</b> depends on shaping tables such as GSUB/GPOS and browser shaping support. Correct attachment and positioning of stacked marks must be checked visually.</li>
-<li><b>Fallback</b> can make an unsupported character appear on screen using another font. Coverage results always refer to the selected font's own cmap.</li>
-<li><b>unicode-range</b> only tells the browser which characters a font face may supply. It cannot add a glyph absent from the font.</li>
-<li><b>Tradition differences</b> matter: the six Madinah marks, Saktah signs, Indo-Pak letter-based pause notation and the additional Unicode annotation repertoire are related but not identical sets.</li>
+<li><b>Font inventory scope:</b> the binary audit covers the 54 TTF/OTF files in the original user-supplied archive. No external font binary was silently added. External references are used to explain categories and intended use.</li>
+<li><b>Unicode cmap:</b> confirms a direct character-to-glyph mapping. It does not count every glyph available through shaping substitutions, nor prove that a glyph is well drawn.</li>
+<li><b>Glyph count vs cmap count:</b> total glyph count includes internal contextual forms, ligature outputs and alternates; cmap count measures characters directly mapped by Unicode. Do not compare these as one coverage score.</li>
+<li><b>GSUB/GPOS:</b> GSUB replaces glyphs (for example, contextual Arabic forms and ligatures); GPOS positions glyphs and marks. Feature tags are useful evidence, not a complete font-quality metric.</li>
+<li><b>Text identity:</b> rasm/orthography and riwayah belong to the source text/edition. A font name cannot establish that arbitrary text is Uthmani, Imla'i, Hafs or Warsh.</li>
+<li><b>Page layout:</b> 15-line Madani, 15-/16-line Indo-Pak and similar formats require page/line metadata. Ordinary Unicode fonts do not store the full layout.</li>
+<li><b>Fallback:</b> a browser may display missing characters from another font. Coverage results always refer to the selected font's own cmap.</li>
+<li><b>unicode-range:</b> tells the browser which characters a font face may supply. It cannot add a glyph absent from the font.</li>
 </ul></section>
+
 <footer>Built from {len(records)} supplied TTF/OTF files. HTML specimens are live text, not images. Font files are included as received. Check each font's licence before redistributing or deploying it publicly. See README.md for sources and build instructions.</footer>
 </main>
 <script>

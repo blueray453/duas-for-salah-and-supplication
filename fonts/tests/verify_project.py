@@ -17,11 +17,20 @@ assert "url(\"fonts/" not in html and "url('fonts/" not in html, "Report unexpec
 assert "<img" not in html.lower(), "Report should use live text, not image specimens"
 assert "U+06D6" in html and "U+06DB" in html and "U+06DC" in html
 assert "Allah's Messenger" in html and "ﷺ" in html
+assert "Text layout: what a font can and cannot tell you" in html
+assert "Why Sunnah.com recommends KFGQPC Uthman Taha Naskh" in html
+assert "Mushaf page layout" in html
 report = json.loads(DATA.read_text(encoding="utf-8"))
 assert report["source_font_count"] == 54
 assert len(report["madani_waqf_codepoints"]) == 6
 assert len(report["extended_quranic_annotation_codepoints"]) == 54
 assert len(report["fonts"]) == 54
+assert report["font_inventory_scope"].startswith("54 TTF/OTF files")
+kfg = next(f for f in report["fonts"] if f["filename"] == "KFGQPC Uthman Taha Naskh Regular.ttf")
+assert kfg["saw"] is True and kfg["waqf_have"] == 0
+assert {"init", "medi", "fina", "liga", "calt"}.issubset(set(kfg["gsub"]))
+assert {"curs", "mark", "mkmk"}.issubset(set(kfg["gpos"]))
+assert kfg["glyphs"] == 637 and kfg["cmap_count"] == 293
 for name in ["al_fatihah.txt", "madinah_pause_examples.txt", "waqf_glyph_fixture.txt", "extended_annotation_glyph_fixture.txt"]:
     assert (ROOT / "samples" / name).exists(), f"Missing sample: {name}"
 waqf_fixture = (ROOT / "samples" / "waqf_glyph_fixture.txt").read_text(encoding="utf-8")
@@ -31,4 +40,4 @@ assert chr(0x06DC) in waqf_fixture, "Saktah U+06DC missing from fixture"
 ext_fixture = (ROOT / "samples" / "extended_annotation_glyph_fixture.txt").read_text(encoding="utf-8")
 for cp in report["extended_quranic_annotation_codepoints"]:
     assert chr(cp) in ext_fixture, f"Extended annotation U+{cp:04X} missing from fixture"
-print("Project sanity check passed: 54 fonts, selectable live text, all six Madinah pause glyphs, Saktah, and all 54 extended annotation code points.")
+print("Project sanity check passed: 54 fonts, text-layout guide, KFGQPC GSUB/GPOS and U+FDFA checks, live text specimens, six pause signs, Saktah, and 54 extended annotations.")

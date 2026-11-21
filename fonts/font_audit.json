@@ -107,6 +107,8 @@
     2291
   ],
   "honorific_codepoint": 65018,
+  "font_inventory_scope": "54 TTF/OTF files from the user-supplied archive; no external font binaries included",
+  "layout_note": "Rasm, riwayah and fixed Mushaf page layout are text/edition/page-data properties, not recoverable from font cmap alone.",
   "fonts": [
     {
       "index": 1,
@@ -622,6 +624,11 @@
       ],
       "fs_type": 4,
       "license_string": "PAKISTAN DATA MANAGEMENT SERVICES    ELECTRONIC END USER LICENSE AGREEMENT FOR PDMS Saleem Quran Font    NOTICE TO USER:    THIS IS A CONTRACT. BY INSTALLING THIS FONT YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT.    This Pakis",
+      "font_role": {
+        "class": "Qur'an-oriented Arabic typeface (font family/name)",
+        "use": "Use with a compatible source text/encoding and inspect the live rendered result.",
+        "limit": "Contains Private Use Area characters; the exact source encoding is important."
+      },
       "unicode_ranges": [
         [
           32,
@@ -1608,6 +1615,11 @@
       ],
       "fs_type": 4,
       "license_string": "",
+      "font_role": {
+        "class": "Qur'an-oriented Arabic typeface (font family/name)",
+        "use": "Use with a compatible Qur'anic text sample; maps U+FDFA.",
+        "limit": "The name alone does not prove Uthmani rasm, Hafs riwayah or a fixed printed-page layout."
+      },
       "unicode_ranges": [
         [
           32,
@@ -2544,6 +2556,11 @@
       ],
       "fs_type": 0,
       "license_string": "This font AlQuran-IndoPak-by-QuranWBW is made by Ayman Siddiqui and is based on Al Qalam Quran Majeed and Al Qalam Quran Majeed Web fonts, specially adjusted and edited to work with Special Naskh Nastaleeq (IndoPak) Quran Text of www.QuranW",
+      "font_role": {
+        "class": "Indo-Pak Qur'anic typeface",
+        "use": "Indo-Pak style text when the text source's encoding and glyph conventions match.",
+        "limit": "Contains many Private Use Area mappings; do not feed arbitrary Unicode Qur'an text without checking the matching encoding."
+      },
       "unicode_ranges": [
         [
           32,
@@ -3412,6 +3429,11 @@
       ],
       "fs_type": 0,
       "license_string": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "font_role": {
+        "class": "General Arabic Naskh typeface",
+        "use": "Arabic prose and mixed Arabic text; broad Arabic Unicode and annotation coverage.",
+        "limit": "Broad coverage does not make it a specific Uthmani or Indo-Pak text edition."
+      },
       "unicode_ranges": [
         [
           32,
@@ -4056,6 +4078,11 @@
       ],
       "fs_type": 0,
       "license_string": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "font_role": {
+        "class": "Qur'anic Arabic typeface",
+        "use": "Qur'anic Arabic text; maps the six Madinah pause signs and U+FDFA in this supplied file.",
+        "limit": "Font coverage alone does not verify a text's rasm/riwayah or match a printed page."
+      },
       "unicode_ranges": [
         [
           32,
@@ -4484,6 +4511,11 @@
       ],
       "fs_type": 0,
       "license_string": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "font_role": {
+        "class": "Qur'anic Arabic colour typeface",
+        "use": "Qur'anic Arabic text with colour-font design; maps the six Madinah pause signs and U+FDFA.",
+        "limit": "Colour-font rendering varies by browser/platform; not a Mushaf page-layout file."
+      },
       "unicode_ranges": [
         [
           32,
@@ -4831,6 +4863,11 @@
       ],
       "fs_type": 8,
       "license_string": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "font_role": {
+        "class": "Indo-Pak Arabic typeface",
+        "use": "Indo-Pak calligraphic text with its supported shaping features.",
+        "limit": "The font does not encode a 15-/16-line page map; some Qur'anic marks are not directly mapped."
+      },
       "unicode_ranges": [
         [
           10,
@@ -5120,6 +5157,11 @@
       ],
       "fs_type": 0,
       "license_string": "GPL",
+      "font_role": {
+        "class": "General Arabic book typeface",
+        "use": "General Arabic text where its character set is sufficient.",
+        "limit": "Its character map does not cover the full tested Qur'anic specimen or pause-sign set."
+      },
       "unicode_ranges": [
         [
           32,
@@ -6016,6 +6058,11 @@
       ],
       "fs_type": 0,
       "license_string": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL",
+      "font_role": {
+        "class": "Decorative Arabic display typeface",
+        "use": "Headings and display text.",
+        "limit": "Not a dedicated Qur'anic text or Mushaf page-layout font."
+      },
       "unicode_ranges": [
         [
           0,
@@ -7213,6 +7260,11 @@
       ],
       "fs_type": 0,
       "license_string": "ELECTRONIC END-USER LICENSE AGREEMENT    By installing this Font You accept all the terms and conditions of this Agreement.    Copyright (c) 2008 by King Fahd Glorious Quran Printing Complex (KFGQPC), Al-Madinah Al-Munawarrah, Kingdom of Sa",
+      "font_role": {
+        "class": "Unicode Arabic Naskh typeface",
+        "use": "Arabic prose and hadith-style text; maps the U+FDFA honorific used by Sunnah.com.",
+        "limit": "Not a fixed Mushaf page layout; does not directly map the six U+06D6–U+06DB Madinah pause signs."
+      },
       "unicode_ranges": [
         [
           32,
@@ -7656,6 +7708,11 @@
       ],
       "fs_type": 0,
       "license_string": "ELECTRONIC END-USER LICENSE AGREEMENT    By installing this Font You accept all the terms and conditions of this Agreement.    Copyright (c) 2010 by King Fahd Glorious Quran Printing Complex (KFGQPC), AlMadinah AlMunawarrah, Kingdom of Saud",
+      "font_role": {
+        "class": "Qur'anic Uthmani/Hafs typeface (font name and character map)",
+        "use": "Qur'anic Unicode text with all six Madinah pause signs mapped.",
+        "limit": "Does not directly map U+FDFA in this supplied file; no 15-line page map."
+      },
       "unicode_ranges": [
         [
           32,
@@ -8349,6 +8406,11 @@
       ],
       "fs_type": 6,
       "license_string": "",
+      "font_role": {
+        "class": "Qur'an-oriented Arabic typeface (font family/name)",
+        "use": "Use with a verified sample from the font's intended text source.",
+        "limit": "Name and Unicode map alone do not identify rasm, riwayah or page layout."
+      },
       "unicode_ranges": [
         [
           1,
@@ -9132,6 +9194,11 @@
       ],
       "fs_type": 0,
       "license_string": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "font_role": {
+        "class": "General Arabic Naskh typeface",
+        "use": "General Arabic Unicode text and web interfaces.",
+        "limit": "Not a dedicated Madani Mushaf page layout; visually verify Qur'anic mark placement."
+      },
       "unicode_ranges": [
         [
           0,
@@ -9483,6 +9550,11 @@
       ],
       "fs_type": 0,
       "license_string": "Copyright (c) 1994-2015, SIL International (http://www.sil.org/).    This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names \"Scheherazade\" and \"SIL\". This license is copied below, and is also a",
+      "font_role": {
+        "class": "Unicode Arabic-script typeface, bold",
+        "use": "Bold Arabic-script text and extended Unicode content; maps all six pause signs.",
+        "limit": "Not an edition-specific Mushaf font; U+FDFA is not directly mapped."
+      },
       "unicode_ranges": [
         [
           32,
@@ -9874,6 +9946,11 @@
       ],
       "fs_type": 0,
       "license_string": "Copyright (c) 1994-2015, SIL International (http://www.sil.org/).    This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names \"Scheherazade\" and \"SIL\". This license is copied below, and is also a",
+      "font_role": {
+        "class": "Unicode Arabic-script typeface",
+        "use": "Arabic-script languages and extended Unicode text; maps all six pause signs.",
+        "limit": "Not an edition-specific Mushaf font; U+FDFA is not directly mapped."
+      },
       "unicode_ranges": [
         [
           32,
@@ -10147,6 +10224,11 @@
       ],
       "fs_type": 0,
       "license_string": "ELECTRONIC END-USER LICENSE AGREEMENT    By installing this Font You accept all the terms and conditions of this Agreement.    Copyright (c) 2010 by King Fahd Glorious Quran Printing Complex (KFGQPC), AlMadinah AlMunawarrah, Kingdom of Saud",
+      "font_role": {
+        "class": "Qur'anic Uthmani/Hafs typeface (version 2.2 metadata)",
+        "use": "Qur'anic Hafs text with a broad mapped Qur'anic annotation repertoire, including the six pause signs.",
+        "limit": "Does not directly map U+FDFA; not a fixed-page 15-line font."
+      },
       "unicode_ranges": [
         [
           32,
