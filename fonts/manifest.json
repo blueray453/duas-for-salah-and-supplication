@@ -1,0 +1,187 @@
+[
+  {
+    "filename": "_PDMS_Saleem_QuranFont Regular.ttf",
+    "image": "individual/_PDMS_Saleem_QuranFont_Regular.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "Al Qalam Quran Majeed Web Regular.ttf",
+    "image": "individual/Al_Qalam_Quran_Majeed_Web_Regular.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf",
+    "image": "individual/AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "Amiri-Regular.ttf",
+    "image": "individual/Amiri-Regular.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "AmiriQuran.ttf",
+    "image": "individual/AmiriQuran.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "AmiriQuranColored.ttf",
+    "image": "individual/AmiriQuranColored.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "Katibeh-Regular.ttf",
+    "image": "individual/Katibeh-Regular.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "KFGQPC Uthmanic Script HAFS Regular.otf",
+    "image": "individual/KFGQPC_Uthmanic_Script_HAFS_Regular.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "MUHAMMADI QURANIC FONT.ttf",
+    "image": "individual/MUHAMMADI_QURANIC_FONT.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "NotoKufiArabic-Regular.ttf",
+    "image": "individual/NotoKufiArabic-Regular.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "NotoNaskhArabic-Regular.ttf",
+    "image": "individual/NotoNaskhArabic-Regular.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "Scheherazade-Bold.ttf",
+    "image": "individual/Scheherazade-Bold.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "Scheherazade-Regular.ttf",
+    "image": "individual/Scheherazade-Regular.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "UthmanicHafs_V22.ttf",
+    "image": "individual/UthmanicHafs_V22.png",
+    "madinah_pause_mapped": 6,
+    "missing_pause_codepoints": [],
+    "saktah": true,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "DigitalKhattIndoPak.otf",
+    "image": "individual/DigitalKhattIndoPak.png",
+    "madinah_pause_mapped": 5,
+    "missing_pause_codepoints": [
+      "U+06D7"
+    ],
+    "saktah": true,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "KacstBook.ttf",
+    "image": "individual/KacstBook.png",
+    "madinah_pause_mapped": 0,
+    "missing_pause_codepoints": [
+      "U+06D6",
+      "U+06D7",
+      "U+06D8",
+      "U+06D9",
+      "U+06DA",
+      "U+06DB"
+    ],
+    "saktah": false,
+    "saw": false,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "KFGQPC Uthman Taha Naskh Regular.ttf",
+    "image": "individual/KFGQPC_Uthman_Taha_Naskh_Regular.png",
+    "madinah_pause_mapped": 0,
+    "missing_pause_codepoints": [
+      "U+06D6",
+      "U+06D7",
+      "U+06D8",
+      "U+06D9",
+      "U+06DA",
+      "U+06DB"
+    ],
+    "saktah": false,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  },
+  {
+    "filename": "NotoNastaliqUrdu-Regular.ttf",
+    "image": "individual/NotoNastaliqUrdu-Regular.png",
+    "madinah_pause_mapped": 0,
+    "missing_pause_codepoints": [
+      "U+06D6",
+      "U+06D7",
+      "U+06D8",
+      "U+06D9",
+      "U+06DA",
+      "U+06DB"
+    ],
+    "saktah": false,
+    "saw": true,
+    "note": "Rendered using this font file only. Missing glyphs are not supplied by system fonts."
+  }
+]
