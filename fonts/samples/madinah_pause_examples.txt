@@ -1,0 +1,22 @@
+These Arabic verse examples are reproduced verbatim from the Tanzil Pause Marks documentation.
+They are six separate examples, not one combined ayah.
+
+36:76 | Compulsory pause | U+06D8 ۘ
+فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ
+
+16:57 | Impermissible pause | U+06D9 ۙ
+وَيَجْعَلُونَ لِلَّـهِ الْبَنَاتِ سُبْحَانَهُ ۙ وَلَهُم مَّا يَشْتَهُونَ
+
+2:45 | Permissible pause | U+06DA ۚ
+وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى الْخَاشِعِينَ
+
+16:17 | Pause preferred | U+06D7 ۗ
+أَفَمَن يَخْلُقُ كَمَن لَّا يَخْلُقُ ۗ أَفَلَا تَذَكَّرُونَ
+
+16:21 | Continuation preferred | U+06D6 ۖ
+أَمْوَاتٌ غَيْرُ أَحْيَاءٍ ۖ وَمَا يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ
+
+2:2 | Interchangeable pause pair | U+06DB ۛ ۛ
+ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ
+18:1 | Hafs saktah example | U+06DC ۜ | https://quran.com/al-kahf/1
+عِوَجَاۜ
