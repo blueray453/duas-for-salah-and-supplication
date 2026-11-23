@@ -1,0 +1,772 @@
+{
+  "label": "hadith_quranohadith_original.txt",
+  "text_kind_requested": "auto",
+  "character_count_including_whitespace": 1414,
+  "non_whitespace_character_count": 1227,
+  "unique_non_whitespace_codepoints": 54,
+  "script_character_counts": {
+    "Arabic-script": 1222,
+    "Latin": 5
+  },
+  "unique_perso_arabic_codepoints": [
+    "U+06A9",
+    "U+06C1",
+    "U+06C3",
+    "U+06CC",
+    "U+06D4",
+    "U+06F4",
+    "U+06F6",
+    "U+06F8",
+    "U+06F9"
+  ],
+  "unique_persian_associated_codepoints": [
+    "U+06A9",
+    "U+06CC"
+  ],
+  "unique_urdu_associated_codepoints": [
+    "U+06C1",
+    "U+06C3"
+  ],
+  "character_inventory": [
+    {
+      "character": ":",
+      "codepoint": "U+003A",
+      "unicode_name": "COLON",
+      "category": "Po",
+      "group": "Other / punctuation / whitespace",
+      "note": "",
+      "count": 3
+    },
+    {
+      "character": "[",
+      "codepoint": "U+005B",
+      "unicode_name": "LEFT SQUARE BRACKET",
+      "category": "Ps",
+      "group": "Other / punctuation / whitespace",
+      "note": "",
+      "count": 1
+    },
+    {
+      "character": "]",
+      "codepoint": "U+005D",
+      "unicode_name": "RIGHT SQUARE BRACKET",
+      "category": "Pe",
+      "group": "Other / punctuation / whitespace",
+      "note": "",
+      "count": 1
+    },
+    {
+      "character": "،",
+      "codepoint": "U+060C",
+      "unicode_name": "ARABIC COMMA",
+      "category": "Po",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 15
+    },
+    {
+      "character": "أ",
+      "codepoint": "U+0623",
+      "unicode_name": "ARABIC LETTER ALEF WITH HAMZA ABOVE",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 5
+    },
+    {
+      "character": "ؤ",
+      "codepoint": "U+0624",
+      "unicode_name": "ARABIC LETTER WAW WITH HAMZA ABOVE",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 2
+    },
+    {
+      "character": "إ",
+      "codepoint": "U+0625",
+      "unicode_name": "ARABIC LETTER ALEF WITH HAMZA BELOW",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 3
+    },
+    {
+      "character": "ئ",
+      "codepoint": "U+0626",
+      "unicode_name": "ARABIC LETTER YEH WITH HAMZA ABOVE",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 2
+    },
+    {
+      "character": "ا",
+      "codepoint": "U+0627",
+      "unicode_name": "ARABIC LETTER ALEF",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 78
+    },
+    {
+      "character": "ب",
+      "codepoint": "U+0628",
+      "unicode_name": "ARABIC LETTER BEH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 38
+    },
+    {
+      "character": "ت",
+      "codepoint": "U+062A",
+      "unicode_name": "ARABIC LETTER TEH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 12
+    },
+    {
+      "character": "ث",
+      "codepoint": "U+062B",
+      "unicode_name": "ARABIC LETTER THEH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 5
+    },
+    {
+      "character": "ج",
+      "codepoint": "U+062C",
+      "unicode_name": "ARABIC LETTER JEEM",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 8
+    },
+    {
+      "character": "ح",
+      "codepoint": "U+062D",
+      "unicode_name": "ARABIC LETTER HAH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 19
+    },
+    {
+      "character": "خ",
+      "codepoint": "U+062E",
+      "unicode_name": "ARABIC LETTER KHAH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 6
+    },
+    {
+      "character": "د",
+      "codepoint": "U+062F",
+      "unicode_name": "ARABIC LETTER DAL",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 22
+    },
+    {
+      "character": "ذ",
+      "codepoint": "U+0630",
+      "unicode_name": "ARABIC LETTER THAL",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 7
+    },
+    {
+      "character": "ر",
+      "codepoint": "U+0631",
+      "unicode_name": "ARABIC LETTER REH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 29
+    },
+    {
+      "character": "ز",
+      "codepoint": "U+0632",
+      "unicode_name": "ARABIC LETTER ZAIN",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 5
+    },
+    {
+      "character": "س",
+      "codepoint": "U+0633",
+      "unicode_name": "ARABIC LETTER SEEN",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 17
+    },
+    {
+      "character": "ش",
+      "codepoint": "U+0634",
+      "unicode_name": "ARABIC LETTER SHEEN",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 1
+    },
+    {
+      "character": "ص",
+      "codepoint": "U+0635",
+      "unicode_name": "ARABIC LETTER SAD",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 7
+    },
+    {
+      "character": "ض",
+      "codepoint": "U+0636",
+      "unicode_name": "ARABIC LETTER DAD",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 2
+    },
+    {
+      "character": "ط",
+      "codepoint": "U+0637",
+      "unicode_name": "ARABIC LETTER TAH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 1
+    },
+    {
+      "character": "ظ",
+      "codepoint": "U+0638",
+      "unicode_name": "ARABIC LETTER ZAH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 1
+    },
+    {
+      "character": "ع",
+      "codepoint": "U+0639",
+      "unicode_name": "ARABIC LETTER AIN",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 36
+    },
+    {
+      "character": "غ",
+      "codepoint": "U+063A",
+      "unicode_name": "ARABIC LETTER GHAIN",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 2
+    },
+    {
+      "character": "ف",
+      "codepoint": "U+0641",
+      "unicode_name": "ARABIC LETTER FEH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 16
+    },
+    {
+      "character": "ق",
+      "codepoint": "U+0642",
+      "unicode_name": "ARABIC LETTER QAF",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 11
+    },
+    {
+      "character": "ك",
+      "codepoint": "U+0643",
+      "unicode_name": "ARABIC LETTER KAF",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 9
+    },
+    {
+      "character": "ل",
+      "codepoint": "U+0644",
+      "unicode_name": "ARABIC LETTER LAM",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 70
+    },
+    {
+      "character": "م",
+      "codepoint": "U+0645",
+      "unicode_name": "ARABIC LETTER MEEM",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 42
+    },
+    {
+      "character": "ن",
+      "codepoint": "U+0646",
+      "unicode_name": "ARABIC LETTER NOON",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 63
+    },
+    {
+      "character": "ه",
+      "codepoint": "U+0647",
+      "unicode_name": "ARABIC LETTER HEH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 2
+    },
+    {
+      "character": "و",
+      "codepoint": "U+0648",
+      "unicode_name": "ARABIC LETTER WAW",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 40
+    },
+    {
+      "character": "ى",
+      "codepoint": "U+0649",
+      "unicode_name": "ARABIC LETTER ALEF MAKSURA",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 1
+    },
+    {
+      "character": "ي",
+      "codepoint": "U+064A",
+      "unicode_name": "ARABIC LETTER YEH",
+      "category": "Lo",
+      "group": "Arabic-script character",
+      "note": "The Unicode block alone does not identify the language or orthographic edition.",
+      "count": 8
+    },
+    {
+      "character": "ٌ",
+      "codepoint": "U+064C",
+      "unicode_name": "ARABIC DAMMATAN",
+      "category": "Mn",
+      "group": "Arabic diacritic / Qur'anic mark",
+      "note": "Diacritics occur in several Arabic text traditions; not enough to classify script.",
+      "count": 1
+    },
+    {
+      "character": "ٍ",
+      "codepoint": "U+064D",
+      "unicode_name": "ARABIC KASRATAN",
+      "category": "Mn",
+      "group": "Arabic diacritic / Qur'anic mark",
+      "note": "Diacritics occur in several Arabic text traditions; not enough to classify script.",
+      "count": 6
+    },
+    {
+      "character": "َ",
+      "codepoint": "U+064E",
+      "unicode_name": "ARABIC FATHA",
+      "category": "Mn",
+      "group": "Arabic diacritic / Qur'anic mark",
+      "note": "Diacritics occur in several Arabic text traditions; not enough to classify script.",
+      "count": 244
+    },
+    {
+      "character": "ُ",
+      "codepoint": "U+064F",
+      "unicode_name": "ARABIC DAMMA",
+      "category": "Mn",
+      "group": "Arabic diacritic / Qur'anic mark",
+      "note": "Diacritics occur in several Arabic text traditions; not enough to classify script.",
+      "count": 76
+    },
+    {
+      "character": "ِ",
+      "codepoint": "U+0650",
+      "unicode_name": "ARABIC KASRA",
+      "category": "Mn",
+      "group": "Arabic diacritic / Qur'anic mark",
+      "note": "Diacritics occur in several Arabic text traditions; not enough to classify script.",
+      "count": 85
+    },
+    {
+      "character": "ّ",
+      "codepoint": "U+0651",
+      "unicode_name": "ARABIC SHADDA",
+      "category": "Mn",
+      "group": "Arabic diacritic / Qur'anic mark",
+      "note": "Diacritics occur in several Arabic text traditions; not enough to classify script.",
+      "count": 40
+    },
+    {
+      "character": "ْ",
+      "codepoint": "U+0652",
+      "unicode_name": "ARABIC SUKUN",
+      "category": "Mn",
+      "group": "Arabic diacritic / Qur'anic mark",
+      "note": "Diacritics occur in several Arabic text traditions; not enough to classify script.",
+      "count": 97
+    },
+    {
+      "character": "ٔ",
+      "codepoint": "U+0654",
+      "unicode_name": "ARABIC HAMZA ABOVE",
+      "category": "Mn",
+      "group": "Arabic diacritic / Qur'anic mark",
+      "note": "Diacritics occur in several Arabic text traditions; not enough to classify script.",
+      "count": 11
+    },
+    {
+      "character": "ک",
+      "codepoint": "U+06A9",
+      "unicode_name": "ARABIC LETTER KEHEH",
+      "category": "Lo",
+      "group": "Perso-Arabic / Urdu-associated",
+      "note": "Persian/Urdu-associated form; compare Arabic ك U+0643",
+      "count": 15
+    },
+    {
+      "character": "ہ",
+      "codepoint": "U+06C1",
+      "unicode_name": "ARABIC LETTER HEH GOAL",
+      "category": "Lo",
+      "group": "Perso-Arabic / Urdu-associated",
+      "note": "Urdu-associated form; compare Arabic ه U+0647",
+      "count": 22
+    },
+    {
+      "character": "ۃ",
+      "codepoint": "U+06C3",
+      "unicode_name": "ARABIC LETTER TEH MARBUTA GOAL",
+      "category": "Lo",
+      "group": "Perso-Arabic / Urdu-associated",
+      "note": "Urdu-associated form; compare Arabic ة U+0629",
+      "count": 1
+    },
+    {
+      "character": "ی",
+      "codepoint": "U+06CC",
+      "unicode_name": "ARABIC LETTER FARSI YEH",
+      "category": "Lo",
+      "group": "Perso-Arabic / Urdu-associated",
+      "note": "Persian/Urdu-associated yeh; compare Arabic ي U+064A",
+      "count": 32
+    },
+    {
+      "character": "۔",
+      "codepoint": "U+06D4",
+      "unicode_name": "ARABIC FULL STOP",
+      "category": "Po",
+      "group": "Perso-Arabic / Urdu-associated",
+      "note": "Punctuation common in Urdu/Persian-oriented writing; not a letter",
+      "count": 3
+    },
+    {
+      "character": "۴",
+      "codepoint": "U+06F4",
+      "unicode_name": "EXTENDED ARABIC-INDIC DIGIT FOUR",
+      "category": "Nd",
+      "group": "Extended Arabic-Indic (Persian-style) digit",
+      "note": "Often used in Persian/Urdu contexts; not a language detector by itself.",
+      "count": 1
+    },
+    {
+      "character": "۶",
+      "codepoint": "U+06F6",
+      "unicode_name": "EXTENDED ARABIC-INDIC DIGIT SIX",
+      "category": "Nd",
+      "group": "Extended Arabic-Indic (Persian-style) digit",
+      "note": "Often used in Persian/Urdu contexts; not a language detector by itself.",
+      "count": 1
+    },
+    {
+      "character": "۸",
+      "codepoint": "U+06F8",
+      "unicode_name": "EXTENDED ARABIC-INDIC DIGIT EIGHT",
+      "category": "Nd",
+      "group": "Extended Arabic-Indic (Persian-style) digit",
+      "note": "Often used in Persian/Urdu contexts; not a language detector by itself.",
+      "count": 1
+    },
+    {
+      "character": "۹",
+      "codepoint": "U+06F9",
+      "unicode_name": "EXTENDED ARABIC-INDIC DIGIT NINE",
+      "category": "Nd",
+      "group": "Extended Arabic-Indic (Persian-style) digit",
+      "note": "Often used in Persian/Urdu contexts; not a language detector by itself.",
+      "count": 1
+    }
+  ],
+  "normalization_observations": {
+    "NFC_changes_text": true,
+    "NFKC_changes_text": true,
+    "contains_tatweel": false,
+    "tatweel_count": 0,
+    "combining_mark_count": 560,
+    "contains_zwnj": false,
+    "zwnj_count": 0,
+    "contains_zwj": false,
+    "zwj_count": 0
+  },
+  "encoding_observations": {
+    "has_perso_arabic_associated_characters": true,
+    "perso_arabic_character_instances": 77,
+    "perso_arabic_codepoints": [
+      {
+        "character": "ک",
+        "codepoint": "U+06A9",
+        "unicode_name": "ARABIC LETTER KEHEH",
+        "count": 15,
+        "group": "Persian/Urdu-associated form; compare Arabic ك U+0643"
+      },
+      {
+        "character": "ہ",
+        "codepoint": "U+06C1",
+        "unicode_name": "ARABIC LETTER HEH GOAL",
+        "count": 22,
+        "group": "Urdu-associated form; compare Arabic ه U+0647"
+      },
+      {
+        "character": "ۃ",
+        "codepoint": "U+06C3",
+        "unicode_name": "ARABIC LETTER TEH MARBUTA GOAL",
+        "count": 1,
+        "group": "Urdu-associated form; compare Arabic ة U+0629"
+      },
+      {
+        "character": "ی",
+        "codepoint": "U+06CC",
+        "unicode_name": "ARABIC LETTER FARSI YEH",
+        "count": 32,
+        "group": "Persian/Urdu-associated yeh; compare Arabic ي U+064A"
+      },
+      {
+        "character": "۔",
+        "codepoint": "U+06D4",
+        "unicode_name": "ARABIC FULL STOP",
+        "count": 3,
+        "group": "Punctuation common in Urdu/Persian-oriented writing; not a letter"
+      },
+      {
+        "character": "۴",
+        "codepoint": "U+06F4",
+        "unicode_name": "EXTENDED ARABIC-INDIC DIGIT FOUR",
+        "count": 1,
+        "group": "Persian-style digit"
+      },
+      {
+        "character": "۶",
+        "codepoint": "U+06F6",
+        "unicode_name": "EXTENDED ARABIC-INDIC DIGIT SIX",
+        "count": 1,
+        "group": "Persian-style digit"
+      },
+      {
+        "character": "۸",
+        "codepoint": "U+06F8",
+        "unicode_name": "EXTENDED ARABIC-INDIC DIGIT EIGHT",
+        "count": 1,
+        "group": "Persian-style digit"
+      },
+      {
+        "character": "۹",
+        "codepoint": "U+06F9",
+        "unicode_name": "EXTENDED ARABIC-INDIC DIGIT NINE",
+        "count": 1,
+        "group": "Persian-style digit"
+      }
+    ],
+    "persian_style_codepoints": [
+      "U+06A9",
+      "U+06CC"
+    ],
+    "urdu_associated_codepoints": [
+      "U+06C1",
+      "U+06C3"
+    ],
+    "arabic_vs_perso_character_pairs": {
+      "kaf": {
+        "Arabic_Kaf_U+0643_count": 9,
+        "Persian_Keheh_U+06A9_count": 15
+      },
+      "yeh": {
+        "Arabic_Yeh_U+064A_count": 8,
+        "Farsi_Yeh_U+06CC_count": 32
+      },
+      "heh": {
+        "Arabic_Heh_U+0647_count": 2,
+        "Urdu_Heh_Goal_U+06C1_count": 22
+      },
+      "teh_marbuta": {
+        "Arabic_Teh_Marbuta_U+0629_count": 0,
+        "Urdu_Teh_Marbuta_Goal_U+06C3_count": 1
+      }
+    },
+    "digit_counts": {
+      "arabic_indic_digits": 0,
+      "extended_arabic_indic_persian_style_digits": 4
+    },
+    "arabic_punctuation": [
+      {
+        "character": "،",
+        "codepoint": "U+060C",
+        "unicode_name": "ARABIC COMMA",
+        "count": 15
+      },
+      {
+        "character": "۔",
+        "codepoint": "U+06D4",
+        "unicode_name": "ARABIC FULL STOP",
+        "count": 3
+      }
+    ],
+    "presentation_form_codepoints": [],
+    "private_use_codepoints": [],
+    "format_controls": [],
+    "arabic_combining_mark_count": 560
+  },
+  "layout_analysis": {
+    "genre_assessment": "hadith",
+    "classification": "Not applicable",
+    "status": "Arabic prose / hadith sample",
+    "explanation": "Uthmani, Imla'i and IndoPak are distinct Qur'anic text representations. Unicode clues alone cannot reliably classify them; compare the same passage against a verified edition.",
+    "declared_layout": null,
+    "qf_field": null,
+    "qf_field_metadata": null,
+    "dimensions": {
+      "orthography": {
+        "value": "Not applicable",
+        "status": "Not applicable for this text kind",
+        "basis": "Text context",
+        "explanation": "Uthmani, Imla'i and IndoPak are distinct Qur'anic text representations. Unicode clues alone cannot reliably classify them; compare the same passage against a verified edition.",
+        "candidates": []
+      },
+      "riwayah": {
+        "value": "Not applicable",
+        "status": "Not applicable for this text kind",
+        "basis": "Text context",
+        "explanation": "Hafs, Warsh and other riwayat cannot be reliably identified from arbitrary letter/diacritic patterns. Use source metadata or a verified same-passage reference.",
+        "candidates": []
+      },
+      "script_tradition": {
+        "value": "Not applicable",
+        "status": "Not applicable for this text kind",
+        "basis": "Text context",
+        "explanation": "Madani, IndoPak and Maghribi are source/script traditions. Extended Urdu/Persian characters are not enough to certify an IndoPak Qur'an edition.",
+        "candidates": []
+      },
+      "typography": {
+        "value": "Unknown / not identified",
+        "status": "Not inferable from text alone",
+        "basis": "No declared value or strong reference match",
+        "explanation": "Naskh, Nastaleeq, Kufi and similar labels describe the font's visual design, not the Unicode text sequence. Supply font/source metadata or use --font-for-text in a full font report.",
+        "candidates": []
+      },
+      "encoding_model": {
+        "value": "Unicode character sequence",
+        "status": "Observed input representation",
+        "basis": "Input was decoded as Unicode text",
+        "explanation": "This describes the supplied text object, not the upstream source's original storage or a particular Qur'anic text field.",
+        "candidates": []
+      },
+      "page_layout": {
+        "value": "Unknown / not identified",
+        "status": "Not inferable from text alone",
+        "basis": "No declared value or strong reference match",
+        "explanation": "15-line/16-line pagination and page numbering require a Mushaf identifier or page/word-position data. A continuous paragraph cannot determine page layout.",
+        "candidates": []
+      }
+    },
+    "mushaf_metadata": null,
+    "page_layout_metadata": {
+      "mushaf_id": null,
+      "qf_field": null,
+      "page_layout": null,
+      "line_count": null,
+      "page_count": null,
+      "note": "Page count and line count are source metadata; a text paragraph does not reveal them."
+    },
+    "signals": {
+      "perso_arabic_codepoints": [
+        "U+06A9",
+        "U+06C1",
+        "U+06C3",
+        "U+06CC",
+        "U+06D4",
+        "U+06F4",
+        "U+06F6",
+        "U+06F8",
+        "U+06F9"
+      ],
+      "uthmani_associated_codepoints": [],
+      "quranic_annotation_codepoints": [],
+      "waqf_codepoints": [],
+      "private_use_codepoints": [],
+      "presentation_form_codepoints": []
+    },
+    "evidence": [
+      {
+        "title": "Perso-Arabic / Urdu-associated code points detected",
+        "detail": "ک U+06A9 ARABIC LETTER KEHEH, ہ U+06C1 ARABIC LETTER HEH GOAL, ۃ U+06C3 ARABIC LETTER TEH MARBUTA GOAL, ی U+06CC ARABIC LETTER FARSI YEH, ۔ U+06D4 ARABIC FULL STOP, ۴ U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR, ۶ U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX, ۸ U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT, ۹ U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE",
+        "meaning": "These identify character choices associated with extended Perso-Arabic writing. They do not prove the language is Urdu/Persian or the text is an IndoPak Qur'an edition."
+      },
+      {
+        "title": "Local reference comparisons",
+        "detail": "Compared against 1 reference text(s); 0 strong match(es).",
+        "meaning": "Only same-passage, provenance-labelled references are suitable for identifying edition-specific dimensions."
+      }
+    ],
+    "reference_comparisons": [
+      {
+        "filename": "README.txt",
+        "orthography": null,
+        "riwayah": null,
+        "script_tradition": null,
+        "typography": null,
+        "encoding_model": null,
+        "page_layout": null,
+        "mushaf_id": null,
+        "line_count": null,
+        "page_count": null,
+        "qf_field": null,
+        "source": null,
+        "source_url": null,
+        "similarity": 0.00312,
+        "base_letter_similarity": 0.0,
+        "match_type": "fuzzy sequence similarity",
+        "strong_match": false
+      }
+    ],
+    "reference_count": 1,
+    "reference_match_threshold": 0.985,
+    "reference_metadata_method": "reference_texts/manifest.json first, then filename conventions; verify provenance independently",
+    "classifier_limitations": [
+      "Orthography (Uthmani/Imla'i/IndoPak), riwayah, script tradition, typeface, encoding model and page layout are separate dimensions.",
+      "A font's name or glyph coverage cannot identify the orthography of a text rendered with it.",
+      "Perso-Arabic characters indicate codepoint usage, not necessarily Urdu/Persian language or an IndoPak Qur'an edition.",
+      "Hafs/Warsh/Qalun cannot be reliably identified from arbitrary Unicode character patterns alone.",
+      "Naskh/Nastaleeq/Kufi describe typography; they are not orthography labels.",
+      "Imla'i cannot be established merely because Uthmani-associated characters are absent.",
+      "A 15-line/16-line Mushaf layout requires source metadata or word/page positions, not a continuous text string.",
+      "A QPC code_v1/code_v2 glyph sequence is not ordinary Unicode verse text and requires its matching rendering system."
+    ]
+  }
+}

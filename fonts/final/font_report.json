@@ -1,12 +1,25 @@
 {
   "tool": "quran_font_analyzer.py",
-  "tool_version": "1.0.0",
-  "generated_at": "2026-11-23T10:09:38+00:00",
+  "tool_version": "1.3.0",
+  "generated_at": "2026-11-23T11:14:39+00:00",
   "input": {
     "label": "hadith_quranohadith_original.txt",
+    "source": "/mnt/data/quran_text_font_analyzer_v3/samples/hadith_quranohadith_original.txt",
     "text_kind": "auto",
-    "font_dir": "/mnt/data/quran_text_font_analyzer/fonts",
-    "reference_dir": "/mnt/data/quran_text_font_analyzer/reference_texts",
+    "font_dir": "/mnt/data/quran_text_font_analyzer_v3",
+    "font_scan_mode": "current folder only",
+    "reference_dir": "/mnt/data/quran_text_font_analyzer_v3/reference_texts",
+    "declared_orthography": null,
+    "declared_riwayah": null,
+    "declared_script_tradition": null,
+    "declared_typeface": null,
+    "encoding_model": null,
+    "qf_field": null,
+    "mushaf_id": null,
+    "page_layout": null,
+    "line_count": null,
+    "page_count": null,
+    "font_for_text": null,
     "text_sha256": "9ddd08838a520a7f25e8f97fc6ab6850109bcd365511819fb08cc5a07413fa64"
   },
   "text_analysis": {
@@ -530,14 +543,191 @@
       "NFC_changes_text": true,
       "NFKC_changes_text": true,
       "contains_tatweel": false,
-      "combining_mark_count": 560
+      "tatweel_count": 0,
+      "combining_mark_count": 560,
+      "contains_zwnj": false,
+      "zwnj_count": 0,
+      "contains_zwj": false,
+      "zwj_count": 0
+    },
+    "encoding_observations": {
+      "has_perso_arabic_associated_characters": true,
+      "perso_arabic_character_instances": 77,
+      "perso_arabic_codepoints": [
+        {
+          "character": "ک",
+          "codepoint": "U+06A9",
+          "unicode_name": "ARABIC LETTER KEHEH",
+          "count": 15,
+          "group": "Persian/Urdu-associated form; compare Arabic ك U+0643"
+        },
+        {
+          "character": "ہ",
+          "codepoint": "U+06C1",
+          "unicode_name": "ARABIC LETTER HEH GOAL",
+          "count": 22,
+          "group": "Urdu-associated form; compare Arabic ه U+0647"
+        },
+        {
+          "character": "ۃ",
+          "codepoint": "U+06C3",
+          "unicode_name": "ARABIC LETTER TEH MARBUTA GOAL",
+          "count": 1,
+          "group": "Urdu-associated form; compare Arabic ة U+0629"
+        },
+        {
+          "character": "ی",
+          "codepoint": "U+06CC",
+          "unicode_name": "ARABIC LETTER FARSI YEH",
+          "count": 32,
+          "group": "Persian/Urdu-associated yeh; compare Arabic ي U+064A"
+        },
+        {
+          "character": "۔",
+          "codepoint": "U+06D4",
+          "unicode_name": "ARABIC FULL STOP",
+          "count": 3,
+          "group": "Punctuation common in Urdu/Persian-oriented writing; not a letter"
+        },
+        {
+          "character": "۴",
+          "codepoint": "U+06F4",
+          "unicode_name": "EXTENDED ARABIC-INDIC DIGIT FOUR",
+          "count": 1,
+          "group": "Persian-style digit"
+        },
+        {
+          "character": "۶",
+          "codepoint": "U+06F6",
+          "unicode_name": "EXTENDED ARABIC-INDIC DIGIT SIX",
+          "count": 1,
+          "group": "Persian-style digit"
+        },
+        {
+          "character": "۸",
+          "codepoint": "U+06F8",
+          "unicode_name": "EXTENDED ARABIC-INDIC DIGIT EIGHT",
+          "count": 1,
+          "group": "Persian-style digit"
+        },
+        {
+          "character": "۹",
+          "codepoint": "U+06F9",
+          "unicode_name": "EXTENDED ARABIC-INDIC DIGIT NINE",
+          "count": 1,
+          "group": "Persian-style digit"
+        }
+      ],
+      "persian_style_codepoints": [
+        "U+06A9",
+        "U+06CC"
+      ],
+      "urdu_associated_codepoints": [
+        "U+06C1",
+        "U+06C3"
+      ],
+      "arabic_vs_perso_character_pairs": {
+        "kaf": {
+          "Arabic_Kaf_U+0643_count": 9,
+          "Persian_Keheh_U+06A9_count": 15
+        },
+        "yeh": {
+          "Arabic_Yeh_U+064A_count": 8,
+          "Farsi_Yeh_U+06CC_count": 32
+        },
+        "heh": {
+          "Arabic_Heh_U+0647_count": 2,
+          "Urdu_Heh_Goal_U+06C1_count": 22
+        },
+        "teh_marbuta": {
+          "Arabic_Teh_Marbuta_U+0629_count": 0,
+          "Urdu_Teh_Marbuta_Goal_U+06C3_count": 1
+        }
+      },
+      "digit_counts": {
+        "arabic_indic_digits": 0,
+        "extended_arabic_indic_persian_style_digits": 4
+      },
+      "arabic_punctuation": [
+        {
+          "character": "،",
+          "codepoint": "U+060C",
+          "unicode_name": "ARABIC COMMA",
+          "count": 15
+        },
+        {
+          "character": "۔",
+          "codepoint": "U+06D4",
+          "unicode_name": "ARABIC FULL STOP",
+          "count": 3
+        }
+      ],
+      "presentation_form_codepoints": [],
+      "private_use_codepoints": [],
+      "format_controls": [],
+      "arabic_combining_mark_count": 560
     },
     "layout_analysis": {
       "genre_assessment": "hadith",
-      "classification": "Not applicable as a Qur'anic edition label",
+      "classification": "Not applicable",
       "status": "Arabic prose / hadith sample",
-      "explanation": "Uthmani, Imla'i and IndoPak are labels used for Qur'anic text/edition representations. This sample is hadith prose; report its character encoding separately.",
+      "explanation": "Uthmani, Imla'i and IndoPak are distinct Qur'anic text representations. Unicode clues alone cannot reliably classify them; compare the same passage against a verified edition.",
       "declared_layout": null,
+      "qf_field": null,
+      "qf_field_metadata": null,
+      "dimensions": {
+        "orthography": {
+          "value": "Not applicable",
+          "status": "Not applicable for this text kind",
+          "basis": "Text context",
+          "explanation": "Uthmani, Imla'i and IndoPak are distinct Qur'anic text representations. Unicode clues alone cannot reliably classify them; compare the same passage against a verified edition.",
+          "candidates": []
+        },
+        "riwayah": {
+          "value": "Not applicable",
+          "status": "Not applicable for this text kind",
+          "basis": "Text context",
+          "explanation": "Hafs, Warsh and other riwayat cannot be reliably identified from arbitrary letter/diacritic patterns. Use source metadata or a verified same-passage reference.",
+          "candidates": []
+        },
+        "script_tradition": {
+          "value": "Not applicable",
+          "status": "Not applicable for this text kind",
+          "basis": "Text context",
+          "explanation": "Madani, IndoPak and Maghribi are source/script traditions. Extended Urdu/Persian characters are not enough to certify an IndoPak Qur'an edition.",
+          "candidates": []
+        },
+        "typography": {
+          "value": "Unknown / not identified",
+          "status": "Not inferable from text alone",
+          "basis": "No declared value or strong reference match",
+          "explanation": "Naskh, Nastaleeq, Kufi and similar labels describe the font's visual design, not the Unicode text sequence. Supply font/source metadata or use --font-for-text in a full font report.",
+          "candidates": []
+        },
+        "encoding_model": {
+          "value": "Unicode character sequence",
+          "status": "Observed input representation",
+          "basis": "Input was decoded as Unicode text",
+          "explanation": "This describes the supplied text object, not the upstream source's original storage or a particular Qur'anic text field.",
+          "candidates": []
+        },
+        "page_layout": {
+          "value": "Unknown / not identified",
+          "status": "Not inferable from text alone",
+          "basis": "No declared value or strong reference match",
+          "explanation": "15-line/16-line pagination and page numbering require a Mushaf identifier or page/word-position data. A continuous paragraph cannot determine page layout.",
+          "candidates": []
+        }
+      },
+      "mushaf_metadata": null,
+      "page_layout_metadata": {
+        "mushaf_id": null,
+        "qf_field": null,
+        "page_layout": null,
+        "line_count": null,
+        "page_count": null,
+        "note": "Page count and line count are source metadata; a text paragraph does not reveal them."
+      },
       "signals": {
         "perso_arabic_codepoints": [
           "U+06A9",
@@ -552,32 +742,118 @@
         ],
         "uthmani_associated_codepoints": [],
         "quranic_annotation_codepoints": [],
-        "waqf_codepoints": []
+        "waqf_codepoints": [],
+        "private_use_codepoints": [],
+        "presentation_form_codepoints": []
       },
       "evidence": [
         {
           "title": "Perso-Arabic / Urdu-associated code points detected",
           "detail": "ک U+06A9 ARABIC LETTER KEHEH, ہ U+06C1 ARABIC LETTER HEH GOAL, ۃ U+06C3 ARABIC LETTER TEH MARBUTA GOAL, ی U+06CC ARABIC LETTER FARSI YEH, ۔ U+06D4 ARABIC FULL STOP, ۴ U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR, ۶ U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX, ۸ U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT, ۹ U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE",
-          "meaning": "Evidence of extended Perso-Arabic character encoding. This does not prove the language is Urdu/Persian or that the text is an IndoPak Qur'an edition."
+          "meaning": "These identify character choices associated with extended Perso-Arabic writing. They do not prove the language is Urdu/Persian or the text is an IndoPak Qur'an edition."
         },
         {
-          "title": "No strong Uthmani/Qur'anic annotation marker detected",
-          "detail": "No configured Uthmani-associated signs or Qur'anic annotation characters were found.",
-          "meaning": "Absence is not proof of Imla'i; a plain text may have marks stripped or be only a fragment."
+          "title": "Local reference comparisons",
+          "detail": "Compared against 1 reference text(s); 0 strong match(es).",
+          "meaning": "Only same-passage, provenance-labelled references are suitable for identifying edition-specific dimensions."
         }
       ],
-      "reference_comparisons": [],
+      "reference_comparisons": [
+        {
+          "filename": "README.txt",
+          "orthography": null,
+          "riwayah": null,
+          "script_tradition": null,
+          "typography": null,
+          "encoding_model": null,
+          "page_layout": null,
+          "mushaf_id": null,
+          "line_count": null,
+          "page_count": null,
+          "qf_field": null,
+          "source": null,
+          "source_url": null,
+          "similarity": 0.00312,
+          "base_letter_similarity": 0.0,
+          "match_type": "fuzzy sequence similarity",
+          "strong_match": false
+        }
+      ],
+      "reference_count": 1,
       "reference_match_threshold": 0.985,
+      "reference_metadata_method": "reference_texts/manifest.json first, then filename conventions; verify provenance independently",
       "classifier_limitations": [
+        "Orthography (Uthmani/Imla'i/IndoPak), riwayah, script tradition, typeface, encoding model and page layout are separate dimensions.",
         "A font's name or glyph coverage cannot identify the orthography of a text rendered with it.",
-        "Perso-Arabic characters indicate codepoint usage, not necessarily Urdu or Persian language.",
-        "Imla'i cannot be established merely because Uthmani-specific characters are absent.",
-        "IndoPak needs source/edition matching or an authoritative reference; it is not synonymous with Urdu characters or Nastaliq font style.",
-        "A fixed Mushaf page layout (15-line/16-line/page number/line breaks) requires page and word positioning data, not a plain text string."
+        "Perso-Arabic characters indicate codepoint usage, not necessarily Urdu/Persian language or an IndoPak Qur'an edition.",
+        "Hafs/Warsh/Qalun cannot be reliably identified from arbitrary Unicode character patterns alone.",
+        "Naskh/Nastaleeq/Kufi describe typography; they are not orthography labels.",
+        "Imla'i cannot be established merely because Uthmani-associated characters are absent.",
+        "A 15-line/16-line Mushaf layout requires source metadata or word/page positions, not a continuous text string.",
+        "A QPC code_v1/code_v2 glyph sequence is not ordinary Unicode verse text and requires its matching rendering system."
       ]
     }
   },
-  "font_count": 55,
+  "font_count": 57,
+  "font_files": [
+    "_PDMS_Saleem_QuranFont Regular.ttf",
+    "Al Qalam Quran Majeed Web Regular.ttf",
+    "AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf",
+    "Amiri-Regular.ttf",
+    "AmiriQuran.ttf",
+    "AmiriQuranColored.ttf",
+    "DigitalKhattIndoPak.otf",
+    "font-arabic2.woff2",
+    "fontawesome-webfont.woff2",
+    "KacstBook.ttf",
+    "Katibeh-Regular.ttf",
+    "KFGQPC Uthman Taha Naskh Regular.ttf",
+    "KFGQPC Uthmanic Script HAFS Regular.otf",
+    "MUHAMMADI QURANIC FONT.ttf",
+    "NotoKufiArabic-Regular.ttf",
+    "NotoNaskhArabic-Regular.ttf",
+    "NotoNastaliqUrdu-Regular.ttf",
+    "NotoSerifBengali-Black.ttf",
+    "NotoSerifBengali-Bold.ttf",
+    "NotoSerifBengali-Condensed.ttf",
+    "NotoSerifBengali-CondensedBlack.ttf",
+    "NotoSerifBengali-CondensedBold.ttf",
+    "NotoSerifBengali-CondensedExtraBold.ttf",
+    "NotoSerifBengali-CondensedExtraLight.ttf",
+    "NotoSerifBengali-CondensedLight.ttf",
+    "NotoSerifBengali-CondensedMedium.ttf",
+    "NotoSerifBengali-CondensedSemiBold.ttf",
+    "NotoSerifBengali-CondensedThin.ttf",
+    "NotoSerifBengali-ExtraBold.ttf",
+    "NotoSerifBengali-ExtraCondensed.ttf",
+    "NotoSerifBengali-ExtraCondensedBlack.ttf",
+    "NotoSerifBengali-ExtraCondensedBold.ttf",
+    "NotoSerifBengali-ExtraCondensedExtraBold.ttf",
+    "NotoSerifBengali-ExtraCondensedExtraLight.ttf",
+    "NotoSerifBengali-ExtraCondensedLight.ttf",
+    "NotoSerifBengali-ExtraCondensedMedium.ttf",
+    "NotoSerifBengali-ExtraCondensedSemiBold.ttf",
+    "NotoSerifBengali-ExtraCondensedThin.ttf",
+    "NotoSerifBengali-ExtraLight.ttf",
+    "NotoSerifBengali-Light.ttf",
+    "NotoSerifBengali-Medium.ttf",
+    "NotoSerifBengali-Regular.ttf",
+    "NotoSerifBengali-SemiBold.ttf",
+    "NotoSerifBengali-SemiCondensed.ttf",
+    "NotoSerifBengali-SemiCondensedBlack.ttf",
+    "NotoSerifBengali-SemiCondensedBold.ttf",
+    "NotoSerifBengali-SemiCondensedExtraBold.ttf",
+    "NotoSerifBengali-SemiCondensedExtraLight.ttf",
+    "NotoSerifBengali-SemiCondensedLight.ttf",
+    "NotoSerifBengali-SemiCondensedMedium.ttf",
+    "NotoSerifBengali-SemiCondensedSemiBold.ttf",
+    "NotoSerifBengali-SemiCondensedThin.ttf",
+    "NotoSerifBengali-Thin.ttf",
+    "Scheherazade-Bold.ttf",
+    "Scheherazade-Regular.ttf",
+    "UthmanicHafs_V22.ttf",
+    "UthmanTN1.otf"
+  ],
   "fonts": [
     {
       "filename": "_PDMS_Saleem_QuranFont Regular.ttf",
@@ -802,6 +1078,22 @@
         "Naskh",
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Nastaleeq",
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "IndoPak-associated naming"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -2218,6 +2510,21 @@
       "possible_roles_from_names": [
         "qur'anic / mushaf"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -3655,6 +3962,21 @@
         "qur'anic / mushaf",
         "IndoPak-associated"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "IndoPak-associated"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "IndoPak-associated naming"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         40,
@@ -5572,6 +5894,21 @@
         "Naskh",
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Amiri family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -9195,6 +9532,21 @@
         "Naskh",
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Amiri family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -9957,6 +10309,21 @@
         "Naskh",
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Amiri family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -10721,6 +11088,22 @@
       "possible_roles_from_names": [
         "IndoPak-associated"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Digital Khatt-associated",
+          "IndoPak-associated"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "IndoPak-associated naming"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         10,
         32,
@@ -11148,6 +11531,21 @@
       "possible_roles_from_names": [
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Adobe family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -12759,6 +13157,1619 @@
       "error": null
     },
     {
+      "filename": "fontawesome-webfont.woff2",
+      "extension": ".woff2",
+      "file_size_bytes": 71896,
+      "sha256": "7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73",
+      "family": "FontAwesome",
+      "subfamily": "Regular",
+      "full_name": "FontAwesome Regular",
+      "postscript_name": "FontAwesome",
+      "version": "Version 4.6.3 2016",
+      "names": {
+        "copyright": [
+          "Copyright Dave Gandy 2016. All rights reserved."
+        ],
+        "family": [
+          "FontAwesome"
+        ],
+        "subfamily": [
+          "Regular"
+        ],
+        "unique_id": [
+          "FONTLAB:OTFEXPORT"
+        ],
+        "full_name": [
+          "FontAwesome Regular"
+        ],
+        "version": [
+          "Version 4.6.3 2016"
+        ],
+        "postscript_name": [
+          "FontAwesome"
+        ],
+        "trademark": [
+          "Please refer to the Copyright section for the font trademark attribution notices."
+        ],
+        "manufacturer": [
+          "Fort Awesome"
+        ],
+        "designer": [
+          "Dave Gandy"
+        ],
+        "vendor_url": [
+          "http://fontawesome.io"
+        ],
+        "license_url": [
+          "http://fontawesome.io/license/"
+        ]
+      },
+      "glyph_count": 677,
+      "unicode_cmap_count": 674,
+      "unicode_cmap_formats": [
+        4
+      ],
+      "cmap_subtables": [
+        {
+          "platform_id": 0,
+          "encoding_id": 3,
+          "format": 4,
+          "language": 0,
+          "unicode": true,
+          "mapping_count": 674
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "format": 0,
+          "language": 0,
+          "unicode": false,
+          "mapping_count": 16
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "format": 4,
+          "language": 0,
+          "unicode": true,
+          "mapping_count": 674
+        }
+      ],
+      "sfnt_version": "\u0000\u0001\u0000\u0000",
+      "woff_flavor": "woff2",
+      "script_coverage": {
+        "Private Use Area": 649,
+        "Latin": 8
+      },
+      "arabic_codepoint_count": 0,
+      "perso_arabic_codepoint_count": 0,
+      "private_use_codepoint_count": 649,
+      "text_coverage": {
+        "total": 54,
+        "mapped": 0,
+        "missing": 54,
+        "percent": 0.0,
+        "missing_codepoints": [
+          "U+003A",
+          "U+005B",
+          "U+005D",
+          "U+060C",
+          "U+0623",
+          "U+0624",
+          "U+0625",
+          "U+0626",
+          "U+0627",
+          "U+0628",
+          "U+062A",
+          "U+062B",
+          "U+062C",
+          "U+062D",
+          "U+062E",
+          "U+062F",
+          "U+0630",
+          "U+0631",
+          "U+0632",
+          "U+0633",
+          "U+0634",
+          "U+0635",
+          "U+0636",
+          "U+0637",
+          "U+0638",
+          "U+0639",
+          "U+063A",
+          "U+0641",
+          "U+0642",
+          "U+0643",
+          "U+0644",
+          "U+0645",
+          "U+0646",
+          "U+0647",
+          "U+0648",
+          "U+0649",
+          "U+064A",
+          "U+064C",
+          "U+064D",
+          "U+064E",
+          "U+064F",
+          "U+0650",
+          "U+0651",
+          "U+0652",
+          "U+0654",
+          "U+06A9",
+          "U+06C1",
+          "U+06C3",
+          "U+06CC",
+          "U+06D4",
+          "U+06F4",
+          "U+06F6",
+          "U+06F8",
+          "U+06F9"
+        ]
+      },
+      "open_type": {
+        "GSUB": [],
+        "GPOS": [],
+        "GDEF": true,
+        "kern_table": false,
+        "color_tables": [],
+        "variable_axes": [],
+        "all_tables": [
+          "FFTM",
+          "GDEF",
+          "GlyphOrder",
+          "OS/2",
+          "cmap",
+          "gasp",
+          "glyf",
+          "head",
+          "hhea",
+          "hmtx",
+          "loca",
+          "maxp",
+          "name",
+          "post",
+          "webf"
+        ]
+      },
+      "metrics": {
+        "units_per_em": 1792,
+        "font_revision": 4.0059967041015625,
+        "bbox": {
+          "xMin": -1,
+          "yMin": -256,
+          "xMax": 2305,
+          "yMax": 1536
+        },
+        "weight_class": 400,
+        "weight_label": "Regular",
+        "width_class": 5,
+        "width_label": "Medium",
+        "vendor_id": "pyrs",
+        "fs_selection": 64,
+        "first_char_index": 32,
+        "last_char_index": 62720,
+        "cap_height": 0,
+        "x_height": 0,
+        "max_context": 1,
+        "unicode_range_bits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "codepage_range_bits": [
+          1,
+          0
+        ],
+        "panose": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "fs_type": 4,
+        "embedding_permissions": [
+          "Preview & Print embedding"
+        ],
+        "typo_ascender": 1536,
+        "typo_descender": -256,
+        "typo_line_gap": 0,
+        "win_ascent": 1536,
+        "win_descent": 256,
+        "hhea_ascender": 1536,
+        "hhea_descender": -256,
+        "hhea_line_gap": 0,
+        "italic_angle": 0.0,
+        "underline_position": 0,
+        "underline_thickness": 0,
+        "number_of_h_metrics": 667,
+        "head_created": null,
+        "head_modified": null,
+        "mac_style": 0,
+        "font_flags": 2059,
+        "outline_tables": [
+          "glyf"
+        ]
+      },
+      "possible_roles_from_names": [
+        "Not identified from metadata/name"
+      ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
+      "cmap_codepoints": [
+        32,
+        160,
+        168,
+        169,
+        174,
+        180,
+        198,
+        216,
+        8192,
+        8193,
+        8194,
+        8195,
+        8196,
+        8197,
+        8198,
+        8199,
+        8200,
+        8201,
+        8202,
+        8239,
+        8287,
+        8482,
+        8734,
+        8800,
+        9724,
+        61440,
+        61441,
+        61442,
+        61443,
+        61444,
+        61445,
+        61446,
+        61447,
+        61448,
+        61449,
+        61450,
+        61451,
+        61452,
+        61453,
+        61454,
+        61456,
+        61457,
+        61458,
+        61459,
+        61460,
+        61461,
+        61462,
+        61463,
+        61464,
+        61465,
+        61466,
+        61467,
+        61468,
+        61469,
+        61470,
+        61473,
+        61474,
+        61475,
+        61476,
+        61477,
+        61478,
+        61479,
+        61480,
+        61481,
+        61482,
+        61483,
+        61484,
+        61485,
+        61486,
+        61487,
+        61488,
+        61489,
+        61490,
+        61491,
+        61492,
+        61493,
+        61494,
+        61495,
+        61496,
+        61497,
+        61498,
+        61499,
+        61500,
+        61501,
+        61502,
+        61504,
+        61505,
+        61506,
+        61507,
+        61508,
+        61509,
+        61510,
+        61511,
+        61512,
+        61513,
+        61514,
+        61515,
+        61516,
+        61517,
+        61518,
+        61520,
+        61521,
+        61522,
+        61523,
+        61524,
+        61525,
+        61526,
+        61527,
+        61528,
+        61529,
+        61530,
+        61531,
+        61532,
+        61533,
+        61534,
+        61536,
+        61537,
+        61538,
+        61539,
+        61540,
+        61541,
+        61542,
+        61543,
+        61544,
+        61545,
+        61546,
+        61547,
+        61548,
+        61549,
+        61550,
+        61552,
+        61553,
+        61554,
+        61555,
+        61556,
+        61557,
+        61558,
+        61559,
+        61560,
+        61561,
+        61562,
+        61563,
+        61564,
+        61565,
+        61566,
+        61568,
+        61569,
+        61570,
+        61571,
+        61572,
+        61573,
+        61574,
+        61575,
+        61576,
+        61577,
+        61578,
+        61579,
+        61580,
+        61581,
+        61582,
+        61584,
+        61585,
+        61586,
+        61587,
+        61588,
+        61589,
+        61590,
+        61591,
+        61592,
+        61593,
+        61594,
+        61595,
+        61596,
+        61597,
+        61598,
+        61600,
+        61601,
+        61602,
+        61603,
+        61604,
+        61605,
+        61606,
+        61607,
+        61608,
+        61609,
+        61610,
+        61611,
+        61612,
+        61613,
+        61614,
+        61616,
+        61617,
+        61618,
+        61632,
+        61633,
+        61634,
+        61635,
+        61636,
+        61637,
+        61638,
+        61639,
+        61640,
+        61641,
+        61642,
+        61643,
+        61644,
+        61645,
+        61646,
+        61648,
+        61649,
+        61650,
+        61651,
+        61652,
+        61653,
+        61654,
+        61655,
+        61656,
+        61657,
+        61658,
+        61659,
+        61660,
+        61661,
+        61662,
+        61664,
+        61665,
+        61666,
+        61667,
+        61668,
+        61669,
+        61670,
+        61671,
+        61672,
+        61673,
+        61674,
+        61675,
+        61676,
+        61677,
+        61678,
+        61680,
+        61681,
+        61682,
+        61683,
+        61684,
+        61685,
+        61686,
+        61687,
+        61688,
+        61689,
+        61690,
+        61691,
+        61692,
+        61693,
+        61694,
+        61696,
+        61697,
+        61698,
+        61699,
+        61700,
+        61701,
+        61702,
+        61703,
+        61704,
+        61705,
+        61706,
+        61707,
+        61708,
+        61709,
+        61710,
+        61712,
+        61713,
+        61714,
+        61715,
+        61716,
+        61717,
+        61718,
+        61719,
+        61720,
+        61721,
+        61722,
+        61723,
+        61724,
+        61725,
+        61726,
+        61728,
+        61729,
+        61730,
+        61731,
+        61732,
+        61733,
+        61734,
+        61735,
+        61736,
+        61737,
+        61738,
+        61739,
+        61740,
+        61741,
+        61742,
+        61744,
+        61745,
+        61746,
+        61747,
+        61748,
+        61749,
+        61750,
+        61751,
+        61752,
+        61753,
+        61754,
+        61755,
+        61756,
+        61757,
+        61758,
+        61760,
+        61761,
+        61762,
+        61763,
+        61764,
+        61765,
+        61766,
+        61767,
+        61768,
+        61769,
+        61770,
+        61771,
+        61772,
+        61773,
+        61774,
+        61776,
+        61777,
+        61778,
+        61779,
+        61780,
+        61781,
+        61782,
+        61783,
+        61784,
+        61785,
+        61786,
+        61787,
+        61788,
+        61789,
+        61790,
+        61792,
+        61793,
+        61794,
+        61795,
+        61796,
+        61797,
+        61798,
+        61799,
+        61800,
+        61801,
+        61802,
+        61803,
+        61804,
+        61805,
+        61806,
+        61808,
+        61809,
+        61810,
+        61811,
+        61812,
+        61813,
+        61814,
+        61815,
+        61816,
+        61817,
+        61818,
+        61819,
+        61820,
+        61821,
+        61822,
+        61824,
+        61825,
+        61826,
+        61827,
+        61828,
+        61829,
+        61830,
+        61831,
+        61832,
+        61833,
+        61834,
+        61835,
+        61836,
+        61837,
+        61838,
+        61840,
+        61841,
+        61842,
+        61843,
+        61844,
+        61845,
+        61846,
+        61847,
+        61848,
+        61849,
+        61850,
+        61851,
+        61852,
+        61853,
+        61854,
+        61856,
+        61857,
+        61858,
+        61859,
+        61860,
+        61861,
+        61862,
+        61863,
+        61864,
+        61865,
+        61866,
+        61867,
+        61868,
+        61869,
+        61870,
+        61872,
+        61873,
+        61874,
+        61875,
+        61876,
+        61877,
+        61878,
+        61879,
+        61880,
+        61881,
+        61882,
+        61883,
+        61884,
+        61885,
+        61886,
+        61888,
+        61889,
+        61890,
+        61891,
+        61892,
+        61893,
+        61894,
+        61895,
+        61896,
+        61897,
+        61898,
+        61899,
+        61900,
+        61901,
+        61902,
+        61904,
+        61905,
+        61906,
+        61907,
+        61908,
+        61909,
+        61910,
+        61911,
+        61912,
+        61913,
+        61914,
+        61915,
+        61916,
+        61917,
+        61918,
+        61920,
+        61921,
+        61922,
+        61923,
+        61924,
+        61925,
+        61926,
+        61927,
+        61928,
+        61929,
+        61930,
+        61931,
+        61932,
+        61933,
+        61934,
+        61936,
+        61937,
+        61938,
+        61939,
+        61940,
+        61941,
+        61942,
+        61943,
+        61944,
+        61945,
+        61946,
+        61947,
+        61948,
+        61949,
+        61950,
+        61952,
+        61953,
+        61954,
+        61955,
+        61956,
+        61957,
+        61958,
+        61959,
+        61960,
+        61961,
+        61962,
+        61963,
+        61964,
+        61965,
+        61966,
+        61968,
+        61969,
+        61970,
+        61971,
+        61972,
+        61973,
+        61974,
+        61975,
+        61976,
+        61977,
+        61978,
+        61979,
+        61980,
+        61981,
+        61982,
+        61985,
+        61986,
+        61987,
+        61988,
+        61989,
+        61990,
+        61991,
+        61992,
+        61993,
+        61994,
+        61995,
+        61996,
+        61997,
+        61998,
+        61999,
+        62000,
+        62001,
+        62002,
+        62003,
+        62004,
+        62005,
+        62006,
+        62007,
+        62008,
+        62009,
+        62010,
+        62011,
+        62012,
+        62013,
+        62014,
+        62016,
+        62017,
+        62018,
+        62019,
+        62020,
+        62021,
+        62022,
+        62023,
+        62024,
+        62025,
+        62026,
+        62027,
+        62028,
+        62029,
+        62030,
+        62032,
+        62033,
+        62034,
+        62035,
+        62036,
+        62037,
+        62038,
+        62039,
+        62040,
+        62041,
+        62042,
+        62043,
+        62044,
+        62045,
+        62046,
+        62048,
+        62049,
+        62050,
+        62051,
+        62052,
+        62053,
+        62054,
+        62055,
+        62056,
+        62057,
+        62058,
+        62059,
+        62060,
+        62061,
+        62062,
+        62064,
+        62065,
+        62066,
+        62067,
+        62068,
+        62069,
+        62070,
+        62071,
+        62072,
+        62073,
+        62074,
+        62075,
+        62076,
+        62077,
+        62078,
+        62080,
+        62081,
+        62082,
+        62083,
+        62084,
+        62085,
+        62086,
+        62087,
+        62088,
+        62089,
+        62090,
+        62091,
+        62092,
+        62093,
+        62094,
+        62096,
+        62097,
+        62098,
+        62099,
+        62100,
+        62101,
+        62102,
+        62103,
+        62104,
+        62105,
+        62106,
+        62107,
+        62108,
+        62109,
+        62110,
+        62112,
+        62113,
+        62114,
+        62115,
+        62116,
+        62117,
+        62118,
+        62119,
+        62120,
+        62121,
+        62122,
+        62123,
+        62124,
+        62125,
+        62126,
+        62128,
+        62129,
+        62130,
+        62131,
+        62132,
+        62133,
+        62134,
+        62135,
+        62136,
+        62137,
+        62138,
+        62139,
+        62140,
+        62141,
+        62142,
+        62720
+      ],
+      "cmap": {
+        "32": "space",
+        "160": "uni00A0",
+        "168": "dieresis",
+        "169": "copyright",
+        "174": "registered",
+        "180": "acute",
+        "198": "AE",
+        "216": "Oslash",
+        "8192": "uni2000",
+        "8193": "uni2001",
+        "8194": "uni2002",
+        "8195": "uni2003",
+        "8196": "uni2004",
+        "8197": "uni2005",
+        "8198": "uni2006",
+        "8199": "uni2007",
+        "8200": "uni2008",
+        "8201": "uni2009",
+        "8202": "uni200A",
+        "8239": "uni202F",
+        "8287": "uni205F",
+        "8482": "trademark",
+        "8734": "infinity",
+        "8800": "notequal",
+        "9724": "uni25FC",
+        "61440": "glass",
+        "61441": "music",
+        "61442": "search",
+        "61443": "envelope",
+        "61444": "heart",
+        "61445": "star",
+        "61446": "star_empty",
+        "61447": "user",
+        "61448": "film",
+        "61449": "th_large",
+        "61450": "th",
+        "61451": "th_list",
+        "61452": "ok",
+        "61453": "remove",
+        "61454": "zoom_in",
+        "61456": "zoom_out",
+        "61457": "off",
+        "61458": "signal",
+        "61459": "cog",
+        "61460": "trash",
+        "61461": "home",
+        "61462": "file_alt",
+        "61463": "time",
+        "61464": "road",
+        "61465": "download_alt",
+        "61466": "download",
+        "61467": "upload",
+        "61468": "inbox",
+        "61469": "play_circle",
+        "61470": "repeat",
+        "61473": "refresh",
+        "61474": "list_alt",
+        "61475": "lock",
+        "61476": "flag",
+        "61477": "headphones",
+        "61478": "volume_off",
+        "61479": "volume_down",
+        "61480": "volume_up",
+        "61481": "qrcode",
+        "61482": "barcode",
+        "61483": "tag",
+        "61484": "tags",
+        "61485": "book",
+        "61486": "bookmark",
+        "61487": "print",
+        "61488": "camera",
+        "61489": "font",
+        "61490": "bold",
+        "61491": "italic",
+        "61492": "text_height",
+        "61493": "text_width",
+        "61494": "align_left",
+        "61495": "align_center",
+        "61496": "align_right",
+        "61497": "align_justify",
+        "61498": "list",
+        "61499": "indent_left",
+        "61500": "indent_right",
+        "61501": "facetime_video",
+        "61502": "picture",
+        "61504": "pencil",
+        "61505": "map_marker",
+        "61506": "adjust",
+        "61507": "tint",
+        "61508": "edit",
+        "61509": "share",
+        "61510": "check",
+        "61511": "move",
+        "61512": "step_backward",
+        "61513": "fast_backward",
+        "61514": "backward",
+        "61515": "play",
+        "61516": "pause",
+        "61517": "stop",
+        "61518": "forward",
+        "61520": "fast_forward",
+        "61521": "step_forward",
+        "61522": "eject",
+        "61523": "chevron_left",
+        "61524": "chevron_right",
+        "61525": "plus_sign",
+        "61526": "minus_sign",
+        "61527": "remove_sign",
+        "61528": "ok_sign",
+        "61529": "question_sign",
+        "61530": "info_sign",
+        "61531": "screenshot",
+        "61532": "remove_circle",
+        "61533": "ok_circle",
+        "61534": "ban_circle",
+        "61536": "arrow_left",
+        "61537": "arrow_right",
+        "61538": "arrow_up",
+        "61539": "arrow_down",
+        "61540": "share_alt",
+        "61541": "resize_full",
+        "61542": "resize_small",
+        "61543": "plus",
+        "61544": "minus",
+        "61545": "asterisk",
+        "61546": "exclamation_sign",
+        "61547": "gift",
+        "61548": "leaf",
+        "61549": "fire",
+        "61550": "eye_open",
+        "61552": "eye_close",
+        "61553": "warning_sign",
+        "61554": "plane",
+        "61555": "calendar",
+        "61556": "random",
+        "61557": "comment",
+        "61558": "magnet",
+        "61559": "chevron_up",
+        "61560": "chevron_down",
+        "61561": "retweet",
+        "61562": "shopping_cart",
+        "61563": "folder_close",
+        "61564": "folder_open",
+        "61565": "resize_vertical",
+        "61566": "resize_horizontal",
+        "61568": "bar_chart",
+        "61569": "twitter_sign",
+        "61570": "facebook_sign",
+        "61571": "camera_retro",
+        "61572": "key",
+        "61573": "cogs",
+        "61574": "comments",
+        "61575": "thumbs_up_alt",
+        "61576": "thumbs_down_alt",
+        "61577": "star_half",
+        "61578": "heart_empty",
+        "61579": "signout",
+        "61580": "linkedin_sign",
+        "61581": "pushpin",
+        "61582": "external_link",
+        "61584": "signin",
+        "61585": "trophy",
+        "61586": "github_sign",
+        "61587": "upload_alt",
+        "61588": "lemon",
+        "61589": "phone",
+        "61590": "check_empty",
+        "61591": "bookmark_empty",
+        "61592": "phone_sign",
+        "61593": "twitter",
+        "61594": "facebook",
+        "61595": "github",
+        "61596": "unlock",
+        "61597": "credit_card",
+        "61598": "rss",
+        "61600": "hdd",
+        "61601": "bullhorn",
+        "61602": "bell",
+        "61603": "certificate",
+        "61604": "hand_right",
+        "61605": "hand_left",
+        "61606": "hand_up",
+        "61607": "hand_down",
+        "61608": "circle_arrow_left",
+        "61609": "circle_arrow_right",
+        "61610": "circle_arrow_up",
+        "61611": "circle_arrow_down",
+        "61612": "globe",
+        "61613": "wrench",
+        "61614": "tasks",
+        "61616": "filter",
+        "61617": "briefcase",
+        "61618": "fullscreen",
+        "61632": "group",
+        "61633": "link",
+        "61634": "cloud",
+        "61635": "beaker",
+        "61636": "cut",
+        "61637": "copy",
+        "61638": "paper_clip",
+        "61639": "save",
+        "61640": "sign_blank",
+        "61641": "reorder",
+        "61642": "ul",
+        "61643": "ol",
+        "61644": "strikethrough",
+        "61645": "underline",
+        "61646": "table",
+        "61648": "magic",
+        "61649": "truck",
+        "61650": "pinterest",
+        "61651": "pinterest_sign",
+        "61652": "google_plus_sign",
+        "61653": "google_plus",
+        "61654": "money",
+        "61655": "caret_down",
+        "61656": "caret_up",
+        "61657": "caret_left",
+        "61658": "caret_right",
+        "61659": "columns",
+        "61660": "sort",
+        "61661": "sort_down",
+        "61662": "sort_up",
+        "61664": "envelope_alt",
+        "61665": "linkedin",
+        "61666": "undo",
+        "61667": "legal",
+        "61668": "dashboard",
+        "61669": "comment_alt",
+        "61670": "comments_alt",
+        "61671": "bolt",
+        "61672": "sitemap",
+        "61673": "umbrella",
+        "61674": "paste",
+        "61675": "light_bulb",
+        "61676": "exchange",
+        "61677": "cloud_download",
+        "61678": "cloud_upload",
+        "61680": "user_md",
+        "61681": "stethoscope",
+        "61682": "suitcase",
+        "61683": "bell_alt",
+        "61684": "coffee",
+        "61685": "food",
+        "61686": "file_text_alt",
+        "61687": "building",
+        "61688": "hospital",
+        "61689": "ambulance",
+        "61690": "medkit",
+        "61691": "fighter_jet",
+        "61692": "beer",
+        "61693": "h_sign",
+        "61694": "f0fe",
+        "61696": "double_angle_left",
+        "61697": "double_angle_right",
+        "61698": "double_angle_up",
+        "61699": "double_angle_down",
+        "61700": "angle_left",
+        "61701": "angle_right",
+        "61702": "angle_up",
+        "61703": "angle_down",
+        "61704": "desktop",
+        "61705": "laptop",
+        "61706": "tablet",
+        "61707": "mobile_phone",
+        "61708": "circle_blank",
+        "61709": "quote_left",
+        "61710": "quote_right",
+        "61712": "spinner",
+        "61713": "circle",
+        "61714": "reply",
+        "61715": "github_alt",
+        "61716": "folder_close_alt",
+        "61717": "folder_open_alt",
+        "61718": "expand_alt",
+        "61719": "collapse_alt",
+        "61720": "smile",
+        "61721": "frown",
+        "61722": "meh",
+        "61723": "gamepad",
+        "61724": "keyboard",
+        "61725": "flag_alt",
+        "61726": "flag_checkered",
+        "61728": "terminal",
+        "61729": "code",
+        "61730": "reply_all",
+        "61731": "star_half_empty",
+        "61732": "location_arrow",
+        "61733": "crop",
+        "61734": "code_fork",
+        "61735": "unlink",
+        "61736": "question",
+        "61737": "_279",
+        "61738": "exclamation",
+        "61739": "superscript",
+        "61740": "subscript",
+        "61741": "_283",
+        "61742": "puzzle_piece",
+        "61744": "microphone",
+        "61745": "microphone_off",
+        "61746": "shield",
+        "61747": "calendar_empty",
+        "61748": "fire_extinguisher",
+        "61749": "rocket",
+        "61750": "maxcdn",
+        "61751": "chevron_sign_left",
+        "61752": "chevron_sign_right",
+        "61753": "chevron_sign_up",
+        "61754": "chevron_sign_down",
+        "61755": "html5",
+        "61756": "css3",
+        "61757": "anchor",
+        "61758": "unlock_alt",
+        "61760": "bullseye",
+        "61761": "ellipsis_horizontal",
+        "61762": "ellipsis_vertical",
+        "61763": "_303",
+        "61764": "play_sign",
+        "61765": "ticket",
+        "61766": "minus_sign_alt",
+        "61767": "check_minus",
+        "61768": "level_up",
+        "61769": "level_down",
+        "61770": "check_sign",
+        "61771": "edit_sign",
+        "61772": "_312",
+        "61773": "share_sign",
+        "61774": "compass",
+        "61776": "collapse",
+        "61777": "collapse_top",
+        "61778": "_317",
+        "61779": "eur",
+        "61780": "gbp",
+        "61781": "usd",
+        "61782": "inr",
+        "61783": "jpy",
+        "61784": "rub",
+        "61785": "krw",
+        "61786": "btc",
+        "61787": "file",
+        "61788": "file_text",
+        "61789": "sort_by_alphabet",
+        "61790": "_329",
+        "61792": "sort_by_attributes",
+        "61793": "sort_by_attributes_alt",
+        "61794": "sort_by_order",
+        "61795": "sort_by_order_alt",
+        "61796": "_334",
+        "61797": "_335",
+        "61798": "youtube_sign",
+        "61799": "youtube",
+        "61800": "xing",
+        "61801": "xing_sign",
+        "61802": "youtube_play",
+        "61803": "dropbox",
+        "61804": "stackexchange",
+        "61805": "instagram",
+        "61806": "flickr",
+        "61808": "adn",
+        "61809": "f171",
+        "61810": "bitbucket_sign",
+        "61811": "tumblr",
+        "61812": "tumblr_sign",
+        "61813": "long_arrow_down",
+        "61814": "long_arrow_up",
+        "61815": "long_arrow_left",
+        "61816": "long_arrow_right",
+        "61817": "apple",
+        "61818": "windows",
+        "61819": "android",
+        "61820": "linux",
+        "61821": "dribble",
+        "61822": "skype",
+        "61824": "foursquare",
+        "61825": "trello",
+        "61826": "female",
+        "61827": "male",
+        "61828": "gittip",
+        "61829": "sun",
+        "61830": "_366",
+        "61831": "archive",
+        "61832": "bug",
+        "61833": "vk",
+        "61834": "weibo",
+        "61835": "renren",
+        "61836": "_372",
+        "61837": "stack_exchange",
+        "61838": "_374",
+        "61840": "arrow_circle_alt_left",
+        "61841": "_376",
+        "61842": "dot_circle_alt",
+        "61843": "_378",
+        "61844": "vimeo_square",
+        "61845": "_380",
+        "61846": "plus_square_o",
+        "61847": "_382",
+        "61848": "_383",
+        "61849": "_384",
+        "61850": "_385",
+        "61851": "_386",
+        "61852": "_387",
+        "61853": "_388",
+        "61854": "_389",
+        "61856": "uniF1A0",
+        "61857": "f1a1",
+        "61858": "_392",
+        "61859": "_393",
+        "61860": "f1a4",
+        "61861": "_395",
+        "61862": "_396",
+        "61863": "_397",
+        "61864": "_398",
+        "61865": "_399",
+        "61866": "_400",
+        "61867": "f1ab",
+        "61868": "_402",
+        "61869": "_403",
+        "61870": "_404",
+        "61872": "uniF1B1",
+        "61873": "_406",
+        "61874": "_407",
+        "61875": "_408",
+        "61876": "_409",
+        "61877": "_410",
+        "61878": "_411",
+        "61879": "_412",
+        "61880": "_413",
+        "61881": "_414",
+        "61882": "_415",
+        "61883": "_416",
+        "61884": "_417",
+        "61885": "_418",
+        "61886": "_419",
+        "61888": "uniF1C0",
+        "61889": "uniF1C1",
+        "61890": "_422",
+        "61891": "_423",
+        "61892": "_424",
+        "61893": "_425",
+        "61894": "_426",
+        "61895": "_427",
+        "61896": "_428",
+        "61897": "_429",
+        "61898": "_430",
+        "61899": "_431",
+        "61900": "_432",
+        "61901": "_433",
+        "61902": "_434",
+        "61904": "uniF1D0",
+        "61905": "uniF1D1",
+        "61906": "uniF1D2",
+        "61907": "_438",
+        "61908": "_439",
+        "61909": "uniF1D5",
+        "61910": "uniF1D6",
+        "61911": "uniF1D7",
+        "61912": "_443",
+        "61913": "_444",
+        "61914": "_445",
+        "61915": "_446",
+        "61916": "_447",
+        "61917": "_448",
+        "61918": "_449",
+        "61920": "uniF1E0",
+        "61921": "_451",
+        "61922": "_452",
+        "61923": "_453",
+        "61924": "_454",
+        "61925": "_455",
+        "61926": "_456",
+        "61927": "_457",
+        "61928": "_458",
+        "61929": "_459",
+        "61930": "_460",
+        "61931": "_461",
+        "61932": "_462",
+        "61933": "_463",
+        "61934": "_464",
+        "61936": "uniF1F0",
+        "61937": "_466",
+        "61938": "_467",
+        "61939": "f1f3",
+        "61940": "_469",
+        "61941": "_470",
+        "61942": "_471",
+        "61943": "_472",
+        "61944": "_473",
+        "61945": "_474",
+        "61946": "_475",
+        "61947": "_476",
+        "61948": "f1fc",
+        "61949": "_478",
+        "61950": "_479",
+        "61952": "_480",
+        "61953": "_481",
+        "61954": "_482",
+        "61955": "_483",
+        "61956": "_484",
+        "61957": "_485",
+        "61958": "_486",
+        "61959": "_487",
+        "61960": "_488",
+        "61961": "_489",
+        "61962": "_490",
+        "61963": "_491",
+        "61964": "_492",
+        "61965": "_493",
+        "61966": "_494",
+        "61968": "f210",
+        "61969": "_496",
+        "61970": "f212",
+        "61971": "_498",
+        "61972": "_499",
+        "61973": "_500",
+        "61974": "_501",
+        "61975": "_502",
+        "61976": "_503",
+        "61977": "_504",
+        "61978": "_505",
+        "61979": "_506",
+        "61980": "_507",
+        "61981": "_508",
+        "61982": "_509",
+        "61985": "venus",
+        "61986": "_511",
+        "61987": "_512",
+        "61988": "_513",
+        "61989": "_514",
+        "61990": "_515",
+        "61991": "_516",
+        "61992": "_517",
+        "61993": "_518",
+        "61994": "_519",
+        "61995": "_520",
+        "61996": "_521",
+        "61997": "_522",
+        "61998": "_523",
+        "61999": "_524",
+        "62000": "_525",
+        "62001": "_526",
+        "62002": "_527",
+        "62003": "_528",
+        "62004": "_529",
+        "62005": "_530",
+        "62006": "_531",
+        "62007": "_532",
+        "62008": "_533",
+        "62009": "_534",
+        "62010": "_535",
+        "62011": "_536",
+        "62012": "_537",
+        "62013": "_538",
+        "62014": "_539",
+        "62016": "_540",
+        "62017": "_541",
+        "62018": "_542",
+        "62019": "_543",
+        "62020": "_544",
+        "62021": "_545",
+        "62022": "_546",
+        "62023": "_547",
+        "62024": "_548",
+        "62025": "_549",
+        "62026": "_550",
+        "62027": "_551",
+        "62028": "_552",
+        "62029": "_553",
+        "62030": "_554",
+        "62032": "_555",
+        "62033": "_556",
+        "62034": "_557",
+        "62035": "_558",
+        "62036": "_559",
+        "62037": "_560",
+        "62038": "_561",
+        "62039": "_562",
+        "62040": "_563",
+        "62041": "_564",
+        "62042": "_565",
+        "62043": "_566",
+        "62044": "_567",
+        "62045": "_568",
+        "62046": "_569",
+        "62048": "f260",
+        "62049": "f261",
+        "62050": "_572",
+        "62051": "f263",
+        "62052": "_574",
+        "62053": "_575",
+        "62054": "_576",
+        "62055": "_577",
+        "62056": "_578",
+        "62057": "_579",
+        "62058": "_580",
+        "62059": "_581",
+        "62060": "_582",
+        "62061": "_583",
+        "62062": "_584",
+        "62064": "_585",
+        "62065": "_586",
+        "62066": "_587",
+        "62067": "_588",
+        "62068": "_589",
+        "62069": "_590",
+        "62070": "_591",
+        "62071": "_592",
+        "62072": "_593",
+        "62073": "_594",
+        "62074": "_595",
+        "62075": "_596",
+        "62076": "_597",
+        "62077": "_598",
+        "62078": "f27e",
+        "62080": "uniF280",
+        "62081": "uniF281",
+        "62082": "_602",
+        "62083": "_603",
+        "62084": "_604",
+        "62085": "uniF285",
+        "62086": "uniF286",
+        "62087": "_607",
+        "62088": "_608",
+        "62089": "_609",
+        "62090": "_610",
+        "62091": "_611",
+        "62092": "_612",
+        "62093": "_613",
+        "62094": "_614",
+        "62096": "_615",
+        "62097": "_616",
+        "62098": "_617",
+        "62099": "_618",
+        "62100": "_619",
+        "62101": "_620",
+        "62102": "_621",
+        "62103": "_622",
+        "62104": "_623",
+        "62105": "_624",
+        "62106": "_625",
+        "62107": "_626",
+        "62108": "_627",
+        "62109": "_628",
+        "62110": "_629",
+        "62112": "uniF2A0",
+        "62113": "uniF2A1",
+        "62114": "uniF2A2",
+        "62115": "uniF2A3",
+        "62116": "uniF2A4",
+        "62117": "uniF2A5",
+        "62118": "uniF2A6",
+        "62119": "uniF2A7",
+        "62120": "uniF2A8",
+        "62121": "uniF2A9",
+        "62122": "uniF2AA",
+        "62123": "uniF2AB",
+        "62124": "uniF2AC",
+        "62125": "uniF2AD",
+        "62126": "uniF2AE",
+        "62128": "uniF2B0",
+        "62129": "uniF2B1",
+        "62130": "uniF2B2",
+        "62131": "uniF2B3",
+        "62132": "uniF2B4",
+        "62133": "uniF2B5",
+        "62134": "uniF2B6",
+        "62135": "uniF2B7",
+        "62136": "uniF2B8",
+        "62137": "uniF2B9",
+        "62138": "uniF2BA",
+        "62139": "uniF2BB",
+        "62140": "uniF2BC",
+        "62141": "uniF2BD",
+        "62142": "uniF2BE",
+        "62720": "lessequal"
+      },
+      "error": null
+    },
+    {
       "filename": "KacstBook.ttf",
       "extension": ".ttf",
       "file_size_bytes": 63100,
@@ -12977,6 +14988,21 @@
       "possible_roles_from_names": [
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         1548,
@@ -13598,6 +15624,21 @@
       "possible_roles_from_names": [
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -15780,6 +17821,21 @@
       "possible_roles_from_names": [
         "Naskh"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "KFGQPC / QPC-associated"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "QPC / Madani-associated naming"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -16582,6 +18638,21 @@
       "possible_roles_from_names": [
         "qur'anic / mushaf"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "KFGQPC / QPC-associated"
+        ],
+        "recitation_labels_from_metadata": [
+          "Hafs"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "QPC / Madani-associated naming"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         48,
@@ -17314,6 +19385,21 @@
       "possible_roles_from_names": [
         "qur'anic / mushaf"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         1,
         32,
@@ -19532,6 +21618,21 @@
         "Kufi",
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Kufi"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -20356,6 +22457,21 @@
         "Naskh",
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -22814,6 +24930,21 @@
       "possible_roles_from_names": [
         "Nastaliq"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Nastaleeq"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "IndoPak-associated naming"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -23655,6 +25786,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -24274,6 +26420,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -24899,6 +27060,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -25524,6 +27700,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -26149,6 +28340,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -26774,6 +28980,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -27399,6 +29620,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -28024,6 +30260,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -28649,6 +30900,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -29274,6 +31540,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -29899,6 +32180,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -30524,6 +32820,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -31149,6 +33460,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -31774,6 +34100,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -32399,6 +34740,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -33024,6 +35380,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -33649,6 +36020,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -34274,6 +36660,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -34899,6 +37300,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -35524,6 +37940,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -36149,6 +38580,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -36774,6 +39220,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -37399,6 +39860,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -38024,6 +40500,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -38643,6 +41134,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -39268,6 +41774,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -39893,6 +42414,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -40518,6 +43054,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -41143,6 +43694,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -41768,6 +44334,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -42393,6 +44974,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -43018,6 +45614,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -43643,6 +46254,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -44268,6 +46894,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -44893,6 +47534,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -45518,6 +48174,21 @@
       "possible_roles_from_names": [
         "Bengali"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Noto family"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         0,
         13,
@@ -46116,6 +48787,21 @@
         "Naskh",
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -47626,6 +50312,21 @@
         "Naskh",
         "Arabic prose / general Arabic"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         33,
@@ -49097,6 +51798,21 @@
       "possible_roles_from_names": [
         "qur'anic / mushaf"
       ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "KFGQPC / QPC-associated"
+        ],
+        "recitation_labels_from_metadata": [
+          "Hafs"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "QPC / Madani-associated naming"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
       "cmap_codepoints": [
         32,
         40,
@@ -50318,14 +53034,983 @@
         "64893": "uniFD7D"
       },
       "error": null
+    },
+    {
+      "filename": "UthmanTN1.otf",
+      "extension": ".otf",
+      "file_size_bytes": 173010,
+      "sha256": "d034f4895ef5c86008b44f95ed32feafc3535ccd084f7a06bf39b4cc2116c1f7",
+      "family": "KFGQPC Uthman Taha Naskh",
+      "subfamily": "Regular",
+      "full_name": "KFGQPC Uthman Taha Naskh",
+      "postscript_name": "KFGQPCUthmanTahaNaskh",
+      "version": "Version 0.10",
+      "names": {
+        "copyright": [
+          "The digitally signed machine readable Typeface(Font) licensed to you is copyrighted ©, (2008-2010), King Fahd Glorious Quran Printing Complex.\r\nISBN: 978-9960-8010, Accession No. 1429/5834\r\nAll rights reserved. This Font is the property of King Fahd Glorious Quran Printing Complex, and may not be reproduced, modified without the express written approval of King Fahd Glorious Quran Printing Complex."
+        ],
+        "family": [
+          "KFGQPC Uthman Taha Naskh"
+        ],
+        "subfamily": [
+          "Regular"
+        ],
+        "unique_id": [
+          "ITDepartment: KFGQPC Uthman Taha Naskh: 2010"
+        ],
+        "full_name": [
+          "KFGQPC Uthman Taha Naskh"
+        ],
+        "version": [
+          "Version 0.10"
+        ],
+        "postscript_name": [
+          "KFGQPCUthmanTahaNaskh"
+        ],
+        "manufacturer": [
+          "IT Department"
+        ],
+        "designer": [
+          "Ashfaq Ahmad Niazi"
+        ],
+        "vendor_url": [
+          "http://fonts.qurancomplex.gov.sa"
+        ],
+        "designer_url": [
+          "http://fonts.qurancomplex.gov.sa"
+        ],
+        "license_description": [
+          "ELECTRONIC END-USER LICENSE AGREEMENT\r\n\r\nBy installing this Font You accept all the terms and conditions of this Agreement.\r\n\r\nCopyright (c) 2008 by King Fahd Glorious Quran Printing Complex (KFGQPC), Al-Madinah Al-Munawarrah, Kingdom of Saudi Arabia. All Rights Reserved. The Font is owned by KFGQPC and its structure, organization and code are the valuable asset of KFGQPC. This Agreement does not grant you any intellectual property rights in the Font.\r\n\r\nPermission is hereby granted, Free of Cost, to any person obtaining a copy of this Font accompanying this license, the rights to Use, Copy, Distribute, subject to the following conditions:\r\n\r\n1.    The Font Software cannot be Sold, Modified, Altered, Translated, Reverse Engineered, Decompiled, Disassembled, Reproduced or Attempted to discover the Source Code of this Font in no means.\r\n\r\n2.    The Font Software is provided \"AS IS\", and KFGQPC makes no warranties as to its use or performance, fitness for a particular purpose. KFGQPC does not and cannot warrant the performance or results you may obtain by using the Font. In no event shall KFGQPC be liable for any Claims, Damages or other Liability, including any Damages, arising from, out of the use or inability to use the Font or from other dealings in the Font."
+        ]
+      },
+      "glyph_count": 637,
+      "unicode_cmap_count": 293,
+      "unicode_cmap_formats": [
+        4
+      ],
+      "cmap_subtables": [
+        {
+          "platform_id": 0,
+          "encoding_id": 3,
+          "format": 4,
+          "language": 0,
+          "unicode": true,
+          "mapping_count": 293
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "format": 6,
+          "language": 0,
+          "unicode": false,
+          "mapping_count": 54
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "format": 4,
+          "language": 0,
+          "unicode": true,
+          "mapping_count": 293
+        }
+      ],
+      "sfnt_version": "\u0000\u0001\u0000\u0000",
+      "woff_flavor": "sfnt",
+      "script_coverage": {
+        "Arabic": 93,
+        "Arabic Presentation Forms-B": 89,
+        "Latin": 43,
+        "Arabic Presentation Forms-A": 29,
+        "Private Use Area": 29
+      },
+      "arabic_codepoint_count": 211,
+      "perso_arabic_codepoint_count": 23,
+      "private_use_codepoint_count": 29,
+      "text_coverage": {
+        "total": 54,
+        "mapped": 52,
+        "missing": 2,
+        "percent": 96.3,
+        "missing_codepoints": [
+          "U+06C3",
+          "U+06D4"
+        ]
+      },
+      "open_type": {
+        "GSUB": [
+          "calt",
+          "fina",
+          "init",
+          "liga",
+          "medi"
+        ],
+        "GPOS": [
+          "curs",
+          "mark",
+          "mkmk"
+        ],
+        "GDEF": true,
+        "kern_table": false,
+        "color_tables": [],
+        "variable_axes": [],
+        "all_tables": [
+          "DSIG",
+          "GDEF",
+          "GPOS",
+          "GSUB",
+          "GlyphOrder",
+          "LTSH",
+          "OS/2",
+          "VDMX",
+          "cmap",
+          "cvt ",
+          "fpgm",
+          "gasp",
+          "glyf",
+          "hdmx",
+          "head",
+          "hhea",
+          "hmtx",
+          "loca",
+          "maxp",
+          "name",
+          "post",
+          "prep"
+        ]
+      },
+      "metrics": {
+        "units_per_em": 2048,
+        "font_revision": 0.0,
+        "bbox": {
+          "xMin": -259,
+          "yMin": -1088,
+          "xMax": 2437,
+          "yMax": 2179
+        },
+        "weight_class": 400,
+        "weight_label": "Regular",
+        "width_class": 5,
+        "width_label": "Medium",
+        "vendor_id": "KFGQ",
+        "fs_selection": 64,
+        "first_char_index": 32,
+        "last_char_index": 65276,
+        "cap_height": 1472,
+        "x_height": 695,
+        "max_context": 0,
+        "unicode_range_bits": [
+          2147491840,
+          2415919104,
+          8,
+          0
+        ],
+        "codepage_range_bits": [
+          64,
+          0
+        ],
+        "panose": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "fs_type": 0,
+        "embedding_permissions": [
+          "Installable embedding (fsType=0)"
+        ],
+        "typo_ascender": 2300,
+        "typo_descender": -1150,
+        "typo_line_gap": 0,
+        "win_ascent": 2300,
+        "win_descent": 1150,
+        "hhea_ascender": 2300,
+        "hhea_descender": -1150,
+        "hhea_line_gap": 0,
+        "italic_angle": 0.0,
+        "underline_position": -699,
+        "underline_thickness": 102,
+        "number_of_h_metrics": 637,
+        "head_created": null,
+        "head_modified": null,
+        "mac_style": 0,
+        "font_flags": 25,
+        "outline_tables": [
+          "glyf"
+        ]
+      },
+      "possible_roles_from_names": [
+        "Naskh"
+      ],
+      "metadata_profile": {
+        "typographic_style_labels_from_metadata": [
+          "Naskh"
+        ],
+        "product_or_family_labels_from_metadata": [
+          "KFGQPC / QPC-associated"
+        ],
+        "recitation_labels_from_metadata": [
+          "Not stated in font name metadata"
+        ],
+        "script_tradition_labels_from_metadata": [
+          "QPC / Madani-associated naming"
+        ],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier."
+      },
+      "cmap_codepoints": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        91,
+        92,
+        93,
+        123,
+        125,
+        171,
+        176,
+        182,
+        183,
+        187,
+        215,
+        247,
+        1537,
+        1548,
+        1552,
+        1553,
+        1554,
+        1555,
+        1563,
+        1566,
+        1567,
+        1569,
+        1570,
+        1571,
+        1572,
+        1573,
+        1574,
+        1575,
+        1576,
+        1577,
+        1578,
+        1579,
+        1580,
+        1581,
+        1582,
+        1583,
+        1584,
+        1585,
+        1586,
+        1587,
+        1588,
+        1589,
+        1590,
+        1591,
+        1592,
+        1593,
+        1594,
+        1600,
+        1601,
+        1602,
+        1603,
+        1604,
+        1605,
+        1606,
+        1607,
+        1608,
+        1609,
+        1610,
+        1611,
+        1612,
+        1613,
+        1614,
+        1615,
+        1616,
+        1617,
+        1618,
+        1619,
+        1620,
+        1621,
+        1632,
+        1633,
+        1634,
+        1635,
+        1636,
+        1637,
+        1638,
+        1639,
+        1640,
+        1641,
+        1642,
+        1646,
+        1648,
+        1657,
+        1662,
+        1670,
+        1672,
+        1681,
+        1688,
+        1705,
+        1711,
+        1722,
+        1726,
+        1729,
+        1740,
+        1746,
+        1776,
+        1777,
+        1778,
+        1779,
+        1780,
+        1781,
+        1782,
+        1783,
+        1784,
+        1785,
+        8204,
+        8205,
+        8206,
+        8207,
+        8216,
+        8217,
+        8220,
+        8221,
+        8249,
+        8250,
+        61450,
+        61451,
+        61452,
+        61453,
+        61454,
+        61455,
+        61456,
+        61457,
+        61458,
+        61459,
+        61460,
+        61461,
+        61462,
+        61463,
+        61464,
+        61465,
+        61466,
+        61467,
+        61468,
+        61469,
+        61470,
+        61471,
+        61472,
+        61473,
+        61474,
+        61475,
+        61476,
+        61477,
+        61478,
+        64343,
+        64344,
+        64345,
+        64359,
+        64360,
+        64361,
+        64379,
+        64380,
+        64381,
+        64393,
+        64395,
+        64397,
+        64399,
+        64400,
+        64401,
+        64403,
+        64404,
+        64405,
+        64415,
+        64423,
+        64424,
+        64425,
+        64431,
+        64488,
+        64489,
+        64830,
+        64831,
+        65010,
+        65018,
+        65154,
+        65156,
+        65158,
+        65160,
+        65162,
+        65163,
+        65164,
+        65166,
+        65168,
+        65169,
+        65170,
+        65172,
+        65174,
+        65175,
+        65176,
+        65178,
+        65179,
+        65180,
+        65182,
+        65183,
+        65184,
+        65186,
+        65187,
+        65188,
+        65190,
+        65191,
+        65192,
+        65194,
+        65196,
+        65198,
+        65200,
+        65202,
+        65203,
+        65204,
+        65206,
+        65207,
+        65208,
+        65210,
+        65211,
+        65212,
+        65214,
+        65215,
+        65216,
+        65218,
+        65219,
+        65220,
+        65222,
+        65223,
+        65224,
+        65226,
+        65227,
+        65228,
+        65230,
+        65231,
+        65232,
+        65234,
+        65235,
+        65236,
+        65238,
+        65239,
+        65240,
+        65242,
+        65243,
+        65244,
+        65246,
+        65247,
+        65248,
+        65250,
+        65251,
+        65252,
+        65254,
+        65255,
+        65256,
+        65258,
+        65259,
+        65260,
+        65262,
+        65264,
+        65266,
+        65267,
+        65268,
+        65269,
+        65270,
+        65271,
+        65272,
+        65273,
+        65274,
+        65275,
+        65276
+      ],
+      "cmap": {
+        "32": "space",
+        "33": "exclam",
+        "34": "quotedbl",
+        "35": "numbersign",
+        "36": "dollar",
+        "37": "percent",
+        "38": "ampersand",
+        "39": "quotesingle",
+        "40": "parenleft",
+        "41": "parenright",
+        "42": "asterisk",
+        "43": "plus",
+        "44": "comma",
+        "45": "hyphen",
+        "46": "period",
+        "47": "uni002F",
+        "48": "uni0030",
+        "49": "uni0031",
+        "50": "uni0032",
+        "51": "uni0033",
+        "52": "uni0034",
+        "53": "uni0035",
+        "54": "uni0036",
+        "55": "uni0037",
+        "56": "uni0038",
+        "57": "uni0039",
+        "58": "colon",
+        "59": "semicolon",
+        "60": "less",
+        "61": "equal",
+        "62": "greater",
+        "91": "uni005B",
+        "92": "backslash",
+        "93": "uni005D",
+        "123": "uni007B",
+        "125": "uni007D",
+        "171": "guillemotleft",
+        "176": "uni00B0",
+        "182": "paragraph",
+        "183": "periodcentered",
+        "187": "guillemotright",
+        "215": "uni00D7",
+        "247": "uni00F7",
+        "1537": "uni0601",
+        "1548": "arabiccomma",
+        "1552": "uni0610",
+        "1553": "uni0611",
+        "1554": "uni0612",
+        "1555": "uni0613",
+        "1563": "arabicsemicolon",
+        "1566": "uni061E",
+        "1567": "arabicquestionmark",
+        "1569": "hamza",
+        "1570": "alefwithmaddaabove",
+        "1571": "alefwithhamzaabove",
+        "1572": "wawwithhamzaabove",
+        "1573": "alefwithhamzabelow",
+        "1574": "yehwithhamzaabove",
+        "1575": "arabicalef",
+        "1576": "beh",
+        "1577": "tehmarbuta",
+        "1578": "teh",
+        "1579": "theh",
+        "1580": "jeem",
+        "1581": "hah",
+        "1582": "khah",
+        "1583": "dal",
+        "1584": "thal",
+        "1585": "reh",
+        "1586": "zain",
+        "1587": "seen",
+        "1588": "sheen",
+        "1589": "sad",
+        "1590": "dad",
+        "1591": "tah",
+        "1592": "zah",
+        "1593": "ain",
+        "1594": "ghain",
+        "1600": "tatweel",
+        "1601": "feh",
+        "1602": "qaf",
+        "1603": "arabickaf",
+        "1604": "lam",
+        "1605": "meem",
+        "1606": "noon",
+        "1607": "heh",
+        "1608": "waw",
+        "1609": "alefmaksura",
+        "1610": "yeh",
+        "1611": "afii57451",
+        "1612": "afii57452",
+        "1613": "afii57453",
+        "1614": "afii57454",
+        "1615": "afii57455",
+        "1616": "afii57456",
+        "1617": "afii57457",
+        "1618": "afii57458",
+        "1619": "uni0653",
+        "1620": "uni0654",
+        "1621": "uni0655",
+        "1632": "_.034",
+        "1633": "_.003",
+        "1634": "_.026",
+        "1635": "_.027",
+        "1636": "_.028",
+        "1637": "_.029",
+        "1638": "_.030",
+        "1639": "_.031",
+        "1640": "_.032",
+        "1641": "_.033",
+        "1642": "afii57381",
+        "1646": "uni066E",
+        "1648": "uni0670",
+        "1657": "afii57511",
+        "1662": "afii57506",
+        "1670": "afii57507.001",
+        "1672": "afii57512",
+        "1681": "afii57513",
+        "1688": "afii57508",
+        "1705": "uni06A9",
+        "1711": "afii57509",
+        "1722": "afii57514",
+        "1726": "uni06BE",
+        "1729": "uni06C1",
+        "1740": "alifmaqUF",
+        "1746": "afii57519",
+        "1776": "uni06F0",
+        "1777": "uni06F1",
+        "1778": "uni06F2",
+        "1779": "uni06F3",
+        "1780": "uni06F4",
+        "1781": "uni06F5",
+        "1782": "uni06F6",
+        "1783": "uni06F7",
+        "1784": "uni06F8",
+        "1785": "uni06F9",
+        "8204": "zeronojoin",
+        "8205": "zerojoin",
+        "8206": "lefttoright",
+        "8207": "righttoleft",
+        "8216": "quoteleft",
+        "8217": "quoteright",
+        "8220": "quotedblleft",
+        "8221": "quotedblright",
+        "8249": "guilsinglleft",
+        "8250": "guilsinglright",
+        "61450": "f00a",
+        "61451": "f00b",
+        "61452": "f00c",
+        "61453": "f00d",
+        "61454": "f00e",
+        "61455": "foof",
+        "61456": "f010",
+        "61457": "f011",
+        "61458": "f012",
+        "61459": "f013",
+        "61460": "f014",
+        "61461": "f015",
+        "61462": "f016",
+        "61463": "f017",
+        "61464": "uniF018",
+        "61465": "uniF019",
+        "61466": "uniF01A",
+        "61467": "uniF01B",
+        "61468": "uniF01C",
+        "61469": "uniF01D",
+        "61470": "uniF01E",
+        "61471": "uniF01F",
+        "61472": "uniF020",
+        "61473": "uniF021",
+        "61474": "uniF022",
+        "61475": "uniF023",
+        "61476": "uniF024",
+        "61477": "uniF025",
+        "61478": "uniF026",
+        "64343": "uniFB57",
+        "64344": "afii62956",
+        "64345": "afii52957",
+        "64359": "uniFB67",
+        "64360": "uniFB68",
+        "64361": "uniFB69",
+        "64379": "afii62961",
+        "64380": "afii62959",
+        "64381": "afii62960",
+        "64393": "uniFB89",
+        "64395": "afii62962",
+        "64397": "uniFB8D",
+        "64399": "afii62964",
+        "64400": "afii52305",
+        "64401": "afii52306",
+        "64403": "afii62967",
+        "64404": "afii62965",
+        "64405": "afii62966",
+        "64415": "uniFB9F",
+        "64423": "uniFBA7",
+        "64424": "uniFBA8",
+        "64425": "uniFBA9",
+        "64431": "uniFBAF",
+        "64488": "uniFBE8",
+        "64489": "uniFBE9",
+        "64830": "uniFD3E",
+        "64831": "uniFD3F",
+        "65010": "uniFDF2",
+        "65018": "uniFDFA",
+        "65154": "uniFE82",
+        "65156": "uniFE84",
+        "65158": "uniFE86",
+        "65160": "uniFE88",
+        "65162": "uniFE8A",
+        "65163": "uniFE8B",
+        "65164": "uniFE8C",
+        "65166": "uniFE8E",
+        "65168": "uniFE90",
+        "65169": "uniFE91",
+        "65170": "uniFE92",
+        "65172": "uniFE94",
+        "65174": "uniFE96",
+        "65175": "uniFE97",
+        "65176": "uniFE98",
+        "65178": "uniFE9A",
+        "65179": "uniFE9B",
+        "65180": "uniFE9C",
+        "65182": "uniFE9E",
+        "65183": "uniFE9F",
+        "65184": "uniFEA0",
+        "65186": "uniFEA2",
+        "65187": "uniFEA3",
+        "65188": "uniFEA4",
+        "65190": "uniFEA6",
+        "65191": "uniFEA7",
+        "65192": "uniFEA8",
+        "65194": "uniFEAA",
+        "65196": "uniFEAC",
+        "65198": "uniFEAE",
+        "65200": "uniFEB0",
+        "65202": "uniFEB2",
+        "65203": "uniFEB3",
+        "65204": "uniFEB4",
+        "65206": "uniFEB6",
+        "65207": "uniFEB7",
+        "65208": "uniFEB8",
+        "65210": "uniFEBA",
+        "65211": "uniFEBB",
+        "65212": "uniFEBC",
+        "65214": "uniFEBE",
+        "65215": "uniFEBF",
+        "65216": "uniFEC0",
+        "65218": "uniFEC2",
+        "65219": "uniFEC3",
+        "65220": "uniFEC4",
+        "65222": "uniFEC6",
+        "65223": "uniFEC7",
+        "65224": "uniFEC8",
+        "65226": "uniFECA",
+        "65227": "uniFECB",
+        "65228": "uniFECC",
+        "65230": "uniFECE",
+        "65231": "uniFECF",
+        "65232": "uniFED0",
+        "65234": "uniFED2",
+        "65235": "uniFED3",
+        "65236": "uniFED4",
+        "65238": "uniFED6",
+        "65239": "uniFED7",
+        "65240": "uniFED8",
+        "65242": "uniFEDA",
+        "65243": "uniFEDB",
+        "65244": "uniFEDC",
+        "65246": "uniFEDE",
+        "65247": "uniFEDF",
+        "65248": "uniFEE0",
+        "65250": "uniFEE2",
+        "65251": "uniFEE3",
+        "65252": "uniFEE4",
+        "65254": "uniFEE6",
+        "65255": "uniFEE7",
+        "65256": "uniFEE8",
+        "65258": "uniFEEA",
+        "65259": "uniFEEB",
+        "65260": "uniFEEC",
+        "65262": "uniFEEE",
+        "65264": "uniFEF0",
+        "65266": "uniFEF2",
+        "65267": "uniFEF3",
+        "65268": "uniFEF4",
+        "65269": "uniFEF5",
+        "65270": "uniFEF6",
+        "65271": "uniFEF7",
+        "65272": "uniFEF8",
+        "65273": "uniFEF9",
+        "65274": "uniFEFA",
+        "65275": "uniFEFB",
+        "65276": "uniFEFC"
+      },
+      "error": null
     }
   ],
+  "quran_foundation_text_fields": {
+    "text_uthmani": {
+      "orthography": "Uthmani",
+      "script_tradition": "Madani / Uthmani",
+      "riwayah": "Not implied by field name"
+    },
+    "text_uthmani_simple": {
+      "orthography": "Uthmani (simplified representation)",
+      "script_tradition": "Madani / Uthmani",
+      "riwayah": "Not implied by field name"
+    },
+    "text_uthmani_tajweed": {
+      "orthography": "Uthmani",
+      "script_tradition": "Madani / Uthmani",
+      "riwayah": "Not implied by field name"
+    },
+    "text_imlaei": {
+      "orthography": "Imla'i / Simple",
+      "script_tradition": "Modern Arabic orthography",
+      "riwayah": "Not implied by field name"
+    },
+    "text_imlaei_simple": {
+      "orthography": "Imla'i / Simple",
+      "script_tradition": "Modern Arabic orthography",
+      "riwayah": "Not implied by field name"
+    },
+    "text_indopak_nastaleeq": {
+      "orthography": "IndoPak",
+      "script_tradition": "IndoPak",
+      "typography": "Nastaleeq",
+      "encoding_model": "Unicode text requiring compatible IndoPak Nastaleeq font"
+    },
+    "text_indopak": {
+      "orthography": "IndoPak (legacy/deprecated field)",
+      "script_tradition": "IndoPak",
+      "encoding_model": "Legacy Unicode text field"
+    },
+    "text_qpc_hafs": {
+      "orthography": "Uthmani",
+      "script_tradition": "QPC / Madani",
+      "riwayah": "Hafs",
+      "encoding_model": "QPC Unicode text"
+    },
+    "qpc_uthmani_hafs": {
+      "orthography": "Uthmani",
+      "script_tradition": "QPC / Madani",
+      "riwayah": "Hafs",
+      "encoding_model": "QPC Unicode text (deprecated alias)"
+    },
+    "text_qpc_nastaleeq_hafs": {
+      "orthography": "QPC Nastaleeq representation (not a canonical Rasm label)",
+      "script_tradition": "QPC Nastaleeq representation",
+      "riwayah": "Hafs",
+      "typography": "Nastaleeq",
+      "encoding_model": "QPC Nastaleeq source field; verify compatible rendering font"
+    },
+    "text_qpc_nastaleeq": {
+      "orthography": "QPC Nastaleeq representation (not a canonical Rasm label)",
+      "script_tradition": "QPC Nastaleeq representation",
+      "typography": "Nastaleeq",
+      "encoding_model": "QPC Nastaleeq source field; verify compatible rendering font"
+    },
+    "code_v1": {
+      "encoding_model": "QPC glyph code V1 (not ordinary Unicode verse text)"
+    },
+    "code_v2": {
+      "encoding_model": "QPC glyph code V2 (not ordinary Unicode verse text)"
+    }
+  },
+  "quran_foundation_mushaf_ids": {
+    "1": {
+      "name": "QCF V2",
+      "script_tradition": "Madani / Uthmani",
+      "orthography": "Uthmani",
+      "page_count": 604,
+      "encoding_model": "QPC glyph code V2",
+      "qf_code": "QCF_V2"
+    },
+    "2": {
+      "name": "QCF V1",
+      "script_tradition": "Madani / Uthmani",
+      "orthography": "Uthmani",
+      "page_count": 604,
+      "encoding_model": "QPC glyph code V1",
+      "qf_code": "QCF_V1"
+    },
+    "3": {
+      "name": "IndoPak",
+      "script_tradition": "IndoPak",
+      "orthography": "IndoPak",
+      "page_count": 604,
+      "encoding_model": "Unicode text / edition-specific",
+      "qf_code": "INDOPAK"
+    },
+    "4": {
+      "name": "Uthmani Hafs",
+      "script_tradition": "Madani / Uthmani",
+      "orthography": "Uthmani",
+      "riwayah": "Hafs",
+      "page_count": 604,
+      "encoding_model": "Unicode text",
+      "qf_code": "UTHMANI_HAFS"
+    },
+    "5": {
+      "name": "KFGQPC Hafs",
+      "script_tradition": "Madani / Uthmani",
+      "orthography": "Uthmani",
+      "riwayah": "Hafs",
+      "page_count": 604,
+      "encoding_model": "Unicode text",
+      "qf_code": "KFGQPC_HAFS"
+    },
+    "6": {
+      "name": "IndoPak 15-line",
+      "script_tradition": "IndoPak",
+      "orthography": "IndoPak",
+      "line_count": 15,
+      "page_count": 610,
+      "encoding_model": "Unicode text / edition-specific",
+      "qf_code": "INDOPAK_15_LINES"
+    },
+    "7": {
+      "name": "IndoPak 16-line",
+      "script_tradition": "IndoPak",
+      "orthography": "IndoPak",
+      "line_count": 16,
+      "page_count": 548,
+      "encoding_model": "Unicode text / edition-specific",
+      "qf_code": "INDOPAK_16_LINES"
+    },
+    "11": {
+      "name": "Tajweed",
+      "script_tradition": "Tajweed Mushaf resource",
+      "page_count": 604,
+      "encoding_model": "Tajweed representation; inspect selected fields",
+      "qf_code": "TAJWEED"
+    },
+    "19": {
+      "name": "QCF Tajweed V4",
+      "script_tradition": "QCF Tajweed resource",
+      "page_count": 604,
+      "encoding_model": "QPC glyph code V2 / V4",
+      "qf_code": "QCF_TAJWEED_V4"
+    }
+  },
   "interpretation_notes": [
+    "Font inventory is discovered at runtime from the selected font folder; add or remove font files and rerun to refresh the report.",
     "Font family/style metadata describes the font file, not the orthography of text rendered using it.",
-    "Unicode cmap counts direct character mappings, not the number of internal glyphs reached through OpenType substitutions.",
+    "Unicode cmap counts direct character mappings, not internal glyphs reached through OpenType substitutions.",
     "GSUB/GPOS feature tags indicate feature availability, not quality of shaping in every browser.",
-    "Uthmani, Imla'i and IndoPak require source/edition evidence or comparison with a matching reference text.",
-    "A fixed Mushaf page layout requires page and line position metadata; it cannot be inferred from a paragraph alone."
+    "Orthography, riwayah, script tradition, typography, encoding model and page layout are separate assessment dimensions.",
+    "Uthmani, Imla'i and IndoPak require source/edition evidence or comparison with a same-passage reference text.",
+    "Recitation transmission and regional script tradition require source metadata or a reference; character heuristics are not proof.",
+    "Typeface labels are inferred from font names/embedded metadata only; actual visual style needs rendered visual inspection.",
+    "A fixed Mushaf page layout requires a Mushaf ID or page and line position metadata; it cannot be inferred from a paragraph alone.",
+    "QPC code_v1/code_v2 glyph sequences are separate from ordinary Unicode text fields."
   ],
   "sources": [
     {
@@ -50334,11 +54019,15 @@
     },
     {
       "title": "Quran Foundation Field Reference",
-      "url": "https://api-docs.quran.com/docs/api/field-reference/"
+      "url": "https://api-docs.quran.foundation/docs/api/field-reference/"
+    },
+    {
+      "title": "Quran Foundation Font Rendering",
+      "url": "https://api-docs.quran.foundation/docs/tutorials/fonts/font-rendering/"
     },
     {
       "title": "Quran Foundation Page Layout API Guide",
-      "url": "https://api-docs.quran.com/docs/tutorials/fonts/page-layout/"
+      "url": "https://api-docs.quran.foundation/docs/tutorials/fonts/page-layout/"
     },
     {
       "title": "Unicode Arabic names list",

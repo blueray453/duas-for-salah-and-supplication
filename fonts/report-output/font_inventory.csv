@@ -1,0 +1,180 @@
+﻿filename,family,subfamily,full_name,postscript_name,version,designer,manufacturer,copyright,license_description,license_url,typographic_style_labels,product_labels,recitation_labels,script_tradition_labels,glyph_count,unicode_cmap_count,arabic_codepoint_count,perso_arabic_codepoint_count,private_use_codepoint_count,weight_class,weight_label,width_class,width_label,units_per_em,vendor_id,fs_type,embedding_permissions,GSUB,GPOS,color_tables,outline_tables,text_coverage_mapped,text_coverage_total,text_coverage_missing,sha256,error
+_PDMS_Saleem_QuranFont Regular.ttf,_PDMS_Saleem_QuranFont,Regular,_PDMS_Saleem_QuranFont,_PDMS_Saleem_QuranFont,"Version 1.00 March 10, 2007",Pakistan Data Management Services,Pakistan Data Management Services,(C) 2007 Pakistan Data Management Services,"PAKISTAN DATA MANAGEMENT SERVICES
+
+ELECTRONIC END USER LICENSE AGREEMENT FOR PDMS Saleem Quran Font
+
+NOTICE TO USER:
+
+THIS IS A CONTRACT. BY INSTALLING THIS FONT YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT.
+
+This Pakistan Data Management Services (""PDMS"") End User License Agreement accompanies PDMS Saleem Quran Font (""Font""). The term ""Font"" also shall include any upgrades, modified versions or updates of the Font licensed to you by PDMS. Please read this Agreement carefully. Upon your acceptance of this Agreement, PDMS grants to you a nonexclusive license to use the Font, provided that you agree to the following:
+
+1. Use of the Font:
+The Font is provided free of cost from PDMS website (www.pakdata.com), but PDMS retains all rights of the Font. You cannot distribute the Font without obtaining a proper distribution license from PDMS.
+
+2. Copyright and Trademark Rights. The Font is owned by PDMS and its structure, organization and code are the valuable trade secrets of PDMS. The Font also is protected by Pakistan Copyright Law and International Treaty provisions. You may use trademarks only insofar as required to comply with Section 1 of this Agreement and to identify printed output produced by the Font, in accordance with accepted trademark practice, including identification of trademark owner's name. Such use of any trademark does not give you any rights of ownership in that trademark. Except as stated above, this Agreement does not grant you any intellectual property rights in the Font.
+
+3. Restrictions. You agree not to distribute, modify, adapt, translate, reverse engineer, decompile, disassemble or otherwise attempt to discover the source code of the Font.
+
+4. No Warranty. The Font is being delivered to you AS IS and PDMS makes no warranty as to its use or performance. PDMS DO NOT AND CANNOT WARRANT THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY USING THE FONT. PDMS AND ITS SUPPLIERS MAKE NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. IN NO EVENT WILL PDMS BE LIABLE TO YOU FOR ANY CONSEQUENTIAL, INCIDENTAL OR SPECIAL DAMAGES, INCLUDING ANY LOST PROFITS OR LOST SAVINGS, EVEN IF A PDMS REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR FOR ANY CLAIM BY ANY THIRD PARTY.
+
+© Pakistan Data Management Services
+207 Fortune Center, 45A Block6 PECHS,
+Shahrah-e-Faisal, Karachi-75400, Pakistan.
+Phone: 9221-4559003
+Website: www.pakdata.com
+email  : pdms@pakdata.com",http://www.pakdata.com,Nastaleeq; Naskh,Not stated in font name metadata,Not stated in font name metadata,IndoPak-associated naming,737,599,369,25,52,400,Regular,5,Medium,2048,PDMS,4,Preview & Print embedding,"calt, ccmp, fina, init, liga, medi","curs, kern, mark, mkmk",,glyf,53,54,U+06C3,2217f3d57fab1fc1a1b648d440061f13e126597e47c8aa9aad08a010cfe805f6,
+Al Qalam Quran Majeed Web Regular.ttf,Al Qalam Quran Majeed Web,Regular,Al Qalam Quran Majeed Web,AlQalamQuranMajeedWeb,"Version 2.00 May 23, 2010",Abdul Majeed Khan,Gandhara Services,"© Ghandhara © Credits: Abdul Majeed Khan, Arif Karim, Shakir-ul-Qadree, Jawad",,http://www.alqlm.org/fonts,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,2188,618,388,26,52,400,Regular,5,Medium,2048,PDMS,4,Preview & Print embedding,"calt, ccmp, fina, init, liga, medi","curs, kern, mark, mkmk",,glyf,54,54,,25197d7254eae3c449d637f5d162c205252be854b4dc2e6eb1eb746eb0c47633,
+AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf,AlQuran IndoPak by QuranWBW,Regular,AlQuran IndoPak by QuranWBW,AlQuranIndoPakbyQuranWBW,"Version 2.100;November 26, 2022;FontCreator 14.0.0.2883 64-bit",,,"© Al Qalam © Ghandhara © KFGQPC © Ayman Siddiqui © Credits: Abdul Majeed Khan, Arif Karim, Shakir-ul-Qadree, Jawad","This font AlQuran-IndoPak-by-QuranWBW is made by Ayman Siddiqui and is based on Al Qalam Quran Majeed and Al Qalam Quran Majeed Web fonts, specially adjusted and edited to work with Special Naskh Nastaleeq (IndoPak) Quran Text of www.QuranWBW.com. The Ayah Numbers have been made using glyps of Nastaleeq Font by King Fahad Glorious Quran Printing Complex (KFGQPC), and other unknown contributors may also have made efforts either directly or indirectly.
+
+[Made only for Sadaqa-e-Jaria purposes. No Copyright infringement intended.]
+
+NOT FOR SALE, NOT FOR MODIFICATION, NOT FOR DISTRIBUTION OR NOT FOR DEVELOPMENT WITHOUT WRITTEN NOTICE BY QURANWBW.COM
+
+E-mail: quranwbw@gmail.com.",quranwbw.com E-mail: quranwbw[at]gmail.com,Not stated in font name metadata,IndoPak-associated,Not stated in font name metadata,IndoPak-associated naming,992,835,384,25,435,400,Regular,5,Medium,2048,QWBW,0,Installable embedding (fsType=0),"calt, ccmp, fina, init, liga, medi","curs, kern, mark, mkmk",,glyf,51,54,"U+003A, U+005B, U+005D",a6463e24e36651404e9eff52dae26e18e9ef0718eb620636a66a20026a75c563,
+Amiri-Regular.ttf,Amiri,Regular,Amiri Regular,Amiri-Regular,Version 1.000,Khaled Hosny,Alif Type,Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).,"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",https://scripts.sil.org/OFL,Naskh,Amiri family,Not stated in font name metadata,Not stated in font name metadata,6710,1699,1094,29,0,400,Regular,5,Medium,1000,ALIF,0,Installable embedding (fsType=0),"ccmp, dnom, fina, init, liga, locl, mark, medi, numr, pnum, rlig, rtlm, ss01, ss02, ss03, ss04, ss05, ss06, ss07, ss08","curs, kern, mark, mkmk, ss05",,glyf,54,54,,30ea8514fb4d7cc867e799a05bd501cf123ba358745557a46c10737549b5e9c9,
+AmiriQuran.ttf,Amiri Quran,Regular,Amiri Quran Regular,AmiriQuran-Regular,Version 1.000,Khaled Hosny,Alif Type,Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).,"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",https://scripts.sil.org/OFL,Naskh,Amiri family,Not stated in font name metadata,Not stated in font name metadata,1446,266,121,12,0,400,Regular,5,Medium,1000,ALIF,0,Installable embedding (fsType=0),"ccmp, fina, init, locl, mark, medi, rlig, ss01, ss02, ss05, ss07, ss08","curs, kern, mark, mkmk, ss05",,glyf,50,54,"U+06A9, U+06C1, U+06C3, U+06D4",5d07bf69083c371239d4fc5e65e239524818215e927e20abf7b9629ba9d2475c,
+AmiriQuranColored.ttf,Amiri Quran Colored,Regular,Amiri Quran Colored Regular,AmiriQuranColored-Regular,Version 1.000,Khaled Hosny,Alif Type,Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).,"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",https://scripts.sil.org/OFL,Naskh,Amiri family,Not stated in font name metadata,Not stated in font name metadata,1981,266,121,12,0,400,Regular,5,Medium,1000,ALIF,0,Installable embedding (fsType=0),"ccmp, fina, init, locl, mark, medi, rlig, ss01, ss02, ss05, ss07, ss08","curs, kern, mark, mkmk, ss05","COLR, CPAL",glyf,50,54,"U+06A9, U+06C1, U+06C3, U+06D4",02cb008f564f84ee8faac2844d0a161cf6eb615a5ac1ff8639a84cd89b8e15e2,
+DigitalKhattIndoPak.otf,DigitalKhatt IndoPak,Regular,DigitalKhatt IndoPak Regular,DigitalKhattIndoPakRegular,Version 0.1,,DigitalKhatt,"Copyright (c) 2024 Amine Anane, Copyright © 2024 Tarteel Inc.","This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",http://scripts.sil.org/OFL,Not stated in font name metadata,Digital Khatt-associated; IndoPak-associated,Not stated in font name metadata,IndoPak-associated naming,1141,96,92,0,0,400,Regular,5,Medium,1000,    ,8,Editable embedding,"basm, ccmp, fina, init, medi, rclt, rlig, ss01","basm, curs, kern, mark, mkmk",,CFF2,41,54,"U+003A, U+005B, U+005D, U+060C, U+06A9, U+06C1, U+06C3, U+06CC, U+06D4, U+06F4, U+06F6, U+06F8, U+06F9",59a5e78c530de236a365354d558b37706f37d782f7ee95c3c9b7fe9e0fad042a,
+font-arabic2.woff2,Adobe Arabic,Regular,AdobeArabic-Regular,AdobeArabic-Regular,Version 2.006,Tim Holloway (Arabic) and Robert Slimbach (Latin),Tiro Typeworks for Adobe Systems Incorporated.,"Copyright 2000, 2002, 2004, 2011 Adobe Systems Incorporated. All Rights Reserved.",,http://www.adobe.com/type/legal.html,Not stated in font name metadata,Adobe family,Not stated in font name metadata,Not stated in font name metadata,1510,802,535,29,0,400,Regular,5,Medium,2048,ADBE,8,Editable embedding,"calt, ccmp, dlig, fina, frac, init, isol, jalt, liga, locl, medi, pnum, rlig, salt, ss01, ss02, ss03, swsh","kern, mark, mkmk",,glyf,54,54,,ddb24275316cbd80a1f904b9e1296b054520f3a18a42ae8d09d36d5c91dcd95c,
+fontawesome-webfont.woff2,FontAwesome,Regular,FontAwesome Regular,FontAwesome,Version 4.6.3 2016,Dave Gandy,Fort Awesome,Copyright Dave Gandy 2016. All rights reserved.,,http://fontawesome.io/license/,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,677,674,0,0,649,400,Regular,5,Medium,1792,pyrs,4,Preview & Print embedding,,,,glyf,0,54,"U+003A, U+005B, U+005D, U+060C, U+0623, U+0624, U+0625, U+0626, U+0627, U+0628, U+062A, U+062B, U+062C, U+062D, U+062E, U+062F, U+0630, U+0631, U+0632, U+0633, U+0634, U+0635, U+0636, U+0637, U+0638, U+0639, U+063A, U+0641, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+0649, U+064A, U+064C, U+064D, U+064E, U+064F, U+0650, U+0651, U+0652, U+0654, U+06A9, U+06C1, U+06C3, U+06CC, U+06D4, U+06F4, U+06F6, U+06F8, U+06F9",7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73,
+KacstBook.ttf,KacstBook,Medium,KacstBook,KacstBook,2.01,,KACST,KACST holds the copyright of the included Arabic font which is donated under GPL by KACST.,GPL,http://www.gnu.org/copyleft/gpl.html,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,206,203,202,1,0,500,Medium,5,Medium,2048,kcst,0,Installable embedding (fsType=0),"fina, init, isol, liga, medi",mark,,glyf,42,54,"U+003A, U+005B, U+005D, U+0654, U+06A9, U+06C1, U+06C3, U+06CC, U+06D4, U+06F4, U+06F6, U+06F8",ace66e3c454d4aa7e714af96db61ef3d3c724f701652ad5d1ae90530592de0f8,
+Katibeh-Regular.ttf,Katibeh,Regular,Katibeh,Katibeh-Regular,Version 1.0000g,"Arabic design by Kourosh Beigpour, Latin design by Eduardo Tunni, engineering by Lasse Fister",,"Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016 Eduardo Tunni(edu@tipo.net.ar).","This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL",http://scripts.sil.org/OFL,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,1188,982,552,28,1,400,Regular,5,Medium,1000,GRCR,0,Installable embedding (fsType=0),"calt, ccmp, dlig, dnom, fina, frac, init, isol, liga, lnum, locl, medi, numr, onum, ordn, rlig, ss01, sups","kern, mark, mkmk",,glyf,54,54,,a0a8c1b0aaa4cfe5d20cf67e21c48a0f78f02d44f99a3d3ab6358f8bba8b19e2,
+KFGQPC Uthman Taha Naskh Regular.ttf,KFGQPC Uthman Taha Naskh,Regular,KFGQPC Uthman Taha Naskh,KFGQPCUthmanTahaNaskh,Version 0.10,Ashfaq Ahmad Niazi,IT Department,"The digitally signed machine readable Typeface(Font) licensed to you is copyrighted ©, (2008-2010), King Fahd Glorious Quran Printing Complex.
+ISBN: 978-9960-8010, Accession No. 1429/5834
+All rights reserved. This Font is the property of King Fahd Glorious Quran Printing Complex, and may not be reproduced, modified without the express written approval of King Fahd Glorious Quran Printing Complex.","ELECTRONIC END-USER LICENSE AGREEMENT
+
+By installing this Font You accept all the terms and conditions of this Agreement.
+
+Copyright (c) 2008 by King Fahd Glorious Quran Printing Complex (KFGQPC), Al-Madinah Al-Munawarrah, Kingdom of Saudi Arabia. All Rights Reserved. The Font is owned by KFGQPC and its structure, organization and code are the valuable asset of KFGQPC. This Agreement does not grant you any intellectual property rights in the Font.
+
+Permission is hereby granted, Free of Cost, to any person obtaining a copy of this Font accompanying this license, the rights to Use, Copy, Distribute, subject to the following conditions:
+
+1.    The Font Software cannot be Sold, Modified, Altered, Translated, Reverse Engineered, Decompiled, Disassembled, Reproduced or Attempted to discover the Source Code of this Font in no means.
+
+2.    The Font Software is provided ""AS IS"", and KFGQPC makes no warranties as to its use or performance, fitness for a particular purpose. KFGQPC does not and cannot warrant the performance or results you may obtain by using the Font. In no event shall KFGQPC be liable for any Claims, Damages or other Liability, including any Damages, arising from, out of the use or inability to use the Font or from other dealings in the Font.",,Naskh,KFGQPC / QPC-associated,Not stated in font name metadata,QPC / Madani-associated naming,637,293,211,23,29,400,Regular,5,Medium,2048,KFGQ,0,Installable embedding (fsType=0),"calt, fina, init, liga, medi","curs, mark, mkmk",,glyf,52,54,"U+06C3, U+06D4",db229c0b427bd24bbc2aee0b6bd5629c019cbd1b1e1540672d2bc62bff3e53cd,
+KFGQPC Uthmanic Script HAFS Regular.otf,KFGQPC Uthmanic Script HAFS,Regular,KFGQPC Uthmanic Script HAFS,KFGQPCUthmanicScriptHAFS,Version 0.09,Ashfaq Ahmad Niazi,IT Department,"The digitally signed machine readable Typeface(Font) licensed to you is copyrighted ©, (2010), King Fahd Glorious Quran Printing Complex.
+ISBN: 978-603-8010-15-0, Accession No. 1430/7278
+All rights reserved. This Font is the property of King Fahd Glorious Quran Printing Complex, and may not be reproduced, modified without the express written approval of King Fahd Glorious Quran Printing Complex.","ELECTRONIC END-USER LICENSE AGREEMENT
+
+By installing this Font You accept all the terms and conditions of this Agreement.
+
+Copyright (c) 2010 by King Fahd Glorious Quran Printing Complex (KFGQPC), AlMadinah AlMunawarrah, Kingdom of Saudi Arabia. All Rights Reserved. KFGQPC retains full title and ownership of this Typeface both as artwork and font software. This Agreement does not grant you any intellectual property rights in the Font.
+
+Permission is hereby granted, Free of Cost, to any person obtaining a copy of this Font accompanying this license, the rights to Use, Copy, Distribute, subject to the following conditions:
+
+1.    The Font Software cannot be Sold, Modified, Altered, Translated, Reverse Engineered, Decompiled, Disassembled, Reproduced or Attempted to discover the Source Code of this Font in no means.
+
+2.    The Font Software is provided ""AS IS"", and KFGQPC makes no warranties as to its use or performance, fitness for a particular purpose. KFGQPC does not and cannot warrant the performance or results you may obtain by using the Font. In no event shall KFGQPC be liable for any Claims, Damages or other Liability, including any Damages, arising from, out of the use or inability to use the Font or from other dealings in the Font.",,Not stated in font name metadata,KFGQPC / QPC-associated,Hafs,QPC / Madani-associated naming,1071,271,256,29,0,400,Regular,5,Medium,2048,KFQP,0,Installable embedding (fsType=0),"calt, fina, init, liga, medi","curs, mark, mkmk",,glyf,51,54,"U+003A, U+005B, U+005D",59e20b2403687a67854fd199861abed3528068c035d2689898465d5faf39bb31,
+MUHAMMADI QURANIC FONT.ttf,Muhammadi Quranic Font,Regular,Muhammadi Quranic Font,MuhammadiQuranicFont,"0.00 December 31, 2006",,,Arabic glyphs © 1999-2000 Paul C. Nelson. Latin glyphs © 2000-2001 John Hudson.,,,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,2030,999,615,29,0,400,Regular,5,Medium,2048,MSFT,6,Restricted License embedding; Preview & Print embedding,"calt, ccmp, fina, init, isol, liga, medi, rlig",mark,,glyf,54,54,,a3f0da2e9a040cc7d82a4096500c04eb5632c5b7a2e18ddf565ce4396c1704d8,
+NotoNaskhArabic-Regular.ttf,Noto Naskh Arabic,Regular,Noto Naskh Arabic Regular,NotoNaskhArabic-Regular,"2.004; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D arab -f none -a qsq -X """"","Monotype Design Team, David Williams, Mohamad Dakak",Monotype Imaging Inc.,Copyright 2019-2020 Google LLC. All Rights Reserved.,"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",http://scripts.sil.org/OFL,Naskh,Noto family,Not stated in font name metadata,Not stated in font name metadata,1602,1122,1092,29,0,400,Regular,5,Medium,1000,GOOG,0,Installable embedding (fsType=0),"aalt, ccmp, dlig, fina, init, liga, locl, medi, rlig, tnum","mark, mkmk",,glyf,52,54,"U+005B, U+005D",8c67eaa2f0086872628fc3f7f760386f83c8be5c5e9a1ba3a38891237b2ac7cb,
+Scheherazade-Bold.ttf,Scheherazade,Bold,Scheherazade Bold,Scheherazade-Bold,Version 2.100 (build 932/914),SIL International,SIL International,Copyright (c) 1994-2015 SIL International. All rights reserved.,"Copyright (c) 1994-2015, SIL International (http://www.sil.org/).
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names ""Scheherazade"" and ""SIL"". This license is copied below, and is also available with an FAQ at: http://scripts.sil.org/OFL
+
+----------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+----------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+""Font Software"" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+
+""Reserved Font Name"" refers to any names specified as such after the copyright statement(s).
+
+""Original Version"" refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+
+""Modified Version"" refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+
+""Author"" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+
+5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.",http://scripts.sil.org/OFL,Naskh,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,1411,629,365,29,2,700,Bold,5,Medium,2048,SIL,0,Installable embedding (fsType=0),"calt, ccmp, cv12, cv44, cv48, cv50, cv60, cv62, cv70, cv72, cv74, cv76, cv78, cv80, cv82, cv84, cv90, cv92, fina, init, medi, rlig, rtlm, salt","curs, kern, mark, mkmk",,glyf,54,54,,62dde529b296df074efbf75b40a986e8ff82e997b98cec9ad7ab6795bb17a622,
+Scheherazade-Regular.ttf,Scheherazade,Regular,Scheherazade,Scheherazade-Regular,Version 2.100 (build 932/914),SIL International,SIL International,Copyright (c) 1994 - 2015 by SIL International. All rights reserved.,"Copyright (c) 1994-2015, SIL International (http://www.sil.org/).
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names ""Scheherazade"" and ""SIL"". This license is copied below, and is also available with an FAQ at: http://scripts.sil.org/OFL
+
+----------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+----------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+""Font Software"" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+
+""Reserved Font Name"" refers to any names specified as such after the copyright statement(s).
+
+""Original Version"" refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+
+""Modified Version"" refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+
+""Author"" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+
+5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.",http://scripts.sil.org/OFL,Naskh,Not stated in font name metadata,Not stated in font name metadata,Not stated in font name metadata,1411,629,365,29,2,400,Regular,5,Medium,2048,SIL,0,Installable embedding (fsType=0),"calt, ccmp, cv12, cv44, cv48, cv50, cv60, cv62, cv70, cv72, cv74, cv76, cv78, cv80, cv82, cv84, cv90, cv92, fina, init, medi, rlig, rtlm, salt","curs, kern, mark, mkmk",,glyf,54,54,,034c3ed203ccf91e20a75181350759cc5878e0e369bb0e2e83acee15a829184f,
+UthmanicHafs_V22.ttf,KFGQPC HAFS Uthmanic Script,Regular,KFGQPC HAFS Uthmanic Script Regular,KFGQPCHAFSUthmanicScript-Regula,Version 2.2,King Fahd Glorious Quran Printing Complex,King Fahd Glorious Quran Printing Complex,"The digitally signed machine readable Typeface(Font) licensed to you is copyrighted, (2010), King Fahd Glorious Quran Printing Complex.
+ISBN: 978-603-8010-15-0, Accession No. 1430/7278
+All rights reserved. This Font is the property of King Fahd Glorious Quran Printing Complex, and may not be reproduced, modified without the express written approval of King Fahd Glorious Quran Printing Complex.","ELECTRONIC END-USER LICENSE AGREEMENT
+
+By installing this Font You accept all the terms and conditions of this Agreement.
+
+Copyright (c) 2010 by King Fahd Glorious Quran Printing Complex (KFGQPC), AlMadinah AlMunawarrah, Kingdom of Saudi Arabia. All Rights Reserved. KFGQPC retains full title and ownership of this Typeface both as artwork and font software. This Agreement does not grant you any intellectual property rights in the Font.
+
+Permission is hereby granted, Free of Cost, to any person obtaining a copy of this Font accompanying this license, the rights to Use, Copy, Distribute, subject to the following conditions:
+
+1.    The Font Software cannot be Sold, Modified, Altered, Translated, Reverse Engineered, Decompiled, Disassembled, Reproduced or Attempted to discover the Source Code of this Font in no means.
+
+2.    The Font Software is provided ""AS IS"", and KFGQPC makes no warranties as to its use or performance, fitness for a particular purpose. KFGQPC does not and cannot warrant the performance or results you may obtain by using the Font. In no event shall KFGQPC be liable for any Claims, Damages or other Liability, including any Damages, arising from, out of the use or inability to use the Font or from other dealings in the Font.",,Not stated in font name metadata,KFGQPC / QPC-associated,Hafs,QPC / Madani-associated naming,1572,608,587,29,0,400,Regular,5,Medium,2048,KFQP,0,Installable embedding (fsType=0),"calt, fina, init, liga, medi, rlig","curs, kern, mark, mkmk",,glyf,53,54,U+003A,aa68bffce289b4c0ebac68e90502eb69e42356abcd1603cb2b8e99c2c723f145,
+UthmanTN1.otf,KFGQPC Uthman Taha Naskh,Regular,KFGQPC Uthman Taha Naskh,KFGQPCUthmanTahaNaskh,Version 0.10,Ashfaq Ahmad Niazi,IT Department,"The digitally signed machine readable Typeface(Font) licensed to you is copyrighted ©, (2008-2010), King Fahd Glorious Quran Printing Complex.
+ISBN: 978-9960-8010, Accession No. 1429/5834
+All rights reserved. This Font is the property of King Fahd Glorious Quran Printing Complex, and may not be reproduced, modified without the express written approval of King Fahd Glorious Quran Printing Complex.","ELECTRONIC END-USER LICENSE AGREEMENT
+
+By installing this Font You accept all the terms and conditions of this Agreement.
+
+Copyright (c) 2008 by King Fahd Glorious Quran Printing Complex (KFGQPC), Al-Madinah Al-Munawarrah, Kingdom of Saudi Arabia. All Rights Reserved. The Font is owned by KFGQPC and its structure, organization and code are the valuable asset of KFGQPC. This Agreement does not grant you any intellectual property rights in the Font.
+
+Permission is hereby granted, Free of Cost, to any person obtaining a copy of this Font accompanying this license, the rights to Use, Copy, Distribute, subject to the following conditions:
+
+1.    The Font Software cannot be Sold, Modified, Altered, Translated, Reverse Engineered, Decompiled, Disassembled, Reproduced or Attempted to discover the Source Code of this Font in no means.
+
+2.    The Font Software is provided ""AS IS"", and KFGQPC makes no warranties as to its use or performance, fitness for a particular purpose. KFGQPC does not and cannot warrant the performance or results you may obtain by using the Font. In no event shall KFGQPC be liable for any Claims, Damages or other Liability, including any Damages, arising from, out of the use or inability to use the Font or from other dealings in the Font.",,Naskh,KFGQPC / QPC-associated,Not stated in font name metadata,QPC / Madani-associated naming,637,293,211,23,29,400,Regular,5,Medium,2048,KFGQ,0,Installable embedding (fsType=0),"calt, fina, init, liga, medi","curs, mark, mkmk",,glyf,52,54,"U+06C3, U+06D4",d034f4895ef5c86008b44f95ed32feafc3535ccd084f7a06bf39b4cc2116c1f7,

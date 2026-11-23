@@ -121,6 +121,39 @@ LAYOUT_LABELS = {
     "indopak": "IndoPak",
 }
 
+# Quran Foundation documents distinct text fields and Mushaf identifiers.  Keep
+# this catalogue as source metadata, not as a classifier for arbitrary text.
+# The IDs are those in the Pages Lookup API guide checked on 2026-11-23.
+MUSHAF_CATALOG = {
+    1: {"name": "QCF V2", "script_tradition": "Madani / Uthmani", "orthography": "Uthmani", "page_count": 604, "encoding_model": "QPC glyph code V2", "qf_code": "QCF_V2"},
+    2: {"name": "QCF V1", "script_tradition": "Madani / Uthmani", "orthography": "Uthmani", "page_count": 604, "encoding_model": "QPC glyph code V1", "qf_code": "QCF_V1"},
+    3: {"name": "IndoPak", "script_tradition": "IndoPak", "orthography": "IndoPak", "page_count": 604, "encoding_model": "Unicode text / edition-specific", "qf_code": "INDOPAK"},
+    4: {"name": "Uthmani Hafs", "script_tradition": "Madani / Uthmani", "orthography": "Uthmani", "riwayah": "Hafs", "page_count": 604, "encoding_model": "Unicode text", "qf_code": "UTHMANI_HAFS"},
+    5: {"name": "KFGQPC Hafs", "script_tradition": "Madani / Uthmani", "orthography": "Uthmani", "riwayah": "Hafs", "page_count": 604, "encoding_model": "Unicode text", "qf_code": "KFGQPC_HAFS"},
+    6: {"name": "IndoPak 15-line", "script_tradition": "IndoPak", "orthography": "IndoPak", "line_count": 15, "page_count": 610, "encoding_model": "Unicode text / edition-specific", "qf_code": "INDOPAK_15_LINES"},
+    7: {"name": "IndoPak 16-line", "script_tradition": "IndoPak", "orthography": "IndoPak", "line_count": 16, "page_count": 548, "encoding_model": "Unicode text / edition-specific", "qf_code": "INDOPAK_16_LINES"},
+    11: {"name": "Tajweed", "script_tradition": "Tajweed Mushaf resource", "page_count": 604, "encoding_model": "Tajweed representation; inspect selected fields", "qf_code": "TAJWEED"},
+    19: {"name": "QCF Tajweed V4", "script_tradition": "QCF Tajweed resource", "page_count": 604, "encoding_model": "QPC glyph code V2 / V4", "qf_code": "QCF_TAJWEED_V4"},
+}
+
+# These are separate Qur'an Foundation text fields.  They are intentionally
+# not collapsed into a generic "Arabic font" category.
+QUL_TEXT_FIELDS = {
+    "text_uthmani": {"orthography": "Uthmani", "script_tradition": "Madani / Uthmani", "riwayah": "Not implied by field name"},
+    "text_uthmani_simple": {"orthography": "Uthmani (simplified representation)", "script_tradition": "Madani / Uthmani", "riwayah": "Not implied by field name"},
+    "text_uthmani_tajweed": {"orthography": "Uthmani", "script_tradition": "Madani / Uthmani", "riwayah": "Not implied by field name"},
+    "text_imlaei": {"orthography": "Imla'i / Simple", "script_tradition": "Modern Arabic orthography", "riwayah": "Not implied by field name"},
+    "text_imlaei_simple": {"orthography": "Imla'i / Simple", "script_tradition": "Modern Arabic orthography", "riwayah": "Not implied by field name"},
+    "text_indopak_nastaleeq": {"orthography": "IndoPak", "script_tradition": "IndoPak", "typography": "Nastaleeq", "encoding_model": "Unicode text requiring compatible IndoPak Nastaleeq font"},
+    "text_indopak": {"orthography": "IndoPak (legacy/deprecated field)", "script_tradition": "IndoPak", "encoding_model": "Legacy Unicode text field"},
+    "text_qpc_hafs": {"orthography": "Uthmani", "script_tradition": "QPC / Madani", "riwayah": "Hafs", "encoding_model": "QPC Unicode text"},
+    "qpc_uthmani_hafs": {"orthography": "Uthmani", "script_tradition": "QPC / Madani", "riwayah": "Hafs", "encoding_model": "QPC Unicode text (deprecated alias)"},
+    "text_qpc_nastaleeq_hafs": {"orthography": "QPC Nastaleeq representation (not a canonical Rasm label)", "script_tradition": "QPC Nastaleeq representation", "riwayah": "Hafs", "typography": "Nastaleeq", "encoding_model": "QPC Nastaleeq source field; verify compatible rendering font"},
+    "text_qpc_nastaleeq": {"orthography": "QPC Nastaleeq representation (not a canonical Rasm label)", "script_tradition": "QPC Nastaleeq representation", "typography": "Nastaleeq", "encoding_model": "QPC Nastaleeq source field; verify compatible rendering font"},
+    "code_v1": {"encoding_model": "QPC glyph code V1 (not ordinary Unicode verse text)"},
+    "code_v2": {"encoding_model": "QPC glyph code V2 (not ordinary Unicode verse text)"},
+}
+
 
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
@@ -257,6 +290,65 @@ def guess_font_role(filename: str, family: str, subfamily: str, names: dict[str,
     return roles
 
 
+def infer_font_metadata_profile(filename: str, names: dict[str, list[str]]) -> dict[str, Any]:
+    """Extract labels from a font's own name metadata and filename only.
+
+    This profile describes the font product, not the spelling/edition of any
+    text rendered with it.  The report deliberately preserves that distinction.
+    """
+    haystack = " ".join([
+        filename,
+        *names.get("family", []), *names.get("typographic_family", []),
+        *names.get("subfamily", []), *names.get("typographic_subfamily", []),
+        *names.get("full_name", []), *names.get("description", []),
+    ]).casefold()
+    styles = []
+    for label, tokens in [
+        ("Nastaleeq", ("nastaleeq", "nastaliq")),
+        ("Naskh", ("naskh",)),
+        ("Kufi", ("kufi", "kufic")),
+        ("Thuluth", ("thuluth",)),
+        ("Maghribi", ("maghribi", "maghriby")),
+        ("Ruq'ah", ("ruqah", "ruq'ah", "ruqaa")),
+    ]:
+        if any(token in haystack for token in tokens):
+            styles.append(label)
+
+    products = []
+    for label, tokens in [
+        ("KFGQPC / QPC-associated", ("kfgqpc", "qpc", "uthman taha")),
+        ("Digital Khatt-associated", ("digital khatt", "digitalkhatt")),
+        ("IndoPak-associated", ("indopak", "indo-pak")),
+        ("Amiri family", ("amiri",)),
+        ("Noto family", ("noto",)),
+        ("Adobe family", ("adobe arabic", "adobearabic")),
+    ]:
+        if any(token in haystack for token in tokens):
+            products.append(label)
+
+    recitations = []
+    for label, tokens in [
+        ("Hafs", ("hafs",)), ("Warsh", ("warsh",)),
+        ("Qalun", ("qalun", "qaloon")), ("Shu'bah", ("shuabah", "shubah", "shu'bah")),
+    ]:
+        if any(token in haystack for token in tokens):
+            recitations.append(label)
+
+    script_traditions = []
+    if any(token in haystack for token in ("indopak", "indo-pak", "nastaleeq", "nastaliq")):
+        script_traditions.append("IndoPak-associated naming")
+    if any(token in haystack for token in ("kfgqpc", "qpc", "uthman taha", "uthmanic")):
+        script_traditions.append("QPC / Madani-associated naming")
+
+    return {
+        "typographic_style_labels_from_metadata": styles or ["Not stated in font name metadata"],
+        "product_or_family_labels_from_metadata": products or ["Not stated in font name metadata"],
+        "recitation_labels_from_metadata": recitations or ["Not stated in font name metadata"],
+        "script_tradition_labels_from_metadata": script_traditions or ["Not stated in font name metadata"],
+        "evidence_basis": "Font filename and embedded name-table strings only; not a text/edition classifier.",
+    }
+
+
 def inspect_font(path: Path, text_codepoints: set[int]) -> dict[str, Any]:
     font = None
     try:
@@ -369,6 +461,7 @@ def inspect_font(path: Path, text_codepoints: set[int]) -> dict[str, Any]:
                 "outline_tables": [tag for tag in ("glyf", "CFF ", "CFF2") if tag in font],
             },
             "possible_roles_from_names": guess_font_role(path.name, best_name(names, "typographic_family", "family"), best_name(names, "typographic_subfamily", "subfamily"), names),
+            "metadata_profile": infer_font_metadata_profile(path.name, names),
             "cmap_codepoints": sorted(cmap_cps),
             "cmap": {str(cp): cmap[cp] for cp in sorted(cmap_cps)},
             "error": None,
@@ -445,40 +538,274 @@ def describe_character(ch: str) -> dict[str, Any]:
 
 
 def compact_for_match(text: str) -> str:
-    # Normalise Unicode canonically, remove tatweel and whitespace. Preserve
-    # diacritics for a stricter, layout-sensitive comparison.
+    """Conservative normalization for same-passage reference matching.
+
+    NFC is applied; tatweel and whitespace are ignored. Diacritics, Qur'anic
+    marks, punctuation and letter variants are preserved because they can be
+    meaningful differences between text editions.
+    """
     value = unicodedata.normalize("NFC", text).replace("\u0640", "")
     return "".join(ch for ch in value if not ch.isspace())
 
 
+def compact_base_letters(text: str) -> str:
+    """Looser comparison for a diagnostic score only; never classifies a text."""
+    value = unicodedata.normalize("NFC", text).replace("\u0640", "")
+    return "".join(
+        ch for ch in value
+        if not ch.isspace()
+        and not unicodedata.category(ch).startswith("M")
+        and unicodedata.category(ch)[0] not in {"P", "C"}
+    )
+
+
+def parse_reference_filename(path: Path) -> dict[str, Any]:
+    """Infer reference labels from a documented filename convention.
+
+    Filename-derived values are metadata hints. A manifest.json entry takes
+    precedence and is preferred for a curated reference collection.
+    """
+    name = path.stem.casefold().replace("-", "_").replace(" ", "_")
+    tokens = [token for token in re.split(r"[^a-z0-9]+", name) if token]
+    joined = "_".join(tokens)
+    result: dict[str, Any] = {
+        "orthography": None, "riwayah": None, "script_tradition": None,
+        "typography": None, "encoding_model": None, "page_layout": None,
+        "mushaf_id": None, "line_count": None, "page_count": None,
+        "qf_field": None, "source": None, "source_url": None,
+    }
+
+    # IndoPak is checked before Nastaleeq/QPC because those can co-occur.
+    if "indopak" in joined or "indo_pak" in joined:
+        result["orthography"] = "IndoPak"
+        result["script_tradition"] = "IndoPak"
+    elif any(token in tokens for token in ("uthmani", "uthmanic", "madani", "qpc", "kfgqpc")):
+        result["orthography"] = "Uthmani"
+        result["script_tradition"] = "Madani / Uthmani"
+    elif any(token in tokens for token in ("imlaei", "imlai", "simple", "imlaee")):
+        result["orthography"] = "Imla'i / Simple"
+        result["script_tradition"] = "Modern Arabic orthography"
+
+    for token, label in (("hafs", "Hafs"), ("warsh", "Warsh"), ("qalun", "Qalun"), ("qaloon", "Qalun"), ("shuabah", "Shu'bah"), ("shubah", "Shu'bah"), ("duri", "Al-Duri")):
+        if token in tokens:
+            result["riwayah"] = label
+            break
+
+    for token, label in (("nastaleeq", "Nastaleeq"), ("nastaliq", "Nastaleeq"), ("naskh", "Naskh"), ("kufi", "Kufi"), ("kufic", "Kufi"), ("maghribi", "Maghribi"), ("thuluth", "Thuluth")):
+        if token in tokens:
+            result["typography"] = label
+            break
+
+    if "qpc" in tokens or "kfgqpc" in tokens:
+        result["script_tradition"] = result.get("script_tradition") or "QPC / Madani-associated"
+    if "nastaleeq" in tokens or "nastaliq" in tokens:
+        result["typography"] = "Nastaleeq"
+        if result.get("script_tradition") == "QPC / Madani-associated":
+            result["script_tradition"] = "QPC Nastaleeq representation (verify edition metadata)"
+    if "maghribi" in tokens:
+        result["script_tradition"] = "Maghribi"
+
+    if re.search(r"(?:qpc_)?glyph_?v?1|code_?v?1|qcf_?v1", joined):
+        result["encoding_model"] = "QPC glyph code V1"
+    elif re.search(r"(?:qpc_)?glyph_?v?2|code_?v?2|qcf_?v2|qcf_?tajweed_?v4", joined):
+        result["encoding_model"] = "QPC glyph code V2 / V4"
+    elif "indopak" in joined:
+        result["encoding_model"] = "IndoPak Unicode text (reference-labelled)"
+    elif "unicode" in tokens:
+        result["encoding_model"] = "Unicode text"
+
+    line_match = re.search(r"(?:^|_)(13|15|16)[_-]?lines?(?:_|$)", joined)
+    if line_match:
+        result["line_count"] = int(line_match.group(1))
+        result["page_layout"] = f"{line_match.group(1)}-line Mushaf"
+    page_match = re.search(r"(?:^|_)mushaf_?(\d+)(?:_|$)", joined)
+    if page_match:
+        result["mushaf_id"] = int(page_match.group(1))
+    page_count_match = re.search(r"(?:^|_)(\d+)_?pages?(?:_|$)", joined)
+    if page_count_match:
+        result["page_count"] = int(page_count_match.group(1))
+
+    # Exact field labels can be embedded in reference filenames.
+    for field_name in QUL_TEXT_FIELDS:
+        if field_name.casefold() in joined:
+            result["qf_field"] = field_name
+            result.update({k: v for k, v in QUL_TEXT_FIELDS[field_name].items() if v is not None})
+            break
+    return result
+
+
 def load_references(reference_dir: Path | None) -> list[dict[str, Any]]:
+    """Load local references from *.txt plus optional manifest.json.
+
+    Recommended manifest format:
+      {"references": [{"file":"...txt", "orthography":"uthmani", ...}]}
+    The text files should contain the *same passage* as the input being tested.
+    """
     if not reference_dir or not reference_dir.exists():
         return []
+    manifest_entries: dict[str, dict[str, Any]] = {}
+    manifest_path = reference_dir / "manifest.json"
+    if manifest_path.is_file():
+        try:
+            raw_manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+            entries = raw_manifest.get("references", []) if isinstance(raw_manifest, dict) else raw_manifest
+            for item in entries:
+                if isinstance(item, dict) and item.get("file"):
+                    manifest_entries[str(item["file"])] = item
+        except (OSError, json.JSONDecodeError, TypeError):
+            pass
+
     records = []
     for path in sorted(reference_dir.glob("*.txt")):
-        low = path.stem.lower()
-        if low.startswith("uthmani"):
-            layout = "uthmani"
-        elif low.startswith("imlaei") or low.startswith("imlai") or low.startswith("simple"):
-            layout = "imlaei"
-        elif low.startswith("indopak") or low.startswith("indo_pak"):
-            layout = "indopak"
-        else:
-            continue
+        metadata = parse_reference_filename(path)
+        manifest = manifest_entries.get(path.name, {})
+        for key in (
+            "orthography", "riwayah", "script_tradition", "typography",
+            "encoding_model", "page_layout", "mushaf_id", "line_count",
+            "page_count", "qf_field", "source", "source_url",
+        ):
+            if key in manifest and manifest[key] not in (None, ""):
+                metadata[key] = manifest[key]
+        if metadata.get("qf_field") in QUL_TEXT_FIELDS:
+            field_metadata = QUL_TEXT_FIELDS[metadata["qf_field"]]
+            for key, value in field_metadata.items():
+                if metadata.get(key) in (None, ""):
+                    metadata[key] = value
         raw = path.read_text(encoding="utf-8-sig")
-        cleaned = compact_for_match(raw)
-        if cleaned:
-            records.append({"filename": path.name, "layout": layout, "text": raw, "compact": cleaned})
+        strict = compact_for_match(raw)
+        base = compact_base_letters(raw)
+        if strict:
+            records.append({
+                "filename": path.name, "text": raw,
+                "compact": strict, "base_compact": base,
+                **metadata,
+            })
     return records
+
+
+def compare_text_to_reference(user_text: str, reference: dict[str, Any]) -> dict[str, Any]:
+    user_strict = compact_for_match(user_text)
+    ref_strict = reference["compact"]
+    user_base = compact_base_letters(user_text)
+    ref_base = reference.get("base_compact", "")
+    if user_strict == ref_strict:
+        match_type = "exact normalized match"
+        strict_similarity = 1.0
+    elif len(user_strict) >= 12 and user_strict in ref_strict:
+        match_type = "exact passage contained in reference"
+        strict_similarity = 1.0
+    elif len(ref_strict) >= 12 and ref_strict in user_strict:
+        match_type = "reference passage contained in input"
+        strict_similarity = 1.0
+    else:
+        # Use the default autojunk strategy on long texts to avoid pathological
+        # runtime on full Qur'an-sized strings; retain repeated-symbol detail
+        # for shorter passages such as a single verse or hadith.
+        autojunk = min(len(user_strict), len(ref_strict)) > 2000
+        strict_similarity = difflib.SequenceMatcher(a=user_strict, b=ref_strict, autojunk=autojunk).ratio()
+        match_type = "fuzzy sequence similarity"
+    base_autojunk = min(len(user_base), len(ref_base)) > 2000
+    base_similarity = difflib.SequenceMatcher(a=user_base, b=ref_base, autojunk=base_autojunk).ratio() if user_base and ref_base else 0.0
+    strong = match_type != "fuzzy sequence similarity" or (
+        strict_similarity >= 0.995 and min(len(user_strict), len(ref_strict)) / max(len(user_strict), len(ref_strict), 1) >= 0.90
+    )
+    row = {key: reference.get(key) for key in (
+        "filename", "orthography", "riwayah", "script_tradition", "typography",
+        "encoding_model", "page_layout", "mushaf_id", "line_count", "page_count",
+        "qf_field", "source", "source_url",
+    )}
+    row.update({
+        "similarity": round(strict_similarity, 5),
+        "base_letter_similarity": round(base_similarity, 5),
+        "match_type": match_type,
+        "strong_match": strong,
+    })
+    return row
+
+
+def dimension_assessment(
+    dimension: str,
+    declared: Any,
+    matches: list[dict[str, Any]],
+    *,
+    not_applicable: bool = False,
+    not_inferable_message: str = "This dimension is not encoded reliably in a plain text string.",
+    declared_basis: str = "Explicit command-line metadata",
+    declared_status: str = "Source-declared",
+) -> dict[str, Any]:
+    if declared not in (None, ""):
+        display = {
+            "madani": "Madani", "indopak": "IndoPak", "maghribi": "Maghribi",
+            "qpc-nastaleeq": "QPC Nastaleeq", "naskh": "Naskh", "nastaleeq": "Nastaleeq",
+            "kufi": "Kufi", "thuluth": "Thuluth", "ruqah": "Ruq'ah",
+            "hafs": "Hafs", "warsh": "Warsh", "qalun": "Qalun",
+            "shuabah": "Shu'bah", "duri": "Al-Duri", "other": "Other",
+            "unicode-text": "Unicode text", "unicode-indopak-nastaleeq": "Unicode IndoPak Nastaleeq",
+            "qpc-glyph-v1": "QPC glyph code V1", "qpc-glyph-v2": "QPC glyph code V2",
+            "digital-khatt-v1": "Digital Khatt V1", "digital-khatt-v2": "Digital Khatt V2",
+            "digital-khatt-indopak": "Digital Khatt IndoPak",
+            "unknown": "Unknown / unspecified",
+        }
+        declared = display.get(str(declared), declared)
+        return {
+            "value": declared, "status": declared_status, "basis": declared_basis,
+            "explanation": f"The value was supplied as source metadata for {dimension}; it was not inferred from character appearance.",
+            "candidates": [],
+        }
+    if not_applicable:
+        return {"value": "Not applicable", "status": "Not applicable for this text kind", "basis": "Text context", "explanation": not_inferable_message, "candidates": []}
+
+    candidates = []
+    for match in matches:
+        value = match.get(dimension)
+        if match.get("strong_match") and value not in (None, ""):
+            candidates.append({"value": value, "filename": match["filename"], "similarity": match["similarity"], "match_type": match["match_type"]})
+    unique_values = sorted({str(row["value"]) for row in candidates})
+    if len(unique_values) == 1:
+        return {
+            "value": unique_values[0], "status": "Strong reference match",
+            "basis": "Same-passage local reference comparison",
+            "explanation": "The input matches a reference passage whose manifest or filename provides this metadata. Verify the reference source and edition.",
+            "candidates": candidates,
+        }
+    if len(unique_values) > 1:
+        return {
+            "value": "Ambiguous: " + " / ".join(unique_values), "status": "Conflicting strong reference matches",
+            "basis": "Multiple matching local references",
+            "explanation": "More than one strong reference match supplied different values for this dimension. Check that the compared references contain the same passage and reliable metadata.",
+            "candidates": candidates,
+        }
+    return {
+        "value": "Unknown / not identified", "status": "Not inferable from text alone",
+        "basis": "No declared value or strong reference match", "explanation": not_inferable_message,
+        "candidates": [],
+    }
+
+
+def mushaf_metadata_from_args(args: argparse.Namespace) -> dict[str, Any] | None:
+    mushaf_id = getattr(args, "mushaf_id", None)
+    if mushaf_id is None:
+        return None
+    base = dict(MUSHAF_CATALOG.get(mushaf_id, {"name": "Unknown Mushaf ID", "qf_code": None}))
+    base["mushaf_id"] = mushaf_id
+    base["metadata_source"] = "Quran Foundation Pages Lookup API documentation; verify the ID against the API version in use."
+    if getattr(args, "line_count", None):
+        base["line_count"] = args.line_count
+    if getattr(args, "page_count", None):
+        base["page_count"] = args.page_count
+    if getattr(args, "page_layout", None):
+        base["page_layout"] = args.page_layout
+    return base
 
 
 def layout_classification(text: str, args: argparse.Namespace) -> dict[str, Any]:
     cp_set = {ord(ch) for ch in text if not ch.isspace()}
-    genre = args.text_kind
+    qf_field = getattr(args, "qf_field", None)
+    qf_metadata = QUL_TEXT_FIELDS.get(qf_field, {}) if qf_field else {}
+    genre = getattr(args, "text_kind", "auto")
     if genre == "auto":
-        lower_name = (args.label or "").lower()
-        lower_text = text.lower()
-        if "hadith" in lower_name or "bayhaqi" in lower_name or "hadith" in lower_text[:200]:
+        lower_name = (getattr(args, "label", "") or "").lower()
+        if "hadith" in lower_name or "bayhaqi" in lower_name:
             genre = "hadith"
         elif cp_set & (QURANIC_MARKS | UTHMANI_ASSOCIATED):
             genre = "quran-candidate"
@@ -489,80 +816,185 @@ def layout_classification(text: str, args: argparse.Namespace) -> dict[str, Any]
     quranic_mark_cps = sorted(cp_set & QURANIC_MARKS)
     uthmani_cps = sorted(cp_set & UTHMANI_ASSOCIATED)
     waqf_cps = sorted(cp_set & WAQF_MARKS)
-    reference_records = load_references(Path(args.reference_dir).resolve() if args.reference_dir else None)
-    user_compact = compact_for_match(text)
-    matches = []
-    for ref in reference_records:
-        ratio = difflib.SequenceMatcher(a=user_compact, b=ref["compact"]).ratio()
-        # Best-effort textual identity check. A partial text against a whole
-        # chapter can score low, so references should be the corresponding passage.
-        matches.append({"filename": ref["filename"], "layout": ref["layout"], "similarity": round(ratio, 4)})
-    matches.sort(key=lambda row: row["similarity"], reverse=True)
-    strong_matches = [m for m in matches if m["similarity"] >= 0.985]
-    moderate_matches = [m for m in matches if m["similarity"] >= 0.90]
+    pua_cps = sorted(cp for cp in cp_set if 0xE000 <= cp <= 0xF8FF or 0xF0000 <= cp <= 0xFFFFD)
+    presentation_cps = sorted(cp for cp in cp_set if 0xFB50 <= cp <= 0xFDFF or 0xFE70 <= cp <= 0xFEFF)
+    reference_records = load_references(Path(getattr(args, "reference_dir", DEFAULT_REFERENCE_DIR)).resolve() if getattr(args, "reference_dir", None) else None)
+    matches = [compare_text_to_reference(text, ref) for ref in reference_records]
+    matches.sort(key=lambda row: (row["strong_match"], row["similarity"]), reverse=True)
+    strong_matches = [row for row in matches if row["strong_match"]]
+    quran_context = genre in ("quran", "quran-candidate") or bool(qf_field)
+    is_hadith = genre == "hadith" and not qf_field
 
-    declared = args.declared_layout
-    if declared:
-        label = LAYOUT_LABELS[declared]
-        status = "Source-declared classification"
-        explanation = "This label was supplied explicitly with --declared-layout; it was not inferred from character frequencies."
-    elif strong_matches:
-        label = LAYOUT_LABELS[strong_matches[0]["layout"]]
-        status = "Strong reference-text match"
-        explanation = "The normalized input closely matches the corresponding reference file. Confirm that both files cover the same passage and edition."
-    elif genre == "hadith":
-        label = "Not applicable as a Qur'anic edition label"
-        status = "Arabic prose / hadith sample"
-        explanation = "Uthmani, Imla'i and IndoPak are labels used for Qur'anic text/edition representations. This sample is hadith prose; report its character encoding separately."
-    else:
-        label = "Inconclusive without a matching Qur'anic reference"
-        status = "Heuristic evidence only"
-        explanation = "Unicode markers can indicate Arabic-script variants or Qur'anic annotation, but cannot reliably distinguish Uthmani, Imla'i and IndoPak on their own. Supply the same passage from a known edition under reference_texts/."
+    def source_value(cli_value: Any, dimension: str) -> tuple[Any, str, str]:
+        if cli_value not in (None, ""):
+            return cli_value, "Explicit command-line metadata", "Source-declared"
+        field_value = qf_metadata.get(dimension)
+        if field_value not in (None, "") and not str(field_value).startswith("Not implied"):
+            return field_value, f"Quran Foundation source field `{qf_field}`", "Source-field declared"
+        return None, "", "Source-declared"
 
+    declared_orthography, orth_basis, orth_status = source_value(
+        getattr(args, "declared_orthography", None) or getattr(args, "declared_layout", None), "orthography"
+    )
+    if declared_orthography:
+        declared_orthography = LAYOUT_LABELS.get(declared_orthography, declared_orthography)
+    elif not quran_context and not is_hadith:
+        declared_orthography = None
+
+    declared_riwayah, riwayah_basis, riwayah_status = source_value(getattr(args, "declared_riwayah", None), "riwayah")
+    declared_tradition, tradition_basis, tradition_status = source_value(getattr(args, "declared_script_tradition", None), "script_tradition")
+    declared_typography, typography_basis, typography_status = source_value(getattr(args, "declared_typeface", None), "typography")
+    declared_encoding, encoding_basis, encoding_status = source_value(getattr(args, "encoding_model", None), "encoding_model")
+
+    explicit_page_layout = getattr(args, "page_layout", None)
+    if not explicit_page_layout and getattr(args, "line_count", None):
+        explicit_page_layout = f"{args.line_count}-line layout"
+    dimensions = {
+        "orthography": dimension_assessment(
+            "orthography", declared_orthography, strong_matches,
+            not_applicable=is_hadith, declared_basis=orth_basis, declared_status=orth_status,
+            not_inferable_message="Uthmani, Imla'i and IndoPak are distinct Qur'anic text representations. Unicode clues alone cannot reliably classify them; compare the same passage against a verified edition.",
+        ),
+        "riwayah": dimension_assessment(
+            "riwayah", declared_riwayah, strong_matches,
+            not_applicable=is_hadith, declared_basis=riwayah_basis, declared_status=riwayah_status,
+            not_inferable_message="Hafs, Warsh and other riwayat cannot be reliably identified from arbitrary letter/diacritic patterns. Use source metadata or a verified same-passage reference.",
+        ),
+        "script_tradition": dimension_assessment(
+            "script_tradition", declared_tradition, strong_matches,
+            not_applicable=is_hadith, declared_basis=tradition_basis, declared_status=tradition_status,
+            not_inferable_message="Madani, IndoPak and Maghribi are source/script traditions. Extended Urdu/Persian characters are not enough to certify an IndoPak Qur'an edition.",
+        ),
+        "typography": dimension_assessment(
+            "typography", declared_typography, strong_matches,
+            declared_basis=typography_basis, declared_status=typography_status,
+            not_inferable_message="Naskh, Nastaleeq, Kufi and similar labels describe the font's visual design, not the Unicode text sequence. Supply font/source metadata or use --font-for-text in a full font report.",
+        ),
+        "encoding_model": dimension_assessment(
+            "encoding_model", declared_encoding, strong_matches,
+            declared_basis=encoding_basis, declared_status=encoding_status,
+            not_inferable_message="The input arrived as Unicode text. Private-use characters or presentation forms may indicate a custom/glyph-coded representation, but do not prove a specific QPC code version.",
+        ),
+        "page_layout": dimension_assessment(
+            "page_layout", explicit_page_layout, strong_matches,
+            not_inferable_message="15-line/16-line pagination and page numbering require a Mushaf identifier or page/word-position data. A continuous paragraph cannot determine page layout.",
+        ),
+    }
+
+    # The explicit Mushaf ID is authoritative source metadata for page layout
+    # and can fill other dimensions only when the selected QUL catalogue entry
+    # documents them.
+    mushaf_metadata = mushaf_metadata_from_args(args)
+    if mushaf_metadata:
+        for dim in ("orthography", "riwayah", "script_tradition", "encoding_model"):
+            if mushaf_metadata.get(dim) and dimensions[dim]["status"] == "Not inferable from text alone":
+                dimensions[dim] = {
+                    "value": mushaf_metadata[dim], "status": "Source-declared by Mushaf ID",
+                    "basis": f"Mushaf ID {mushaf_metadata['mushaf_id']} catalogue metadata",
+                    "explanation": "This value comes from the selected Mushaf identifier, not from the text's Unicode character pattern.",
+                    "candidates": [],
+                }
+        page_value = mushaf_metadata.get("page_layout") or mushaf_metadata.get("name")
+        line_count = mushaf_metadata.get("line_count")
+        page_suffix = f" ({line_count} lines)" if line_count else ""
+        dimensions["page_layout"] = {
+            "value": f"{page_value}{page_suffix}", "status": "Source-declared by Mushaf ID",
+            "basis": f"Quran Foundation Mushaf ID {mushaf_metadata['mushaf_id']}",
+            "explanation": "A Mushaf ID identifies a pagination/layout resource; it is not derivable from text alone.",
+            "candidates": [],
+        }
+
+    # If user selected a font for the text, that is handled by main() after
+    # font discovery. Here we only report that font design is not a text property.
+    if dimensions["encoding_model"]["status"] == "Not inferable from text alone":
+        if pua_cps:
+            dimensions["encoding_model"] = {
+                "value": "Unicode text containing Private Use Area code points",
+                "status": "Heuristic encoding signal",
+                "basis": "Observed Unicode code points",
+                "explanation": "Private-use values can be used by custom glyph systems such as page-specific font mappings. This does not identify a particular QPC code version.",
+                "candidates": [],
+            }
+        else:
+            dimensions["encoding_model"] = {
+                "value": "Unicode character sequence",
+                "status": "Observed input representation",
+                "basis": "Input was decoded as Unicode text",
+                "explanation": "This describes the supplied text object, not the upstream source's original storage or a particular Qur'anic text field.",
+                "candidates": [],
+            }
+
+    encoding_signals = {
+        "perso_arabic_codepoints": [cp_label(cp) for cp in persian_urdu_cps],
+        "uthmani_associated_codepoints": [cp_label(cp) for cp in uthmani_cps],
+        "quranic_annotation_codepoints": [cp_label(cp) for cp in quranic_mark_cps],
+        "waqf_codepoints": [cp_label(cp) for cp in waqf_cps],
+        "private_use_codepoints": [cp_label(cp) for cp in pua_cps],
+        "presentation_form_codepoints": [cp_label(cp) for cp in presentation_cps],
+    }
     evidence = []
     if persian_urdu_cps:
         evidence.append({
             "title": "Perso-Arabic / Urdu-associated code points detected",
             "detail": ", ".join(f"{chr(cp)} {cp_label(cp)} {unicode_name(cp)}" for cp in persian_urdu_cps),
-            "meaning": "Evidence of extended Perso-Arabic character encoding. This does not prove the language is Urdu/Persian or that the text is an IndoPak Qur'an edition."
+            "meaning": "These identify character choices associated with extended Perso-Arabic writing. They do not prove the language is Urdu/Persian or the text is an IndoPak Qur'an edition.",
         })
     else:
-        evidence.append({"title":"No configured Perso-Arabic marker characters detected", "detail":"None of the configured distinctive code points occurred.", "meaning":"This does not prove that the spelling is standard Arabic or Imla'i."})
-    if uthmani_cps:
-        evidence.append({"title":"Uthmani/Qur'anic-associated signs detected", "detail":", ".join(f"{chr(cp)} {cp_label(cp)} {unicode_name(cp)}" for cp in uthmani_cps), "meaning":"Compatible with some Qur'anic orthographic encodings; not enough to certify Uthmani text."})
-    if quranic_mark_cps:
-        evidence.append({"title":"Qur'anic annotation code points detected", "detail":", ".join(f"{chr(cp)} {cp_label(cp)} {unicode_name(cp)}" for cp in quranic_mark_cps), "meaning":"These marks are used in Qur'anic text conventions. The subset varies by edition and font."})
+        evidence.append({"title": "No configured Perso-Arabic marker characters detected", "detail": "None of the configured distinctive code points occurred.", "meaning": "This does not prove that the spelling is standard Arabic or Imla'i."})
+    if uthmani_cps or quranic_mark_cps:
+        evidence.append({"title": "Qur'anic / Uthmani-associated signals detected", "detail": ", ".join(f"{chr(cp)} {cp_label(cp)} {unicode_name(cp)}" for cp in sorted(set(uthmani_cps) | set(quranic_mark_cps))), "meaning": "These marks are compatible with some Qur'anic representations but do not alone identify the exact orthography, recitation or edition."})
     if waqf_cps:
-        evidence.append({"title":"Waqf/pause marks detected", "detail":", ".join(f"{chr(cp)} {cp_label(cp)} {unicode_name(cp)}" for cp in waqf_cps), "meaning":"Presence of pause marks does not independently identify the rasm or the printed page layout."})
-    if not uthmani_cps and not quranic_mark_cps:
-        evidence.append({"title":"No strong Uthmani/Qur'anic annotation marker detected", "detail":"No configured Uthmani-associated signs or Qur'anic annotation characters were found.", "meaning":"Absence is not proof of Imla'i; a plain text may have marks stripped or be only a fragment."})
-    if moderate_matches and not strong_matches and not declared:
-        evidence.append({"title":"Possible reference similarity", "detail":", ".join(f"{m['layout']} ({m['similarity']:.1%}) via {m['filename']}" for m in moderate_matches[:3]), "meaning":"Similarity below the strong-match threshold is exploratory evidence only."})
+        evidence.append({"title": "Waqf/pause marks detected", "detail": ", ".join(f"{chr(cp)} {cp_label(cp)} {unicode_name(cp)}" for cp in waqf_cps), "meaning": "Pause marks are a separate annotation dimension; presence does not independently identify the rasm or page layout."})
+    if pua_cps:
+        evidence.append({"title": "Private-use code points detected", "detail": ", ".join(cp_label(cp) for cp in pua_cps), "meaning": "This may be a font-specific glyph code system. Do not treat these values as standard Arabic Unicode text without its matching mapping/font."})
+    if matches:
+        evidence.append({"title": "Local reference comparisons", "detail": f"Compared against {len(matches)} reference text(s); {len(strong_matches)} strong match(es).", "meaning": "Only same-passage, provenance-labelled references are suitable for identifying edition-specific dimensions."})
 
+    legacy_orth = dimensions["orthography"]
+    if legacy_orth["status"] == "Source-declared":
+        legacy_status = "Source-declared classification"
+    elif is_hadith:
+        legacy_status = "Arabic prose / hadith sample"
+    elif legacy_orth["status"] == "Strong reference match":
+        legacy_status = "Strong reference-text match"
+    else:
+        legacy_status = "Heuristic evidence only"
     return {
         "genre_assessment": genre,
-        "classification": label,
-        "status": status,
-        "explanation": explanation,
-        "declared_layout": declared,
-        "signals": {
-            "perso_arabic_codepoints": [cp_label(cp) for cp in persian_urdu_cps],
-            "uthmani_associated_codepoints": [cp_label(cp) for cp in uthmani_cps],
-            "quranic_annotation_codepoints": [cp_label(cp) for cp in quranic_mark_cps],
-            "waqf_codepoints": [cp_label(cp) for cp in waqf_cps],
+        # Backward-compatible fields retained for existing consumers.
+        "classification": legacy_orth["value"],
+        "status": legacy_status,
+        "explanation": legacy_orth["explanation"],
+        "declared_layout": getattr(args, "declared_layout", None),
+        "qf_field": qf_field,
+        "qf_field_metadata": qf_metadata or None,
+        "dimensions": dimensions,
+        "mushaf_metadata": mushaf_metadata,
+        "page_layout_metadata": {
+            "mushaf_id": getattr(args, "mushaf_id", None),
+            "qf_field": qf_field,
+            "page_layout": getattr(args, "page_layout", None),
+            "line_count": getattr(args, "line_count", None),
+            "page_count": getattr(args, "page_count", None),
+            "note": "Page count and line count are source metadata; a text paragraph does not reveal them.",
         },
+        "signals": encoding_signals,
         "evidence": evidence,
         "reference_comparisons": matches,
+        "reference_count": len(reference_records),
         "reference_match_threshold": 0.985,
+        "reference_metadata_method": "reference_texts/manifest.json first, then filename conventions; verify provenance independently",
         "classifier_limitations": [
+            "Orthography (Uthmani/Imla'i/IndoPak), riwayah, script tradition, typeface, encoding model and page layout are separate dimensions.",
             "A font's name or glyph coverage cannot identify the orthography of a text rendered with it.",
-            "Perso-Arabic characters indicate codepoint usage, not necessarily Urdu or Persian language.",
-            "Imla'i cannot be established merely because Uthmani-specific characters are absent.",
-            "IndoPak needs source/edition matching or an authoritative reference; it is not synonymous with Urdu characters or Nastaliq font style.",
-            "A fixed Mushaf page layout (15-line/16-line/page number/line breaks) requires page and word positioning data, not a plain text string.",
+            "Perso-Arabic characters indicate codepoint usage, not necessarily Urdu/Persian language or an IndoPak Qur'an edition.",
+            "Hafs/Warsh/Qalun cannot be reliably identified from arbitrary Unicode character patterns alone.",
+            "Naskh/Nastaleeq/Kufi describe typography; they are not orthography labels.",
+            "Imla'i cannot be established merely because Uthmani-associated characters are absent.",
+            "A 15-line/16-line Mushaf layout requires source metadata or word/page positions, not a continuous text string.",
+            "A QPC code_v1/code_v2 glyph sequence is not ordinary Unicode verse text and requires its matching rendering system.",
         ],
     }
-
 
 def analyze_text(text: str, args: argparse.Namespace) -> dict[str, Any]:
     visible = [ch for ch in text if not ch.isspace()]
@@ -757,6 +1189,7 @@ def font_card(record: dict[str, Any], index: int, sample_text: str) -> str:
    <div><b>Version</b><span>{h(record.get('version'))}</span></div>
   </div>
   <h4>Possible font role (filename/name heuristic, not certification)</h4><p>{h(', '.join(record.get('possible_roles_from_names', [])))}</p>
+  <h4>Typeface / script-product indicators from font metadata</h4><pre>{h(json.dumps(record.get('metadata_profile', {}), ensure_ascii=False, indent=2))}</pre>
   <h4>Unicode script coverage</h4><p>{script}</p>
   <h4>Character coverage for this input</h4><p><b>{cov}</b>. Missing: {h(', '.join(coverage.get('missing_codepoints', [])) or 'None')}.</p>
   <h4>OpenType features and tables</h4><p><b>GSUB:</b> {h(gsub)}</p><p><b>GPOS:</b> {h(gpos)}</p>
@@ -792,9 +1225,37 @@ def create_html(report: dict[str, Any], text: str, font_paths: dict[str, Path], 
         for item in layout.get("evidence", [])
     )
     refs_html = "".join(
-        f"<tr><td>{h(m['layout'])}</td><td>{h(m['filename'])}</td><td>{m['similarity']:.1%}</td></tr>"
+        "<tr>"
+        f"<td>{h(m.get('filename'))}</td><td>{h(m.get('orthography') or '—')}</td>"
+        f"<td>{h(m.get('riwayah') or '—')}</td><td>{h(m.get('script_tradition') or '—')}</td>"
+        f"<td>{h(m.get('typography') or '—')}</td><td>{h(m.get('encoding_model') or '—')}</td>"
+        f"<td>{h(m.get('page_layout') or '—')}</td><td>{m.get('similarity', 0):.1%}</td>"
+        f"<td>{h(m.get('match_type'))}</td></tr>"
         for m in layout.get("reference_comparisons", [])
-    ) or "<tr><td colspan='3'>No reference files supplied.</td></tr>"
+    ) or "<tr><td colspan='9'>No reference files supplied.</td></tr>"
+    dimension_names = {
+        "orthography": "Orthography / text representation",
+        "riwayah": "Recitation transmission",
+        "script_tradition": "Script tradition",
+        "typography": "Typeface / calligraphic style",
+        "encoding_model": "Digital encoding / rendering model",
+        "page_layout": "Mushaf page layout",
+    }
+    dimensions_html = "".join(
+        f"<tr><th>{h(dimension_names.get(key, key))}</th><td><b>{h(value.get('value'))}</b></td>"
+        f"<td>{h(value.get('status'))}</td><td>{h(value.get('basis'))}</td><td>{h(value.get('explanation'))}</td></tr>"
+        for key, value in layout.get("dimensions", {}).items()
+    ) or "<tr><td colspan='5'>No dimension assessment available.</td></tr>"
+    qf_field_rows = "".join(
+        f"<tr><td><code>{h(field_name)}</code></td><td>{h(json.dumps(metadata, ensure_ascii=False))}</td></tr>"
+        for field_name, metadata in QUL_TEXT_FIELDS.items()
+    )
+    mushaf_rows = "".join(
+        f"<tr><td>{mushaf_id}</td><td>{h(metadata.get('name'))}</td><td>{h(metadata.get('qf_code'))}</td>"
+        f"<td>{h(metadata.get('orthography') or '—')}</td><td>{h(metadata.get('riwayah') or '—')}</td>"
+        f"<td>{h(metadata.get('line_count') or '—')}</td><td>{h(metadata.get('page_count') or '—')}</td><td>{h(metadata.get('encoding_model') or '—')}</td></tr>"
+        for mushaf_id, metadata in sorted(MUSHAF_CATALOG.items())
+    )
     fonts_summary = Counter()
     for rec in font_records:
         if rec.get("error"):
@@ -810,7 +1271,7 @@ def create_html(report: dict[str, Any], text: str, font_paths: dict[str, Path], 
             f"<tr><td><a href='#font-{i}'>{h(rec.get('family') or rec['filename'])}</a><div class='small muted'>{h(rec['filename'])}</div></td>"
             f"<td>{h(rec.get('subfamily',''))}</td><td>{h(rec.get('glyph_count','—'))}</td>"
             f"<td>{h(rec.get('unicode_cmap_count','—'))}</td><td>{coverage.get('mapped',0)}/{coverage.get('total',0)} ({coverage.get('percent',0)}%)</td>"
-            f"<td>{h(', '.join(rec.get('possible_roles_from_names', [])))}</td></tr>"
+            f"<td>{h(', '.join(rec.get('possible_roles_from_names', [])))}<div class='small muted'>{h(', '.join(rec.get('metadata_profile', {}).get('typographic_style_labels_from_metadata', [])))}</div></td></tr>"
         )
     all_css = "\n\n".join(font_css_ranges(rec, font_paths[rec["filename"]], output_dir, i) for i, rec in enumerate(font_records) if rec.get("filename") in font_paths and not rec.get("error"))
     sample_escaped = h(text)
@@ -839,23 +1300,33 @@ def create_html(report: dict[str, Any], text: str, font_paths: dict[str, Path], 
 <section class="panel"><h2>3. Can this text be classified as Uthmani, Imla'i or IndoPak?</h2>
 <p><span class="tag">{h(layout['status'])}</span></p><h3>{h(layout['classification'])}</h3><p>{h(layout['explanation'])}</p>
 {evidence_html}
-<h3>Reference-text comparison</h3><p class="small">For automatic identification, place the same passage from a known source in reference_texts/ using filenames such as uthmani.txt, imlaei.txt or indopak.txt. Similarity uses NFC-normalised text with whitespace/tatweel removed, so use the same passage/edition.</p><table><thead><tr><th>Candidate</th><th>Reference file</th><th>Similarity</th></tr></thead><tbody>{refs_html}</tbody></table>
+<h3>Separate classification dimensions</h3><p class="small">These dimensions are deliberately separate. A text string can support orthography matching, but recitation, typeface and pagination generally need edition/font metadata.</p>
+<table><thead><tr><th>Dimension</th><th>Assessment</th><th>Status</th><th>Evidence basis</th><th>Interpretation</th></tr></thead><tbody>{dimensions_html}</tbody></table>
+<h3>Metadata consistency warnings</h3><pre>{h(json.dumps(layout.get('metadata_warnings', []), ensure_ascii=False, indent=2))}</pre>
+<h3>Reference-text comparison</h3><p class="small">Place the same passage from a known edition in reference_texts/. Prefer a manifest.json entry that records orthography, riwayah, script tradition, typeface, encoding model, page layout, Mushaf ID and source. Filename conventions are supported as a fallback. Strict matching preserves diacritics and edition-specific characters; base-letter similarity is diagnostic only.</p><table><thead><tr><th>Reference</th><th>Orthography</th><th>Riwayah</th><th>Script tradition</th><th>Typeface</th><th>Encoding</th><th>Page layout</th><th>Strict match</th><th>Match type</th></tr></thead><tbody>{refs_html}</tbody></table>
+<h3>Source field / Mushaf metadata</h3><p><b>Quran Foundation field:</b> <code>{h(layout.get('qf_field') or 'Not declared')}</code></p><pre>{h(json.dumps({'qf_field_metadata': layout.get('qf_field_metadata'), 'mushaf_metadata': layout.get('mushaf_metadata'), 'page_layout_metadata': layout.get('page_layout_metadata', {})}, ensure_ascii=False, indent=2))}</pre>
 <h3>Classification limitations</h3><ul>{''.join(f'<li>{h(x)}</li>' for x in layout['classifier_limitations'])}</ul>
 </section>
 <section class="panel"><h2>4. Font overview</h2><p>Glyph count, Unicode cmap mappings and OpenType features measure different things. A cmap match does not prove good mark positioning; visual shaping should also be tested in a real browser.</p>
 <input class="filter" id="fontFilter" placeholder="Filter fonts by family or filename…" oninput="filterFonts()">
-<table id="fontTable"><thead><tr><th>Family / file</th><th>Subfamily</th><th>Glyphs</th><th>Unicode mappings</th><th>Text coverage</th><th>Possible role inferred from name</th></tr></thead><tbody>{''.join(font_rows)}</tbody></table>
+<table id="fontTable"><thead><tr><th>Family / file</th><th>Subfamily</th><th>Glyphs</th><th>Unicode mappings</th><th>Text coverage</th><th>Possible role / style from name metadata</th></tr></thead><tbody>{''.join(font_rows)}</tbody></table>
 </section>
 <section class="panel"><h2>5. Detailed per-font metadata</h2><p>Each record includes name-table metadata, copyright/licence strings when present, weight/width class, embedding flags, font metrics, Unicode block coverage, table inventory, GSUB/GPOS tags, variable-font axes and exact text coverage.</p><div class="font-list">{''.join(cards)}</div></section>
 <section class="panel"><h2>6. CSS unicode-range declarations</h2><p>Generated from each font's actual Unicode cmap. The ranges describe mapped code points, not a guarantee of correct shaping or a recommendation to load every font on one page.</p><textarea rows="16" readonly onclick="this.select()">{h(all_css)}</textarea><p class="small">A browser can still use fallback fonts for missing glyphs. Use the cmap coverage table when validating the selected font.</p></section>
-<section class="panel"><h2>7. Orthography and page-layout reference</h2>
-<p><b>Orthography / text type:</b> Uthmani and Imla'i are two Qur'anic writing conventions; IndoPak is a separately identified Qur'anic text representation, often paired with Nastaliq rendering. Typeface (Naskh/Nastaliq/Kufi) is a different property.</p>
-<p><b>Mushaf page layout:</b> a page format such as 15-line or 16-line requires page/line boundaries and verse/word positions. A plain continuous paragraph cannot reveal a printed Mushaf page layout.</p>
+<section class="panel"><h2>7. Qur'anic text systems and field reference</h2>
+<p><b>Orthography / text representation:</b> Quran Foundation exposes separate fields including <code>text_uthmani</code>, <code>text_uthmani_simple</code>, <code>text_imlaei</code>, <code>text_imlaei_simple</code>, <code>text_indopak_nastaleeq</code>, <code>text_qpc_hafs</code>, <code>text_qpc_nastaleeq</code> and <code>text_qpc_nastaleeq_hafs</code>. The legacy <code>text_indopak</code> and <code>qpc_uthmani_hafs</code> aliases are deprecated. Do not collapse these into one generic Arabic layout.</p>
+<p><b>Riwayah:</b> Hafs, Warsh, Qalun and others are transmission labels; a field name or isolated character pattern does not necessarily prove the riwayah.</p>
+<p><b>Typeface:</b> Naskh, Nastaleeq and Kufi are visual font styles. The font metadata profile is inferred only from its filename and embedded name records.</p>
+<p><b>Digital encoding:</b> Unicode text fields differ from QPC <code>code_v1</code>/<code>code_v2</code> glyph-code workflows. Glyph-coded data requires its matching font/code mapping.</p>
+<p><b>Mushaf page layout:</b> Mushaf IDs identify pagination resources. QUL documents distinct QCF, Uthmani Hafs, KFGQPC Hafs and IndoPak 15-/16-line entries. Page/line counts cannot be inferred from a paragraph.</p>
+<h3>Quran Foundation text fields understood by this analyzer</h3><table><thead><tr><th>API field</th><th>Meaning / rendering note recorded by analyzer</th></tr></thead><tbody>{qf_field_rows}</tbody></table>
+<h3>Quran Foundation Mushaf IDs understood by this analyzer</h3><table><thead><tr><th>ID</th><th>Name</th><th>QF code</th><th>Orthography</th><th>Riwayah</th><th>Lines</th><th>Pages</th><th>Encoding model</th></tr></thead><tbody>{mushaf_rows}</tbody></table>
 <ul>
 <li><a href="https://tanzil.net/docs/quran_text_types" target="_blank" rel="noopener">Tanzil: Quran text types</a> — Uthmani and Simple/Imla'i distinction.</li>
-<li><a href="https://api-docs.quran.com/docs/api/field-reference/" target="_blank" rel="noopener">Quran Foundation: field reference</a> — separate `text_uthmani`, `text_imlaei` and `text_indopak_nastaleeq` fields.</li>
-<li><a href="https://api-docs.quran.com/docs/tutorials/fonts/page-layout/" target="_blank" rel="noopener">Quran Foundation: page layout guide</a> — distinct Mushaf IDs and page/line pagination.</li>
-<li><a href="https://www.unicode.org/Public/UCD/latest/charts/nameslist/0600/" target="_blank" rel="noopener">Unicode Arabic names list</a> — code point names and usage notes.</li>
+<li><a href="https://api-docs.quran.foundation/docs/api/field-reference/" target="_blank" rel="noopener">Quran Foundation: field reference</a> — current text and word fields.</li>
+<li><a href="https://api-docs.quran.foundation/docs/tutorials/fonts/font-rendering/" target="_blank" rel="noopener">Quran Foundation: font rendering</a> — compatibility rules for QPC and IndoPak Nastaleeq.</li>
+<li><a href="https://api-docs.quran.foundation/docs/tutorials/fonts/page-layout/" target="_blank" rel="noopener">Quran Foundation: page layout guide</a> — Mushaf IDs and page/line pagination.</li>
+<li><a href="https://www.unicode.org/Public/UCD/UCD/latest/ucd/NamesList.txt" target="_blank" rel="noopener">Unicode Arabic names list</a> — code point names and usage notes.</li>
 </ul></section>
 <footer class="small">Generated by quran_font_analyzer.py. Font metadata and Unicode mappings were read from the supplied font binaries. Orthography classification is evidence-based and deliberately returns inconclusive when the input cannot support a reliable label.</footer>
 </main><script>function filterFonts(){{const q=document.getElementById('fontFilter').value.toLowerCase();document.querySelectorAll('#fontTable tbody tr').forEach(r=>r.style.display=r.innerText.toLowerCase().includes(q)?'':'none')}}
@@ -944,12 +1415,22 @@ def print_text_summary(analysis: dict[str, Any], output_format: str = "text") ->
     print(f"Classification:   {layout.get('classification')}")
     print(f"Status:           {layout.get('status')}")
     print(f"Explanation:      {layout.get('explanation')}")
+    print("\nSEPARATE TEXT / EDITION DIMENSIONS")
+    print("-" * 72)
+    for key, dimension in layout.get("dimensions", {}).items():
+        print(f"{key.replace('_', ' ').title():22} {dimension.get('value')} [{dimension.get('status')}]")
+        print(f"{'':22} Basis: {dimension.get('basis')}")
     if layout.get("reference_comparisons"):
         print("Reference comparisons:")
         for match in layout["reference_comparisons"]:
-            print(f"  {match['layout']}: {match['similarity']:.1%}  ({match['filename']})")
-    print("\nImportant: character signals alone cannot certify Uthmani, Imla'i, or IndoPak.")
-    print("Use a same-passage reference text or source-declared edition for stronger identification.")
+            print(f"  {match.get('filename')}: strict={match['similarity']:.1%}, base={match['base_letter_similarity']:.1%}; {match.get('match_type')}")
+    if layout.get("qf_field"):
+        print(f"\nQuran Foundation field: {layout['qf_field']}")
+        print(f"Field metadata: {layout.get('qf_field_metadata')}")
+    if layout.get("mushaf_metadata"):
+        print(f"\nMushaf metadata: {layout['mushaf_metadata']}")
+    print("\nImportant: orthography, riwayah, script tradition, typeface, encoding model and page layout are separate dimensions.")
+    print("Character signals alone cannot certify an edition; use same-passage references or source metadata.")
 
     print("\nCHARACTER INVENTORY")
     print("-" * 72)
@@ -969,6 +1450,7 @@ def parse_args() -> argparse.Namespace:
             "  python quran_font_analyzer.py 'اللَّهُمَّ اغْفِرْ لَنَا' --text-only\n"
             "  cat passage.txt | python quran_font_analyzer.py --stdin --text-only\n"
             "  python quran_font_analyzer.py --text-file passage.txt --text-kind quran\n"
+            "  python quran_font_analyzer.py --text-file ayah.txt --text-kind quran --qf-field text_indopak_nastaleeq\n"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -979,8 +1461,19 @@ def parse_args() -> argparse.Namespace:
     input_group.add_argument("--stdin", action="store_true", help="Read text from standard input; pipes are also detected automatically")
     parser.add_argument("--label", default=None, help="Human-readable name for the input text")
     parser.add_argument("--text-kind", choices=["auto", "quran", "hadith", "arabic-prose", "unknown"], default="auto", help="Context of the input; hadith avoids Qur'anic edition labels")
-    parser.add_argument("--declared-layout", choices=["uthmani", "imlaei", "indopak"], help="Known source label; recorded as declared, not inferred")
-    parser.add_argument("--reference-dir", type=Path, default=DEFAULT_REFERENCE_DIR, help="Folder containing same-passage reference files named uthmani*.txt, imlaei*.txt, indopak*.txt")
+    parser.add_argument("--declared-layout", choices=["uthmani", "imlaei", "indopak"], help="Legacy alias for --declared-orthography")
+    parser.add_argument("--declared-orthography", choices=["uthmani", "imlaei", "indopak"], help="Known Qur'anic text orthography; recorded as source-declared")
+    parser.add_argument("--declared-riwayah", choices=["hafs", "warsh", "qalun", "shuabah", "duri", "other"], help="Known recitation transmission; recorded as source-declared")
+    parser.add_argument("--declared-script-tradition", choices=["madani", "indopak", "maghribi", "qpc-nastaleeq", "other"], help="Known script tradition; recorded as source-declared")
+    parser.add_argument("--declared-typeface", choices=["naskh", "nastaleeq", "kufi", "maghribi", "thuluth", "ruqah", "other"], help="Known typeface style; a typography property, not an orthography")
+    parser.add_argument("--encoding-model", choices=["unicode-text", "unicode-indopak-nastaleeq", "qpc-glyph-v1", "qpc-glyph-v2", "digital-khatt-v1", "digital-khatt-v2", "digital-khatt-indopak", "unknown"], help="Source-declared digital text/font representation")
+    parser.add_argument("--qf-field", choices=sorted(QUL_TEXT_FIELDS), help="Known Quran Foundation text/word field; supplies its documented text-representation metadata")
+    parser.add_argument("--mushaf-id", type=int, choices=sorted(MUSHAF_CATALOG), help="Quran Foundation Pages Lookup Mushaf ID; records edition/page-layout metadata")
+    parser.add_argument("--page-layout", help="Source-declared page layout name, e.g. Madani 15-line")
+    parser.add_argument("--line-count", type=int, help="Known lines per Mushaf page")
+    parser.add_argument("--page-count", type=int, help="Known page count for the source Mushaf")
+    parser.add_argument("--font-for-text", help="Font filename in --font-dir to associate with this text for typography metadata")
+    parser.add_argument("--reference-dir", type=Path, default=DEFAULT_REFERENCE_DIR, help="Folder with same-passage references; filename prefixes or manifest.json provide metadata")
     parser.add_argument("--font-dir", type=Path, default=SCRIPT_DIR, help="Folder containing font files; defaults to the same folder as this Python script")
     parser.add_argument("--recursive-fonts", action="store_true", help="Also scan fonts in nested subfolders")
     parser.add_argument("--output-dir", type=Path, default=SCRIPT_DIR / "report-output", help="Directory where HTML/JSON/CSV/CSS reports are written")
@@ -992,6 +1485,10 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
+    if args.declared_layout and args.declared_orthography and args.declared_layout != args.declared_orthography:
+        raise SystemExit("--declared-layout and --declared-orthography disagree; use only one value.")
+    if args.qf_field and args.text_kind in ("hadith", "arabic-prose", "unknown"):
+        raise SystemExit("--qf-field describes a Quran Foundation Qur'anic text/word field; use --text-kind quran or auto.")
     text, label, input_source = read_text_input(args)
     args.label = label
     args.reference_dir = args.reference_dir.expanduser().resolve() if args.reference_dir else None
@@ -1017,9 +1514,40 @@ def main() -> int:
 
     codepoints = {ord(ch) for ch in text if not ch.isspace()}
     font_records = [inspect_font(path, codepoints) for path in paths]
+    if args.font_for_text:
+        requested_font = args.font_for_text.casefold()
+        selected = next((rec for rec in font_records if rec.get("filename", "").casefold() == requested_font or rec.get("family", "").casefold() == requested_font or rec.get("full_name", "").casefold() == requested_font), None)
+        if selected is None:
+            raise SystemExit(f"Could not find --font-for-text '{args.font_for_text}' in {args.font_dir}. Use --list-fonts to see available names.")
+        profile = selected.get("metadata_profile", {})
+        style_labels = profile.get("typographic_style_labels_from_metadata", [])
+        text_analysis["font_context"] = {
+            "filename": selected.get("filename"),
+            "family": selected.get("family"),
+            "full_name": selected.get("full_name"),
+            "typographic_style_labels_from_metadata": style_labels,
+            "script_tradition_labels_from_metadata": profile.get("script_tradition_labels_from_metadata", []),
+            "evidence_basis": profile.get("evidence_basis"),
+            "interpretation": "This identifies metadata labels for the selected font. It does not prove the source text's orthography or that a browser actually rendered every character with this font.",
+        }
+        if style_labels and style_labels != ["Not stated in font name metadata"]:
+            typography_dimension = text_analysis["layout_analysis"]["dimensions"]["typography"]
+            selected_style = ", ".join(style_labels)
+            if typography_dimension.get("status") in ("Not inferable from text alone", "Strong reference match", "Conflicting strong reference matches"):
+                typography_dimension.update({
+                    "value": selected_style,
+                    "status": "Selected-font metadata (not inferred from text)",
+                    "basis": selected.get("filename"),
+                    "explanation": "The linked font's filename/name table contains this style label. Visual verification is still needed.",
+                    "candidates": [],
+                })
+            elif str(typography_dimension.get("value", "")).casefold() != selected_style.casefold():
+                text_analysis["layout_analysis"].setdefault("metadata_warnings", []).append(
+                    f"The source declares typography '{typography_dimension.get('value')}', while selected font metadata suggests '{selected_style}'. Confirm that the font is compatible with this text field."
+                )
     report = {
         "tool": "quran_font_analyzer.py",
-        "tool_version": "1.1.0",
+        "tool_version": "1.3.0",
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "input": {
             "label": label,
@@ -1028,24 +1556,42 @@ def main() -> int:
             "font_dir": str(args.font_dir),
             "font_scan_mode": "recursive" if args.recursive_fonts else "current folder only",
             "reference_dir": str(args.reference_dir) if args.reference_dir else None,
+            "declared_orthography": args.declared_orthography or args.declared_layout,
+            "declared_riwayah": args.declared_riwayah,
+            "declared_script_tradition": args.declared_script_tradition,
+            "declared_typeface": args.declared_typeface,
+            "encoding_model": args.encoding_model,
+            "qf_field": args.qf_field,
+            "mushaf_id": args.mushaf_id,
+            "page_layout": args.page_layout,
+            "line_count": args.line_count,
+            "page_count": args.page_count,
+            "font_for_text": args.font_for_text,
             "text_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
         },
         "text_analysis": text_analysis,
         "font_count": len(font_records),
         "font_files": [path.name for path in paths],
         "fonts": font_records,
+        "quran_foundation_text_fields": QUL_TEXT_FIELDS,
+        "quran_foundation_mushaf_ids": MUSHAF_CATALOG,
         "interpretation_notes": [
             "Font inventory is discovered at runtime from the selected font folder; add or remove font files and rerun to refresh the report.",
             "Font family/style metadata describes the font file, not the orthography of text rendered using it.",
             "Unicode cmap counts direct character mappings, not internal glyphs reached through OpenType substitutions.",
             "GSUB/GPOS feature tags indicate feature availability, not quality of shaping in every browser.",
-            "Uthmani, Imla'i and IndoPak require source/edition evidence or comparison with a matching reference text.",
-            "A fixed Mushaf page layout requires page and line position metadata; it cannot be inferred from a paragraph alone.",
+            "Orthography, riwayah, script tradition, typography, encoding model and page layout are separate assessment dimensions.",
+            "Uthmani, Imla'i and IndoPak require source/edition evidence or comparison with a same-passage reference text.",
+            "Recitation transmission and regional script tradition require source metadata or a reference; character heuristics are not proof.",
+            "Typeface labels are inferred from font names/embedded metadata only; actual visual style needs rendered visual inspection.",
+            "A fixed Mushaf page layout requires a Mushaf ID or page and line position metadata; it cannot be inferred from a paragraph alone.",
+            "QPC code_v1/code_v2 glyph sequences are separate from ordinary Unicode text fields.",
         ],
         "sources": [
             {"title":"Tanzil Quran Text Types", "url":"https://tanzil.net/docs/quran_text_types"},
-            {"title":"Quran Foundation Field Reference", "url":"https://api-docs.quran.com/docs/api/field-reference/"},
-            {"title":"Quran Foundation Page Layout API Guide", "url":"https://api-docs.quran.com/docs/tutorials/fonts/page-layout/"},
+            {"title":"Quran Foundation Field Reference", "url":"https://api-docs.quran.foundation/docs/api/field-reference/"},
+            {"title":"Quran Foundation Font Rendering", "url":"https://api-docs.quran.foundation/docs/tutorials/fonts/font-rendering/"},
+            {"title":"Quran Foundation Page Layout API Guide", "url":"https://api-docs.quran.foundation/docs/tutorials/fonts/page-layout/"},
             {"title":"Unicode Arabic names list", "url":"https://www.unicode.org/Public/UCD/latest/charts/nameslist/0600/"},
         ],
     }
@@ -1068,6 +1614,7 @@ def main() -> int:
     font_columns = [
         "filename", "family", "subfamily", "full_name", "postscript_name", "version",
         "designer", "manufacturer", "copyright", "license_description", "license_url",
+        "typographic_style_labels", "product_labels", "recitation_labels", "script_tradition_labels",
         "glyph_count", "unicode_cmap_count", "arabic_codepoint_count", "perso_arabic_codepoint_count",
         "private_use_codepoint_count", "weight_class", "weight_label", "width_class", "width_label",
         "units_per_em", "vendor_id", "fs_type", "embedding_permissions", "GSUB", "GPOS",
@@ -1082,6 +1629,7 @@ def main() -> int:
             metrics = rec.get("metrics", {})
             ot = rec.get("open_type", {})
             coverage = rec.get("text_coverage", {})
+            profile = rec.get("metadata_profile", {})
             row = {key: rec.get(key) for key in font_columns}
             row.update({
                 "designer": " | ".join(names.get("designer", [])),
@@ -1089,6 +1637,10 @@ def main() -> int:
                 "copyright": " | ".join(names.get("copyright", [])),
                 "license_description": " | ".join(names.get("license_description", [])),
                 "license_url": " | ".join(names.get("license_url", [])),
+                "typographic_style_labels": "; ".join(profile.get("typographic_style_labels_from_metadata", [])),
+                "product_labels": "; ".join(profile.get("product_or_family_labels_from_metadata", [])),
+                "recitation_labels": "; ".join(profile.get("recitation_labels_from_metadata", [])),
+                "script_tradition_labels": "; ".join(profile.get("script_tradition_labels_from_metadata", [])),
                 "weight_class": metrics.get("weight_class"),
                 "weight_label": metrics.get("weight_label"),
                 "width_class": metrics.get("width_class"),

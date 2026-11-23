@@ -1,0 +1,19 @@
+{
+  "references": [
+    {
+      "file": "uthmani_hafs_madani_15_lines.txt",
+      "orthography": "Uthmani",
+      "riwayah": "Hafs",
+      "script_tradition": "Madani / Uthmani",
+      "typography": "Naskh",
+      "encoding_model": "Unicode text",
+      "page_layout": "Madani 15-line",
+      "line_count": 15,
+      "page_count": 604,
+      "mushaf_id": 5,
+      "qf_field": "text_uthmani",
+      "source": "Replace with verified publisher/edition",
+      "source_url": "Replace with verified source URL"
+    }
+  ]
+}
