@@ -1,0 +1,55 @@
+﻿Character,Code point,Unicode name,Observation,Unicode category,Count
+:,U+003A,COLON,Other / punctuation / whitespace,Po,3
+[,U+005B,LEFT SQUARE BRACKET,Other / punctuation / whitespace,Ps,1
+],U+005D,RIGHT SQUARE BRACKET,Other / punctuation / whitespace,Pe,1
+،,U+060C,ARABIC COMMA,Arabic-script character,Po,15
+أ,U+0623,ARABIC LETTER ALEF WITH HAMZA ABOVE,Arabic-script character,Lo,5
+ؤ,U+0624,ARABIC LETTER WAW WITH HAMZA ABOVE,Arabic-script character,Lo,2
+إ,U+0625,ARABIC LETTER ALEF WITH HAMZA BELOW,Arabic-script character,Lo,3
+ئ,U+0626,ARABIC LETTER YEH WITH HAMZA ABOVE,Arabic-script character,Lo,2
+ا,U+0627,ARABIC LETTER ALEF,Arabic-script character,Lo,78
+ب,U+0628,ARABIC LETTER BEH,Arabic-script character,Lo,38
+ت,U+062A,ARABIC LETTER TEH,Arabic-script character,Lo,12
+ث,U+062B,ARABIC LETTER THEH,Arabic-script character,Lo,5
+ج,U+062C,ARABIC LETTER JEEM,Arabic-script character,Lo,8
+ح,U+062D,ARABIC LETTER HAH,Arabic-script character,Lo,19
+خ,U+062E,ARABIC LETTER KHAH,Arabic-script character,Lo,6
+د,U+062F,ARABIC LETTER DAL,Arabic-script character,Lo,22
+ذ,U+0630,ARABIC LETTER THAL,Arabic-script character,Lo,7
+ر,U+0631,ARABIC LETTER REH,Arabic-script character,Lo,29
+ز,U+0632,ARABIC LETTER ZAIN,Arabic-script character,Lo,5
+س,U+0633,ARABIC LETTER SEEN,Arabic-script character,Lo,17
+ش,U+0634,ARABIC LETTER SHEEN,Arabic-script character,Lo,1
+ص,U+0635,ARABIC LETTER SAD,Arabic-script character,Lo,7
+ض,U+0636,ARABIC LETTER DAD,Arabic-script character,Lo,2
+ط,U+0637,ARABIC LETTER TAH,Arabic-script character,Lo,1
+ظ,U+0638,ARABIC LETTER ZAH,Arabic-script character,Lo,1
+ع,U+0639,ARABIC LETTER AIN,Arabic-script character,Lo,36
+غ,U+063A,ARABIC LETTER GHAIN,Arabic-script character,Lo,2
+ف,U+0641,ARABIC LETTER FEH,Arabic-script character,Lo,16
+ق,U+0642,ARABIC LETTER QAF,Arabic-script character,Lo,11
+ك,U+0643,ARABIC LETTER KAF,Arabic-script character,Lo,9
+ل,U+0644,ARABIC LETTER LAM,Arabic-script character,Lo,70
+م,U+0645,ARABIC LETTER MEEM,Arabic-script character,Lo,42
+ن,U+0646,ARABIC LETTER NOON,Arabic-script character,Lo,63
+ه,U+0647,ARABIC LETTER HEH,Arabic-script character,Lo,2
+و,U+0648,ARABIC LETTER WAW,Arabic-script character,Lo,40
+ى,U+0649,ARABIC LETTER ALEF MAKSURA,Arabic-script character,Lo,1
+ي,U+064A,ARABIC LETTER YEH,Arabic-script character,Lo,8
+ٌ,U+064C,ARABIC DAMMATAN,Arabic diacritic / Qur'anic mark,Mn,1
+ٍ,U+064D,ARABIC KASRATAN,Arabic diacritic / Qur'anic mark,Mn,6
+َ,U+064E,ARABIC FATHA,Arabic diacritic / Qur'anic mark,Mn,244
+ُ,U+064F,ARABIC DAMMA,Arabic diacritic / Qur'anic mark,Mn,76
+ِ,U+0650,ARABIC KASRA,Arabic diacritic / Qur'anic mark,Mn,85
+ّ,U+0651,ARABIC SHADDA,Arabic diacritic / Qur'anic mark,Mn,40
+ْ,U+0652,ARABIC SUKUN,Arabic diacritic / Qur'anic mark,Mn,97
+ٔ,U+0654,ARABIC HAMZA ABOVE,Arabic diacritic / Qur'anic mark,Mn,11
+ک,U+06A9,ARABIC LETTER KEHEH,Perso-Arabic / Urdu-associated,Lo,15
+ہ,U+06C1,ARABIC LETTER HEH GOAL,Perso-Arabic / Urdu-associated,Lo,22
+ۃ,U+06C3,ARABIC LETTER TEH MARBUTA GOAL,Perso-Arabic / Urdu-associated,Lo,1
+ی,U+06CC,ARABIC LETTER FARSI YEH,Perso-Arabic / Urdu-associated,Lo,32
+۔,U+06D4,ARABIC FULL STOP,Perso-Arabic / Urdu-associated,Po,3
+۴,U+06F4,EXTENDED ARABIC-INDIC DIGIT FOUR,Extended Arabic-Indic (Persian-style) digit,Nd,1
+۶,U+06F6,EXTENDED ARABIC-INDIC DIGIT SIX,Extended Arabic-Indic (Persian-style) digit,Nd,1
+۸,U+06F8,EXTENDED ARABIC-INDIC DIGIT EIGHT,Extended Arabic-Indic (Persian-style) digit,Nd,1
+۹,U+06F9,EXTENDED ARABIC-INDIC DIGIT NINE,Extended Arabic-Indic (Persian-style) digit,Nd,1
