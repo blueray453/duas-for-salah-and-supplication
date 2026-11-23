@@ -1,52 +1,27 @@
 # Qur'anic Text & Font Analyzer
 
-A reproducible Python project for inspecting Arabic/Qur'anic font files and examining a supplied Arabic text's Unicode character repertoire. The Python program generates the HTML report, JSON data, CSV character inventory and CSS `unicode-range` file.
+A reproducible Python utility that scans font files in the **same folder as the Python script**, inspects their metadata and Unicode/OpenType coverage, and analyzes any supplied Arabic-script text.
 
-## What it analyzes
+The font inventory is discovered every time the program runs. You do not need to edit a font list or update a manifest when adding/removing fonts.
 
-### Every font file (`fonts/`)
+## What's included
 
-For each TTF, OTF, WOFF or WOFF2 file, the report extracts the available:
+- 57 font binaries currently included in the project root: the previous 55 plus two files from the latest archive.
+- `quran_font_analyzer.py`: the complete analyzer and report generator.
+- `report-output/`: generated HTML, JSON, CSV and CSS files (recreated on each report run).
+- `samples/`: example hadith text and a Uthmani Al-Fatihah sample.
+- `reference_texts/`: folder for matched Uthmani, Imla'i and IndoPak reference passages.
+- `tests/`: automated tests.
+- `CLASSIFICATION-METHODOLOGY.md`: what can and cannot be inferred about text types.
+- `FONT-LICENSE-NOTES.md`: notes about embedded font licensing metadata.
 
-- Font identity: family, subfamily, full name, PostScript name, version and unique ID.
-- Attribution: copyright, designer, manufacturer, trademark, description, vendor/designer URLs and embedded license text/URL when present.
-- Glyph count and Unicode cmap count (these are different measurements).
-- Unicode code-point coverage grouped by script/block, including Arabic, Bengali, Latin, Arabic presentation forms and Private Use Area.
-- OpenType GSUB and GPOS feature tags, GDEF presence, legacy kern table, color-font tables and variable-font axes.
-- Metrics: units per em, font bounding box, weight/width class, OS/2 and hhea ascender/descender values, italic angle, underline metrics and vendor ID.
-- `fsType` embedding-permission flags when present.
-- SHA-256 hash and direct cmap coverage for the selected text.
-- CSS `unicode-range` generated from the actual font cmap.
+## Requirements
 
-All metadata is reported as embedded in each binary. Missing metadata is shown as blank; it is not guessed.
+- Python 3.10+
+- `fonttools[woff]`
+- `brotli` (WOFF2 support)
 
-### A selected text
-
-The text analyser reports:
-
-- Every distinct non-whitespace Unicode code point, Unicode name, category, frequency and code-point value.
-- Perso-Arabic / Urdu-associated forms such as Keheh, Farsi Yeh, Heh Goal, Teh Marbuta Goal and extended Arabic-Indic digits.
-- Arabic-Indic digits, Qur'anic annotation signs, Uthmani-associated characters and pause marks.
-- NFC/NFKC normalisation observations, combining-mark count and tatweel.
-- Whether each font maps every character used in the selected text.
-
-The Perso-Arabic indicators describe code-point usage. They do **not** by themselves prove that the language is Urdu or Persian.
-
-## Can it classify a text as Uthmani, Imla'i or IndoPak?
-
-It deliberately separates a **signal-based assessment** from a **verified classification**.
-
-- Uthmani and Imla'i/Simple are Qur'anic orthography/text-edition labels. Tanzil describes Uthmani and Simple (Imla'i) as separate text types.
-- Quran Foundation exposes different data fields for `text_uthmani`, `text_imlaei` and `text_indopak_nastaleeq`. It also explains that IndoPak text needs a compatible font.
-- Uthmani-associated code points, superscript marks or waqf symbols are useful clues, but their presence/absence does not certify an edition.
-- IndoPak is not simply “Arabic text with Urdu letters”, and it is not synonymous with a Nastaliq typeface.
-- A printed page layout such as Madani 15-line or IndoPak 16-line needs actual page/line/word-position information. It cannot be inferred from an unbroken paragraph.
-
-For a confident comparison, supply the **same passage** from a known edition as a reference text. The script compares NFC-normalised character sequences after removing whitespace and tatweel. A near-exact match is reported as a strong reference match. You can also use `--declared-layout` to record an edition label already known from the source; this is explicitly marked as source-declared, not inferred.
-
-## Install
-
-Python 3.10 or later is recommended.
+Install dependencies:
 
 ```bash
 python -m venv .venv
@@ -55,115 +30,182 @@ source .venv/bin/activate       # Linux/macOS
 python -m pip install -r requirements.txt
 ```
 
-`fontTools` reads TTF/OTF metadata and cmap tables. `brotli` enables WOFF2 decoding.
+## 1. Generate the full report
 
-## Run the default analysis
-
-From the project directory:
+Run from any working directory:
 
 ```bash
-python quran_font_analyzer.py
+python /path/to/quran_text_font_analyzer/quran_font_analyzer.py
 ```
 
-This uses `samples/hadith_quranohadith_original.txt` and scans all font files in `fonts/`. It generates:
+By default the script:
 
-```text
-report-output/
-├── report.html
-├── font_report.json
-├── text_analysis.json
-├── character_inventory.csv
-└── font_unicode_ranges.css
-```
+1. Scans font binaries placed directly beside `quran_font_analyzer.py`.
+2. Uses `samples/hadith_quranohadith_original.txt` as the analysis text.
+3. Rebuilds `report-output/`.
 
-Open `report-output/report.html` in a browser. The relative font paths allow the report's font specimens to load from `../fonts/`.
+It scans `.ttf`, `.otf`, `.woff` and `.woff2` files. The scan is non-recursive by default.
 
-## Analyze another text
+### Add or remove fonts
 
-```bash
-python quran_font_analyzer.py --text-file /path/to/my-arabic-text.txt
-```
+Place a new font file directly in the project folder, beside `quran_font_analyzer.py`, and rerun the command. Remove a font file and rerun to remove it from the next report. No Python list, JSON manifest or configuration needs changing.
 
-Or pass a short sample directly:
-
-```bash
-python quran_font_analyzer.py --text "اللَّهُمَّ اغْفِرْ لَنَا" --label "Dua sample"
-```
-
-For a known hadith, specify its genre so it is not presented as a Qur'anic edition:
-
-```bash
-python quran_font_analyzer.py --text-file my_hadith.txt --text-kind hadith
-```
-
-For a known Qur'anic excerpt, use:
-
-```bash
-python quran_font_analyzer.py --text-file my_ayah.txt --text-kind quran
-```
-
-The `quran` flag says what kind of source the user supplied; it does not assert Uthmani/Imla'i/IndoPak.
-
-## Compare with known source text
-
-Put matching reference files in `reference_texts/`:
-
-```text
-reference_texts/
-├── uthmani_reference.txt
-├── imlaei_reference.txt
-└── indopak_reference.txt
-```
-
-Only `.txt` files with these filename prefixes are loaded. Each file should contain the same verse or passage as the input text, from the named edition. Then run:
-
-```bash
-python quran_font_analyzer.py --text-file my_ayah.txt --text-kind quran --reference-dir reference_texts
-```
-
-The report shows similarity scores. A 98.5% or higher normalized sequence similarity is labeled a strong reference match. This is a practical comparison threshold, not a scholarly standard. Check source provenance and the exact edition.
-
-To record a known classification from source metadata instead:
-
-```bash
-python quran_font_analyzer.py --text-file my_ayah.txt --declared-layout uthmani
-# accepted: uthmani, imlaei, indopak
-```
-
-## Other options
-
-```bash
-python quran_font_analyzer.py --help
-python quran_font_analyzer.py --font-dir ./fonts --output-dir ./my-report
-```
-
-Fonts can be placed in any chosen `--font-dir`; the report generator computes paths relative to the output folder.
-
-## Important interpretation rules
-
-1. **Font metadata is not text metadata.** A file named Uthmanic/Hafs may be a Qur'anic typeface, but that does not prove arbitrary text rendered in it is Uthmani/Hafs.
-2. **Glyph count is not cmap count.** OpenType substitutions can access internal glyphs that do not have direct Unicode mappings.
-3. **cmap coverage is not shaping quality.** GSUB/GPOS feature presence is useful metadata, but it does not prove all mark combinations render correctly in every browser.
-4. **Arabic script is not a language.** Perso-Arabic code points can occur in Arabic prose copied from a source that uses those characters; this does not make the passage linguistically Urdu.
-5. **No Uthmani marker does not prove Imla'i.** Marks may have been stripped, the sample may be short, or the text may be a prose excerpt.
-6. **Page layout is separate.** 15-line/16-line page pagination needs a Mushaf edition's page and line mapping.
-
-## Project layout
+Example folder layout:
 
 ```text
 quran_text_font_analyzer/
 ├── quran_font_analyzer.py
-├── requirements.txt
-├── README.md
-├── SOURCE-REFERENCES.md
-├── fonts/                    # Original font set + Adobe Arabic WOFF2 reference
+├── AdobeArabic.woff2
+├── MyArabicFont.otf
+├── AnotherFont.ttf
+├── UthmanTN1.otf
+├── fontawesome-webfont.woff2
 ├── samples/
-├── reference_texts/          # Add matched edition passages here
-└── report-output/            # Generated outputs
+├── reference_texts/
+└── report-output/
 ```
 
-## Licensing
+To scan nested font folders too:
 
-The font binaries are supplied as audit inputs. Their presence in this local project does not grant redistribution or web-hosting rights. Check each embedded license note and the font's upstream license before redistribution or production deployment.
+```bash
+python quran_font_analyzer.py --recursive-fonts
+```
 
-For the distinction between direct code-point observations and Qur'anic edition classification, see `CLASSIFICATION-METHODOLOGY.md`.
+To use a different folder:
+
+```bash
+python quran_font_analyzer.py --font-dir /path/to/font-folder
+```
+
+List what will be scanned:
+
+```bash
+python quran_font_analyzer.py --list-fonts
+```
+
+## 2. Analyze a text without generating the full font report
+
+This mode prints text characteristics to the terminal. It does not scan fonts or create report files.
+
+### As an option argument
+
+```bash
+python quran_font_analyzer.py --text 'اللَّهُمَّ اغْفِرْ لَنَا' --text-only
+```
+
+### As a positional argument
+
+```bash
+python quran_font_analyzer.py 'اللَّهُمَّ اغْفِرْ لَنَا' --text-only
+```
+
+### From a UTF-8 text file
+
+```bash
+python quran_font_analyzer.py --text-file passage.txt --text-only
+```
+
+### From standard input
+
+```bash
+cat passage.txt | python quran_font_analyzer.py --stdin --text-only
+```
+
+### Output as JSON
+
+```bash
+python quran_font_analyzer.py --text 'ك ک ي ی ہ' --text-only --format json
+cat passage.txt | python quran_font_analyzer.py --stdin --text-only --format json
+```
+
+The text-only analysis reports:
+
+- Character and distinct Unicode code-point counts.
+- Unicode names and general categories for each character.
+- Arabic-script, Latin, Bengali and other script counts.
+- Perso-Arabic / Urdu-associated letters such as `ک`, `ہ`, `ۃ`, `ی`, `پ`, `چ`, `گ` and others.
+- Side-by-side counts for Arabic `ك` versus Persian `ک`, Arabic `ي` versus Farsi `ی`, Arabic `ه` versus Urdu `ہ`, and Arabic `ة` versus Urdu `ۃ`.
+- Arabic-Indic versus Persian-style digits.
+- Arabic punctuation, Qur'anic signs, waqf marks, presentation forms and private-use characters.
+- Diacritics, tatweel, zero-width joiner/non-joiner and Unicode normalization observations.
+- An evidence-based text/orthography assessment.
+
+The output describes code-point use. It does **not** infer the language merely from the presence of a few letters.
+
+## 3. Generate a full report for your own text
+
+Unlike text-only mode, these commands scan all font files and regenerate the full HTML/CSV/JSON/CSS report for that exact text.
+
+```bash
+python quran_font_analyzer.py --text-file my-hadith.txt --text-kind hadith
+python quran_font_analyzer.py --text-file my-ayah.txt --text-kind quran
+python quran_font_analyzer.py --text 'اللَّهُمَّ اغْفِرْ لَنَا' --label 'Dua sample'
+cat my-ayah.txt | python quran_font_analyzer.py --stdin --text-kind quran
+```
+
+`--text-kind` accepts `auto`, `quran`, `hadith`, `arabic-prose` and `unknown`. It sets the context of the input; it does not claim that a text is Uthmani or Imla'i.
+
+## 4. Distinguish Uthmani, Imla'i and IndoPak
+
+The tool can observe signals, but **Unicode character clues alone cannot reliably certify an edition**.
+
+For stronger identification, provide the same passage from a known edition in `reference_texts/`:
+
+```text
+reference_texts/
+├── uthmani_2_255.txt
+├── imlaei_2_255.txt
+└── indopak_2_255.txt
+```
+
+Each reference file should contain the same passage and verse range as the supplied input. Filename prefixes determine the candidate type: `uthmani`, `imlaei`/`imlai`/`simple`, or `indopak`.
+
+Then run:
+
+```bash
+python quran_font_analyzer.py --text-file my-ayah.txt --text-kind quran --reference-dir reference_texts
+```
+
+A near-exact normalized match is reported as a strong reference match. This is a similarity check, not scholarly authentication. Check the reference source and edition.
+
+If the source already tells you its edition, you can record that explicitly:
+
+```bash
+python quran_font_analyzer.py --text-file my-ayah.txt --declared-layout uthmani
+```
+
+Accepted labels: `uthmani`, `imlaei`, `indopak`. This is recorded as source-declared, not inferred.
+
+## 5. Generated files
+
+The full report is written to `report-output/`:
+
+| File | Purpose |
+|---|---|
+| `report.html` | Interactive report with detailed metadata for every detected font and live text specimens |
+| `font_report.json` | Full machine-readable report, including all font metadata and cmap information |
+| `text_analysis.json` | Text-only analysis as JSON |
+| `font_inventory.csv` | One row per font with the key metadata and text-coverage results |
+| `character_inventory.csv` | One row per character in the selected text |
+| `font_unicode_ranges.css` | CSS `@font-face`/`unicode-range` declarations for detected fonts |
+
+These files are overwritten on each full report run. Adding or removing a font automatically changes the next inventory and generated outputs.
+
+## 6. Automated tests
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+## Important interpretation rules
+
+1. **Font metadata is not text metadata.** A font named Uthmani or Naskh does not prove that text rendered with it is Uthmani.
+2. **Glyph count is not cmap count.** OpenType substitutions can access internal glyphs not mapped directly to Unicode.
+3. **cmap coverage is not shaping quality.** GSUB/GPOS presence does not guarantee correct mark placement in every browser.
+4. **Arabic script is not the same as Arabic language.** Perso-Arabic code points indicate encoded character choices; they do not prove the text is Urdu or Persian.
+5. **IndoPak is not simply text containing Urdu letters.** It is a named Qur'anic text representation/edition convention. Compare the passage against a reference source.
+6. **No Uthmani marker does not prove Imla'i.** Marks may have been stripped, the passage may be short, or the source may use another convention.
+7. **Typeface and page layout differ.** Naskh/Nastaliq are typeface/script-style descriptions; 15-line/16-line page layouts need page and line positioning data.
+8. **Font embedding flags are not a complete license assessment.** Read the embedded license and upstream terms before redistributing or web-hosting font files.
+
+See `CLASSIFICATION-METHODOLOGY.md` for details.

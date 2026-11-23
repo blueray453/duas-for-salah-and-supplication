@@ -16,9 +16,11 @@ Install: python -m pip install -r requirements.txt
 
 Examples:
   python quran_font_analyzer.py
+  python quran_font_analyzer.py --text-only --text "اللَّهُمَّ اغْفِرْ لَنَا"
+  python quran_font_analyzer.py "اللَّهُمَّ اغْفِرْ لَنَا" --text-only
+  cat passage.txt | python quran_font_analyzer.py --stdin --text-only
   python quran_font_analyzer.py --text-file samples/al_fatihah_uthmani.txt --text-kind quran
   python quran_font_analyzer.py --text-file my_text.txt --text-kind hadith
-  python quran_font_analyzer.py --text "اللَّهُمَّ اغْفِرْ لَنَا" --label "Dua sample"
   python quran_font_analyzer.py --text-file verse.txt --reference-dir reference_texts
   python quran_font_analyzer.py --text-file verse.txt --declared-layout uthmani
   python quran_font_analyzer.py --font-dir /path/to/fonts --output-dir /path/to/report
@@ -47,7 +49,7 @@ except ImportError as exc:  # pragma: no cover
     raise SystemExit("Missing dependency: fontTools. Run: python -m pip install -r requirements.txt") from exc
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_FONT_DIR = SCRIPT_DIR / "fonts"
+DEFAULT_FONT_DIR = SCRIPT_DIR
 DEFAULT_TEXT = SCRIPT_DIR / "samples" / "hadith_quranohadith_original.txt"
 DEFAULT_REFERENCE_DIR = SCRIPT_DIR / "reference_texts"
 FONT_EXTENSIONS = {".ttf", ".otf", ".woff", ".woff2"}
@@ -589,7 +591,56 @@ def analyze_text(text: str, args: argparse.Namespace) -> dict[str, Any]:
         "NFC_changes_text": unicodedata.normalize("NFC", text) != text,
         "NFKC_changes_text": unicodedata.normalize("NFKC", text) != text,
         "contains_tatweel": "\u0640" in text,
+        "tatweel_count": text.count("\u0640"),
         "combining_mark_count": sum(1 for ch in visible if unicodedata.category(ch).startswith("M")),
+        "contains_zwnj": "\u200c" in text,
+        "zwnj_count": text.count("\u200c"),
+        "contains_zwj": "\u200d" in text,
+        "zwj_count": text.count("\u200d"),
+    }
+    # Report character-level signals precisely. These are encoding observations,
+    # not proof of the text's language, origin, or Qur'anic edition.
+    perso_details = []
+    for cp in full_perso:
+        ch = chr(cp)
+        description = PERSO_ARABIC.get(cp)
+        perso_details.append({
+            "character": ch,
+            "codepoint": cp_label(cp),
+            "unicode_name": unicode_name(cp),
+            "count": counts[ch],
+            "group": description[2] if description else "Persian-style digit",
+        })
+    digit_counts = {
+        "arabic_indic_digits": sum(counts.get(chr(cp), 0) for cp in ARABIC_INDIC_DIGITS),
+        "extended_arabic_indic_persian_style_digits": sum(counts.get(chr(cp), 0) for cp in PERSIAN_DIGITS),
+    }
+    presentation_forms = sorted(cp for cp in cp_set if 0xFB50 <= cp <= 0xFDFF or 0xFE70 <= cp <= 0xFEFF)
+    private_use = sorted(cp for cp in cp_set if 0xE000 <= cp <= 0xF8FF or 0xF0000 <= cp <= 0xFFFFD)
+    encoding_observations = {
+        "has_perso_arabic_associated_characters": bool(full_perso),
+        "perso_arabic_character_instances": sum(counts[chr(cp)] for cp in full_perso),
+        "perso_arabic_codepoints": perso_details,
+        "persian_style_codepoints": [cp_label(cp) for cp in persian_cps],
+        "urdu_associated_codepoints": [cp_label(cp) for cp in urdu_cps],
+        "arabic_vs_perso_character_pairs": {
+            "kaf": {"Arabic_Kaf_U+0643_count": counts.get("\u0643", 0), "Persian_Keheh_U+06A9_count": counts.get("\u06A9", 0)},
+            "yeh": {"Arabic_Yeh_U+064A_count": counts.get("\u064A", 0), "Farsi_Yeh_U+06CC_count": counts.get("\u06CC", 0)},
+            "heh": {"Arabic_Heh_U+0647_count": counts.get("\u0647", 0), "Urdu_Heh_Goal_U+06C1_count": counts.get("\u06C1", 0)},
+            "teh_marbuta": {"Arabic_Teh_Marbuta_U+0629_count": counts.get("\u0629", 0), "Urdu_Teh_Marbuta_Goal_U+06C3_count": counts.get("\u06C3", 0)},
+        },
+        "digit_counts": digit_counts,
+        "arabic_punctuation": [
+            {"character": chr(cp), "codepoint": cp_label(cp), "unicode_name": unicode_name(cp), "count": counts.get(chr(cp), 0)}
+            for cp in sorted(cp_set & {0x060C, 0x061B, 0x061F, 0x06D4})
+        ],
+        "presentation_form_codepoints": [cp_label(cp) for cp in presentation_forms],
+        "private_use_codepoints": [cp_label(cp) for cp in private_use],
+        "format_controls": [
+            {"character": chr(cp), "codepoint": cp_label(cp), "unicode_name": unicode_name(cp), "count": counts.get(chr(cp), 0)}
+            for cp in sorted(cp_set & {0x200C, 0x200D, 0x200E, 0x200F, 0x202A, 0x202B, 0x202C, 0x202D, 0x202E, 0x2066, 0x2067, 0x2068, 0x2069})
+        ],
+        "arabic_combining_mark_count": normalization["combining_mark_count"],
     }
     return {
         "label": args.label,
@@ -603,6 +654,7 @@ def analyze_text(text: str, args: argparse.Namespace) -> dict[str, Any]:
         "unique_urdu_associated_codepoints": [cp_label(cp) for cp in urdu_cps],
         "character_inventory": inventory,
         "normalization_observations": normalization,
+        "encoding_observations": encoding_observations,
         "layout_analysis": layout_classification(text, args),
     }
 
@@ -774,7 +826,7 @@ def create_html(report: dict[str, Any], text: str, font_paths: dict[str, Path], 
 *{{box-sizing:border-box}}body{{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}}main{{max-width:1240px;margin:0 auto;padding:28px 20px 70px}}h1{{font-size:32px;line-height:1.15;margin:0 0 8px}}h2{{margin:34px 0 12px;font-size:23px}}h3{{margin:18px 0 8px}}h4{{margin:16px 0 6px}}p{{margin:6px 0 12px}}.muted,.small{{color:var(--muted)}}.small{{font-size:12px}}.hero,.panel,.font-card{{background:var(--card);border:1px solid var(--line);border-radius:14px}}.hero{{padding:24px}}.panel{{padding:18px;margin:16px 0}}.stats{{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:18px}}.stat{{padding:14px;border:1px solid var(--line);border-radius:10px;background:#fff}}.stat b{{display:block;font-size:25px}}.stat span{{color:var(--muted);font-size:12px}}.tag{{display:inline-block;background:var(--soft);color:var(--accent);padding:4px 9px;border-radius:99px;font-size:12px;font-weight:650}}.notice{{border-left:4px solid #b27822;background:#fff9ed;padding:13px 15px;border-radius:8px}}.arabic{{font-family:serif;direction:rtl;text-align:right;line-height:2.15;font-size:23px;white-space:pre-wrap;word-break:normal}}.text-preview{{max-height:340px;overflow:auto;border:1px solid var(--line);padding:18px;border-radius:10px;background:#fff}}table{{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0 18px}}th,td{{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}}th{{background:#f1f5f7;position:sticky;top:0}}td.glyph{{font-size:25px;text-align:center;min-width:58px}}code,textarea{{font-family:ui-monospace,monospace}}textarea{{width:100%;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:11px}}.font-list{{display:grid;gap:10px}}.font-card{{overflow:hidden}}.font-card summary{{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:13px 15px;cursor:pointer;list-style:none}}.font-card summary::-webkit-details-marker{{display:none}}.font-title{{font-weight:700}}.pill{{margin-left:auto;background:#eef2f5;border-radius:99px;padding:3px 8px;font-size:12px}}.font-inner{{padding:14px 18px;border-top:1px solid var(--line)}}.preview{{font-size:28px;line-height:2.2;text-align:right;direction:rtl;border:1px solid var(--line);padding:12px;border-radius:10px;max-height:170px;overflow:auto;unicode-bidi:plaintext}}.grid-meta{{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;margin-top:12px}}.grid-meta>div{{padding:9px;background:#f6f8f9;border-radius:8px}}.grid-meta b,.grid-meta span{{display:block}}.grid-meta b{{font-size:11px;color:var(--muted)}}.grid-meta span{{font-weight:650;overflow-wrap:anywhere}}.evidence{{padding:12px 14px;border:1px solid var(--line);border-radius:10px;margin:9px 0}}.evidence h4{{margin:0 0 4px}}.evidence p{{margin:4px 0}}.actions a{{margin-right:14px}}.filter{{margin:10px 0;padding:10px;border:1px solid var(--line);border-radius:8px;width:100%}}@media(max-width:640px){{main{{padding:14px}}h1{{font-size:26px}}table{{display:block;overflow-x:auto}}}}
 {''.join(css_faces)}
 </style></head><body><main>
-<header class="hero"><span class="tag">Generated by quran_font_analyzer.py</span><h1>Qur'anic Text & Font Analysis</h1><p class="muted">Generated {h(report['generated_at'])}. The report is rebuilt from the font binaries and the selected text input.</p>
+<header class="hero"><span class="tag">Generated by quran_font_analyzer.py</span><h1>Qur'anic Text & Font Analysis</h1><p class="muted">Generated {h(report['generated_at'])}. The report is rebuilt from the font binaries and the selected text input.</p><p class="small">Font scan folder: <code>{h(report.get('input', {}).get('font_dir', ''))}</code> · {h(report.get('input', {}).get('font_scan_mode', 'current folder only'))}</p>
 <div class="stats"><div class="stat"><b>{len(font_records)}</b><span>Font files inspected</span></div><div class="stat"><b>{fonts_summary.get('Arabic-capable cmap',0)}</b><span>Fonts with Arabic-block mappings</span></div><div class="stat"><b>{report['text_analysis']['unique_non_whitespace_codepoints']}</b><span>Unique non-whitespace code points in text</span></div><div class="stat"><b>{len(report['text_analysis']['unique_perso_arabic_codepoints'])}</b><span>Perso-Arabic-associated code points</span></div></div></header>
 <section class="panel"><h2>1. Input text</h2><p><b>{h(report['text_analysis']['label'])}</b> · {report['text_analysis']['character_count_including_whitespace']} total characters · {report['text_analysis']['non_whitespace_character_count']} non-whitespace characters.</p><div class="text-preview arabic" dir="rtl">{sample_escaped}</div><div class="actions"><a href="{json_link}">Full JSON data</a><a href="{csv_link}">Text character inventory CSV</a><a href="{font_csv_link}">Font metadata CSV</a><a href="{css_link}">CSS unicode-range file</a></div></section>
 <section class="panel"><h2>2. Text script and character-encoding observations</h2>
@@ -782,6 +834,7 @@ def create_html(report: dict[str, Any], text: str, font_paths: dict[str, Path], 
 {inventory_html}
 <h3>Normalization observations</h3><pre>{h(json.dumps(report['text_analysis']['normalization_observations'], ensure_ascii=False, indent=2))}</pre>
 <h3>Distinctive Perso-Arabic / Urdu-associated code points</h3><p>{h(', '.join(report['text_analysis']['unique_perso_arabic_codepoints']) or 'None detected')}</p>
+<h3>Encoding observations</h3><pre>{h(json.dumps(report['text_analysis'].get('encoding_observations', {}), ensure_ascii=False, indent=2))}</pre>
 </section>
 <section class="panel"><h2>3. Can this text be classified as Uthmani, Imla'i or IndoPak?</h2>
 <p><span class="tag">{h(layout['status'])}</span></p><h3>{h(layout['classification'])}</h3><p>{h(layout['explanation'])}</p>
@@ -809,60 +862,182 @@ def create_html(report: dict[str, Any], text: str, font_paths: dict[str, Path], 
 </script></body></html>"""
 
 
-def find_font_files(font_dir: Path) -> list[Path]:
-    return sorted([p for p in font_dir.iterdir() if p.is_file() and p.suffix.lower() in FONT_EXTENSIONS], key=lambda p: p.name.casefold())
+def find_font_files(font_dir: Path, recursive: bool = False) -> list[Path]:
+    """Find supported font binaries directly in font_dir (or recursively if requested)."""
+    iterator = font_dir.rglob("*") if recursive else font_dir.iterdir()
+    return sorted(
+        [p for p in iterator if p.is_file() and p.suffix.lower() in FONT_EXTENSIONS],
+        key=lambda p: (p.name.casefold(), str(p.parent).casefold()),
+    )
+
+
+def read_text_input(args: argparse.Namespace) -> tuple[str, str, str]:
+    """Return (text, label, input_source) for CLI argument, file, or stdin."""
+    explicit_modes = sum([args.text is not None, args.text_file is not None, bool(args.stdin)])
+    if explicit_modes > 1:
+        raise SystemExit("Choose only one of --text, --text-file, or --stdin.")
+    if args.text_arg is not None and explicit_modes:
+        raise SystemExit("Do not combine positional TEXT with --text, --text-file, or --stdin.")
+
+    if args.text is not None:
+        return args.text, args.label or "Command-line text", "--text"
+    if args.text_file is not None:
+        text_path = args.text_file.expanduser().resolve()
+        if not text_path.is_file():
+            raise SystemExit(f"Text file not found: {text_path}")
+        return text_path.read_text(encoding="utf-8-sig"), args.label or text_path.name, str(text_path)
+    if args.stdin:
+        text = sys.stdin.read()
+        if not text:
+            raise SystemExit("No text was received on stdin.")
+        return text, args.label or "Standard input", "stdin"
+    if args.text_arg is not None:
+        return args.text_arg, args.label or "Positional command-line text", "positional argument"
+
+    default_path = DEFAULT_TEXT.resolve()
+    if not default_path.is_file():
+        raise SystemExit(f"Default sample text not found: {default_path}")
+    return default_path.read_text(encoding="utf-8-sig"), args.label or default_path.name, str(default_path)
+
+
+def print_text_summary(analysis: dict[str, Any], output_format: str = "text") -> None:
+    if output_format == "json":
+        print(json.dumps(json_safe(analysis), ensure_ascii=False, indent=2))
+        return
+
+    print("TEXT CHARACTERISTICS")
+    print("=" * 72)
+    print(f"Label:                     {analysis.get('label')}")
+    print(f"Characters (all):          {analysis['character_count_including_whitespace']}")
+    print(f"Characters (non-space):    {analysis['non_whitespace_character_count']}")
+    print(f"Distinct code points:      {analysis['unique_non_whitespace_codepoints']}")
+    print(f"Script character counts:   {analysis['script_character_counts']}")
+
+    encoding = analysis.get("encoding_observations", {})
+    print("\nCHARACTER-ENCODING OBSERVATIONS")
+    print("-" * 72)
+    print(f"Perso-Arabic-associated characters present: {encoding.get('has_perso_arabic_associated_characters')}")
+    print(f"Perso-Arabic-associated character instances: {encoding.get('perso_arabic_character_instances', 0)}")
+    print(f"Arabic combining marks:                     {encoding.get('arabic_combining_mark_count', 0)}")
+    print(f"Arabic-Indic digits:                         {encoding.get('digit_counts', {}).get('arabic_indic_digits', 0)}")
+    print(f"Persian-style digits:                        {encoding.get('digit_counts', {}).get('extended_arabic_indic_persian_style_digits', 0)}")
+    print(f"Contains tatweel:                            {analysis['normalization_observations'].get('contains_tatweel')}")
+    print(f"Contains ZWNJ / ZWJ:                          {analysis['normalization_observations'].get('contains_zwnj')} / {analysis['normalization_observations'].get('contains_zwj')}")
+
+    perso_rows = encoding.get("perso_arabic_codepoints", [])
+    if perso_rows:
+        print("\nPerso-Arabic-associated code points:")
+        for row in perso_rows:
+            print(f"  {row['character']}  {row['codepoint']}  {row['unicode_name']}  count={row['count']}  [{row['group']}]")
+    else:
+        print("\nNo configured distinctive Perso-Arabic-associated code points were detected.")
+
+    print("\nARABIC / PERSO-ARABIC CHARACTER PAIRS")
+    print("-" * 72)
+    for key, values in encoding.get("arabic_vs_perso_character_pairs", {}).items():
+        print(f"{key}: " + ", ".join(f"{name}={count}" for name, count in values.items()))
+
+    layout = analysis.get("layout_analysis", {})
+    print("\nTEXT TYPE / ORTHOGRAPHY ASSESSMENT")
+    print("-" * 72)
+    print(f"Genre assessment: {layout.get('genre_assessment')}")
+    print(f"Classification:   {layout.get('classification')}")
+    print(f"Status:           {layout.get('status')}")
+    print(f"Explanation:      {layout.get('explanation')}")
+    if layout.get("reference_comparisons"):
+        print("Reference comparisons:")
+        for match in layout["reference_comparisons"]:
+            print(f"  {match['layout']}: {match['similarity']:.1%}  ({match['filename']})")
+    print("\nImportant: character signals alone cannot certify Uthmani, Imla'i, or IndoPak.")
+    print("Use a same-passage reference text or source-declared edition for stronger identification.")
+
+    print("\nCHARACTER INVENTORY")
+    print("-" * 72)
+    for row in analysis.get("character_inventory", []):
+        # json.dumps makes invisible, combining and spacing characters explicit.
+        visible = json.dumps(row["character"], ensure_ascii=False)
+        print(f"{visible:8} {row['codepoint']:10} {row['unicode_name']} | {row['group']} | count={row['count']}")
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Analyze Arabic/Qur'anic text encoding and font metadata, then generate an HTML report.")
-    group = parser.add_mutually_exclusive_group()
-    group.add_argument("--text-file", type=Path, help="UTF-8 text file to analyze")
-    group.add_argument("--text", help="Text string to analyze (shell quoting recommended)")
+    parser = argparse.ArgumentParser(
+        description="Inspect fonts in the current project folder and analyze Arabic/Qur'anic text encoding.",
+        epilog=(
+            "Examples:\n"
+            "  python quran_font_analyzer.py\n"
+            "  python quran_font_analyzer.py --text-only --text 'اللَّهُمَّ اغْفِرْ لَنَا'\n"
+            "  python quran_font_analyzer.py 'اللَّهُمَّ اغْفِرْ لَنَا' --text-only\n"
+            "  cat passage.txt | python quran_font_analyzer.py --stdin --text-only\n"
+            "  python quran_font_analyzer.py --text-file passage.txt --text-kind quran\n"
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument("text_arg", nargs="?", help="Optional text string as a positional argument")
+    input_group = parser.add_mutually_exclusive_group()
+    input_group.add_argument("--text-file", type=Path, help="UTF-8 text file to analyze")
+    input_group.add_argument("--text", help="Text string to analyze (quote it in the shell)")
+    input_group.add_argument("--stdin", action="store_true", help="Read text from standard input; pipes are also detected automatically")
     parser.add_argument("--label", default=None, help="Human-readable name for the input text")
-    parser.add_argument("--text-kind", choices=["auto", "quran", "hadith", "arabic-prose", "unknown"], default="auto", help="Context of the text; use hadith to prevent Qur'anic edition labels being applied to hadith prose")
+    parser.add_argument("--text-kind", choices=["auto", "quran", "hadith", "arabic-prose", "unknown"], default="auto", help="Context of the input; hadith avoids Qur'anic edition labels")
     parser.add_argument("--declared-layout", choices=["uthmani", "imlaei", "indopak"], help="Known source label; recorded as declared, not inferred")
-    parser.add_argument("--reference-dir", type=Path, default=DEFAULT_REFERENCE_DIR, help="Folder with matching reference files named uthmani*.txt, imlaei*.txt, indopak*.txt")
-    parser.add_argument("--font-dir", type=Path, default=DEFAULT_FONT_DIR, help="Directory containing TTF/OTF/WOFF/WOFF2 files")
-    parser.add_argument("--output-dir", type=Path, default=SCRIPT_DIR / "report-output", help="Directory where HTML/JSON/CSV/CSS are generated")
+    parser.add_argument("--reference-dir", type=Path, default=DEFAULT_REFERENCE_DIR, help="Folder containing same-passage reference files named uthmani*.txt, imlaei*.txt, indopak*.txt")
+    parser.add_argument("--font-dir", type=Path, default=SCRIPT_DIR, help="Folder containing font files; defaults to the same folder as this Python script")
+    parser.add_argument("--recursive-fonts", action="store_true", help="Also scan fonts in nested subfolders")
+    parser.add_argument("--output-dir", type=Path, default=SCRIPT_DIR / "report-output", help="Directory where HTML/JSON/CSV/CSS reports are written")
+    parser.add_argument("--text-only", "--analyze-text", "--no-report", dest="text_only", action="store_true", help="Print text characteristics only; do not inspect fonts or generate report files")
+    parser.add_argument("--output-format", "--format", choices=["text", "json"], default="text", help="Output format for --text-only (default: text)")
+    parser.add_argument("--list-fonts", action="store_true", help="List font files found in --font-dir and exit")
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
-    args.font_dir = args.font_dir.resolve()
-    args.output_dir = args.output_dir.resolve()
-    args.reference_dir = args.reference_dir.resolve() if args.reference_dir else None
-    if args.text is not None:
-        text = args.text
-        label = args.label or "Command-line text"
-    else:
-        text_path = (args.text_file or DEFAULT_TEXT).resolve()
-        if not text_path.is_file():
-            raise SystemExit(f"Text file not found: {text_path}")
-        text = text_path.read_text(encoding="utf-8-sig")
-        label = args.label or text_path.name
+    text, label, input_source = read_text_input(args)
     args.label = label
+    args.reference_dir = args.reference_dir.expanduser().resolve() if args.reference_dir else None
+
+    text_analysis = analyze_text(text, args)
+    if args.text_only:
+        print_text_summary(text_analysis, args.output_format)
+        return 0
+
+    args.font_dir = args.font_dir.expanduser().resolve()
+    args.output_dir = args.output_dir.expanduser().resolve()
     if not args.font_dir.is_dir():
         raise SystemExit(f"Font directory not found: {args.font_dir}")
-    paths = find_font_files(args.font_dir)
+    paths = find_font_files(args.font_dir, recursive=args.recursive_fonts)
+    if args.list_fonts:
+        for path in paths:
+            print(path.name)
+        print(f"\n{len(paths)} font file(s) found in {args.font_dir}")
+        return 0
     if not paths:
         raise SystemExit(f"No TTF/OTF/WOFF/WOFF2 fonts found in {args.font_dir}")
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
-    text_analysis = analyze_text(text, args)
     codepoints = {ord(ch) for ch in text if not ch.isspace()}
     font_records = [inspect_font(path, codepoints) for path in paths]
     report = {
         "tool": "quran_font_analyzer.py",
-        "tool_version": "1.0.0",
+        "tool_version": "1.1.0",
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "input": {"label": label, "text_kind": args.text_kind, "font_dir": str(args.font_dir), "reference_dir": str(args.reference_dir) if args.reference_dir else None, "text_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest()},
+        "input": {
+            "label": label,
+            "source": input_source,
+            "text_kind": args.text_kind,
+            "font_dir": str(args.font_dir),
+            "font_scan_mode": "recursive" if args.recursive_fonts else "current folder only",
+            "reference_dir": str(args.reference_dir) if args.reference_dir else None,
+            "text_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+        },
         "text_analysis": text_analysis,
         "font_count": len(font_records),
+        "font_files": [path.name for path in paths],
         "fonts": font_records,
         "interpretation_notes": [
+            "Font inventory is discovered at runtime from the selected font folder; add or remove font files and rerun to refresh the report.",
             "Font family/style metadata describes the font file, not the orthography of text rendered using it.",
-            "Unicode cmap counts direct character mappings, not the number of internal glyphs reached through OpenType substitutions.",
+            "Unicode cmap counts direct character mappings, not internal glyphs reached through OpenType substitutions.",
             "GSUB/GPOS feature tags indicate feature availability, not quality of shaping in every browser.",
             "Uthmani, Imla'i and IndoPak require source/edition evidence or comparison with a matching reference text.",
             "A fixed Mushaf page layout requires page and line position metadata; it cannot be inferred from a paragraph alone.",
@@ -882,7 +1057,6 @@ def main() -> int:
     html_path = args.output_dir / "report.html"
     report["outputs"] = {"json": json_path.name, "text_json": text_json_path.name, "csv": csv_path.name, "font_csv": font_csv_path.name, "css": css_path.name, "html": html_path.name}
 
-    # Keep cmap data in JSON for reproducibility; generate compact CSS separately.
     json_path.write_text(json.dumps(json_safe(report), ensure_ascii=False, indent=2), encoding="utf-8")
     text_json_path.write_text(json.dumps(json_safe(text_analysis), ensure_ascii=False, indent=2), encoding="utf-8")
     with csv_path.open("w", encoding="utf-8-sig", newline="") as handle:
@@ -890,7 +1064,16 @@ def main() -> int:
         writer.writerow(["Character", "Code point", "Unicode name", "Observation", "Unicode category", "Count"])
         for row in text_analysis["character_inventory"]:
             writer.writerow([row["character"], row["codepoint"], row["unicode_name"], row["group"], row["category"], row["count"]])
-    font_columns = ["filename", "family", "subfamily", "full_name", "postscript_name", "version", "designer", "manufacturer", "copyright", "license_description", "license_url", "glyph_count", "unicode_cmap_count", "arabic_codepoint_count", "perso_arabic_codepoint_count", "private_use_codepoint_count", "weight_class", "weight_label", "width_class", "width_label", "units_per_em", "vendor_id", "fs_type", "embedding_permissions", "GSUB", "GPOS", "color_tables", "outline_tables", "text_coverage_mapped", "text_coverage_total", "text_coverage_missing", "sha256", "error"]
+
+    font_columns = [
+        "filename", "family", "subfamily", "full_name", "postscript_name", "version",
+        "designer", "manufacturer", "copyright", "license_description", "license_url",
+        "glyph_count", "unicode_cmap_count", "arabic_codepoint_count", "perso_arabic_codepoint_count",
+        "private_use_codepoint_count", "weight_class", "weight_label", "width_class", "width_label",
+        "units_per_em", "vendor_id", "fs_type", "embedding_permissions", "GSUB", "GPOS",
+        "color_tables", "outline_tables", "text_coverage_mapped", "text_coverage_total",
+        "text_coverage_missing", "sha256", "error",
+    ]
     with font_csv_path.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=font_columns, extrasaction="ignore")
         writer.writeheader()
@@ -925,16 +1108,17 @@ def main() -> int:
             writer.writerow(row)
 
     css_blocks = []
-    for i, rec in enumerate(font_records):
-        css_blocks.append(font_css_ranges(rec, paths[i], args.output_dir, i))
-    css_path.write_text("\n\n".join(block for block in css_blocks if block), encoding="utf-8")
     font_path_map = {path.name: path for path in paths}
+    for i, rec in enumerate(font_records):
+        css_blocks.append(font_css_ranges(rec, font_path_map[rec["filename"]], args.output_dir, i))
+    css_path.write_text("\n\n".join(block for block in css_blocks if block), encoding="utf-8")
     html_path.write_text(create_html(report, text, font_path_map, args.output_dir), encoding="utf-8")
 
     good = sum(1 for rec in font_records if not rec.get("error"))
     arabic = sum(1 for rec in font_records if rec.get("arabic_codepoint_count", 0))
-    print(f"Inspected {good}/{len(font_records)} fonts ({arabic} with Arabic-block mappings).")
-    print(f"Text: {label} — {len(codepoints)} distinct non-whitespace code points.")
+    print(f"Scanned folder: {args.font_dir} ({'recursive' if args.recursive_fonts else 'direct files only'}).")
+    print(f"Inspected {good}/{len(font_records)} font files ({arabic} with Arabic-block mappings).")
+    print(f"Text: {label} [{input_source}] — {len(codepoints)} distinct non-whitespace code points.")
     print(f"Text layout assessment: {text_analysis['layout_analysis']['classification']} [{text_analysis['layout_analysis']['status']}].")
     print(f"HTML report: {html_path}")
     print(f"Font JSON:   {json_path}")
@@ -943,7 +1127,6 @@ def main() -> int:
     print(f"Font CSV:    {font_csv_path}")
     print(f"CSS ranges:  {css_path}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

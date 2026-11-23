@@ -42,3 +42,18 @@ Alternatively, use `--declared-layout` when the source itself already tells you 
 ## 4. Hadith prose
 
 Uthmani and Imla'i are relevant when comparing Qur'anic text representations. For a hadith or dua, the analyzer reports Arabic/Perso-Arabic encoding features and font coverage, but marks the Qur'anic edition classification as not applicable unless the user explicitly supplies source metadata.
+
+## 5. Character-encoding observations added in version 1.1
+
+The text-only analysis and generated report now include frequency counts for common Arabic/Perso-Arabic pairs:
+
+| Arabic character | Perso-Arabic-associated character | What is compared |
+|---|---|---|
+| ك U+0643 | ک U+06A9 | Arabic Kaf vs Keheh |
+| ي U+064A | ی U+06CC | Arabic Yeh vs Farsi Yeh |
+| ه U+0647 | ہ U+06C1 | Arabic Heh vs Heh Goal |
+| ة U+0629 | ۃ U+06C3 | Arabic Teh Marbuta vs Teh Marbuta Goal |
+
+It also counts Arabic-Indic and extended Arabic-Indic digits separately, records selected Arabic punctuation, identifies Arabic presentation forms and private-use characters, and reports bidi/zero-width formatting controls, tatweel and combining marks.
+
+These are Unicode-level observations. They should not be interpreted as automatic language detection or as definitive identification of a national writing standard.
