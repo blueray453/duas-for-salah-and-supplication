@@ -1,0 +1,86 @@
+/* ==========================================================
+   BLACK & WHITE PRINT STYLE  (loaded on top of style.css)
+   Rules of thumb for mono printers:
+   - pure black text on pure white paper
+   - no tinted backgrounds (they print as dirty halftone dots)
+   - hairlines in solid black, not light grey (grey lines break up)
+   - outlines instead of big solid blocks (saves toner)
+   ========================================================== */
+:root {
+  --ink:    #000;
+  --accent: #000;
+  --leaf:   #000;
+  --sage:   #000;
+  --line:   #000;
+  --tint:   #fff;
+  --paper:  #fff;
+}
+
+html { color: #000; }
+@page { background: #fff; }
+@page cover { background: #fff; }
+
+/* ---- page furniture ---- */
+@page {
+  @top-left  { color: #000; }
+  @top-right {
+    background: none;
+    color: #000;
+    border: 1pt solid #000;
+  }
+  @bottom-left  { content: url("../assets/logo-bw.svg"); }
+  @bottom-right { color: #000; }
+}
+@page cover {
+  @top-right { content: none; background: none; border: none; }
+}
+
+/* ---- cover: white page, line art (see book.html) ---- */
+.cover { background: #fff; }
+.cover h1, .cover .subtitle { color: #000; }
+.cover .tagline {
+  color: #000;
+  top: 142mm; bottom: auto; width: 95mm;
+  border-top: 1pt solid #000; padding-top: 4mm;
+}
+
+/* ---- headings ---- */
+.toc-title, .dua-title { color: #000; }
+.dua-title { border-bottom: 1pt solid #000; padding-bottom: 2mm; }
+.chapter-title { border-bottom: 1.2pt solid #000; }
+.chapter-num { background: #fff; color: #000; border: 1.2pt solid #000; }
+.sub-title { border-left: 1.4mm solid #000; color: #000; }
+.subsub-title { color: #000; }
+.dua-num { background: #fff; color: #000; border: 0.8pt solid #000; }
+.dua-rule { border-top: 0.5pt solid #000; }
+
+/* ---- reference block / small print: solid black, no tints ---- */
+.reference { border-top: 0.6pt solid #000; }
+.ref-head, .ref-label, .ref-sources .src, .ref-comment, .translit, .translit-head { color: #000; }
+.ref-links a { color: #000; }
+.phrase { border-left: 0.8mm solid #000; color: #000; }
+.word .tl { color: #000; }
+.toc a::after, .toc .num, .toc li.toc-1 a { color: #000; }
+.toc li.toc-1 { border-top: 0.6pt solid #000; }
+
+/* ---- TOC ---- */
+.toc li { border-bottom: none; }
+
+/* ---- note boxes: outline + thick left rule, no fill ---- */
+.note {
+  background: #fff;
+  border: 0.5pt solid #000;
+  border-inline-start: 2mm solid #000;
+}
+
+/* ---- word grid ---- */
+.word .ar    { color: #000; }
+.word .gloss { border: 0.6pt solid #000; }
+.gloss .g-bn { color: #000; }
+
+.ref { color: #000; }
+
+/* ---- about page ---- */
+.about .links li { border-bottom: 0.4pt solid #000; }
+.about .links a  { color: #000; text-decoration: underline; }
+.free-note       { color: #000; border-top: 0.6pt solid #000; padding-top: 4mm; }

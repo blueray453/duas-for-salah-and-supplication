@@ -1,0 +1,2 @@
+weasyprint>=70
+jinja2>=3.1

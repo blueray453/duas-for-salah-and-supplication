@@ -1,0 +1,268 @@
+/* ==========================================================
+   FONTS - bundled in /fonts so nothing needs installing
+   ========================================================== */
+@font-face { font-family: "BookSerif";  src: url("../fonts/NotoSerif-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "BookSerif";  src: url("../fonts/NotoSerif-Bold.ttf");    font-weight: 700; }
+@font-face { font-family: "BookSerif";  src: url("../fonts/NotoSerif-Italic.ttf");  font-weight: 400; font-style: italic; }
+@font-face { font-family: "BookSans";   src: url("../fonts/Poppins-Regular.ttf");   font-weight: 400; }
+@font-face { font-family: "BookSans";   src: url("../fonts/Poppins-SemiBold.ttf");  font-weight: 600; }
+@font-face { font-family: "BookSans";   src: url("../fonts/Poppins-Bold.ttf");      font-weight: 700; }
+@font-face { font-family: "BookArabic"; src: url("../fonts/Amiri-Regular.ttf");     font-weight: 400; }
+@font-face { font-family: "BookArabic"; src: url("../fonts/Amiri-Bold.ttf");        font-weight: 700; }
+@font-face { font-family: "BookQuran";  src: url("../fonts/AmiriQuran-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "BookBangla"; src: url("../fonts/NotoSansBengali-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "BookBangla"; src: url("../fonts/NotoSansBengali-Bold.ttf");    font-weight: 700; }
+
+:root {
+  /* palette sampled from cover.jpg */
+  --ink:    #2a3a27;   /* body text (very dark green)   */
+  --accent: #365430;   /* headings, badges (cover title) */
+  --leaf:   #587544;   /* secondary accent (eucalyptus)  */
+  --sage:   #879369;   /* soft accent (sprigs)           */
+  --line:   #c9d3bb;   /* hairlines                      */
+  --tint:   #eef3e6;   /* note boxes                     */
+  --paper:  #f9f8f4;   /* page colour (cover paper)      */
+}
+
+/* ==========================================================
+   PAGES
+   ========================================================== */
+@page {
+  size: A4;
+  margin: 26mm 20mm 24mm 20mm;
+  background: #f9f8f4;
+
+  @top-left {
+    content: string(running);
+    font: 400 8.5pt "BookSerif", serif;
+    color: var(--accent);
+    vertical-align: middle;
+  }
+  @top-right {
+    content: counter(page);
+    background: var(--accent);
+    color: #fff;
+    font: 700 11pt "BookSans", sans-serif;
+    width: 12mm;
+    height: 14mm;
+    text-align: center;
+    vertical-align: middle;
+  }
+  @bottom-left {
+    content: url("../assets/logo.svg");
+    vertical-align: middle;
+  }
+  @bottom-right {
+    content: string(org);
+    font: 400 8.5pt "BookSerif", serif;
+    color: var(--accent);
+    vertical-align: middle;
+  }
+}
+
+/* Cover: full bleed, no header/footer */
+@page cover {
+  margin: 0;
+  background: #f9f8f4;
+  @top-left { content: none; } @top-right { content: none; background: none; }
+  @bottom-left { content: none; } @bottom-right { content: none; }
+}
+
+/* The TOC page is labelled 1 (the cover is not counted) */
+@page :nth(1 of toc) { counter-reset: page 1; }
+
+/* Hidden carriers for the running header / footer strings */
+.hidden-strings, .hidden-org {
+  position: absolute; width: 0; height: 0; overflow: hidden; font-size: 0;
+}
+.hidden-strings { string-set: running content(); }
+.hidden-org     { string-set: org content(); }
+
+html, body { margin: 0; padding: 0; }   /* no default 8px body margin */
+html { font: 400 10.5pt/1.6 "BookSerif", "BookBangla", "BookArabic", serif; color: var(--ink); }
+
+/* ==========================================================
+   COVER
+   ========================================================== */
+.cover {
+  page: cover;
+  position: relative;
+  width: 210mm; height: 297mm;
+  background: linear-gradient(180deg, #f9f8f4 0%, #eef3e6 60%, #dfe8d2 100%);
+  break-after: page;
+  overflow: hidden;
+}
+.cover.cover-img { background-color: #f9f8f4; background-size: cover;
+                   background-position: center; background-repeat: no-repeat; }
+.cover-art  { position: absolute; left: 0; bottom: 0; width: 210mm; height: 297mm; }
+.cover-text { position: absolute; left: 22mm; top: 24mm; width: 110mm; }
+.cover-logo { height: 11mm; margin-bottom: 38mm; }
+.cover h1 {
+  font: 700 34pt/1.15 "BookSerif", serif; color: var(--accent); margin: 0;
+}
+.cover .subtitle { font: 700 22pt/1.2 "BookSerif", serif; color: var(--ink); margin-top: 5mm; }
+.cover .tagline  { position: absolute; left: 22mm; bottom: 20mm; width: 120mm;
+                   font: 400 12pt/1.4 "BookSerif", serif; color: #fff; }
+
+/* ==========================================================
+   TABLE OF CONTENTS  (chapters + sub-chapters)
+   ========================================================== */
+.toc { page: toc; break-after: page; }
+.toc-title { font: 700 24pt "BookSerif", serif; color: var(--accent); margin: 0 0 7mm;
+             padding-bottom: 3mm; border-bottom: 1.2pt solid var(--leaf); }
+.toc ul { list-style: none; margin: 0; padding: 0; }
+.toc li { padding: 1.7mm 0; break-inside: avoid; }
+.toc a  { color: var(--ink); text-decoration: none; display: block; }
+.toc a::after { content: leader(". ") target-counter(attr(href), page);
+                font: 600 9.5pt "BookSans", sans-serif; color: var(--leaf); }
+.toc .num { display: inline-block; width: 9mm; font-weight: 700; color: var(--leaf); }
+
+.toc li.toc-1 { margin-top: 2.5mm; border-top: 0.5pt solid var(--line); padding-top: 3mm; }
+.toc li.toc-1 a { font: 700 11.5pt "BookSerif", serif; color: var(--accent); }
+.toc li.toc-2 { padding-left: 9mm; }
+.toc li.toc-2 a { font: 400 10.5pt "BookSerif", serif; }
+.toc li.toc-3 { padding-left: 18mm; }
+.toc li.toc-3 a { font: italic 400 9.5pt "BookSerif", serif; }
+.toc li.toc-3 a::after, .toc li.toc-2 a::after { font-size: 9pt; }
+
+/* ==========================================================
+   BODY: chapters, sub-chapters, duas
+   ========================================================== */
+.matter, .about { page: main; }
+.about { break-before: page; }
+
+.chapter { break-before: page; }
+.chapter-title {
+  display: flex; align-items: center;
+  font: 700 22pt/1.2 "BookSerif", serif; color: var(--accent);
+  margin: 0 0 7mm; padding-bottom: 3.5mm; border-bottom: 1.2pt solid var(--leaf);
+  break-after: avoid;
+}
+.chapter-num {
+  display: inline-block; flex: none;
+  width: 12mm; height: 12mm; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  font: 700 13pt/12mm "BookSans", sans-serif; text-align: center;
+  margin-inline-end: 4.5mm;
+}
+.chapter-name { string-set: running content(); }
+
+.head-2, .head-3 { break-after: avoid; }
+.sub-title {
+  font: 700 14pt/1.3 "BookSerif", serif; color: var(--leaf);
+  margin: 9mm 0 4mm; padding-left: 3.5mm; border-left: 1.4mm solid var(--sage);
+  break-after: avoid;
+}
+.subsub-title { font: italic 700 11.5pt/1.3 "BookSerif", serif; color: var(--leaf);
+                margin: 7mm 0 3mm; break-after: avoid; }
+
+.dua { margin: 0 0 11mm; }
+.layout-page .dua { break-before: page; }
+.layout-page .head-2, .layout-page .head-3 { break-before: page; }
+.layout-page .head-1 + .dua, .layout-page .head-2 + .dua, .layout-page .head-3 + .dua { break-before: auto; }
+
+.dua-head { display: flex; align-items: center; margin: 0 0 4.5mm; break-after: avoid; }
+.dua-num {
+  flex: none; background: var(--leaf); color: #fff; border-radius: 1.2mm;
+  font: 600 9pt/1 "BookSans", sans-serif; padding: 1.4mm 2.6mm;
+}
+.dua-rule { flex: 1; border-top: 0.5pt solid var(--line); margin-left: 3mm; }
+
+/* fallback heading for data without sections (Markdown samples) */
+.dua-title, .about .dua-title { font: 700 17pt/1.3 "BookSerif", serif; color: var(--accent); margin: 0 0 6mm; }
+.dua-title .num { margin-right: 2mm; }
+
+.note {
+  background: var(--tint);
+  border-inline-start: 1.2mm solid var(--leaf);
+  padding: 3.5mm 5mm;
+  margin: 3mm 0 6mm;
+  break-inside: avoid;
+}
+.note p { margin: 0 0 1.5mm; }
+.note p:last-child { margin: 0; }
+.heading-note { margin-top: 0; font-size: 9.5pt; }
+
+.tr-bn { font-family: "BookBangla", "BookSerif", sans-serif; line-height: 1.8; }
+
+.line { break-inside: avoid; }
+
+/* ---------- WORD GRID ----------
+   Right-to-left reading order, wrapping rows, centred last row. */
+.words { direction: rtl; margin: 5mm 0 2mm; }
+
+.word .ar {
+  font: 400 21pt/1.9 "BookArabic", serif;
+  text-align: center;
+  color: var(--ink);
+}
+.quran .word .ar, .quran .arabic-flow { font-family: "BookQuran", "BookArabic", serif; }
+.word .tl {
+  font: italic 400 8pt/1.2 "BookSerif", serif; color: var(--leaf);
+  text-align: center; direction: ltr; margin: -1mm 0 1.2mm; padding: 0 1mm;
+}
+.word .gloss {
+  border: 0.5pt solid var(--line);
+  padding: 2mm 4mm;
+  text-align: center;
+  font: 400 10pt/1.4 "BookSerif", sans-serif;
+  direction: ltr;
+}
+.gloss .g-bn { display: block; font-family: "BookBangla", sans-serif; font-size: 9.5pt; color: var(--accent); }
+
+/* Variant A: flexbox */
+.grid-flex { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; }
+.grid-flex .word { margin-bottom: 3mm; }
+.grid-flex .word .gloss { margin-inline-start: -0.5pt; }
+
+/* Variant B: inline-block fallback */
+.grid-inline { text-align: center; }
+.grid-inline .word { display: inline-block; vertical-align: top; margin-bottom: 3mm; }
+.grid-inline .word .gloss { margin-inline-start: -0.5pt; }
+
+/* plain Arabic (duas without word-by-word data) */
+.arabic-flow { font: 400 21pt/2.1 "BookArabic", serif; text-align: right; color: var(--ink);
+               margin: 2mm 0 3mm; }
+
+/* meaning of a short phrase (follows its word grid) */
+.phrase {
+  margin: 0 0 5mm; padding: 0.5mm 0 0.5mm 4mm; border-left: 0.8mm solid var(--sage);
+  font: 400 9.5pt/1.5 "BookSerif", serif; color: var(--accent); break-inside: avoid;
+}
+.phrase span { display: block; }
+.phrase .tr-bn { font-size: 9.5pt; }
+
+.translit { margin: 2mm 0 4mm; font: italic 400 9.5pt/1.6 "BookSerif", serif; color: var(--leaf); }
+.translit-head { display: block; font: 600 7.5pt "BookSans", sans-serif; font-style: normal;
+                 letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 1mm; }
+
+/* ---------- REFERENCE BLOCK ---------- */
+.reference {
+  margin: 5mm 0 0; padding-top: 2.5mm; border-top: 0.5pt solid var(--line);
+  font-size: 9pt; line-height: 1.5; break-inside: avoid;
+  break-before: avoid;            /* keep the reference with the end of its dua */
+}
+.ref-head { font: 600 7.5pt "BookSans", sans-serif; letter-spacing: 0.14em;
+            text-transform: uppercase; color: var(--leaf); margin: 0 0 1.5mm; }
+.ref-label { font-style: italic; color: var(--accent); margin: 0 0 1.2mm; }
+.ref-sources { list-style: none; margin: 0 0 1.2mm; padding: 0; }
+.ref-sources li { margin: 0 0 0.6mm; }
+.ref-sources .src  { font-weight: 700; color: var(--accent); }
+.ref-sources .nums { color: var(--ink); }
+.ref-comment { font-size: 8.5pt; color: #55644d; margin: 1.2mm 0; }
+.ref-links { margin: 1.2mm 0 0; font-size: 7.5pt; line-height: 1.35; }
+.ref-links a { display: block; color: var(--leaf); text-decoration: none;
+               word-break: break-all; overflow-wrap: anywhere; margin: 0 0 0.6mm; }
+
+.ref { font: italic 400 9pt "BookSerif", serif; color: var(--accent); margin: 2mm 0 0; }
+
+/* ==========================================================
+   ABOUT
+   ========================================================== */
+.about p { margin: 0 0 5mm; }
+.about .links { list-style: none; padding: 0; margin: 0 0 10mm; }
+.about .links li { padding: 2mm 0; border-bottom: 0.5pt solid var(--line); }
+.about .links span { display: inline-block; width: 38mm; font-weight: 700; }
+.about .links a { color: var(--leaf); }
+.free-note { font: 600 9pt "BookSans", sans-serif; letter-spacing: 0.15em; color: var(--accent);
+             text-align: center; margin-top: 20mm; }
